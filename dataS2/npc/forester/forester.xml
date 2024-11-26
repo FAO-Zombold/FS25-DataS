@@ -1,0 +1,184 @@
+<npc>
+  <class>NPC</class>
+  <title>Noah</title>
+  <imageFilename>$dataS2/npc/forester/forester.png</imageFilename>
+  <filename>$dataS/character/npc/npcBase.i3d</filename>
+  <sounds>
+    <voice linkNode="audioNode" innerRadius="0.2" outerRadius="10.0" supportsReverb="false">
+      <volume indoor="1.7" outdoor="1.7"/>
+      <pitch indoor="1.00" outdoor="1.0"/>
+      <lowpassGain indoor="1.0" outdoor="1.0"/>
+    </voice>
+    <phone supportsReverb="false">
+      <volume indoor="0.9" outdoor="1.0"/>
+      <pitch indoor="1.00" outdoor="1.00"/>
+      <lowpassGain indoor="1.00" outdoor="1.00"/>
+      <lowpassCutoffFrequency indoor="2000" outdoor="2000.0"/>
+      <lowpassResonance indoor="1.0" outdoor="1.0"/>
+    </phone>
+  </sounds>
+  <playerStyle filename="dataS/character/playerM/playerM.xml">
+    <bottom color="9" name="jeans"/>
+    <face color="1" name="head08"/>
+    <top color="16" name="topPlaidShirt"/>
+    <footwear color="3" name="workBoots1"/>
+    <hairStyle color="10" name="hair09"/>
+  </playerStyle>
+  <interactionTrigger node="triggerNode"/>
+  <conversations>
+    <conversation uniqueId="f13445e156">$dataS2/npc/forester/conversations/aboutYou/aboutForestSafety/conversation.xml</conversation>
+    <conversation uniqueId="a58faa09cc">$dataS2/npc/forester/conversations/aboutYou/aboutMyFather/conversation.xml</conversation>
+    <conversation uniqueId="2b5d018258">$dataS2/npc/forester/conversations/aboutYou/aboutMySister/conversation.xml</conversation>
+    <conversation uniqueId="14da0d2ffa">$dataS2/npc/forester/conversations/aboutYou/aboutPirateShip/conversation.xml</conversation>
+    <conversation uniqueId="d494ba400a">$dataS2/npc/forester/conversations/aboutYou/aboutSustainableForestry/conversation.xml</conversation>
+    <conversation uniqueId="6f0cbf5a79">$dataS2/npc/forester/conversations/aboutYou/aboutWoodworking/conversation.xml</conversation>
+    <conversation uniqueId="fea3c559e3">$dataS2/npc/forester/conversations/aboutYou/aboutYouIntro/dialogueStart/intro01/conversation.xml</conversation>
+    <conversation uniqueId="da1f146a20">$dataS2/npc/forester/conversations/aboutYou/aboutYouIntro/dialogueStart/intro02/conversation.xml</conversation>
+    <conversation uniqueId="3917c292c8">$dataS2/npc/forester/conversations/aboutYou/aboutYouIntro/dialogueStart/intro03/conversation.xml</conversation>
+    <conversation uniqueId="d5191c757e">$dataS2/npc/forester/conversations/aboutYou/aboutYouIntro/dialogueStart/intro04/conversation.xml</conversation>
+    <conversation uniqueId="aa5b329933">$dataS2/npc/forester/conversations/aboutYou/aboutYouIntro/dialogueStart/intro05/conversation.xml</conversation>
+    <conversation uniqueId="d531ed7c4a">$dataS2/npc/forester/conversations/aboutYou/aboutYouIntro/dialogueStart/intro06/conversation.xml</conversation>
+    <conversation uniqueId="41874121ee">$dataS2/npc/forester/conversations/aboutYou/aboutYouIntro/dialogueStart/intro07/conversation.xml</conversation>
+    <conversation uniqueId="1f408d1c8f">$dataS2/npc/forester/conversations/aboutYou/aboutYouIntro/dialogueStart/intro08/conversation.xml</conversation>
+    <conversation uniqueId="1f615fc771">$dataS2/npc/forester/conversations/aboutYou/aboutYouIntro/dialogueStart/intro09/conversation.xml</conversation>
+    <conversation uniqueId="97919f3120">$dataS2/npc/forester/conversations/aboutYou/aboutYouIntro/dialogueStart/intro10/conversation.xml</conversation>
+    <conversation uniqueId="8b84eab8a4">$dataS2/npc/forester/conversations/aboutYou/aboutYouIntro/enoughSmalltalk/enough01/conversation.xml</conversation>
+    <conversation uniqueId="af945bf770">$dataS2/npc/forester/conversations/aboutYou/aboutYouIntro/enoughSmalltalk/enough02/conversation.xml</conversation>
+    <conversation uniqueId="c24686a137">$dataS2/npc/forester/conversations/aboutYou/aboutYouIntro/enoughSmalltalk/enough03/conversation.xml</conversation>
+    <conversation uniqueId="fe1aa563c5">$dataS2/npc/forester/conversations/aboutYou/aboutYouIntro/enoughSmalltalk/enough04/conversation.xml</conversation>
+    <conversation uniqueId="698fcedf86">$dataS2/npc/forester/conversations/aboutYou/aboutYouIntro/enoughSmalltalk/enough05/conversation.xml</conversation>
+    <conversation uniqueId="16ff421b0f">$dataS2/npc/forester/conversations/aboutYou/aboutYouIntro/enoughSmalltalk/enough06/conversation.xml</conversation>
+    <conversation uniqueId="37fbef2207">$dataS2/npc/forester/conversations/aboutYou/aboutYouIntro/enoughSmalltalk/enough07/conversation.xml</conversation>
+    <conversation uniqueId="918b9ce874">$dataS2/npc/forester/conversations/aboutYou/aboutYouIntro/enoughSmalltalk/enough08/conversation.xml</conversation>
+    <conversation uniqueId="8e67bedac6">$dataS2/npc/forester/conversations/aboutYou/aboutYouIntro/smalltalkAboutYouIntro/aboutYouIntro01/conversation.xml</conversation>
+    <conversation uniqueId="fac399c7bc">$dataS2/npc/forester/conversations/aboutYou/aboutYouIntro/smalltalkAboutYouIntro/aboutYouIntro02/conversation.xml</conversation>
+    <conversation uniqueId="5d7ed8af11">$dataS2/npc/forester/conversations/aboutYou/aboutYouIntro/smalltalkAboutYouIntro/aboutYouIntro03/conversation.xml</conversation>
+    <conversation uniqueId="f611648fd2">$dataS2/npc/forester/conversations/aboutYou/aboutYouIntro/smalltalkAboutYouIntro/aboutYouIntro04/conversation.xml</conversation>
+    <conversation uniqueId="bf5480ecea">$dataS2/npc/forester/conversations/aboutYou/aboutYouIntro/smalltalkAboutYouIntro/aboutYouIntro05/conversation.xml</conversation>
+    <conversation uniqueId="fe7d233e3a">$dataS2/npc/forester/conversations/aboutYou/aboutYouIntro/smalltalkAboutYouIntro/aboutYouIntro06/conversation.xml</conversation>
+    <conversation uniqueId="911991e232">$dataS2/npc/forester/conversations/aboutYou/aboutYouIntro/smalltalkAboutYouIntro/aboutYouIntro07/conversation.xml</conversation>
+    <conversation uniqueId="9c322a584b">$dataS2/npc/forester/conversations/aboutYou/aboutYouIntro/smalltalkAboutYouIntro/aboutYouIntro08/conversation.xml</conversation>
+    <conversation uniqueId="c62ad72c75">$dataS2/npc/forester/conversations/aboutYou/aboutYouIntro/smalltalkAboutYouIntro/aboutYouIntro09/conversation.xml</conversation>
+    <conversation uniqueId="4bc1b60060">$dataS2/npc/forester/conversations/aboutYou/aboutYouIntro/smalltalkAboutYouIntro/aboutYouIntro10/conversation.xml</conversation>
+    <conversation uniqueId="457fa60903">$dataS2/npc/forester/conversations/aboutYou/aboutYouIntro/smalltalkIntro/smalltalkIntro01/conversation.xml</conversation>
+    <conversation uniqueId="fb524a2f7d">$dataS2/npc/forester/conversations/aboutYou/aboutYouIntro/smalltalkIntro/smalltalkIntro02/conversation.xml</conversation>
+    <conversation uniqueId="5d19bab2fe">$dataS2/npc/forester/conversations/aboutYou/aboutYouIntro/smalltalkIntro/smalltalkIntro03/conversation.xml</conversation>
+    <conversation uniqueId="2b88b013eb">$dataS2/npc/forester/conversations/aboutYou/aboutYouIntro/smalltalkIntro/smalltalkIntro04/conversation.xml</conversation>
+    <conversation uniqueId="3a7296bbfa">$dataS2/npc/forester/conversations/aboutYou/aboutYouIntro/smalltalkIntro/smalltalkIntro05/conversation.xml</conversation>
+    <conversation uniqueId="3fc15c8015">$dataS2/npc/forester/conversations/aboutYou/aboutYouIntro/smalltalkIntro/smalltalkIntro06/conversation.xml</conversation>
+    <conversation uniqueId="6f3ad871af">$dataS2/npc/forester/conversations/aboutYou/aboutYouIntro/smalltalkIntro/smalltalkIntro07/conversation.xml</conversation>
+    <conversation uniqueId="d574d20e49">$dataS2/npc/forester/conversations/aboutYou/aboutYouIntro/smalltalkIntro/smalltalkIntro08/conversation.xml</conversation>
+    <conversation uniqueId="24938f50b0">$dataS2/npc/forester/conversations/aboutYou/aboutYouIntro/smalltalkIntro/smalltalkIntro09/conversation.xml</conversation>
+    <conversation uniqueId="b866ead748">$dataS2/npc/forester/conversations/aboutYou/aboutYouIntro/smalltalkIntro/smalltalkIntro10/conversation.xml</conversation>
+    <conversation uniqueId="9f226ffe3d">$dataS2/npc/forester/conversations/aboutYou/aboutYouIntro/smalltalkProjectIntro/projectIntro01/conversation.xml</conversation>
+    <conversation uniqueId="35df600d90">$dataS2/npc/forester/conversations/aboutYou/aboutYouIntro/smalltalkProjectIntro/projectIntro02/conversation.xml</conversation>
+    <conversation uniqueId="0d82dbc44f">$dataS2/npc/forester/conversations/aboutYou/aboutYouIntro/smalltalkProjectIntro/projectIntro03/conversation.xml</conversation>
+    <conversation uniqueId="bde191df29">$dataS2/npc/forester/conversations/aboutYou/aboutYouIntro/smalltalkProjectIntro/projectIntro04/conversation.xml</conversation>
+    <conversation uniqueId="d70dccca41">$dataS2/npc/forester/conversations/aboutYou/aboutYouIntro/smalltalkProjectIntro/projectIntro05/conversation.xml</conversation>
+    <conversation uniqueId="6e25c03990">$dataS2/npc/forester/conversations/aboutYou/aboutYouIntro/smalltalkProjectIntro/projectIntro06/conversation.xml</conversation>
+    <conversation uniqueId="209772510c">$dataS2/npc/forester/conversations/aboutYou/aboutYouIntro/smalltalkProjectIntro/projectIntro07/conversation.xml</conversation>
+    <conversation uniqueId="a82eda72a3">$dataS2/npc/forester/conversations/aboutYou/aboutYouIntro/smalltalkProjectIntro/projectIntro08/conversation.xml</conversation>
+    <conversation uniqueId="2850cafd12">$dataS2/npc/forester/conversations/aboutYou/iAmTheLumberDetective/conversation.xml</conversation>
+    <conversation uniqueId="843d9663a8">$dataS2/npc/forester/conversations/aboutYou/lifeAsLumberjack/conversation.xml</conversation>
+    <conversation uniqueId="f93779990b">$dataS2/npc/forester/conversations/aboutYou/projectsCatTrees/conversation.xml</conversation>
+    <conversation uniqueId="a98dd56864">$dataS2/npc/forester/conversations/aboutYou/projectsStonesRocks/conversation.xml</conversation>
+    <conversation uniqueId="ff36eae51b">$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether01/conversation.xml</conversation>
+    <conversation uniqueId="cbbdc9160f">$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether02/conversation.xml</conversation>
+    <conversation uniqueId="19a6aab6ef">$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether03/conversation.xml</conversation>
+    <conversation uniqueId="8b24b3ebc0">$dataS2/npc/forester/conversations/conversationStarter/conversation.xml</conversation>
+    <conversation uniqueId="10023fb7db">$dataS2/npc/forester/conversations/help/helpCutTrees/howCut/conversation.xml</conversation>
+    <conversation uniqueId="f19e72ea07">$dataS2/npc/forester/conversations/help/helpCutTrees/overviewCutTrees/conversation.xml</conversation>
+    <conversation uniqueId="f17971a0f4">$dataS2/npc/forester/conversations/help/helpCutTrees/treeStumps/conversation.xml</conversation>
+    <conversation uniqueId="290f240e58">$dataS2/npc/forester/conversations/help/helpCutTrees/whatDifference/conversation.xml</conversation>
+    <conversation uniqueId="712ab9de03">$dataS2/npc/forester/conversations/help/helpCutTrees/whatEquipment/conversation.xml</conversation>
+    <conversation uniqueId="25ab65a972">$dataS2/npc/forester/conversations/help/helpCutTrees/whyNot/conversation.xml</conversation>
+    <conversation uniqueId="7cb1ac3f00">$dataS2/npc/forester/conversations/help/helpDialogueStart/conversation.xml</conversation>
+    <conversation uniqueId="39863a9cb4">$dataS2/npc/forester/conversations/help/helpGrowTrees/buyTrees/conversation.xml</conversation>
+    <conversation uniqueId="a11b75be07">$dataS2/npc/forester/conversations/help/helpGrowTrees/equipmentNeed/conversation.xml</conversation>
+    <conversation uniqueId="6230adf8f5">$dataS2/npc/forester/conversations/help/helpGrowTrees/overviewGrowTrees/conversation.xml</conversation>
+    <conversation uniqueId="066fa03766">$dataS2/npc/forester/conversations/help/helpGrowTrees/plantTrees/conversation.xml</conversation>
+    <conversation uniqueId="2e9208fc4e">$dataS2/npc/forester/conversations/help/helpTransport/howUseMachinery/conversation.xml</conversation>
+    <conversation uniqueId="bb45534978">$dataS2/npc/forester/conversations/help/helpTransport/overviewTransport/conversation.xml</conversation>
+    <conversation uniqueId="251bcdf3f3">$dataS2/npc/forester/conversations/help/helpTransport/whatEquipment/conversation.xml</conversation>
+    <conversation uniqueId="461cb358ec">$dataS2/npc/forester/conversations/help/helpTransport/whatNeedKnow/conversation.xml</conversation>
+    <conversation uniqueId="4cc57890ef">$dataS2/npc/forester/conversations/help/helpTreeMarking/overviewTreeMarking/conversation.xml</conversation>
+    <conversation uniqueId="a77629d9eb">$dataS2/npc/forester/conversations/help/helpTreeMarking/whatDoesMean/conversation.xml</conversation>
+    <conversation uniqueId="f037baebab">$dataS2/npc/forester/conversations/help/helpTreeMarking/whyMarkTrees/conversation.xml</conversation>
+    <conversation uniqueId="07f849dfa8">$dataS2/npc/forester/conversations/help/helpWinchesYarders/differenceWinchesYarders/conversation.xml</conversation>
+    <conversation uniqueId="a5bd2bf04b">$dataS2/npc/forester/conversations/help/helpWinchesYarders/howUseMachines/conversation.xml</conversation>
+    <conversation uniqueId="0845832ccb">$dataS2/npc/forester/conversations/help/helpWinchesYarders/overviewWinchesYarders/conversation.xml</conversation>
+    <conversation uniqueId="8bcba90d0d">$dataS2/npc/forester/conversations/help/helpWinchesYarders/whatEquipment/conversation.xml</conversation>
+    <conversation uniqueId="3de844dcad">$dataS2/npc/forester/conversations/help/helpWoodChips/overviewWoodChips/conversation.xml</conversation>
+    <conversation uniqueId="6f09186abe">$dataS2/npc/forester/conversations/help/helpWoodChips/processingWood/conversation.xml</conversation>
+    <conversation uniqueId="533f2d10c7">$dataS2/npc/forester/conversations/help/helpWoodChips/usageWoodChips/conversation.xml</conversation>
+    <conversation uniqueId="a3499dc756">$dataS2/npc/forester/conversations/help/helpWoodChips/whatEquipment/conversation.xml</conversation>
+    <conversation uniqueId="400a42160f">$dataS2/npc/forester/conversations/help/introsHelp/helpIntro01/conversation.xml</conversation>
+    <conversation uniqueId="1a14e8550c">$dataS2/npc/forester/conversations/help/introsHelp/helpIntro02/conversation.xml</conversation>
+    <conversation uniqueId="16a6bda176">$dataS2/npc/forester/conversations/help/introsHelp/helpIntro03/conversation.xml</conversation>
+    <conversation uniqueId="ccfd88d82e">$dataS2/npc/forester/conversations/help/introsHelp/helpIntro04/conversation.xml</conversation>
+    <conversation uniqueId="e479cb4b89">$dataS2/npc/forester/conversations/help/introsHelp/helpIntro05/conversation.xml</conversation>
+    <conversation uniqueId="9f45f0ff25">$dataS2/npc/forester/conversations/help/introsHelp/helpIntro06/conversation.xml</conversation>
+    <conversation uniqueId="67df86cc34">$dataS2/npc/forester/conversations/help/introsHelp/helpIntro07/conversation.xml</conversation>
+    <conversation uniqueId="c778961af7">$dataS2/npc/forester/conversations/help/introsHelp/helpIntro08/conversation.xml</conversation>
+    <conversation uniqueId="367a580e63">$dataS2/npc/forester/conversations/help/introsHelp/helpIntro09/conversation.xml</conversation>
+    <conversation uniqueId="2b83ae2d2e">$dataS2/npc/forester/conversations/help/introsHelp/helpIntro10/conversation.xml</conversation>
+    <conversation uniqueId="afc7509a11">$dataS2/npc/forester/conversations/help/introsHelp/helpIntro11/conversation.xml</conversation>
+    <conversation uniqueId="cc24a19e5d">$dataS2/npc/forester/conversations/missions/introMissionAvailable/introMissionAvailable01/conversation.xml</conversation>
+    <conversation uniqueId="6b6970dde5">$dataS2/npc/forester/conversations/missions/introMissionAvailable/introMissionAvailable02/conversation.xml</conversation>
+    <conversation uniqueId="f40aac3085">$dataS2/npc/forester/conversations/missions/introMissionAvailable/introMissionAvailable03/conversation.xml</conversation>
+    <conversation uniqueId="f833a3959e">$dataS2/npc/forester/conversations/missions/introMissionAvailable/introMissionAvailable04/conversation.xml</conversation>
+    <conversation uniqueId="0b0752b951">$dataS2/npc/forester/conversations/missions/introMissionAvailable/introMissionAvailable05/conversation.xml</conversation>
+    <conversation uniqueId="fb64bbd029">$dataS2/npc/forester/conversations/missions/introMissionAvailable/overviewIntroMission/conversation.xml</conversation>
+    <conversation uniqueId="ad22cf4cde">$dataS2/npc/forester/conversations/missions/introNoMissionsAvailable/introNoMissionsAvailable01/conversation.xml</conversation>
+    <conversation uniqueId="ce4f1117fd">$dataS2/npc/forester/conversations/missions/introNoMissionsAvailable/introNoMissionsAvailable02/conversation.xml</conversation>
+    <conversation uniqueId="fc10b3f968">$dataS2/npc/forester/conversations/missions/introNoMissionsAvailable/introNoMissionsAvailable03/conversation.xml</conversation>
+    <conversation uniqueId="8692dc7a33">$dataS2/npc/forester/conversations/missions/missionDeadTrees/equipmentDeadTrees/conversation.xml</conversation>
+    <conversation uniqueId="6e8268c949">$dataS2/npc/forester/conversations/missions/missionDeadTrees/introDeadTrees01/conversation.xml</conversation>
+    <conversation uniqueId="9af70511e4">$dataS2/npc/forester/conversations/missions/missionDeadTrees/introDeadTrees02/conversation.xml</conversation>
+    <conversation uniqueId="9038b7f136">$dataS2/npc/forester/conversations/missions/missionDeadTrees/introDeadTrees03/conversation.xml</conversation>
+    <conversation uniqueId="85430cc5dd">$dataS2/npc/forester/conversations/missions/missionFallenTrees/equipmentFallenTrees/conversation.xml</conversation>
+    <conversation uniqueId="5e5d595628">$dataS2/npc/forester/conversations/missions/missionFallenTrees/introFallenTrees01/conversation.xml</conversation>
+    <conversation uniqueId="905cd391f9">$dataS2/npc/forester/conversations/missions/missionFallenTrees/introFallenTrees02/conversation.xml</conversation>
+    <conversation uniqueId="b0a5e9bb73">$dataS2/npc/forester/conversations/missions/missionFallenTrees/introFallenTrees03/conversation.xml</conversation>
+    <conversation uniqueId="1aff4f4dd4">$dataS2/npc/forester/conversations/missions/missionRockRemoval/equipmentRockRemoval/conversation.xml</conversation>
+    <conversation uniqueId="bcae9bffcf">$dataS2/npc/forester/conversations/missions/missionRockRemoval/introRockRemoval01/conversation.xml</conversation>
+    <conversation uniqueId="7019534059">$dataS2/npc/forester/conversations/missions/missionRockRemoval/introRockRemoval02/conversation.xml</conversation>
+    <conversation uniqueId="0194212fdc">$dataS2/npc/forester/conversations/missions/missionRockRemoval/introRockRemoval03/conversation.xml</conversation>
+    <conversation uniqueId="bdc6e8044d">$dataS2/npc/forester/conversations/missions/missionStumpRemoval/equipmentStumpRemoval/conversation.xml</conversation>
+    <conversation uniqueId="775123173e">$dataS2/npc/forester/conversations/missions/missionStumpRemoval/introStumpRemoval01/conversation.xml</conversation>
+    <conversation uniqueId="35af7b9597">$dataS2/npc/forester/conversations/missions/missionStumpRemoval/introStumpRemoval02/conversation.xml</conversation>
+    <conversation uniqueId="a45426251e">$dataS2/npc/forester/conversations/missions/missionStumpRemoval/introStumpRemoval03/conversation.xml</conversation>
+    <conversation uniqueId="41fc4b2436">$dataS2/npc/forester/conversations/missions/missionTreeHarvest/equipmentTreeHarvest/conversation.xml</conversation>
+    <conversation uniqueId="4eaecf40a1">$dataS2/npc/forester/conversations/missions/missionTreeHarvest/introTreeHarvest01/conversation.xml</conversation>
+    <conversation uniqueId="50d2c8cd25">$dataS2/npc/forester/conversations/missions/missionTreeHarvest/introTreeHarvest02/conversation.xml</conversation>
+    <conversation uniqueId="a5fecd2c62">$dataS2/npc/forester/conversations/missions/missionTreeHarvest/introTreeHarvest03/conversation.xml</conversation>
+    <conversation uniqueId="c415f7ad14">$dataS2/npc/forester/conversations/missions/missionTreePlanting/equipmentTreePlanting/conversation.xml</conversation>
+    <conversation uniqueId="0bd95d3a00">$dataS2/npc/forester/conversations/missions/missionTreePlanting/introTreePlanting01/conversation.xml</conversation>
+    <conversation uniqueId="b2cf96436f">$dataS2/npc/forester/conversations/missions/missionTreePlanting/introTreePlanting02/conversation.xml</conversation>
+    <conversation uniqueId="919b756878">$dataS2/npc/forester/conversations/missions/missionTreePlanting/introTreePlanting03/conversation.xml</conversation>
+    <conversation uniqueId="4029cdeb10">$dataS2/npc/forester/conversations/missions/missionTreeTransport/equipmentTreeTransport/conversation.xml</conversation>
+    <conversation uniqueId="4168a708d6">$dataS2/npc/forester/conversations/missions/missionTreeTransport/introTreeTransport01/conversation.xml</conversation>
+    <conversation uniqueId="40f45e8e3f">$dataS2/npc/forester/conversations/missions/missionTreeTransport/introTreeTransport02/conversation.xml</conversation>
+    <conversation uniqueId="8c4adcbce8">$dataS2/npc/forester/conversations/missions/missionTreeTransport/introTreeTransport03/conversation.xml</conversation>
+    <conversation uniqueId="b4182b8742">$dataS2/npc/forester/conversations/projects/caseCornCircle/conversation.xml</conversation>
+    <conversation uniqueId="05d71e1a02">$dataS2/npc/forester/conversations/projects/introductionToMyHobbies/conversation.xml</conversation>
+    <conversation uniqueId="8a3f010bdb">$dataS2/npc/forester/conversations/projects/projectAScandalOfBohemianPotatoSalad/conversation.xml</conversation>
+    <conversation uniqueId="fbd4e64fd6">$dataS2/npc/forester/conversations/projects/projectGrandpaHeartFlowers/conversation.xml</conversation>
+    <conversation uniqueId="628c244442">$dataS2/npc/forester/conversations/projects/projectNeighborlyMistake/conversation.xml</conversation>
+    <conversation uniqueId="b5c0db30d7">$dataS2/npc/forester/conversations/projects/projectNewFence/conversation.xml</conversation>
+    <conversation uniqueId="042b329203">$dataS2/npc/forester/conversations/projects/projectWoodenBackpack/conversation.xml</conversation>
+    <conversation uniqueId="32e10d9297">$dataS2/npc/forester/conversations/projects/projectWoodenLetter/conversation.xml</conversation>
+    <conversation uniqueId="ff38bb8f96">$dataS2/npc/forester/conversations/projects/projectWoodenPillow/conversation.xml</conversation>
+    <conversation uniqueId="d62aa3d836">$dataS2/npc/forester/conversations/projects/projectWoodenSuitcase/conversation.xml</conversation>
+    <conversation uniqueId="34b27d8ba6">$dataS2/npc/forester/conversations/projects/projectWoodenTie/conversation.xml</conversation>
+    <conversation uniqueId="a85b93c3f1">$dataS2/npc/forester/conversations/projects/projectWoodenUmbrella/conversation.xml</conversation>
+    <conversation uniqueId="89969218f1">$dataS2/npc/forester/conversations/projects/projectsGrandfatherClock/conversation.xml</conversation>
+    <conversation uniqueId="5719900cfd">$dataS2/npc/forester/conversations/projects/projectsTheHoundOfBakersville/conversation.xml</conversation>
+    <conversation uniqueId="f96ffe0ebb">$dataS2/npc/forester/conversations/smalltalkStart/conversation.xml</conversation>
+    <conversation uniqueId="ed2564f8ae">$dataS2/npc/forester/introduction/introduction/conversation.xml</conversation>
+  </conversations>
+  <i3dMappings>
+    <i3dMapping id="audioNode" node="0&gt;0"/>
+    <i3dMapping id="triggerNode" node="0&gt;1"/>
+  </i3dMappings>
+</npc>

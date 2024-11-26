@@ -1,0 +1,29 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>SMALLTALK_FUNFACTS</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <numTriggered max="1"/>
+  </prerequisites>
+  <textFlow startId="88c9fa0cac">
+    <item id="88c9fa0cac" nextId="a084113508">
+      <text>$dataS2/npc/grandpa/smalltalk/funFacts/funFactCollection/factWindySpeeds/quiteWindy</text>
+    </item>
+    <item id="a084113508" nextId="3812b44362">
+      <text>$dataS2/npc/grandpa/smalltalk/funFacts/funFactCollection/factWindySpeeds/tornadoSpeeds</text>
+    </item>
+    <item id="3812b44362" nextId="0267c87684">
+      <text>$dataS2/npc/grandpa/smalltalk/funFacts/funFactCollection/factWindySpeeds/tornadoScale</text>
+    </item>
+    <item id="0267c87684" nextId="280401e313">
+      <text>$dataS2/npc/grandpa/smalltalk/funFacts/funFactCollection/factWindySpeeds/highestSpeed</text>
+    </item>
+    <item id="280401e313">
+      <text>$dataS2/npc/grandpa/smalltalk/funFacts/funFactCollection/factWindySpeeds/areSafe</text>
+      <actions>
+        <startConversationById uniqueId="0bc5b0ce93"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

@@ -1,0 +1,34 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="13bc3861c5">
+    <item id="13bc3861c5" isActive="false">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/soilGrassRolling/overviewSoilGrassRolling/intro</text>
+      <next>
+        <option id="41a0716f78">
+          <text>$dataS2/npc/helper/help/helpFieldWorking/soilGrassRolling/overviewSoilGrassRolling/whatSoilGrassRolling</text>
+          <actions>
+            <startConversationById uniqueId="c22efd8c31"/>
+          </actions>
+        </option>
+        <option id="732b1a7d03">
+          <text>$dataS2/npc/helper/help/helpFieldWorking/soilGrassRolling/overviewSoilGrassRolling/howUseRollers</text>
+          <actions>
+            <startConversationById uniqueId="7d377e4adf"/>
+          </actions>
+        </option>
+        <option id="958f9ddf9a">
+          <text>$dataS2/npc/helper/help/helpFieldWorking/soilGrassRolling/overviewSoilGrassRolling/backButton</text>
+          <actions>
+            <startConversationById uniqueId="0c49b93be8"/>
+          </actions>
+        </option>
+        <option id="b4b5ada64f">
+          <text>$dataS2/npc/helper/help/helpFieldWorking/soilGrassRolling/overviewSoilGrassRolling/exitButton</text>
+        </option>
+      </next>
+    </item>
+  </textFlow>
+</conversation>

@@ -1,0 +1,18 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>SMALLTALK_WISDOM_INTRO</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <conversationAvailableByType type="SMALLTALK_WISDOM"/>
+    <retriggerTypeDelayIngameDays type="SMALLTALK_WISDOM_INTRO" minDays="1"/>
+  </prerequisites>
+  <textFlow startId="03a949d1ca">
+    <item id="03a949d1ca">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/wisdomIntros/wisdomIntro6/wisdomsYes</text>
+      <actions>
+        <startConversationByType type="SMALLTALK_WISDOM"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

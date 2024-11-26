@@ -1,0 +1,41 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="48505f037e">
+    <item id="48505f037e" nextId="999c81a5b9">
+      <text>$dataS2/npc/helper/help/helpCrops/redBeet/stepByStep/steps</text>
+    </item>
+    <item id="999c81a5b9" nextId="d29d241e0d">
+      <text>$dataS2/npc/helper/help/helpCrops/redBeet/stepByStep/cropCalendar</text>
+    </item>
+    <item id="d29d241e0d" nextId="0911936d34">
+      <text>$dataS2/npc/helper/help/helpCrops/redBeet/stepByStep/liming</text>
+    </item>
+    <item id="0911936d34" nextId="edd6adb115">
+      <text>$dataS2/npc/helper/help/helpCrops/redBeet/stepByStep/stepTwo</text>
+    </item>
+    <item id="edd6adb115" nextId="dd6b88b6c9">
+      <text>$dataS2/npc/helper/help/helpCrops/redBeet/stepByStep/ridgeforming</text>
+    </item>
+    <item id="dd6b88b6c9" nextId="30642be409">
+      <text>$dataS2/npc/helper/help/helpCrops/redBeet/stepByStep/planting</text>
+    </item>
+    <item id="30642be409" nextId="a9e46f03db">
+      <text>$dataS2/npc/helper/help/helpCrops/redBeet/stepByStep/fertilizing</text>
+    </item>
+    <item id="a9e46f03db" nextId="da63b9bf22">
+      <text>$dataS2/npc/helper/help/helpCrops/redBeet/stepByStep/weedingHoe</text>
+    </item>
+    <item id="da63b9bf22" nextId="59245ea433">
+      <text>$dataS2/npc/helper/help/helpCrops/redBeet/stepByStep/stepSeven</text>
+    </item>
+    <item id="59245ea433">
+      <text>$dataS2/npc/helper/help/helpCrops/redBeet/stepByStep/repeat</text>
+      <actions>
+        <startConversationById uniqueId="c332fad3d2"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

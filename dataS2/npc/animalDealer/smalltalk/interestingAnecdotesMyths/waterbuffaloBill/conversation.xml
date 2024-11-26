@@ -1,0 +1,73 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>KATIE_ANECDOTES</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="363b76feaf">
+    <item id="363b76feaf" nextId="93f48e12a2">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/waterbuffaloBill/williamAteApples</text>
+    </item>
+    <item id="93f48e12a2">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/waterbuffaloBill/haveToKeepEye</text>
+      <next>
+        <option id="bf237c3651" nextId="358d3f1c5e">
+          <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/waterbuffaloBill/optionA</text>
+        </option>
+        <option id="4eec8186d2" nextId="26484218fa">
+          <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/waterbuffaloBill/optionB</text>
+        </option>
+      </next>
+    </item>
+    <item id="358d3f1c5e" nextId="69a5426d2a">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/waterbuffaloBill/waterbuffaloBill</text>
+    </item>
+    <item id="69a5426d2a" nextId="5764c1e245">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/waterbuffaloBill/putDownABox</text>
+    </item>
+    <item id="5764c1e245" nextId="ad47b830ff">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/waterbuffaloBill/billToppledTheBox</text>
+    </item>
+    <item id="ad47b830ff" nextId="90f567b830">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/waterbuffaloBill/overfeed</text>
+    </item>
+    <item id="90f567b830" nextId="56e911554d">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/waterbuffaloBill/bottlefedWilliam</text>
+    </item>
+    <item id="56e911554d" nextId="3ee32e8a47">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/waterbuffaloBill/hauntMeLater</text>
+    </item>
+    <item id="3ee32e8a47" nextId="f4a0a8ee92">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/waterbuffaloBill/williamOnThePorch</text>
+    </item>
+    <item id="f4a0a8ee92" nextId="65a636eacd">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/waterbuffaloBill/williamFiguredTheGate</text>
+    </item>
+    <item id="65a636eacd" nextId="ad225ebe0d">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/waterbuffaloBill/notStateOfTheArt</text>
+    </item>
+    <item id="ad225ebe0d" nextId="174747885a">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/waterbuffaloBill/ifHeHadClosedIt</text>
+    </item>
+    <item id="174747885a" nextId="e56c4d4566">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/waterbuffaloBill/otherBuffloesNotAsAttached</text>
+    </item>
+    <item id="e56c4d4566" nextId="3f97874ac4">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/waterbuffaloBill/buffloesInTheKitchen</text>
+    </item>
+    <item id="3f97874ac4" nextId="545aded206">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/waterbuffaloBill/billIsTheFavorite</text>
+    </item>
+    <item id="545aded206" nextId="dee7ec1db9">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/waterbuffaloBill/callSister</text>
+    </item>
+    <item id="dee7ec1db9">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/waterbuffaloBill/seeYou</text>
+      <actions>
+        <startConversationById uniqueId="bb0236da62"/>
+      </actions>
+    </item>
+    <item id="26484218fa" nextId="358d3f1c5e">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/waterbuffaloBill/haveToAgree</text>
+    </item>
+  </textFlow>
+</conversation>

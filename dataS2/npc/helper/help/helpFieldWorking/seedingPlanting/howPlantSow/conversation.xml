@@ -1,0 +1,41 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="df5100b996">
+    <item id="df5100b996" nextId="9670c6742d">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/seedingPlanting/howPlantSow/firstStep</text>
+    </item>
+    <item id="9670c6742d" nextId="81001f9569">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/seedingPlanting/howPlantSow/notMagically</text>
+    </item>
+    <item id="81001f9569" nextId="320fe2aceb">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/seedingPlanting/howPlantSow/howWorks</text>
+    </item>
+    <item id="320fe2aceb" nextId="75efdfdd2d">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/seedingPlanting/howPlantSow/first</text>
+    </item>
+    <item id="75efdfdd2d" nextId="540dfe84f7">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/seedingPlanting/howPlantSow/then</text>
+    </item>
+    <item id="540dfe84f7" nextId="fe6e6deb7f">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/seedingPlanting/howPlantSow/buy</text>
+    </item>
+    <item id="fe6e6deb7f" nextId="6956e785a7">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/seedingPlanting/howPlantSow/position</text>
+    </item>
+    <item id="6956e785a7" nextId="dfe90fbc84">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/seedingPlanting/howPlantSow/filling</text>
+    </item>
+    <item id="dfe90fbc84" nextId="e385d72095">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/seedingPlanting/howPlantSow/headOver</text>
+    </item>
+    <item id="e385d72095">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/seedingPlanting/howPlantSow/easy</text>
+      <actions>
+        <startConversationById uniqueId="7f401962c5"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

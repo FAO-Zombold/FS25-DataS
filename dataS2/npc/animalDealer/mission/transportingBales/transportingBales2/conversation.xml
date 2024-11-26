@@ -1,0 +1,17 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>MISSION_SELECT</type>
+  <probability>1</probability>
+  <isActive>false</isActive>
+  <prerequisites>
+    <missionAvailable/>
+  </prerequisites>
+  <textFlow startId="f2a2f4ee9b">
+    <item id="f2a2f4ee9b">
+      <text>$dataS2/npc/animalDealer/mission/transportingBales/transportingBales2/balesToDestination</text>
+      <actions>
+        <startConversationById uniqueId="a783c61e70"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

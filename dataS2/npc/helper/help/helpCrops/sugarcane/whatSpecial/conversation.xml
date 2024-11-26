@@ -1,0 +1,26 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="1d72c4f31b">
+    <item id="1d72c4f31b" nextId="2027105298">
+      <text>$dataS2/npc/helper/help/helpCrops/sugarcane/whatSpecial/whatSpecial</text>
+    </item>
+    <item id="2027105298" nextId="3529742f9b">
+      <text>$dataS2/npc/helper/help/helpCrops/sugarcane/whatSpecial/growBack</text>
+    </item>
+    <item id="3529742f9b" nextId="dcd51c1a9a">
+      <text>$dataS2/npc/helper/help/helpCrops/sugarcane/whatSpecial/initialPlowing</text>
+    </item>
+    <item id="dcd51c1a9a" nextId="bbbe52e479">
+      <text>$dataS2/npc/helper/help/helpCrops/sugarcane/whatSpecial/sellingPrice</text>
+    </item>
+    <item id="bbbe52e479">
+      <text>$dataS2/npc/helper/help/helpCrops/sugarcane/whatSpecial/gowMore</text>
+      <actions>
+        <startConversationById uniqueId="dd2b93b539"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

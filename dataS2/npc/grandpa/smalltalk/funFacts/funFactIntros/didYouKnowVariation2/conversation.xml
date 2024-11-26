@@ -1,0 +1,19 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>SMALLTALK_FUNFACTS_INTRO</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <conversationAllTriggeredByType type="SMALLTALK_WISDOM"/>
+    <conversationAvailableByType type="SMALLTALK_FUNFACTS"/>
+    <retriggerTypeDelayIngameDays type="SMALLTALK_FUNFACTS_INTRO" minDays="1"/>
+  </prerequisites>
+  <textFlow startId="ee9aab2f03">
+    <item id="ee9aab2f03">
+      <text>$dataS2/npc/grandpa/smalltalk/funFacts/funFactIntros/didYouKnowVariation2/sureChamp</text>
+      <actions>
+        <startConversationByType type="SMALLTALK_FUNFACTS"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

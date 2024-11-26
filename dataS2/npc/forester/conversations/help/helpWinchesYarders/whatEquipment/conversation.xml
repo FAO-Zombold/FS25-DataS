@@ -1,0 +1,20 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="dd0e7dde7b">
+    <item id="dd0e7dde7b" nextId="986098ec8e">
+      <text>$dataS2/npc/forester/conversations/help/helpWinchesYarders/whatEquipment/twoForms</text>
+    </item>
+    <item id="986098ec8e" nextId="1178f61edd">
+      <text>$dataS2/npc/forester/conversations/help/helpWinchesYarders/whatEquipment/yardersHooked</text>
+    </item>
+    <item id="1178f61edd">
+      <text>$dataS2/npc/forester/conversations/help/helpWinchesYarders/whatEquipment/hooked</text>
+      <actions>
+        <startConversationById uniqueId="0845832ccb"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

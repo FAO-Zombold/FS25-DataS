@@ -1,0 +1,93 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>SMALLTALK_ABOUT_YOU</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="59c7922be3">
+    <item id="59c7922be3" nextId="014c1bb9f2">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutSustainableForestry/listenCarefully</text>
+    </item>
+    <item id="014c1bb9f2">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutSustainableForestry/noTest</text>
+      <next>
+        <option id="1ead17f68a" nextId="cbb7d333b3">
+          <text>$dataS2/npc/forester/conversations/aboutYou/aboutSustainableForestry/inSchool</text>
+        </option>
+        <option id="bd5ddd3458" nextId="91c25ba20e">
+          <text>$dataS2/npc/forester/conversations/aboutYou/aboutSustainableForestry/teachMe</text>
+        </option>
+      </next>
+    </item>
+    <item id="cbb7d333b3" nextId="fba8328e6e">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutSustainableForestry/beQuite</text>
+    </item>
+    <item id="fba8328e6e" nextId="4950df5e5d">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutSustainableForestry/tellSomething</text>
+    </item>
+    <item id="4950df5e5d" nextId="18662ab45d">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutSustainableForestry/notLikeBuffet</text>
+    </item>
+    <item id="18662ab45d" nextId="9fbf114c66">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutSustainableForestry/whatPeopleThink</text>
+    </item>
+    <item id="9fbf114c66" nextId="c00f14c3be">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutSustainableForestry/peopleNotice</text>
+    </item>
+    <item id="c00f14c3be" nextId="6d37de3e7e">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutSustainableForestry/willNotHappen</text>
+    </item>
+    <item id="6d37de3e7e" nextId="7278066cc6">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutSustainableForestry/protectedForest</text>
+    </item>
+    <item id="7278066cc6" nextId="873e847085">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutSustainableForestry/peopleForget</text>
+    </item>
+    <item id="873e847085" nextId="4bd684e3d3">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutSustainableForestry/partOfReforestation</text>
+    </item>
+    <item id="4bd684e3d3" nextId="45a5006fab">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutSustainableForestry/handleWithCare</text>
+    </item>
+    <item id="45a5006fab" nextId="a4deabd780">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutSustainableForestry/maintainSustainability</text>
+    </item>
+    <item id="a4deabd780">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutSustainableForestry/canYouFollow</text>
+      <next>
+        <option id="be222e3779" nextId="7f22870522">
+          <text>$dataS2/npc/forester/conversations/aboutYou/aboutSustainableForestry/yes</text>
+        </option>
+        <option id="e49a944ef3" nextId="f121422cac">
+          <text>$dataS2/npc/forester/conversations/aboutYou/aboutSustainableForestry/no</text>
+        </option>
+      </next>
+    </item>
+    <item id="7f22870522" nextId="b568536bf3">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutSustainableForestry/good</text>
+    </item>
+    <item id="b568536bf3" nextId="223fc69679">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutSustainableForestry/notMyJob</text>
+    </item>
+    <item id="223fc69679" nextId="7d18202af8">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutSustainableForestry/respectfulToForest</text>
+    </item>
+    <item id="7d18202af8" nextId="dbe634233a">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutSustainableForestry/davidsPrints</text>
+    </item>
+    <item id="dbe634233a" nextId="ffea613604">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutSustainableForestry/underSurveillance</text>
+    </item>
+    <item id="ffea613604">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutSustainableForestry/classIsOver</text>
+      <actions>
+        <startConversationById uniqueId="8b24b3ebc0"/>
+      </actions>
+    </item>
+    <item id="f121422cac" nextId="b568536bf3">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutSustainableForestry/lookUp</text>
+    </item>
+    <item id="91c25ba20e" nextId="fba8328e6e">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutSustainableForestry/enthusiasm</text>
+    </item>
+  </textFlow>
+</conversation>

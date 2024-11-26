@@ -1,0 +1,26 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="7786905537">
+    <item id="7786905537" nextId="1c9bc38ae9">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/plowingCultivating/typesPlows/types</text>
+    </item>
+    <item id="1c9bc38ae9" nextId="74fc169a47">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/plowingCultivating/typesPlows/regularPlows</text>
+    </item>
+    <item id="74fc169a47" nextId="1a729ba847">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/plowingCultivating/typesPlows/using</text>
+    </item>
+    <item id="1a729ba847" nextId="684489ac53">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/plowingCultivating/typesPlows/spaders</text>
+    </item>
+    <item id="684489ac53">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/plowingCultivating/typesPlows/subsoilers</text>
+      <actions>
+        <startConversationById uniqueId="f5fa69a7dc"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

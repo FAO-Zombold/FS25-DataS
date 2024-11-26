@@ -1,0 +1,14 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>MISSION_NOT_AVAILABLE</type>
+  <probability>1</probability>
+  <isActive>false</isActive>
+  <textFlow startId="414a936728">
+    <item id="414a936728">
+      <text>$dataS2/npc/farmer/missions/introsMissionUnavailable/appreciateIt/appreciateIt</text>
+      <actions>
+        <startConversationById uniqueId="bdd07bda2c"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

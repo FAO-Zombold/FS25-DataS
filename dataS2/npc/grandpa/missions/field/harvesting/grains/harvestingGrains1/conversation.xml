@@ -1,0 +1,19 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>MISSION_SELECT</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <missionAvailable>
+      <type name="harvestMission" variant="GRAIN"/>
+    </missionAvailable>
+  </prerequisites>
+  <textFlow startId="067e3a1a7b">
+    <item id="067e3a1a7b">
+      <text>$dataS2/npc/grandpa/missions/field/harvesting/grains/harvestingGrains1/grain1</text>
+      <actions>
+        <startConversationById uniqueId="7ef6d691ea"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

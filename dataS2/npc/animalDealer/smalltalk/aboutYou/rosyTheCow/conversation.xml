@@ -1,0 +1,100 @@
+<conversation>
+  <class>NPCConversationGuidedTour</class>
+  <type>KATIE_YOU</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="9f5e123754">
+    <item id="9f5e123754" nextId="b3be5e6349">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/rosyTheCow/nephewsBirthday</text>
+    </item>
+    <item id="b3be5e6349" nextId="e21eb60d4b">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/rosyTheCow/obsessedWithRosy</text>
+    </item>
+    <item id="e21eb60d4b">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/rosyTheCow/didYouHave</text>
+      <next>
+        <option id="7880e7a365" nextId="3919a109a8">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/rosyTheCow/kensingtonOptionA</text>
+        </option>
+        <option id="c3623e6a5f" nextId="bc1be6abef">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/rosyTheCow/snailOptionB</text>
+        </option>
+        <option id="8b841a396e" nextId="acd54dd5cc">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/rosyTheCow/pepaOptionC</text>
+        </option>
+        <option id="a6648d0b0c" nextId="89bf6404b2">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/rosyTheCow/mimiOptionD</text>
+        </option>
+        <option id="6359eacdff" nextId="5faf5d51be">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/rosyTheCow/whoOptionE</text>
+        </option>
+        <option id="3c1a4e3d82" nextId="8461953009">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/rosyTheCow/notReallyOptionF</text>
+        </option>
+      </next>
+    </item>
+    <item id="3919a109a8" nextId="afa5580601">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/rosyTheCow/really</text>
+    </item>
+    <item id="afa5580601" nextId="8b6abbfe6a">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/rosyTheCow/rosyStuffedCow</text>
+    </item>
+    <item id="8b6abbfe6a" nextId="62e16f022b">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/rosyTheCow/originalStory</text>
+    </item>
+    <item id="62e16f022b" nextId="9e38417e4c">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/rosyTheCow/bookSeries</text>
+    </item>
+    <item id="9e38417e4c" nextId="ec47b1b19c">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/rosyTheCow/rosysPostcards</text>
+    </item>
+    <item id="ec47b1b19c" nextId="76b890b529">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/rosyTheCow/rosyIsAKlutz</text>
+    </item>
+    <item id="76b890b529" nextId="ed362024b7">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/rosyTheCow/helpOfFriends</text>
+    </item>
+    <item id="ed362024b7" nextId="3003a5a444">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/rosyTheCow/usedToBeObsessed</text>
+    </item>
+    <item id="3003a5a444" nextId="88f155afbf">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/rosyTheCow/travelTheWorld</text>
+    </item>
+    <item id="88f155afbf" nextId="f8e64a549c">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/rosyTheCow/raincoatAndUmbrella</text>
+    </item>
+    <item id="f8e64a549c" nextId="055d5b6464">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/rosyTheCow/albumWithPostcards</text>
+    </item>
+    <item id="055d5b6464" nextId="add8330c23">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/rosyTheCow/brotherIsSulking</text>
+    </item>
+    <item id="add8330c23" nextId="be5830a185">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/rosyTheCow/travellingCows</text>
+    </item>
+    <item id="be5830a185" nextId="58c8791d61">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/rosyTheCow/waterbuffaloe</text>
+    </item>
+    <item id="58c8791d61">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/rosyTheCow/seeYouAround</text>
+      <actions>
+        <startConversationById uniqueId="bb0236da62"/>
+      </actions>
+    </item>
+    <item id="bc1be6abef" nextId="afa5580601">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/rosyTheCow/ellieSnail</text>
+    </item>
+    <item id="acd54dd5cc" nextId="afa5580601">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/rosyTheCow/brothersFavorite</text>
+    </item>
+    <item id="89bf6404b2" nextId="afa5580601">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/rosyTheCow/goodChoice</text>
+    </item>
+    <item id="5faf5d51be" nextId="afa5580601">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/rosyTheCow/mostWonderful</text>
+    </item>
+    <item id="8461953009" nextId="afa5580601">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/rosyTheCow/ohComeOn</text>
+    </item>
+  </textFlow>
+</conversation>

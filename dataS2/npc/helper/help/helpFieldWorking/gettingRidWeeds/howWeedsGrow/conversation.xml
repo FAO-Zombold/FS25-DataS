@@ -1,0 +1,44 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="52f4f3fd22">
+    <item id="52f4f3fd22" nextId="f132c34d09">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/gettingRidWeeds/howWeedsGrow/stages</text>
+    </item>
+    <item id="f132c34d09" nextId="2cf31a33e4">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/gettingRidWeeds/howWeedsGrow/sizeMatters</text>
+    </item>
+    <item id="2cf31a33e4" nextId="60605f8d54">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/gettingRidWeeds/howWeedsGrow/removed</text>
+    </item>
+    <item id="60605f8d54" nextId="16907c9a64">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/gettingRidWeeds/howWeedsGrow/growSoon</text>
+    </item>
+    <item id="16907c9a64" nextId="c9e2d01fce">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/gettingRidWeeds/howWeedsGrow/troublemaker</text>
+    </item>
+    <item id="c9e2d01fce" nextId="da3f1fa589">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/gettingRidWeeds/howWeedsGrow/infested</text>
+    </item>
+    <item id="da3f1fa589" nextId="0156798a5d">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/gettingRidWeeds/howWeedsGrow/higherDensity</text>
+    </item>
+    <item id="0156798a5d" nextId="588fc21d8a">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/gettingRidWeeds/howWeedsGrow/largeOnes</text>
+    </item>
+    <item id="588fc21d8a" nextId="15027b1ef5">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/gettingRidWeeds/howWeedsGrow/seeFromDistance</text>
+    </item>
+    <item id="15027b1ef5" nextId="78a2fac885">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/gettingRidWeeds/howWeedsGrow/timeToAct</text>
+    </item>
+    <item id="78a2fac885">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/gettingRidWeeds/howWeedsGrow/significantHit</text>
+      <actions>
+        <startConversationById uniqueId="ace22bd0fe"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

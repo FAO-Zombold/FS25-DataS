@@ -1,0 +1,38 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="c6fd96c886">
+    <item id="c6fd96c886" nextId="5b5f758040">
+      <text>$dataS2/npc/helper/help/helpCrops/corn/equipmentCorn/whatEquipment</text>
+    </item>
+    <item id="5b5f758040" nextId="df8e1b488d">
+      <text>$dataS2/npc/helper/help/helpCrops/corn/equipmentCorn/plowSubsoiler</text>
+    </item>
+    <item id="df8e1b488d" nextId="93fbdfae4e">
+      <text>$dataS2/npc/helper/help/helpCrops/corn/equipmentCorn/requiresPlowing</text>
+    </item>
+    <item id="93fbdfae4e" nextId="5ee200de7f">
+      <text>$dataS2/npc/helper/help/helpCrops/corn/equipmentCorn/planterSeeds</text>
+    </item>
+    <item id="5ee200de7f" nextId="c2068eaa21">
+      <text>$dataS2/npc/helper/help/helpCrops/corn/equipmentCorn/fertilizerSpreader</text>
+    </item>
+    <item id="c2068eaa21" nextId="4f0b68e7e8">
+      <text>$dataS2/npc/helper/help/helpCrops/corn/equipmentCorn/weeds</text>
+    </item>
+    <item id="4f0b68e7e8" nextId="90af1d40ce">
+      <text>$dataS2/npc/helper/help/helpCrops/corn/equipmentCorn/combineHarvester</text>
+    </item>
+    <item id="90af1d40ce" nextId="c88bad69c8">
+      <text>$dataS2/npc/helper/help/helpCrops/corn/equipmentCorn/emptyTrailer</text>
+    </item>
+    <item id="c88bad69c8">
+      <text>$dataS2/npc/helper/help/helpCrops/corn/equipmentCorn/tooCorny</text>
+      <actions>
+        <startConversationById uniqueId="00ac66f4fd"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

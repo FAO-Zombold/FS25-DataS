@@ -1,0 +1,81 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>DAVID_ANECDOTES</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="d5c9c35e31">
+    <item id="d5c9c35e31" nextId="52761dcdaf">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/plowedRoads/sinceIMovedHere</text>
+    </item>
+    <item id="52761dcdaf" nextId="7c1a551d9e">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/plowedRoads/unscheduledTownMeeting</text>
+    </item>
+    <item id="7c1a551d9e" nextId="ca4c6cc6b4">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/plowedRoads/lastTime</text>
+    </item>
+    <item id="ca4c6cc6b4" nextId="e08e4e7135">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/plowedRoads/fishHatchery</text>
+    </item>
+    <item id="e08e4e7135" nextId="e986ee60b3">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/plowedRoads/betterStory</text>
+    </item>
+    <item id="e986ee60b3">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/plowedRoads/clumsyWithPlows</text>
+      <next>
+        <option id="5f357b5a75" nextId="b1f1a67650">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/plowedRoads/clumsyWithPlowsOptionA</text>
+        </option>
+        <option id="5a4649bd20" nextId="8015391729">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/plowedRoads/clumsyWithPlowsOptionB</text>
+        </option>
+      </next>
+    </item>
+    <item id="b1f1a67650" nextId="1f72d3a3d1">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/plowedRoads/fliedsWithAPlow</text>
+    </item>
+    <item id="1f72d3a3d1" nextId="5eb9b8e153">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/plowedRoads/tipNumberOne</text>
+    </item>
+    <item id="5eb9b8e153" nextId="cd921812bd">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/plowedRoads/tipNumberTwo</text>
+    </item>
+    <item id="cd921812bd">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/plowedRoads/plowedTooFar</text>
+      <next>
+        <option id="bb93af9945" nextId="af59945f95">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/plowedRoads/optionA</text>
+        </option>
+        <option id="6897b5ac39" nextId="af59945f95">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/plowedRoads/optionB</text>
+        </option>
+        <option id="3e93d699dd" nextId="0cd3368247">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/plowedRoads/optionC</text>
+        </option>
+      </next>
+    </item>
+    <item id="af59945f95" nextId="c5158cc35d">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/plowedRoads/manyDissapointedFaces</text>
+    </item>
+    <item id="c5158cc35d" nextId="68ca6f2f9a">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/plowedRoads/exceptForMath</text>
+    </item>
+    <item id="68ca6f2f9a" nextId="f4ca7f186a">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/plowedRoads/grandpasFace</text>
+    </item>
+    <item id="f4ca7f186a" nextId="f32c8c1212">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/plowedRoads/grassGrewOverTheMatter</text>
+    </item>
+    <item id="f32c8c1212">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/plowedRoads/thatIsTheStory</text>
+      <actions>
+        <startConversationById uniqueId="bdd07bda2c"/>
+      </actions>
+    </item>
+    <item id="0cd3368247" nextId="af59945f95">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/plowedRoads/doNotWorry</text>
+    </item>
+    <item id="8015391729" nextId="b1f1a67650">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/plowedRoads/sawTheirFaces</text>
+    </item>
+  </textFlow>
+</conversation>

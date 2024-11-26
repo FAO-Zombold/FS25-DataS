@@ -1,0 +1,34 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="c814e8523a">
+    <item id="c814e8523a" isActive="false">
+      <text>$dataS2/npc/helper/help/helpCrops/carrots/overviewCarrots/intro</text>
+      <next>
+        <option id="a6c6246738">
+          <text>$dataS2/npc/helper/help/helpCrops/carrots/overviewCarrots/whatEquipment</text>
+          <actions>
+            <startConversationById uniqueId="f58fbe7e5b"/>
+          </actions>
+        </option>
+        <option id="facb2acf67">
+          <text>$dataS2/npc/helper/help/helpCrops/carrots/overviewCarrots/stepByStep</text>
+          <actions>
+            <startConversationById uniqueId="846c10d883"/>
+          </actions>
+        </option>
+        <option id="d188a52366">
+          <text>$dataS2/npc/helper/help/helpCrops/carrots/overviewCarrots/backButton</text>
+          <actions>
+            <startConversationById uniqueId="b7b177b9c9"/>
+          </actions>
+        </option>
+        <option id="b0b3933388">
+          <text>$dataS2/npc/helper/help/helpCrops/carrots/overviewCarrots/exitButton</text>
+        </option>
+      </next>
+    </item>
+  </textFlow>
+</conversation>

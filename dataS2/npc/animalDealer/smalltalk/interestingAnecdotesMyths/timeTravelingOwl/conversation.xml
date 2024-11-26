@@ -1,0 +1,73 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>KATIE_ANECDOTES</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="6fab78c001">
+    <item id="6fab78c001">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/timeTravelingOwl/travelingOwl</text>
+      <next>
+        <option id="85c5912666" nextId="6b7c3ecf70">
+          <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/timeTravelingOwl/optionA</text>
+        </option>
+        <option id="1e932280fa" nextId="7288426bb1">
+          <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/timeTravelingOwl/optionB</text>
+        </option>
+        <option id="af049f3ce1" nextId="796f8fbf33">
+          <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/timeTravelingOwl/optionC</text>
+        </option>
+      </next>
+    </item>
+    <item id="6b7c3ecf70" nextId="b4ef98de61">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/timeTravelingOwl/comeOn</text>
+    </item>
+    <item id="b4ef98de61" nextId="a1bf0b2dfe">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/timeTravelingOwl/theOwl</text>
+    </item>
+    <item id="a1bf0b2dfe" nextId="2e351f1ccb">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/timeTravelingOwl/whereWasI</text>
+    </item>
+    <item id="2e351f1ccb" nextId="6873c216dd">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/timeTravelingOwl/manyPeople</text>
+    </item>
+    <item id="6873c216dd" nextId="ca081f8870">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/timeTravelingOwl/worthyOfConvo</text>
+    </item>
+    <item id="ca081f8870" nextId="f8d22b0f33">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/timeTravelingOwl/itMightTellYou</text>
+    </item>
+    <item id="f8d22b0f33" nextId="a07551be08">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/timeTravelingOwl/notSpecificallyYourFuture</text>
+    </item>
+    <item id="a07551be08" nextId="79c66cb188">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/timeTravelingOwl/alwaysALesson</text>
+    </item>
+    <item id="79c66cb188" nextId="c777275e95">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/timeTravelingOwl/noahWasWorthy</text>
+    </item>
+    <item id="c777275e95" nextId="5bcfffb170">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/timeTravelingOwl/toldItToBeQuiet</text>
+    </item>
+    <item id="5bcfffb170" nextId="54c07d4673">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/timeTravelingOwl/neverMetIt</text>
+    </item>
+    <item id="54c07d4673" nextId="aaa44e3618">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/timeTravelingOwl/nobodyCan</text>
+    </item>
+    <item id="aaa44e3618">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/timeTravelingOwl/whyDoNotYou</text>
+      <actions>
+        <startConversationById uniqueId="bb0236da62"/>
+      </actions>
+    </item>
+    <item id="7288426bb1" nextId="263d512924">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/timeTravelingOwl/pardonMe</text>
+    </item>
+    <item id="263d512924" nextId="b4ef98de61">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/timeTravelingOwl/elaborateLecture</text>
+    </item>
+    <item id="796f8fbf33" nextId="b4ef98de61">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/timeTravelingOwl/pleaseItIsMajestic</text>
+    </item>
+  </textFlow>
+</conversation>

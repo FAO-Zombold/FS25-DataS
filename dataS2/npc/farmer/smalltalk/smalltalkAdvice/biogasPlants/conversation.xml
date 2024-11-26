@@ -1,0 +1,32 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>DAVID_ADVICE</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <retriggerTypeDelayIngameDays type="DAVID_ADVICE" minDays="1"/>
+  </prerequisites>
+  <textFlow startId="8332830ba7">
+    <item id="8332830ba7" nextId="2c22cf1df2">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/biogasPlants/farmersEyes</text>
+    </item>
+    <item id="2c22cf1df2" nextId="0d8cb71f45">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/biogasPlants/biogasPlant</text>
+    </item>
+    <item id="0d8cb71f45" nextId="58bf5b7351">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/biogasPlants/resources</text>
+    </item>
+    <item id="58bf5b7351" nextId="717ef07557">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/biogasPlants/investingInOne</text>
+    </item>
+    <item id="717ef07557" nextId="18520f2200">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/biogasPlants/organicByproducts</text>
+    </item>
+    <item id="18520f2200">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/biogasPlants/sustainable</text>
+      <actions>
+        <startConversationById uniqueId="bdd07bda2c"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

@@ -1,0 +1,60 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <manuallyTriggered/>
+  </prerequisites>
+  <textFlow startId="3d36f18d24">
+    <item id="3d36f18d24" nextId="c1ca7e393f">
+      <text>$dataS2/npc/grandpa/help/forestry/forestry/forestry</text>
+    </item>
+    <item id="c1ca7e393f">
+      <text>$dataS2/npc/grandpa/help/forestry/forestry/woodworking</text>
+      <next>
+        <option id="dbec30476b" nextId="965bcf8276">
+          <text>$dataS2/npc/grandpa/help/forestry/forestry/aboutHim</text>
+        </option>
+        <option id="392cecbe90">
+          <text>$dataS2/npc/grandpa/help/forestry/forestry/whereNoah</text>
+          <actions>
+            <navigateToNPC npcName="FORESTER"/>
+          </actions>
+        </option>
+        <option id="77c14e4e40">
+          <text>$dataS2/npc/grandpa/help/forestry/forestry/backButton</text>
+          <actions>
+            <startConversationById uniqueId="0eb8244863"/>
+          </actions>
+        </option>
+        <option id="57f2b9d5f0">
+          <text>$dataS2/npc/grandpa/help/forestry/forestry/buttonExit</text>
+        </option>
+      </next>
+    </item>
+    <item id="965bcf8276" nextId="8c9db92b27">
+      <text>$dataS2/npc/grandpa/help/forestry/forestry/strange</text>
+    </item>
+    <item id="8c9db92b27" nextId="c4eeda0d36">
+      <text>$dataS2/npc/grandpa/help/forestry/forestry/grouch</text>
+    </item>
+    <item id="c4eeda0d36" nextId="98d981df4b">
+      <text>$dataS2/npc/grandpa/help/forestry/forestry/peoplePerson</text>
+    </item>
+    <item id="98d981df4b" nextId="788b368d78">
+      <text>$dataS2/npc/grandpa/help/forestry/forestry/woodcarvingProjects</text>
+    </item>
+    <item id="788b368d78">
+      <text>$dataS2/npc/grandpa/help/forestry/forestry/judgeYourself</text>
+      <next>
+        <option id="02fa55a597">
+          <text>$dataS2/npc/grandpa/help/forestry/forestry/thanks</text>
+          <actions>
+            <startConversationById uniqueId="0bc5b0ce93"/>
+          </actions>
+        </option>
+      </next>
+    </item>
+  </textFlow>
+</conversation>

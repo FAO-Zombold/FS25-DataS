@@ -1,0 +1,85 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>KATIE_YOU</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="9928364b0c">
+    <item id="9928364b0c" nextId="df173c3fb1">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/sheepAndPillows/greatSheep</text>
+    </item>
+    <item id="df173c3fb1" nextId="cae5e1d2f9">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/sheepAndPillows/ownPillows</text>
+    </item>
+    <item id="cae5e1d2f9" nextId="173ed85158">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/sheepAndPillows/niceSideEffect</text>
+    </item>
+    <item id="173ed85158" nextId="99763da923">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/sheepAndPillows/backIInTheUK</text>
+    </item>
+    <item id="99763da923" nextId="ad333f43cf">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/sheepAndPillows/sixyYears</text>
+    </item>
+    <item id="ad333f43cf" nextId="1fddb334f9">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/sheepAndPillows/wholeProcess</text>
+    </item>
+    <item id="1fddb334f9" nextId="93804a1eb8">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/sheepAndPillows/cleanedFirst</text>
+    </item>
+    <item id="93804a1eb8" nextId="d320ef8f10">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/sheepAndPillows/getRidOf</text>
+    </item>
+    <item id="d320ef8f10" nextId="2e01edb353">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/sheepAndPillows/theFluffiness</text>
+    </item>
+    <item id="2e01edb353">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/sheepAndPillows/howAboutSheep</text>
+      <next>
+        <option id="716734dd84" nextId="0786ebe121">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/sheepAndPillows/optionA</text>
+        </option>
+        <option id="f5587b54ea" nextId="27e1124546">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/sheepAndPillows/optionB</text>
+        </option>
+        <option id="f51933fc7f" nextId="118da3baa8">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/sheepAndPillows/optionC</text>
+        </option>
+      </next>
+    </item>
+    <item id="0786ebe121" nextId="0e9680e262">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/sheepAndPillows/Really</text>
+    </item>
+    <item id="0e9680e262" nextId="365c3d0d83">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/sheepAndPillows/ifYouAreInterested</text>
+    </item>
+    <item id="365c3d0d83" nextId="71a8d29acd">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/sheepAndPillows/fancyFactory</text>
+    </item>
+    <item id="71a8d29acd" nextId="7f8d42d387">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/sheepAndPillows/davidsPillow</text>
+    </item>
+    <item id="7f8d42d387" nextId="f2bd142bf0">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/sheepAndPillows/takeCare</text>
+    </item>
+    <item id="f2bd142bf0" nextId="467aa23864">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/sheepAndPillows/woolOverFeathers</text>
+    </item>
+    <item id="467aa23864" nextId="f9ac9c936e">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/sheepAndPillows/hypoallergenicPillows</text>
+    </item>
+    <item id="f9ac9c936e" nextId="364ae52ac3">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/sheepAndPillows/bestThingAbout</text>
+    </item>
+    <item id="364ae52ac3">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/sheepAndPillows/soThinkAbout</text>
+      <actions>
+        <startConversationById uniqueId="bb0236da62"/>
+      </actions>
+    </item>
+    <item id="27e1124546" nextId="0e9680e262">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/sheepAndPillows/youDoYouBoo</text>
+    </item>
+    <item id="118da3baa8" nextId="0e9680e262">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/sheepAndPillows/doNotWeAll</text>
+    </item>
+  </textFlow>
+</conversation>

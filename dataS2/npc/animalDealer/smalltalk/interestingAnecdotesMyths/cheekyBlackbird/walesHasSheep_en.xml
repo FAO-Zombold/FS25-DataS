@@ -1,0 +1,4 @@
+<text>
+  <emotional>[happiness, medium]Did you know that just under a third of the UKs sheep come from Wales?[/happiness]</emotional>
+  <silence>{.} did you know that just {..} under a third of the {...} uks sheep come from wales {...}</silence>
+</text>

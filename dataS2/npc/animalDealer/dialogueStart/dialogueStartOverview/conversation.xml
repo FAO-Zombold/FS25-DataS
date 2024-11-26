@@ -1,0 +1,95 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>DEFAULT</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="19d3e0cc3a">
+    <item id="19d3e0cc3a" isActive="false">
+      <text>$dataS2/npc/animalDealer/dialogueStart/dialogueStartOverview/whatsUp</text>
+      <next>
+        <option id="f7b9ab72b8">
+          <text>$dataS2/npc/animalDealer/dialogueStart/dialogueStartOverview/optionMission</text>
+          <actions>
+            <startConversationFromList>
+              <conversation uniqueId="6384232d61"/>
+              <conversation uniqueId="9eb6b91901"/>
+              <conversation uniqueId="d03d95522e"/>
+              <conversation uniqueId="01edbc2fea"/>
+              <conversation uniqueId="e582cbc9c5"/>
+              <failConversation uniqueId="e16a4f8b3e"/>
+              <failConversation uniqueId="b99759c82f"/>
+              <failConversation uniqueId="5cefe996b0"/>
+              <failConversation uniqueId="a64f513f5c"/>
+              <failConversation uniqueId="3094dca47a"/>
+              <failConversation uniqueId="5ef174bcce"/>
+            </startConversationFromList>
+          </actions>
+          <prerequisites>
+            <missionPermission/>
+          </prerequisites>
+        </option>
+        <option id="2c3ab3ce9d">
+          <text>$dataS2/npc/animalDealer/dialogueStart/dialogueStartOverview/optionHelp</text>
+          <actions>
+            <startConversationFromList>
+              <conversation uniqueId="fdd2fcb3bf"/>
+              <conversation uniqueId="1634f655c1"/>
+              <conversation uniqueId="f5c0f12c5a"/>
+              <conversation uniqueId="2778e901a6"/>
+            </startConversationFromList>
+          </actions>
+        </option>
+        <option id="435f810357">
+          <text>$dataS2/npc/animalDealer/dialogueStart/dialogueStartOverview/optionSmalltalkYou</text>
+          <actions>
+            <startConversationFromList>
+              <conversation uniqueId="7706731e9b"/>
+              <conversation uniqueId="5fb0f42cb9"/>
+              <conversation uniqueId="8143310770"/>
+              <conversation uniqueId="bc0d864bd5"/>
+              <conversation uniqueId="329d00a3a1"/>
+              <conversation uniqueId="60b1abe07a"/>
+              <conversation uniqueId="c7c9bd393a"/>
+              <conversation uniqueId="08976ff79a"/>
+              <conversation uniqueId="11f3927f8c"/>
+              <conversation uniqueId="8bfdfdd9a8"/>
+              <conversation uniqueId="03d9c19b50"/>
+              <conversation uniqueId="d25601622b"/>
+              <conversation uniqueId="8b759f61de"/>
+              <conversation uniqueId="c30f498e5b"/>
+              <failConversation uniqueId="a9a2b40470"/>
+              <failConversation uniqueId="c051d2eec9"/>
+              <failConversation uniqueId="7999b364d5"/>
+              <failConversation uniqueId="5d2d8f7617"/>
+              <failConversation uniqueId="67ae9e9e26"/>
+              <failConversation uniqueId="fb0bc20fe3"/>
+            </startConversationFromList>
+          </actions>
+        </option>
+        <option id="b3b12b9dad">
+          <text>$dataS2/npc/animalDealer/dialogueStart/dialogueStartOverview/optionSmalltalkInteresting</text>
+          <actions>
+            <startConversationFromList>
+              <conversation uniqueId="49855b75d8"/>
+              <conversation uniqueId="300b8900f6"/>
+              <conversation uniqueId="6c8d409bd5"/>
+              <conversation uniqueId="b2824faf52"/>
+              <conversation uniqueId="c30c8dc4bd"/>
+              <conversation uniqueId="12c715b57f"/>
+              <conversation uniqueId="51044e7c93"/>
+              <failConversation uniqueId="a9a2b40470"/>
+              <failConversation uniqueId="c051d2eec9"/>
+              <failConversation uniqueId="7999b364d5"/>
+              <failConversation uniqueId="5d2d8f7617"/>
+              <failConversation uniqueId="67ae9e9e26"/>
+              <failConversation uniqueId="fb0bc20fe3"/>
+            </startConversationFromList>
+          </actions>
+        </option>
+        <option id="583d03e8ae">
+          <text>$dataS2/npc/animalDealer/dialogueStart/dialogueStartOverview/optionExit</text>
+        </option>
+      </next>
+    </item>
+  </textFlow>
+</conversation>

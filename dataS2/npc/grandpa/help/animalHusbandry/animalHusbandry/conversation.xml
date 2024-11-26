@@ -1,0 +1,60 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <manuallyTriggered/>
+  </prerequisites>
+  <textFlow startId="5f84aeb557">
+    <item id="5f84aeb557" nextId="e2469ccda2">
+      <text>$dataS2/npc/grandpa/help/animalHusbandry/animalHusbandry/animalHusbandry</text>
+    </item>
+    <item id="e2469ccda2">
+      <text>$dataS2/npc/grandpa/help/animalHusbandry/animalHusbandry/livestock</text>
+      <next>
+        <option id="b03f69f378" nextId="893c7dfedc">
+          <text>$dataS2/npc/grandpa/help/animalHusbandry/animalHusbandry/aboutHer</text>
+        </option>
+        <option id="1ae109ac9d">
+          <text>$dataS2/npc/grandpa/help/animalHusbandry/animalHusbandry/whereKatie</text>
+          <actions>
+            <navigateToNPC npcName="ANIMAL_DEALER"/>
+          </actions>
+        </option>
+        <option id="766139b673">
+          <text>$dataS2/npc/grandpa/help/animalHusbandry/animalHusbandry/backButton</text>
+          <actions>
+            <startConversationById uniqueId="0eb8244863"/>
+          </actions>
+        </option>
+        <option id="4077e8482c">
+          <text>$dataS2/npc/grandpa/help/animalHusbandry/animalHusbandry/buttonExit</text>
+        </option>
+      </next>
+    </item>
+    <item id="893c7dfedc" nextId="7a07662d55">
+      <text>$dataS2/npc/grandpa/help/animalHusbandry/animalHusbandry/smartWoman</text>
+    </item>
+    <item id="7a07662d55" nextId="1a79d7c53c">
+      <text>$dataS2/npc/grandpa/help/animalHusbandry/animalHusbandry/chipper</text>
+    </item>
+    <item id="1a79d7c53c" nextId="5d6b8fec8b">
+      <text>$dataS2/npc/grandpa/help/animalHusbandry/animalHusbandry/traveled</text>
+    </item>
+    <item id="5d6b8fec8b" nextId="ad12653b98">
+      <text>$dataS2/npc/grandpa/help/animalHusbandry/animalHusbandry/jokes</text>
+    </item>
+    <item id="ad12653b98">
+      <text>$dataS2/npc/grandpa/help/animalHusbandry/animalHusbandry/neighborDavid</text>
+      <next>
+        <option id="4348c84c7c">
+          <text>$dataS2/npc/grandpa/help/animalHusbandry/animalHusbandry/thankYou</text>
+          <actions>
+            <startConversationById uniqueId="0bc5b0ce93"/>
+          </actions>
+        </option>
+      </next>
+    </item>
+  </textFlow>
+</conversation>

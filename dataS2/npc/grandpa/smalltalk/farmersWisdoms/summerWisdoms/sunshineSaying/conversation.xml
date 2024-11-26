@@ -1,0 +1,56 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>SMALLTALK_WISDOM</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <numTriggered max="1"/>
+    <seasonPeriod min="EARLY_SUMMER" max="LATE_SUMMER"/>
+  </prerequisites>
+  <textFlow startId="5fcc054d3f">
+    <item id="5fcc054d3f" nextId="d26662b448">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/summerWisdoms/sunshineSaying/noConfuse</text>
+    </item>
+    <item id="d26662b448" nextId="f3b5293dd7">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/summerWisdoms/sunshineSaying/sunshineRainSaying</text>
+    </item>
+    <item id="f3b5293dd7">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/summerWisdoms/sunshineSaying/whatThink</text>
+      <next>
+        <option id="60134f3967" nextId="61a361b23b">
+          <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/summerWisdoms/sunshineSaying/optionA</text>
+        </option>
+        <option id="8936ed3306" nextId="8379783c8c">
+          <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/summerWisdoms/sunshineSaying/optionB</text>
+        </option>
+        <option id="bf7971ecda" nextId="60c6972533">
+          <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/summerWisdoms/sunshineSaying/optionC</text>
+        </option>
+      </next>
+    </item>
+    <item id="61a361b23b" nextId="d1a300bd4d">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/summerWisdoms/sunshineSaying/wrongAnswer</text>
+    </item>
+    <item id="d1a300bd4d" nextId="da9fba31a3">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/summerWisdoms/sunshineSaying/meaning</text>
+    </item>
+    <item id="da9fba31a3" nextId="919303429c">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/summerWisdoms/sunshineSaying/metaphor</text>
+    </item>
+    <item id="919303429c" nextId="5cb3a19459">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/summerWisdoms/sunshineSaying/brightMoments</text>
+    </item>
+    <item id="5cb3a19459">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/summerWisdoms/sunshineSaying/sometimesHard</text>
+      <actions>
+        <startConversationById uniqueId="0bc5b0ce93"/>
+      </actions>
+    </item>
+    <item id="8379783c8c" nextId="d1a300bd4d">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/summerWisdoms/sunshineSaying/wrongAnswerB</text>
+    </item>
+    <item id="60c6972533" nextId="d1a300bd4d">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/summerWisdoms/sunshineSaying/rightAnswer</text>
+    </item>
+  </textFlow>
+</conversation>

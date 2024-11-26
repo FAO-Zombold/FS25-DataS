@@ -1,0 +1,58 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>SMALLTALK_WISDOM</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <numTriggered max="1"/>
+  </prerequisites>
+  <textFlow startId="448618ee56">
+    <item id="448618ee56" nextId="9cf4337f9a">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/everySeed/everySeed</text>
+    </item>
+    <item id="9cf4337f9a" nextId="a7e52deb96">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/everySeed/whatElse</text>
+    </item>
+    <item id="a7e52deb96">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/everySeed/trainBrain</text>
+      <next>
+        <option id="bc894b3f45" nextId="38462fdc30">
+          <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/everySeed/storesEnergy</text>
+        </option>
+        <option id="a5cf65fa5c" nextId="7a03b7c775">
+          <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/everySeed/potential</text>
+        </option>
+        <option id="0a831118f6" nextId="03b03e5782">
+          <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/everySeed/justCode</text>
+        </option>
+        <option id="f394b6cb64" nextId="978baa8cbf">
+          <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/everySeed/noClue</text>
+        </option>
+      </next>
+    </item>
+    <item id="38462fdc30" nextId="978baa8cbf">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/everySeed/theScientist</text>
+    </item>
+    <item id="978baa8cbf" nextId="33ddda68d5">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/everySeed/noOneAnswer</text>
+    </item>
+    <item id="33ddda68d5" nextId="1049253d7f">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/everySeed/humorBrain</text>
+    </item>
+    <item id="1049253d7f" nextId="b50f2ede8a">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/everySeed/carryingAll</text>
+    </item>
+    <item id="b50f2ede8a">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/everySeed/plantSeeds</text>
+      <actions>
+        <startConversationById uniqueId="0bc5b0ce93"/>
+      </actions>
+    </item>
+    <item id="7a03b7c775" nextId="978baa8cbf">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/everySeed/fancyAnswer</text>
+    </item>
+    <item id="03b03e5782" nextId="978baa8cbf">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/everySeed/friendlyNeighbor</text>
+    </item>
+  </textFlow>
+</conversation>

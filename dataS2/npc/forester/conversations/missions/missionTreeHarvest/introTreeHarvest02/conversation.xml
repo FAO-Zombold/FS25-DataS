@@ -1,0 +1,17 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>MISSION_INTRO</type>
+  <probability>1</probability>
+  <isActive>false</isActive>
+  <prerequisites>
+    <missionAvailable/>
+  </prerequisites>
+  <textFlow startId="15fa32e914">
+    <item id="15fa32e914">
+      <text>$dataS2/npc/forester/conversations/missions/missionTreeHarvest/introTreeHarvest02/intro02</text>
+      <actions>
+        <startConversationById uniqueId="41fc4b2436"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

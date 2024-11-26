@@ -1,0 +1,34 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="216d74e2c2">
+    <item id="216d74e2c2" isActive="false">
+      <text>$dataS2/npc/helper/help/helpCrops/cotton/overviewCotton/intro</text>
+      <next>
+        <option id="4fceb0bb40">
+          <text>$dataS2/npc/helper/help/helpCrops/cotton/overviewCotton/whatEquipment</text>
+          <actions>
+            <startConversationById uniqueId="bd2eb1dd27"/>
+          </actions>
+        </option>
+        <option id="4fca9c9c67">
+          <text>$dataS2/npc/helper/help/helpCrops/cotton/overviewCotton/stepByStep</text>
+          <actions>
+            <startConversationById uniqueId="ec86e8b7df"/>
+          </actions>
+        </option>
+        <option id="ce7218d5d7">
+          <text>$dataS2/npc/helper/help/helpCrops/cotton/overviewCotton/backButton</text>
+          <actions>
+            <startConversationById uniqueId="b7b177b9c9"/>
+          </actions>
+        </option>
+        <option id="8f30838932">
+          <text>$dataS2/npc/helper/help/helpCrops/cotton/overviewCotton/exitButton</text>
+        </option>
+      </next>
+    </item>
+  </textFlow>
+</conversation>

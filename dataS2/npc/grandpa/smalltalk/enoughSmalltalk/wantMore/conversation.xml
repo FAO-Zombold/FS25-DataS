@@ -1,0 +1,14 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>SMALLTALK</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="9b21b800bb">
+    <item id="9b21b800bb">
+      <text>$dataS2/npc/grandpa/smalltalk/enoughSmalltalk/wantMore/wantMore</text>
+      <actions>
+        <startConversationById uniqueId="0bc5b0ce93"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

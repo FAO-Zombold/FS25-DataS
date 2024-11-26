@@ -1,0 +1,76 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>DAVID_ANECDOTES</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="5671d05f7a">
+    <item id="5671d05f7a" nextId="3184e67bb7">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/stormVsBales/balesInStorage</text>
+    </item>
+    <item id="3184e67bb7" nextId="3e3b5a94bf">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/stormVsBales/quiteStormy</text>
+    </item>
+    <item id="3e3b5a94bf" nextId="d68f407ecd">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/stormVsBales/hailIsRaining</text>
+    </item>
+    <item id="d68f407ecd" nextId="65886d291e">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/stormVsBales/weatherReport</text>
+    </item>
+    <item id="65886d291e" nextId="1b8cf9168c">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/stormVsBales/lastTimeATwisterWasAnnounced</text>
+    </item>
+    <item id="1b8cf9168c">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/stormVsBales/bigTractor</text>
+      <next>
+        <option id="91362921e8" nextId="b7f4be7aa4">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/stormVsBales/optionA</text>
+        </option>
+        <option id="017e2a25bc" nextId="40682f19ea">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/stormVsBales/optionB</text>
+        </option>
+        <option id="d88aa3f737" nextId="d642c46ca7">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/stormVsBales/optionC</text>
+        </option>
+      </next>
+    </item>
+    <item id="b7f4be7aa4" nextId="54e2beb50a">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/stormVsBales/whoDoesNot</text>
+    </item>
+    <item id="54e2beb50a" nextId="98028de329">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/stormVsBales/stuffToPrepare</text>
+    </item>
+    <item id="98028de329" nextId="1d97f2cbef">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/stormVsBales/livestockToSafety</text>
+    </item>
+    <item id="1d97f2cbef" nextId="dce6adcfe5">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/stormVsBales/forgotBales</text>
+    </item>
+    <item id="dce6adcfe5" nextId="17919ae0d0">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/stormVsBales/notMuchLeft</text>
+    </item>
+    <item id="17919ae0d0" nextId="63ffa78856">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/stormVsBales/itHurt</text>
+    </item>
+    <item id="63ffa78856" nextId="1bba7ef77f">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/stormVsBales/noahsWoodenUmbrella</text>
+    </item>
+    <item id="1bba7ef77f" nextId="8c6fd0d8c9">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/stormVsBales/noCareHail</text>
+    </item>
+    <item id="8c6fd0d8c9" nextId="f50c83027f">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/stormVsBales/enoughOptions</text>
+    </item>
+    <item id="f50c83027f">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/stormVsBales/checkWeather</text>
+      <actions>
+        <startConversationById uniqueId="bdd07bda2c"/>
+      </actions>
+    </item>
+    <item id="40682f19ea" nextId="54e2beb50a">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/stormVsBales/goodForYou</text>
+    </item>
+    <item id="d642c46ca7" nextId="54e2beb50a">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/stormVsBales/rightSorry</text>
+    </item>
+  </textFlow>
+</conversation>

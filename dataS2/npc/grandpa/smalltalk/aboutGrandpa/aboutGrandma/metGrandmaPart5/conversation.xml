@@ -1,0 +1,116 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>SMALLTALK_ABOUT_YOU</type>
+  <probability>20</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <numTriggered max="1"/>
+    <conversationWasTriggered uniqueId="e384220053"/>
+  </prerequisites>
+  <textFlow startId="32206d4c96">
+    <item id="32206d4c96">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/aboutGrandma/metGrandmaPart5/nanaTopic</text>
+      <next>
+        <option id="8cc4ef9832" nextId="3e477dc6ba">
+          <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/aboutGrandma/metGrandmaPart5/pleaseTell</text>
+        </option>
+        <option id="c3a2e3cfaf" nextId="3e477dc6ba">
+          <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/aboutGrandma/metGrandmaPart5/areWe</text>
+        </option>
+        <option id="ed7eae6edb" nextId="3e477dc6ba">
+          <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/aboutGrandma/metGrandmaPart5/sugarBeet</text>
+        </option>
+      </next>
+    </item>
+    <item id="3e477dc6ba" nextId="11f9c4ba53">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/aboutGrandma/metGrandmaPart5/wentDown</text>
+    </item>
+    <item id="11f9c4ba53" nextId="74e4393156">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/aboutGrandma/metGrandmaPart5/coupleDays</text>
+    </item>
+    <item id="74e4393156" nextId="0c8163204c">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/aboutGrandma/metGrandmaPart5/money</text>
+    </item>
+    <item id="0c8163204c" nextId="72dde282d1">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/aboutGrandma/metGrandmaPart5/sawStanding</text>
+    </item>
+    <item id="72dde282d1">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/aboutGrandma/metGrandmaPart5/herPresence</text>
+      <next>
+        <option id="bf3cd5fa1d" nextId="a758b09e85">
+          <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/aboutGrandma/metGrandmaPart5/herStep</text>
+        </option>
+        <option id="1d25474671" nextId="a758b09e85">
+          <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/aboutGrandma/metGrandmaPart5/soundsNice</text>
+        </option>
+        <option id="e2c78d1326" nextId="a758b09e85">
+          <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/aboutGrandma/metGrandmaPart5/stillPouting</text>
+        </option>
+      </next>
+    </item>
+    <item id="a758b09e85" nextId="19548750ed">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/aboutGrandma/metGrandmaPart5/sheCalled</text>
+    </item>
+    <item id="19548750ed" nextId="fa5a872d69">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/aboutGrandma/metGrandmaPart5/shookHands</text>
+    </item>
+    <item id="fa5a872d69" nextId="96fce3adb7">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/aboutGrandma/metGrandmaPart5/shePhoned</text>
+    </item>
+    <item id="96fce3adb7" nextId="d224f8123a">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/aboutGrandma/metGrandmaPart5/learned</text>
+    </item>
+    <item id="d224f8123a" nextId="7f70500d79">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/aboutGrandma/metGrandmaPart5/tractorRide</text>
+    </item>
+    <item id="7f70500d79">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/aboutGrandma/metGrandmaPart5/beetStand</text>
+      <next>
+        <option id="209545eb87" nextId="24b7d7c9db">
+          <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/aboutGrandma/metGrandmaPart5/trashedStand</text>
+        </option>
+        <option id="74d788f91a" nextId="3e9cafbf08">
+          <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/aboutGrandma/metGrandmaPart5/howCool</text>
+        </option>
+      </next>
+    </item>
+    <item id="24b7d7c9db" nextId="3e9cafbf08">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/aboutGrandma/metGrandmaPart5/noComment</text>
+    </item>
+    <item id="3e9cafbf08" nextId="131b1e5a5b">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/aboutGrandma/metGrandmaPart5/officialDates</text>
+    </item>
+    <item id="131b1e5a5b" nextId="7803af73e6">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/aboutGrandma/metGrandmaPart5/cleanUp</text>
+    </item>
+    <item id="7803af73e6" nextId="d248cd147f">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/aboutGrandma/metGrandmaPart5/restHistory</text>
+    </item>
+    <item id="d248cd147f" nextId="7f1478de51">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/aboutGrandma/metGrandmaPart5/missHer</text>
+    </item>
+    <item id="7f1478de51" nextId="ea99b387d8">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/aboutGrandma/metGrandmaPart5/longTale</text>
+    </item>
+    <item id="ea99b387d8" nextId="e69929a861">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/aboutGrandma/metGrandmaPart5/writeStories</text>
+    </item>
+    <item id="e69929a861">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/aboutGrandma/metGrandmaPart5/visitMe</text>
+      <next>
+        <option id="24e4258c26">
+          <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/aboutGrandma/metGrandmaPart5/niceStory</text>
+          <actions>
+            <startConversationById uniqueId="0bc5b0ce93"/>
+          </actions>
+        </option>
+        <option id="e848574807">
+          <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/aboutGrandma/metGrandmaPart5/iWill</text>
+          <actions>
+            <startConversationById uniqueId="0bc5b0ce93"/>
+          </actions>
+        </option>
+      </next>
+    </item>
+  </textFlow>
+</conversation>

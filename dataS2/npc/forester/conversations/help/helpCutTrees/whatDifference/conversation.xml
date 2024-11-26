@@ -1,0 +1,32 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="ad565250b5">
+    <item id="ad565250b5" nextId="15ef1908eb">
+      <text>$dataS2/npc/forester/conversations/help/helpCutTrees/whatDifference/elementary</text>
+    </item>
+    <item id="15ef1908eb" nextId="16646c9272">
+      <text>$dataS2/npc/forester/conversations/help/helpCutTrees/whatDifference/makesSense</text>
+    </item>
+    <item id="16646c9272" nextId="b42970d872">
+      <text>$dataS2/npc/forester/conversations/help/helpCutTrees/whatDifference/either</text>
+    </item>
+    <item id="b42970d872" nextId="dc7b18f3a7">
+      <text>$dataS2/npc/forester/conversations/help/helpCutTrees/whatDifference/longEvenTrunks</text>
+    </item>
+    <item id="dc7b18f3a7" nextId="bb03fff97d">
+      <text>$dataS2/npc/forester/conversations/help/helpCutTrees/whatDifference/exceptions</text>
+    </item>
+    <item id="bb03fff97d" nextId="145327b7aa">
+      <text>$dataS2/npc/forester/conversations/help/helpCutTrees/whatDifference/theRule</text>
+    </item>
+    <item id="145327b7aa">
+      <text>$dataS2/npc/forester/conversations/help/helpCutTrees/whatDifference/cutDown</text>
+      <actions>
+        <startConversationById uniqueId="f19e72ea07"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

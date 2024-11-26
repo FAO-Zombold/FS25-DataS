@@ -1,0 +1,110 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>SMALLTALK_ABOUT_YOU</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="4b1504f39d">
+    <item id="4b1504f39d" nextId="cb64c37355">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/greatUncleIdea/justSpoke</text>
+    </item>
+    <item id="cb64c37355" nextId="a4e6001cbd">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/greatUncleIdea/hangUp</text>
+    </item>
+    <item id="a4e6001cbd" nextId="6ea3ca811b">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/greatUncleIdea/crazyIdeas</text>
+    </item>
+    <item id="6ea3ca811b" nextId="dd81c0bcb8">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/greatUncleIdea/oneSticks</text>
+    </item>
+    <item id="dd81c0bcb8">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/greatUncleIdea/pettingZoo</text>
+      <next>
+        <option id="b459c40cf3" nextId="b1cb3fa525">
+          <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/greatUncleIdea/cuteIdea</text>
+        </option>
+        <option id="ee0e416c69" nextId="b1cb3fa525">
+          <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/greatUncleIdea/thoughtThrough</text>
+        </option>
+        <option id="a558a1b076" nextId="b1cb3fa525">
+          <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/greatUncleIdea/doNot</text>
+        </option>
+      </next>
+    </item>
+    <item id="b1cb3fa525" nextId="b03206972f">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/greatUncleIdea/workRight</text>
+    </item>
+    <item id="b03206972f" nextId="a9cb2c4090">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/greatUncleIdea/visits</text>
+    </item>
+    <item id="a9cb2c4090" nextId="6e5913f83c">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/greatUncleIdea/petAnimals</text>
+    </item>
+    <item id="6e5913f83c" nextId="a044ae546f">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/greatUncleIdea/animalHealth</text>
+    </item>
+    <item id="a044ae546f" nextId="7b0826ca27">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/greatUncleIdea/wellBeing</text>
+    </item>
+    <item id="7b0826ca27" nextId="5529d27e1a">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/greatUncleIdea/hisLife</text>
+    </item>
+    <item id="5529d27e1a" nextId="6e9c9a93f7">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/greatUncleIdea/wasWeeping</text>
+    </item>
+    <item id="6e9c9a93f7">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/greatUncleIdea/dampenedMood</text>
+      <next>
+        <option id="44062094f7" nextId="136645f1db">
+          <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/greatUncleIdea/problemIdea</text>
+        </option>
+        <option id="a554600255" nextId="136645f1db">
+          <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/greatUncleIdea/poorSnail</text>
+        </option>
+      </next>
+    </item>
+    <item id="136645f1db" nextId="0a40d78879">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/greatUncleIdea/specificIdea</text>
+    </item>
+    <item id="0a40d78879" nextId="0388a0c202">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/greatUncleIdea/beachChicken</text>
+    </item>
+    <item id="0388a0c202" nextId="335e9b0a5f">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/greatUncleIdea/timeAtBeach</text>
+    </item>
+    <item id="335e9b0a5f" nextId="ad11a79a2b">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/greatUncleIdea/eggQuality</text>
+    </item>
+    <item id="ad11a79a2b" nextId="0ead4ede6b">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/greatUncleIdea/peopleJoy</text>
+    </item>
+    <item id="0ead4ede6b" nextId="978f655289">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/greatUncleIdea/askKatie</text>
+    </item>
+    <item id="978f655289" nextId="5499ba956c">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/greatUncleIdea/smartLady</text>
+    </item>
+    <item id="5499ba956c">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/greatUncleIdea/breakfastSearch</text>
+      <next>
+        <option id="7da96e5f5c" nextId="2fe9750d07">
+          <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/greatUncleIdea/loveIdeas</text>
+        </option>
+        <option id="5fc7cb4b9e" nextId="aeb3d1cbf1">
+          <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/greatUncleIdea/anyGoodIdea</text>
+        </option>
+      </next>
+    </item>
+    <item id="2fe9750d07" nextId="42e3f067cc">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/greatUncleIdea/handfulBrother</text>
+    </item>
+    <item id="42e3f067cc">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/greatUncleIdea/goFarming</text>
+      <actions>
+        <startConversationById uniqueId="0bc5b0ce93"/>
+      </actions>
+    </item>
+    <item id="aeb3d1cbf1" nextId="42e3f067cc">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/greatUncleIdea/anotherTime</text>
+    </item>
+  </textFlow>
+</conversation>

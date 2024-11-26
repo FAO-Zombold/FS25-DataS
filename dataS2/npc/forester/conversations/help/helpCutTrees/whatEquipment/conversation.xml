@@ -1,0 +1,20 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="5c2c3b60f1">
+    <item id="5c2c3b60f1" nextId="ef18b4be61">
+      <text>$dataS2/npc/forester/conversations/help/helpCutTrees/whatEquipment/depends</text>
+    </item>
+    <item id="ef18b4be61" nextId="366259c94d">
+      <text>$dataS2/npc/forester/conversations/help/helpCutTrees/whatEquipment/exception</text>
+    </item>
+    <item id="366259c94d">
+      <text>$dataS2/npc/forester/conversations/help/helpCutTrees/whatEquipment/unless</text>
+      <actions>
+        <startConversationById uniqueId="f19e72ea07"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

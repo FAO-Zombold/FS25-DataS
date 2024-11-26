@@ -1,0 +1,32 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="50546ee84d">
+    <item id="50546ee84d" nextId="1bbfe0b89f">
+      <text>$dataS2/npc/forester/conversations/help/helpWinchesYarders/howUseMachines/simple</text>
+    </item>
+    <item id="1bbfe0b89f" nextId="5fa3d7eac1">
+      <text>$dataS2/npc/forester/conversations/help/helpWinchesYarders/howUseMachines/fewMoreSteps</text>
+    </item>
+    <item id="5fa3d7eac1" nextId="b7eecc51ed">
+      <text>$dataS2/npc/forester/conversations/help/helpWinchesYarders/howUseMachines/behindYou</text>
+    </item>
+    <item id="b7eecc51ed" nextId="c2ef94859c">
+      <text>$dataS2/npc/forester/conversations/help/helpWinchesYarders/howUseMachines/uphill</text>
+    </item>
+    <item id="c2ef94859c" nextId="47d6dc4584">
+      <text>$dataS2/npc/forester/conversations/help/helpWinchesYarders/howUseMachines/carriage</text>
+    </item>
+    <item id="47d6dc4584" nextId="1e6d6f5186">
+      <text>$dataS2/npc/forester/conversations/help/helpWinchesYarders/howUseMachines/attachLog</text>
+    </item>
+    <item id="1e6d6f5186">
+      <text>$dataS2/npc/forester/conversations/help/helpWinchesYarders/howUseMachines/yardersNeed</text>
+      <actions>
+        <startConversationById uniqueId="0845832ccb"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

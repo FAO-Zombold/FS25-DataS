@@ -1,0 +1,72 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>DAVID_YOU</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="8cb2402283">
+    <item id="8cb2402283">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/aboutNoah/knowNoah</text>
+      <next>
+        <option id="6d20945145" nextId="67fbeabb3e">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/aboutNoah/knowNoahOptionA</text>
+        </option>
+        <option id="1d3eee2dbc" nextId="67fbeabb3e">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/aboutNoah/knowNoahOptionB</text>
+        </option>
+        <option id="a07d62ff5f" nextId="67fbeabb3e">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/aboutNoah/optionC</text>
+        </option>
+      </next>
+    </item>
+    <item id="67fbeabb3e" nextId="cf07b90bfe">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/aboutNoah/trueNature</text>
+    </item>
+    <item id="cf07b90bfe" nextId="227016630a">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/aboutNoah/woodCarving</text>
+    </item>
+    <item id="227016630a" nextId="08698bd392">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/aboutNoah/tooPragmatic</text>
+    </item>
+    <item id="08698bd392" nextId="02ddd7d72c">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/aboutNoah/friedlierThanItSeems</text>
+    </item>
+    <item id="02ddd7d72c" nextId="c9e3447fd9">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/aboutNoah/ifHeLikesMe</text>
+    </item>
+    <item id="c9e3447fd9" nextId="2b3e07f9db">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/aboutNoah/personalStuff</text>
+    </item>
+    <item id="2b3e07f9db" nextId="003b2b475c">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/aboutNoah/aBitMorePrivate</text>
+    </item>
+    <item id="003b2b475c" nextId="4327bdffc5">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/aboutNoah/justStared</text>
+    </item>
+    <item id="4327bdffc5">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/aboutNoah/stoodThere</text>
+      <next>
+        <option id="98d138d390" nextId="4a97536a25">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/aboutNoah/optionA</text>
+        </option>
+        <option id="643d9f6833" nextId="f59534df2b">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/aboutNoah/optionB</text>
+        </option>
+      </next>
+    </item>
+    <item id="4a97536a25" nextId="8a7c0b714f">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/aboutNoah/rightSeemedOff</text>
+    </item>
+    <item id="8a7c0b714f" nextId="aac5bd25b0">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/aboutNoah/hopefullyNotAcross</text>
+    </item>
+    <item id="aac5bd25b0">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/aboutNoah/visitHim</text>
+      <actions>
+        <startConversationById uniqueId="bdd07bda2c"/>
+      </actions>
+    </item>
+    <item id="f59534df2b" nextId="8a7c0b714f">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/aboutNoah/overhinking</text>
+    </item>
+  </textFlow>
+</conversation>

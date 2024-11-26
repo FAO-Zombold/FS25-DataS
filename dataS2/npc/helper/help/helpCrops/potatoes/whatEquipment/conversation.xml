@@ -1,0 +1,35 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="7871a0c1c7">
+    <item id="7871a0c1c7" nextId="243af1db59">
+      <text>$dataS2/npc/helper/help/helpCrops/potatoes/whatEquipment/growing</text>
+    </item>
+    <item id="243af1db59" nextId="c24b164180">
+      <text>$dataS2/npc/helper/help/helpCrops/potatoes/whatEquipment/plowing</text>
+    </item>
+    <item id="c24b164180" nextId="d9a9871b66">
+      <text>$dataS2/npc/helper/help/helpCrops/potatoes/whatEquipment/planter</text>
+    </item>
+    <item id="d9a9871b66" nextId="28b3042c24">
+      <text>$dataS2/npc/helper/help/helpCrops/potatoes/whatEquipment/fertilizer</text>
+    </item>
+    <item id="28b3042c24" nextId="1088617cb1">
+      <text>$dataS2/npc/helper/help/helpCrops/potatoes/whatEquipment/hoe</text>
+    </item>
+    <item id="1088617cb1" nextId="8d120b2d35">
+      <text>$dataS2/npc/helper/help/helpCrops/potatoes/whatEquipment/selfProp</text>
+    </item>
+    <item id="8d120b2d35" nextId="4f9593b3fd">
+      <text>$dataS2/npc/helper/help/helpCrops/potatoes/whatEquipment/emptyTrailer</text>
+    </item>
+    <item id="4f9593b3fd">
+      <text>$dataS2/npc/helper/help/helpCrops/potatoes/whatEquipment/bakedPotatoes</text>
+      <actions>
+        <startConversationById uniqueId="c75499b58d"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

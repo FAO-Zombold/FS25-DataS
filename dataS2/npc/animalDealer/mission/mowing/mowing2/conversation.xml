@@ -1,0 +1,19 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>MISSION_SELECT</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <missionAvailable>
+      <type name="mowMission"/>
+    </missionAvailable>
+  </prerequisites>
+  <textFlow startId="32df05a3df">
+    <item id="32df05a3df">
+      <text>$dataS2/npc/animalDealer/mission/mowing/mowing2/grassIsGettingHigh</text>
+      <actions>
+        <startConversationById uniqueId="e1d6a991f5"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

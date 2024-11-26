@@ -1,0 +1,113 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>DEFAULT</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="6d090aa124">
+    <item id="6d090aa124" isActive="false">
+      <text>$dataS2/npc/forester/conversations/missions/introMissionAvailable/overviewIntroMission/missionAvailable01</text>
+      <actions>
+        <startConversationById uniqueId="8b24b3ebc0"/>
+      </actions>
+      <next>
+        <option id="c461437514">
+          <text>$dataS2/npc/forester/conversations/missions/introMissionAvailable/overviewIntroMission/deadTrees</text>
+          <actions>
+            <startConversationFromList>
+              <conversation uniqueId="6e8268c949"/>
+              <conversation uniqueId="9af70511e4"/>
+              <conversation uniqueId="9038b7f136"/>
+            </startConversationFromList>
+          </actions>
+          <inputs>
+            <selectedMission type="deadwoodMission"/>
+          </inputs>
+          <prerequisites>
+            <missionAvailable type="deadwoodMission"/>
+          </prerequisites>
+        </option>
+        <option id="c4781235ea" isActive="false">
+          <text>$dataS2/npc/forester/conversations/missions/introMissionAvailable/overviewIntroMission/fallenTrees</text>
+          <actions>
+            <startConversationFromList>
+              <conversation uniqueId="5e5d595628"/>
+              <conversation uniqueId="905cd391f9"/>
+              <conversation uniqueId="b0a5e9bb73"/>
+            </startConversationFromList>
+          </actions>
+        </option>
+        <option id="a4e2cbebbd">
+          <text>$dataS2/npc/forester/conversations/missions/introMissionAvailable/overviewIntroMission/rockRemoval</text>
+          <actions>
+            <startConversationFromList>
+              <conversation uniqueId="bcae9bffcf"/>
+              <conversation uniqueId="7019534059"/>
+              <conversation uniqueId="0194212fdc"/>
+            </startConversationFromList>
+          </actions>
+          <inputs>
+            <selectedMission type="destructibleRockMission"/>
+          </inputs>
+          <prerequisites>
+            <missionAvailable type="destructibleRockMission"/>
+          </prerequisites>
+        </option>
+        <option id="4e168f5577" isActive="false">
+          <text>$dataS2/npc/forester/conversations/missions/introMissionAvailable/overviewIntroMission/treeHarvest</text>
+          <actions>
+            <startConversationFromList>
+              <conversation uniqueId="4eaecf40a1"/>
+              <conversation uniqueId="50d2c8cd25"/>
+              <conversation uniqueId="a5fecd2c62"/>
+            </startConversationFromList>
+          </actions>
+        </option>
+        <option id="f18ae4f427" isActive="false">
+          <text>$dataS2/npc/forester/conversations/missions/introMissionAvailable/overviewIntroMission/treePlanting</text>
+          <actions>
+            <startConversationFromList>
+              <conversation uniqueId="0bd95d3a00"/>
+              <conversation uniqueId="b2cf96436f"/>
+              <conversation uniqueId="919b756878"/>
+            </startConversationFromList>
+          </actions>
+        </option>
+        <option id="06fbecc4c5">
+          <text>$dataS2/npc/forester/conversations/missions/introMissionAvailable/overviewIntroMission/treeTransport</text>
+          <actions>
+            <startConversationFromList>
+              <conversation uniqueId="4168a708d6"/>
+              <conversation uniqueId="40f45e8e3f"/>
+              <conversation uniqueId="8c4adcbce8"/>
+            </startConversationFromList>
+          </actions>
+          <inputs>
+            <selectedMission type="treeTransportMission"/>
+          </inputs>
+          <prerequisites>
+            <missionAvailable type="treeTransportMission"/>
+          </prerequisites>
+        </option>
+        <option id="11109552de" isActive="false">
+          <text>$dataS2/npc/forester/conversations/missions/introMissionAvailable/overviewIntroMission/stumpRemoval</text>
+          <actions>
+            <startConversationFromList>
+              <conversation uniqueId="775123173e"/>
+              <conversation uniqueId="35af7b9597"/>
+              <conversation uniqueId="a45426251e"/>
+            </startConversationFromList>
+          </actions>
+        </option>
+        <option id="ed29d6a612">
+          <text>$dataS2/npc/forester/conversations/missions/introMissionAvailable/overviewIntroMission/backButton</text>
+          <actions>
+            <startConversationById uniqueId="8b24b3ebc0"/>
+          </actions>
+        </option>
+        <option id="cd5e72c00a">
+          <text>$dataS2/npc/forester/conversations/missions/introMissionAvailable/overviewIntroMission/exitButton</text>
+        </option>
+      </next>
+    </item>
+  </textFlow>
+</conversation>

@@ -1,0 +1,50 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="de988f5881">
+    <item id="de988f5881" nextId="0258fff664">
+      <text>$dataS2/npc/helper/help/helpCrops/spinach/stepByStep/cropCalendar</text>
+    </item>
+    <item id="0258fff664" nextId="26e6bdd482">
+      <text>$dataS2/npc/helper/help/helpCrops/spinach/stepByStep/liming</text>
+    </item>
+    <item id="26e6bdd482" nextId="8d379eb794">
+      <text>$dataS2/npc/helper/help/helpCrops/spinach/stepByStep/cultivating</text>
+    </item>
+    <item id="8d379eb794" nextId="73be4fbd77">
+      <text>$dataS2/npc/helper/help/helpCrops/spinach/stepByStep/sowing</text>
+    </item>
+    <item id="73be4fbd77" nextId="a939cea0f2">
+      <text>$dataS2/npc/helper/help/helpCrops/spinach/stepByStep/keepMind</text>
+    </item>
+    <item id="a939cea0f2" nextId="25e88fd42a">
+      <text>$dataS2/npc/helper/help/helpCrops/spinach/stepByStep/fertilizing</text>
+    </item>
+    <item id="25e88fd42a" nextId="ad93954390">
+      <text>$dataS2/npc/helper/help/helpCrops/spinach/stepByStep/soilRolling</text>
+    </item>
+    <item id="ad93954390" nextId="7d5ce07d5d">
+      <text>$dataS2/npc/helper/help/helpCrops/spinach/stepByStep/weeding</text>
+    </item>
+    <item id="7d5ce07d5d" nextId="acc161a735">
+      <text>$dataS2/npc/helper/help/helpCrops/spinach/stepByStep/harvesting</text>
+    </item>
+    <item id="acc161a735" nextId="dba14ca46b">
+      <text>$dataS2/npc/helper/help/helpCrops/spinach/stepByStep/unload</text>
+    </item>
+    <item id="dba14ca46b" nextId="43abb66fcf">
+      <text>$dataS2/npc/helper/help/helpCrops/spinach/stepByStep/stepEight</text>
+    </item>
+    <item id="43abb66fcf" nextId="a54af79400">
+      <text>$dataS2/npc/helper/help/helpCrops/spinach/stepByStep/notWaste</text>
+    </item>
+    <item id="a54af79400">
+      <text>$dataS2/npc/helper/help/helpCrops/spinach/stepByStep/matured</text>
+      <actions>
+        <startConversationById uniqueId="974196d53e"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

@@ -1,0 +1,26 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="2a67e3eeb3">
+    <item id="2a67e3eeb3" nextId="433c705e0b">
+      <text>$dataS2/npc/helper/help/helpCrops/rice/whatNeedLongGrainRice/first</text>
+    </item>
+    <item id="433c705e0b" nextId="583942db93">
+      <text>$dataS2/npc/helper/help/helpCrops/rice/whatNeedLongGrainRice/cultivator</text>
+    </item>
+    <item id="583942db93" nextId="cdf39bb21e">
+      <text>$dataS2/npc/helper/help/helpCrops/rice/whatNeedLongGrainRice/fertilize</text>
+    </item>
+    <item id="cdf39bb21e" nextId="b14db01def">
+      <text>$dataS2/npc/helper/help/helpCrops/rice/whatNeedLongGrainRice/grain</text>
+    </item>
+    <item id="b14db01def">
+      <text>$dataS2/npc/helper/help/helpCrops/rice/whatNeedLongGrainRice/transport</text>
+      <actions>
+        <startConversationById uniqueId="a230916ebf"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

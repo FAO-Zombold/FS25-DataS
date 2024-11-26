@@ -1,0 +1,14 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>SMALLTALK</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="f3bc899a73">
+    <item id="f3bc899a73">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutYouIntro/enoughSmalltalk/enough06/silence</text>
+      <actions>
+        <startConversationById uniqueId="8b24b3ebc0"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

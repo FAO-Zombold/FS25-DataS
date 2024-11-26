@@ -1,0 +1,23 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="8d8fce3db2">
+    <item id="8d8fce3db2" nextId="78cc4708c3">
+      <text>$dataS2/npc/animalDealer/help/animals/cows/howDoIKeepCows/cowsNeedBarn</text>
+    </item>
+    <item id="78cc4708c3" nextId="059f3b73d4">
+      <text>$dataS2/npc/animalDealer/help/animals/cows/howDoIKeepCows/slurryAndManure</text>
+    </item>
+    <item id="059f3b73d4" nextId="a0b3978697">
+      <text>$dataS2/npc/animalDealer/help/animals/cows/howDoIKeepCows/deliverWater</text>
+    </item>
+    <item id="a0b3978697">
+      <text>$dataS2/npc/animalDealer/help/animals/cows/howDoIKeepCows/shapeOutdoors</text>
+      <actions>
+        <startConversationById uniqueId="dfaead6155"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

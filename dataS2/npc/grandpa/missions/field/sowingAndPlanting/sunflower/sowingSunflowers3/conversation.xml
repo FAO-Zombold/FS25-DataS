@@ -1,0 +1,19 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>MISSION_SELECT</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <missionAvailable>
+      <type name="sowMission" variant="SUNFLOWER"/>
+    </missionAvailable>
+  </prerequisites>
+  <textFlow startId="a22a657a99">
+    <item id="a22a657a99">
+      <text>$dataS2/npc/grandpa/missions/field/sowingAndPlanting/sunflower/sowingSunflowers3/sunflower3</text>
+      <actions>
+        <startConversationById uniqueId="2e8b2b4aca"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

@@ -1,0 +1,32 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="e9bb9d35bd">
+    <item id="e9bb9d35bd" nextId="325e7de884">
+      <text>$dataS2/npc/animalDealer/help/animals/horses/whatEquipmentDoINeed/pasturesOrBarn</text>
+    </item>
+    <item id="325e7de884" nextId="5463df2769">
+      <text>$dataS2/npc/animalDealer/help/animals/horses/whatEquipmentDoINeed/horsesInARow</text>
+    </item>
+    <item id="5463df2769" nextId="e055cf15ff">
+      <text>$dataS2/npc/animalDealer/help/animals/horses/whatEquipmentDoINeed/balesToBarn</text>
+    </item>
+    <item id="e055cf15ff" nextId="a7a7629185">
+      <text>$dataS2/npc/animalDealer/help/animals/horses/whatEquipmentDoINeed/ifPasture</text>
+    </item>
+    <item id="a7a7629185" nextId="9fb5edc94f">
+      <text>$dataS2/npc/animalDealer/help/animals/horses/whatEquipmentDoINeed/ifDelivery</text>
+    </item>
+    <item id="9fb5edc94f" nextId="46967abc3d">
+      <text>$dataS2/npc/animalDealer/help/animals/horses/whatEquipmentDoINeed/dollyOrTruck</text>
+    </item>
+    <item id="46967abc3d">
+      <text>$dataS2/npc/animalDealer/help/animals/horses/whatEquipmentDoINeed/thatIsAll</text>
+      <actions>
+        <startConversationById uniqueId="85f2319db6"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

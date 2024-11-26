@@ -1,0 +1,67 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>SMALLTALK_ABOUT_YOU</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <seasonPeriod min="EARLY_SUMMER" max="LATE_SUMMER"/>
+  </prerequisites>
+  <textFlow startId="13076d3709">
+    <item id="13076d3709" nextId="18c75a4662">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/summerOnTheFarm/loveSummer</text>
+    </item>
+    <item id="18c75a4662" nextId="b21189756d">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/summerOnTheFarm/nothingLike</text>
+    </item>
+    <item id="b21189756d" nextId="157d41632d">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/summerOnTheFarm/warmDays</text>
+    </item>
+    <item id="157d41632d" nextId="e1fd51f399">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/summerOnTheFarm/yieldingCrops</text>
+    </item>
+    <item id="e1fd51f399" nextId="a0bf983ff2">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/summerOnTheFarm/expectVisitors</text>
+    </item>
+    <item id="a0bf983ff2" nextId="3a1abb7db7">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/summerOnTheFarm/offerBreakfast</text>
+    </item>
+    <item id="3a1abb7db7">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/summerOnTheFarm/likeMost</text>
+      <next>
+        <option id="57b3b7ff84" nextId="6f827cf79a">
+          <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/summerOnTheFarm/feelWarmth</text>
+        </option>
+        <option id="01f3c0360c" nextId="6f827cf79a">
+          <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/summerOnTheFarm/smellFresh</text>
+        </option>
+        <option id="b5e2485bf4" nextId="6f827cf79a">
+          <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/summerOnTheFarm/soundBees</text>
+        </option>
+        <option id="6716a1df1e" nextId="6f827cf79a">
+          <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/summerOnTheFarm/sightNature</text>
+        </option>
+        <option id="2df6d8b3ee" nextId="6f827cf79a">
+          <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/summerOnTheFarm/tasteDishes</text>
+        </option>
+        <option id="d3d2d3ec37" nextId="24baa790b4">
+          <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/summerOnTheFarm/hateSummer</text>
+        </option>
+      </next>
+    </item>
+    <item id="6f827cf79a" nextId="10b659fdb2">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/summerOnTheFarm/worldAlive</text>
+    </item>
+    <item id="10b659fdb2" nextId="090ed9342d">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/summerOnTheFarm/layDown</text>
+    </item>
+    <item id="090ed9342d">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/summerOnTheFarm/thisFarm</text>
+      <actions>
+        <startConversationById uniqueId="0bc5b0ce93"/>
+      </actions>
+    </item>
+    <item id="24baa790b4" nextId="6f827cf79a">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/summerOnTheFarm/isOkay</text>
+    </item>
+  </textFlow>
+</conversation>

@@ -1,0 +1,40 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>MISSION</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="75a2605899">
+    <item id="75a2605899" nextId="20efbf5cf2">
+      <text>$dataS2/npc/grandpa/missions/field/weeding/weedingEquipment/machineChoice</text>
+    </item>
+    <item id="20efbf5cf2">
+      <text>$dataS2/npc/grandpa/missions/field/weeding/weedingEquipment/so</text>
+      <next>
+        <option id="f370607e5c">
+          <text>$dataS2/npc/grandpa/missions/field/weeding/weedingEquipment/ownMachines</text>
+          <actions>
+            <startSelectedMission/>
+          </actions>
+        </option>
+        <option id="912eb46e27">
+          <text>$dataS2/npc/grandpa/missions/field/weeding/weedingEquipment/borrowMachines</text>
+          <actions>
+            <startSelectedMission/>
+          </actions>
+          <inputs>
+            <leaseVehicles value="true"/>
+          </inputs>
+        </option>
+        <option id="e9c3184780" nextId="f76201c9e8">
+          <text>$dataS2/npc/grandpa/missions/field/weeding/weedingEquipment/whatMachines</text>
+        </option>
+        <option id="431bba55c8">
+          <text>$dataS2/npc/grandpa/missions/field/weeding/weedingEquipment/cancelMission</text>
+        </option>
+      </next>
+    </item>
+    <item id="f76201c9e8" nextId="20efbf5cf2">
+      <text>$dataS2/npc/grandpa/missions/field/weeding/weedingEquipment/infoMachine</text>
+    </item>
+  </textFlow>
+</conversation>

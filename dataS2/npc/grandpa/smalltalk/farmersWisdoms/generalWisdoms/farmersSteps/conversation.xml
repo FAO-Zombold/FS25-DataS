@@ -1,0 +1,55 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>SMALLTALK_WISDOM</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <numTriggered max="1"/>
+  </prerequisites>
+  <textFlow startId="0cc8ed42c5">
+    <item id="0cc8ed42c5" nextId="83b3c96b91">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/farmersSteps/heardThis</text>
+    </item>
+    <item id="83b3c96b91">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/farmersSteps/bestFertilizer</text>
+      <next>
+        <option id="81d06bc9b2" nextId="515857b2de">
+          <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/farmersSteps/soundsWeird</text>
+        </option>
+        <option id="b2cc029b5a" nextId="515857b2de">
+          <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/farmersSteps/howWorks</text>
+        </option>
+        <option id="aab5ccc9ee" nextId="c92adbcbac">
+          <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/farmersSteps/tendingSoil</text>
+        </option>
+      </next>
+    </item>
+    <item id="515857b2de" nextId="4f2b904905">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/farmersSteps/touchSoil</text>
+    </item>
+    <item id="4f2b904905" nextId="2764cf41f4">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/farmersSteps/machinesDo</text>
+    </item>
+    <item id="2764cf41f4" nextId="2b97cdcbfa">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/farmersSteps/feetFirst</text>
+    </item>
+    <item id="2b97cdcbfa" nextId="09357d22b1">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/farmersSteps/grabSoil</text>
+    </item>
+    <item id="09357d22b1" nextId="8bf2d96fc8">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/farmersSteps/neighborLearned</text>
+    </item>
+    <item id="8bf2d96fc8" nextId="8caeed6ca7">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/farmersSteps/knowWhat</text>
+    </item>
+    <item id="8caeed6ca7">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/farmersSteps/feelEarth</text>
+      <actions>
+        <startConversationById uniqueId="0bc5b0ce93"/>
+      </actions>
+    </item>
+    <item id="c92adbcbac" nextId="515857b2de">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/farmersSteps/rightKiddo</text>
+    </item>
+  </textFlow>
+</conversation>

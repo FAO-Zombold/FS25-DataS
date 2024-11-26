@@ -1,0 +1,11 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>MISSION_NOT_AVAILABLE</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="5ad7035f53">
+    <item id="5ad7035f53">
+      <text>$dataS2/npc/animalDealer/mission/introsMissionUnavailable/noMissionIntro4/amGood</text>
+    </item>
+  </textFlow>
+</conversation>

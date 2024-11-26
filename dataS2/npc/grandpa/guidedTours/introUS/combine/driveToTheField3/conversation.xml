@@ -1,0 +1,32 @@
+<conversation>
+  <class>NPCConversationGuidedTour</class>
+  <type>GUIDED_TOUR</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <manuallyTriggered/>
+  </prerequisites>
+  <textFlow startId="7920670b63">
+    <item id="7920670b63" nextId="36130b5d0d">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/combine/driveToTheField3/thereYouAre</text>
+    </item>
+    <item id="36130b5d0d" nextId="e60ba35551">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/combine/driveToTheField3/howDoYouFeel</text>
+    </item>
+    <item id="e60ba35551" nextId="c75220483d">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/combine/driveToTheField3/harvestingNext</text>
+    </item>
+    <item id="c75220483d" nextId="069c8a101d">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/combine/driveToTheField3/ripeField</text>
+    </item>
+    <item id="069c8a101d" nextId="e386d474d6">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/combine/driveToTheField3/headerTrailer</text>
+    </item>
+    <item id="e386d474d6" nextId="08bcaf1014">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/combine/driveToTheField3/meetAtField</text>
+    </item>
+    <item id="08bcaf1014">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/combine/driveToTheField3/driveCarefully</text>
+    </item>
+  </textFlow>
+</conversation>

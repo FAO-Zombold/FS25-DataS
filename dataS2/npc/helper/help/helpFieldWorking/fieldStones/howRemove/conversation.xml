@@ -1,0 +1,38 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="e018b308c9">
+    <item id="e018b308c9" nextId="10c1ba32ca">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/fieldStones/howRemove/twoWays</text>
+    </item>
+    <item id="10c1ba32ca" nextId="263cba7a6d">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/fieldStones/howRemove/rolling</text>
+    </item>
+    <item id="263cba7a6d" nextId="b0c3d9955f">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/fieldStones/howRemove/pickingTool</text>
+    </item>
+    <item id="b0c3d9955f" nextId="1515e4245a">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/fieldStones/howRemove/collecting</text>
+    </item>
+    <item id="1515e4245a" nextId="13f00a09f5">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/fieldStones/howRemove/compensated</text>
+    </item>
+    <item id="13f00a09f5" nextId="7b6c332ac3">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/fieldStones/howRemove/safe</text>
+    </item>
+    <item id="7b6c332ac3" nextId="a72dbbf171">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/fieldStones/howRemove/collect</text>
+    </item>
+    <item id="a72dbbf171" nextId="264174a4f3">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/fieldStones/howRemove/sticks</text>
+    </item>
+    <item id="264174a4f3">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/fieldStones/howRemove/getRid</text>
+      <actions>
+        <startConversationById uniqueId="eeb42cc99a"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

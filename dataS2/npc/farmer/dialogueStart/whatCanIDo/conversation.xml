@@ -1,0 +1,14 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>INTRO</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="e0918c0905">
+    <item id="e0918c0905">
+      <text>$dataS2/npc/farmer/dialogueStart/whatCanIDo/whatCanIDo</text>
+      <actions>
+        <startConversationById uniqueId="bdd07bda2c"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

@@ -1,0 +1,99 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>SMALLTALK_ABOUT_YOU</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="c9c06ce327">
+    <item id="c9c06ce327" nextId="c567c2a8fa">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/youngTimer/youngTimer</text>
+    </item>
+    <item id="c567c2a8fa" nextId="fd82b09a8c">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/youngTimer/classics</text>
+    </item>
+    <item id="fd82b09a8c" nextId="58482d707c">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/youngTimer/oldTimer</text>
+    </item>
+    <item id="58482d707c" nextId="abe9dcb546">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/youngTimer/youngTimers</text>
+    </item>
+    <item id="abe9dcb546">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/youngTimer/notOldEnough</text>
+      <next>
+        <option id="922670860a" nextId="ca2cebfdd9">
+          <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/youngTimer/stillCool</text>
+        </option>
+        <option id="2646075bf3" nextId="263d35803f">
+          <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/youngTimer/mrYoung</text>
+        </option>
+        <option id="05bcf82df3" nextId="3b67de9b6a">
+          <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/youngTimer/pops</text>
+        </option>
+        <option id="c3a0038d2b" nextId="5403b7deb4">
+          <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/youngTimer/initiallyTrying</text>
+        </option>
+      </next>
+    </item>
+    <item id="ca2cebfdd9" nextId="19232cce2a">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/youngTimer/thankYou</text>
+    </item>
+    <item id="19232cce2a" nextId="eea1f3f34e">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/youngTimer/technology</text>
+    </item>
+    <item id="eea1f3f34e" nextId="592ef4e8b9">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/youngTimer/modernMachines</text>
+    </item>
+    <item id="592ef4e8b9" nextId="3f5bed61de">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/youngTimer/myTractors</text>
+    </item>
+    <item id="3f5bed61de" nextId="0a85e69d09">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/youngTimer/fence</text>
+    </item>
+    <item id="0a85e69d09" nextId="81d9ec735d">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/youngTimer/feelingSoil</text>
+    </item>
+    <item id="81d9ec735d" nextId="bc6efd6f5c">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/youngTimer/shocksVibrations</text>
+    </item>
+    <item id="bc6efd6f5c" nextId="acb50d0dd2">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/youngTimer/otherHighTech</text>
+    </item>
+    <item id="acb50d0dd2" nextId="371c124ed9">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/youngTimer/modernTech</text>
+    </item>
+    <item id="371c124ed9">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/youngTimer/fancyYoung</text>
+      <next>
+        <option id="dbc4831d8b" nextId="fe88a860ba">
+          <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/youngTimer/olderTractors</text>
+        </option>
+        <option id="aae5136ec4" nextId="fe88a860ba">
+          <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/youngTimer/modernOnes</text>
+        </option>
+        <option id="376945dae9" nextId="fe88a860ba">
+          <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/youngTimer/both</text>
+        </option>
+      </next>
+    </item>
+    <item id="fe88a860ba" nextId="aff2ac6e1c">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/youngTimer/rightWrong</text>
+    </item>
+    <item id="aff2ac6e1c" nextId="f29c72469b">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/youngTimer/haveFun</text>
+    </item>
+    <item id="f29c72469b">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/youngTimer/goodTalk</text>
+      <actions>
+        <startConversationById uniqueId="0bc5b0ce93"/>
+      </actions>
+    </item>
+    <item id="263d35803f" nextId="19232cce2a">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/youngTimer/niceRing</text>
+    </item>
+    <item id="3b67de9b6a" nextId="19232cce2a">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/youngTimer/babbling</text>
+    </item>
+    <item id="5403b7deb4" nextId="19232cce2a">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/youngTimer/sorry</text>
+    </item>
+  </textFlow>
+</conversation>

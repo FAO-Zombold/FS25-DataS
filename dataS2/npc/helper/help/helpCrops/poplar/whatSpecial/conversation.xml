@@ -1,0 +1,26 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="169fdfc00f">
+    <item id="169fdfc00f" nextId="85c5f291a4">
+      <text>$dataS2/npc/helper/help/helpCrops/poplar/whatSpecial/upfront</text>
+    </item>
+    <item id="85c5f291a4" nextId="f444aece5c">
+      <text>$dataS2/npc/helper/help/helpCrops/poplar/whatSpecial/growsBack</text>
+    </item>
+    <item id="f444aece5c" nextId="ac3f90f101">
+      <text>$dataS2/npc/helper/help/helpCrops/poplar/whatSpecial/tree</text>
+    </item>
+    <item id="ac3f90f101" nextId="f27cb4e2bf">
+      <text>$dataS2/npc/helper/help/helpCrops/poplar/whatSpecial/harvest</text>
+    </item>
+    <item id="f27cb4e2bf">
+      <text>$dataS2/npc/helper/help/helpCrops/poplar/whatSpecial/woodChips</text>
+      <actions>
+        <startConversationById uniqueId="b4faf1a7f5"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

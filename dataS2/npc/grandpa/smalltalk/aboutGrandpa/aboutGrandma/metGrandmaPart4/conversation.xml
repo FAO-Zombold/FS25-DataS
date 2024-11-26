@@ -1,0 +1,90 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>SMALLTALK_ABOUT_YOU</type>
+  <probability>20</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <numTriggered max="1"/>
+    <conversationWasTriggered uniqueId="123f11ccda"/>
+  </prerequisites>
+  <textFlow startId="436901b29f">
+    <item id="436901b29f" nextId="614859028c">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/aboutGrandma/metGrandmaPart4/feistyLady</text>
+    </item>
+    <item id="614859028c" nextId="3c72860a2a">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/aboutGrandma/metGrandmaPart4/herProposal</text>
+    </item>
+    <item id="3c72860a2a" nextId="ce5d30759a">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/aboutGrandma/metGrandmaPart4/bringGovernment</text>
+    </item>
+    <item id="ce5d30759a" nextId="c462c8d090">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/aboutGrandma/metGrandmaPart4/onFire</text>
+    </item>
+    <item id="c462c8d090">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/aboutGrandma/metGrandmaPart4/intenseReactions</text>
+      <next>
+        <option id="1b24f64622" nextId="89e2b704b4">
+          <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/aboutGrandma/metGrandmaPart4/folks</text>
+        </option>
+        <option id="8bf5d90f41" nextId="89e2b704b4">
+          <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/aboutGrandma/metGrandmaPart4/whatWrong</text>
+        </option>
+      </next>
+    </item>
+    <item id="89e2b704b4" nextId="37d7748efe">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/aboutGrandma/metGrandmaPart4/withoutState</text>
+    </item>
+    <item id="37d7748efe" nextId="66f3da3baf">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/aboutGrandma/metGrandmaPart4/offeredPatch</text>
+    </item>
+    <item id="66f3da3baf" nextId="8f008af588">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/aboutGrandma/metGrandmaPart4/donkeyTail</text>
+    </item>
+    <item id="8f008af588" nextId="c424bb548f">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/aboutGrandma/metGrandmaPart4/noNeed</text>
+    </item>
+    <item id="c424bb548f" nextId="f3e5af1b80">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/aboutGrandma/metGrandmaPart4/expectedReaction</text>
+    </item>
+    <item id="f3e5af1b80" nextId="32a7f5cbde">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/aboutGrandma/metGrandmaPart4/paulAsks</text>
+    </item>
+    <item id="32a7f5cbde" nextId="b9d5285211">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/aboutGrandma/metGrandmaPart4/questionPaul</text>
+    </item>
+    <item id="b9d5285211" nextId="8b5270889f">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/aboutGrandma/metGrandmaPart4/theOffer</text>
+    </item>
+    <item id="8b5270889f" nextId="d2bfcff974">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/aboutGrandma/metGrandmaPart4/goodDeal</text>
+    </item>
+    <item id="d2bfcff974">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/aboutGrandma/metGrandmaPart4/goodEnding</text>
+      <next>
+        <option id="6759688833" nextId="db9bce61ae">
+          <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/aboutGrandma/metGrandmaPart4/missedPart</text>
+        </option>
+        <option id="715545d84e" nextId="db9bce61ae">
+          <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/aboutGrandma/metGrandmaPart4/begYou</text>
+        </option>
+      </next>
+    </item>
+    <item id="db9bce61ae">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/aboutGrandma/metGrandmaPart4/nextTime</text>
+      <next>
+        <option id="e6e775d79e">
+          <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/aboutGrandma/metGrandmaPart4/kiddingMe</text>
+          <actions>
+            <startConversationById uniqueId="0bc5b0ce93"/>
+          </actions>
+        </option>
+        <option id="bbd3e71524">
+          <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/aboutGrandma/metGrandmaPart4/fineGrandpa</text>
+          <actions>
+            <startConversationById uniqueId="0bc5b0ce93"/>
+          </actions>
+        </option>
+      </next>
+    </item>
+  </textFlow>
+</conversation>

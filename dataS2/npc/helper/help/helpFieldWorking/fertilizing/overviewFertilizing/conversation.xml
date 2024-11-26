@@ -1,0 +1,34 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="d4901e4393">
+    <item id="d4901e4393" isActive="false">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/fertilizing/overviewFertilizing/intro</text>
+      <next>
+        <option id="ce2cfb5fdb">
+          <text>$dataS2/npc/helper/help/helpFieldWorking/fertilizing/overviewFertilizing/howWorks</text>
+          <actions>
+            <startConversationById uniqueId="80349e351e"/>
+          </actions>
+        </option>
+        <option id="77252078d3">
+          <text>$dataS2/npc/helper/help/helpFieldWorking/fertilizing/overviewFertilizing/whatTypes</text>
+          <actions>
+            <startConversationById uniqueId="2ba9d967a2"/>
+          </actions>
+        </option>
+        <option id="4c1d79bf94">
+          <text>$dataS2/npc/helper/help/helpFieldWorking/fertilizing/overviewFertilizing/backButton</text>
+          <actions>
+            <startConversationById uniqueId="0c49b93be8"/>
+          </actions>
+        </option>
+        <option id="f1d26a60f5">
+          <text>$dataS2/npc/helper/help/helpFieldWorking/fertilizing/overviewFertilizing/exitButton</text>
+        </option>
+      </next>
+    </item>
+  </textFlow>
+</conversation>

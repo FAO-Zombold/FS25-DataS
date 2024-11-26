@@ -1,0 +1,58 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>DAVID_ANECDOTES</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="69a231dbba">
+    <item id="69a231dbba">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/runAwayBales/runawayBales</text>
+      <next>
+        <option id="43b3b7b4a7" nextId="f78bee5e96">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/runAwayBales/optionA</text>
+        </option>
+        <option id="e0b9d1fe8b" nextId="f78bee5e96">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/runAwayBales/optionB</text>
+        </option>
+        <option id="c7f90ec2d4" nextId="cedd56df5b">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/runAwayBales/optionC</text>
+        </option>
+      </next>
+    </item>
+    <item id="f78bee5e96" nextId="1c593b5067">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/runAwayBales/katiesBales</text>
+    </item>
+    <item id="1c593b5067" nextId="688a8f4240">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/runAwayBales/soYeah</text>
+    </item>
+    <item id="688a8f4240" nextId="881bea8535">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/runAwayBales/lotOfFun</text>
+    </item>
+    <item id="881bea8535" nextId="008cae1fdf">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/runAwayBales/helpAgain</text>
+    </item>
+    <item id="008cae1fdf" nextId="21fd243f45">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/runAwayBales/everything</text>
+    </item>
+    <item id="21fd243f45" nextId="7eef4348e5">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/runAwayBales/oneAfterAnother</text>
+    </item>
+    <item id="7eef4348e5" nextId="75d7490789">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/runAwayBales/notFamiliar</text>
+    </item>
+    <item id="75d7490789" nextId="e3f6e9bb4c">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/runAwayBales/herFaceWas</text>
+    </item>
+    <item id="e3f6e9bb4c" nextId="1edb2ec2b1">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/runAwayBales/afterApologizing</text>
+    </item>
+    <item id="1edb2ec2b1">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/runAwayBales/sheWillNotLetMe</text>
+      <actions>
+        <startConversationById uniqueId="bdd07bda2c"/>
+      </actions>
+    </item>
+    <item id="cedd56df5b" nextId="f78bee5e96">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/runAwayBales/balesRollDownHill</text>
+    </item>
+  </textFlow>
+</conversation>

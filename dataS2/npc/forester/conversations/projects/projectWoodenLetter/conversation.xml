@@ -1,0 +1,69 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>SMALLTALK_PROJECTS</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="611e93a9b9">
+    <item id="611e93a9b9" nextId="9d4b4fba55">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenLetter/masterpiece</text>
+    </item>
+    <item id="9d4b4fba55" nextId="e8c613e72e">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenLetter/serotonin</text>
+    </item>
+    <item id="e8c613e72e" nextId="1fe50c5099">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenLetter/restrainMyself</text>
+    </item>
+    <item id="1fe50c5099" nextId="91c2eeb36a">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenLetter/personalTouch</text>
+    </item>
+    <item id="91c2eeb36a" nextId="f54fed433e">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenLetter/sheRemembers</text>
+    </item>
+    <item id="f54fed433e">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenLetter/somethingElse</text>
+      <next>
+        <option id="e52171191a" nextId="c6c02aee76">
+          <text>$dataS2/npc/forester/conversations/projects/projectWoodenLetter/comeUp</text>
+        </option>
+        <option id="98cc5a3caf" nextId="c6c02aee76">
+          <text>$dataS2/npc/forester/conversations/projects/projectWoodenLetter/carved</text>
+        </option>
+      </next>
+    </item>
+    <item id="c6c02aee76" nextId="d0280e9a6b">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenLetter/loveLetter</text>
+    </item>
+    <item id="d0280e9a6b" nextId="438934e42c">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenLetter/emotional</text>
+    </item>
+    <item id="438934e42c">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenLetter/manyPages</text>
+      <next>
+        <option id="5d7fd0559d" nextId="510d3d704a">
+          <text>$dataS2/npc/forester/conversations/projects/projectWoodenLetter/wow</text>
+        </option>
+        <option id="d1c0a474b9" nextId="510d3d704a">
+          <text>$dataS2/npc/forester/conversations/projects/projectWoodenLetter/poorMailman</text>
+        </option>
+      </next>
+    </item>
+    <item id="510d3d704a" nextId="4b78664ba8">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenLetter/wordsBubble</text>
+    </item>
+    <item id="4b78664ba8" nextId="1aa1182f8c">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenLetter/enough</text>
+    </item>
+    <item id="1aa1182f8c" nextId="46398894b2">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenLetter/carveComplaint</text>
+    </item>
+    <item id="46398894b2" nextId="0c55b19068">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenLetter/experience</text>
+    </item>
+    <item id="0c55b19068">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenLetter/goodDay</text>
+      <actions>
+        <startConversationById uniqueId="8b24b3ebc0"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

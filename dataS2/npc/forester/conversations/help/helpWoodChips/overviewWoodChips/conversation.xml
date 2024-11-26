@@ -1,0 +1,40 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="4643bc1528">
+    <item id="4643bc1528" isActive="false">
+      <text>$dataS2/npc/forester/conversations/help/helpWoodChips/overviewWoodChips/start</text>
+      <next>
+        <option id="159a5db86c">
+          <text>$dataS2/npc/forester/conversations/help/helpWoodChips/overviewWoodChips/UsageWoodChips</text>
+          <actions>
+            <startConversationById uniqueId="533f2d10c7"/>
+          </actions>
+        </option>
+        <option id="255de20d6c">
+          <text>$dataS2/npc/forester/conversations/help/helpWoodChips/overviewWoodChips/whatEquipment</text>
+          <actions>
+            <startConversationById uniqueId="a3499dc756"/>
+          </actions>
+        </option>
+        <option id="6e7d78fc5e">
+          <text>$dataS2/npc/forester/conversations/help/helpWoodChips/overviewWoodChips/processingWood</text>
+          <actions>
+            <startConversationById uniqueId="6f09186abe"/>
+          </actions>
+        </option>
+        <option id="cc6ab308a3">
+          <text>$dataS2/npc/forester/conversations/help/helpWoodChips/overviewWoodChips/backButton</text>
+          <actions>
+            <startConversationById uniqueId="7cb1ac3f00"/>
+          </actions>
+        </option>
+        <option id="5e41f48ea2">
+          <text>$dataS2/npc/forester/conversations/help/helpWoodChips/overviewWoodChips/exitButton</text>
+        </option>
+      </next>
+    </item>
+  </textFlow>
+</conversation>

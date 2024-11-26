@@ -1,0 +1,46 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>DEFAULT</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="217170efd6">
+    <item id="217170efd6" isActive="false">
+      <text>$dataS2/npc/animalDealer/help/animals/pigs/pigsOverview/placeholder</text>
+      <next>
+        <option id="1196cd55d3">
+          <text>$dataS2/npc/animalDealer/help/animals/pigs/pigsOverview/howDoIFeedPigs</text>
+          <actions>
+            <startConversationById uniqueId="497dee894b"/>
+          </actions>
+        </option>
+        <option id="b424d88916">
+          <text>$dataS2/npc/animalDealer/help/animals/pigs/pigsOverview/howDoIKeepPigs</text>
+          <actions>
+            <startConversationById uniqueId="3aa5eab000"/>
+          </actions>
+        </option>
+        <option id="2eae875279">
+          <text>$dataS2/npc/animalDealer/help/animals/pigs/pigsOverview/whatDifferentBreeds</text>
+          <actions>
+            <startConversationById uniqueId="a16325c824"/>
+          </actions>
+        </option>
+        <option id="e7b36e550f">
+          <text>$dataS2/npc/animalDealer/help/animals/pigs/pigsOverview/whatEquipmentDoINeed</text>
+          <actions>
+            <startConversationById uniqueId="de95e1f457"/>
+          </actions>
+        </option>
+        <option id="39ba3aef03">
+          <text>$dataS2/npc/animalDealer/help/animals/pigs/pigsOverview/optionBack</text>
+          <actions>
+            <startConversationById uniqueId="345249355c"/>
+          </actions>
+        </option>
+        <option id="9d47fe77d3">
+          <text>$dataS2/npc/animalDealer/help/animals/pigs/pigsOverview/optionExit</text>
+        </option>
+      </next>
+    </item>
+  </textFlow>
+</conversation>

@@ -1,0 +1,35 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="a2eda10ade">
+    <item id="a2eda10ade" nextId="d9f810acf2">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/soilGrassRolling/whatSoilGrassRolling/types</text>
+    </item>
+    <item id="d9f810acf2" nextId="6868febf08">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/soilGrassRolling/whatSoilGrassRolling/afterSowing</text>
+    </item>
+    <item id="6868febf08" nextId="c3405a7359">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/soilGrassRolling/whatSoilGrassRolling/condense</text>
+    </item>
+    <item id="c3405a7359" nextId="90401ade08">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/soilGrassRolling/whatSoilGrassRolling/afterMowing</text>
+    </item>
+    <item id="90401ade08" nextId="d634882a0f">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/soilGrassRolling/whatSoilGrassRolling/harvested</text>
+    </item>
+    <item id="d634882a0f" nextId="3af85fbaa3">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/soilGrassRolling/whatSoilGrassRolling/rollOver</text>
+    </item>
+    <item id="3af85fbaa3" nextId="52af464d1d">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/soilGrassRolling/whatSoilGrassRolling/quick</text>
+    </item>
+    <item id="52af464d1d">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/soilGrassRolling/whatSoilGrassRolling/substantialGain</text>
+      <actions>
+        <startConversationById uniqueId="5acdf62ea7"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

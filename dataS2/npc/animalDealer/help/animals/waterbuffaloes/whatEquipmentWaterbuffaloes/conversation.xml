@@ -1,0 +1,29 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="4db952e3bd">
+    <item id="4db952e3bd" nextId="e3586d33da">
+      <text>$dataS2/npc/animalDealer/help/animals/waterbuffaloes/whatEquipmentWaterbuffaloes/pastureOrBarn</text>
+    </item>
+    <item id="e3586d33da" nextId="018f141ca1">
+      <text>$dataS2/npc/animalDealer/help/animals/waterbuffaloes/whatEquipmentWaterbuffaloes/manureAndStraw</text>
+    </item>
+    <item id="018f141ca1" nextId="56168063a9">
+      <text>$dataS2/npc/animalDealer/help/animals/waterbuffaloes/whatEquipmentWaterbuffaloes/slurry</text>
+    </item>
+    <item id="56168063a9" nextId="06fbe6e5be">
+      <text>$dataS2/npc/animalDealer/help/animals/waterbuffaloes/whatEquipmentWaterbuffaloes/spreadOnTheFields</text>
+    </item>
+    <item id="06fbe6e5be" nextId="d25e2cfbfa">
+      <text>$dataS2/npc/animalDealer/help/animals/waterbuffaloes/whatEquipmentWaterbuffaloes/frontLoader</text>
+    </item>
+    <item id="d25e2cfbfa">
+      <text>$dataS2/npc/animalDealer/help/animals/waterbuffaloes/whatEquipmentWaterbuffaloes/getATank</text>
+      <actions>
+        <startConversationById uniqueId="73d06a2363"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

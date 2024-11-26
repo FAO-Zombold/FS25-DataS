@@ -1,0 +1,19 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>MISSION_SELECT</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <missionAvailable>
+      <type name="tedderMission"/>
+    </missionAvailable>
+  </prerequisites>
+  <textFlow startId="4415bd8c4f">
+    <item id="4415bd8c4f">
+      <text>$dataS2/npc/animalDealer/mission/tedding/tedding3/goodDryHay</text>
+      <actions>
+        <startConversationById uniqueId="bf7b2e1ffb"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

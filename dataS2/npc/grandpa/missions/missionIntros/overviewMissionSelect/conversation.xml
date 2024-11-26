@@ -1,0 +1,228 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>MISSION</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="f4a53bfead">
+    <item id="f4a53bfead" isActive="false">
+      <text>$dataS2/npc/grandpa/missions/missionIntros/overviewMissionSelect/fewThings</text>
+      <next>
+        <option id="fe14249cf9">
+          <text>$dataS2/npc/grandpa/missions/missionIntros/overviewMissionSelect/plowing</text>
+          <actions>
+            <startConversationFromList>
+              <conversation uniqueId="d06ccb3649"/>
+              <conversation uniqueId="9b0adbee5d"/>
+              <conversation uniqueId="b4623da9f9"/>
+            </startConversationFromList>
+          </actions>
+          <inputs>
+            <selectedMission type="plowMission"/>
+          </inputs>
+          <prerequisites>
+            <missionAvailable type="plowMission"/>
+          </prerequisites>
+        </option>
+        <option id="6b365105fe">
+          <text>$dataS2/npc/grandpa/missions/missionIntros/overviewMissionSelect/cultivating</text>
+          <actions>
+            <startConversationFromList>
+              <conversation uniqueId="e1aad838ec"/>
+              <conversation uniqueId="35b1611c84"/>
+              <conversation uniqueId="fa60821db4"/>
+            </startConversationFromList>
+          </actions>
+          <inputs>
+            <selectedMission type="cultivateMission"/>
+          </inputs>
+          <prerequisites>
+            <missionAvailable type="cultivateMission"/>
+          </prerequisites>
+        </option>
+        <option id="3d2e711dfd">
+          <text>$dataS2/npc/grandpa/missions/missionIntros/overviewMissionSelect/harvesting</text>
+          <actions>
+            <startConversationFromList>
+              <conversation uniqueId="537bc834ab"/>
+              <conversation uniqueId="135903b05e"/>
+              <conversation uniqueId="ddc73ef92c"/>
+              <conversation uniqueId="4eefd37874"/>
+              <conversation uniqueId="e4ff4914f6"/>
+              <conversation uniqueId="55b4fbb879"/>
+              <conversation uniqueId="4c464de9be"/>
+              <conversation uniqueId="9b7b5d2a1e"/>
+              <conversation uniqueId="1f8b4ee8c8"/>
+              <conversation uniqueId="6456c1436b"/>
+              <conversation uniqueId="6bf2f5dbcc"/>
+              <conversation uniqueId="7504986167"/>
+              <conversation uniqueId="afdf859714"/>
+              <conversation uniqueId="6b705a97ed"/>
+              <conversation uniqueId="712b7a3b16"/>
+              <conversation uniqueId="f1daa8d64f"/>
+              <conversation uniqueId="9438c8eeca"/>
+              <conversation uniqueId="019e13dbf8"/>
+              <conversation uniqueId="ea670a4359"/>
+              <conversation uniqueId="945955249b"/>
+              <conversation uniqueId="ecdfc42c2b"/>
+              <conversation uniqueId="d11e80713c"/>
+              <conversation uniqueId="d12125135f"/>
+              <conversation uniqueId="046ed640d1"/>
+              <conversation uniqueId="188212d7ef"/>
+              <conversation uniqueId="99bbce5817"/>
+              <conversation uniqueId="dc6035244c"/>
+            </startConversationFromList>
+          </actions>
+          <inputs>
+            <selectedMission type="harvestMission"/>
+          </inputs>
+          <prerequisites>
+            <missionAvailable type="harvestMission"/>
+          </prerequisites>
+        </option>
+        <option id="c185f67a55">
+          <text>$dataS2/npc/grandpa/missions/missionIntros/overviewMissionSelect/seeding</text>
+          <actions>
+            <startConversationFromList>
+              <conversation uniqueId="4502fb86fc"/>
+              <conversation uniqueId="5713d2b92c"/>
+              <conversation uniqueId="3e0bb9237a"/>
+              <conversation uniqueId="fe2ccb6560"/>
+              <conversation uniqueId="3bc3ecd629"/>
+              <conversation uniqueId="adb9924751"/>
+              <conversation uniqueId="acaf2e0aa4"/>
+              <conversation uniqueId="7d0cd6eb1a"/>
+              <conversation uniqueId="d2bf0e1d7e"/>
+              <conversation uniqueId="a971ab1350"/>
+              <conversation uniqueId="930cbcb811"/>
+              <conversation uniqueId="025f2e7fd1"/>
+              <conversation uniqueId="9c1a0b70e9"/>
+              <conversation uniqueId="4b0d8f5163"/>
+              <conversation uniqueId="36e5365bf7"/>
+              <conversation uniqueId="32b9c8070c"/>
+              <conversation uniqueId="3ff1ba2cb3"/>
+              <conversation uniqueId="712406acd4"/>
+              <conversation uniqueId="8162ad3fe5"/>
+              <conversation uniqueId="c3ea5e5a03"/>
+              <conversation uniqueId="940e0a0205"/>
+              <conversation uniqueId="373d072cc5"/>
+              <conversation uniqueId="898f4d93a8"/>
+              <conversation uniqueId="3df3d28701"/>
+              <conversation uniqueId="72fc0d11ab"/>
+              <conversation uniqueId="f8d25c2be1"/>
+              <conversation uniqueId="0ff0d83ced"/>
+              <conversation uniqueId="15aed5f87e"/>
+              <conversation uniqueId="2fa75e2ca6"/>
+              <conversation uniqueId="18a57b3ff3"/>
+              <conversation uniqueId="fe4dd8bd03"/>
+              <conversation uniqueId="6db24a6e4f"/>
+              <conversation uniqueId="18ed62f2e1"/>
+              <conversation uniqueId="aaf205d0ad"/>
+              <conversation uniqueId="8050e84074"/>
+              <conversation uniqueId="4e3918c392"/>
+              <conversation uniqueId="511d9e8df2"/>
+              <conversation uniqueId="01d41b765b"/>
+              <conversation uniqueId="744fc66b53"/>
+              <conversation uniqueId="ace2bd06c5"/>
+              <conversation uniqueId="20333f6fda"/>
+            </startConversationFromList>
+          </actions>
+          <inputs>
+            <selectedMission type="sowMission"/>
+          </inputs>
+          <prerequisites>
+            <missionAvailable type="sowMission"/>
+          </prerequisites>
+        </option>
+        <option id="740b9cad99">
+          <text>$dataS2/npc/grandpa/missions/missionIntros/overviewMissionSelect/spraying</text>
+          <actions>
+            <startConversationFromList>
+              <conversation uniqueId="2a8204b9d6"/>
+              <conversation uniqueId="d2ce45ff17"/>
+              <conversation uniqueId="1a1f472367"/>
+            </startConversationFromList>
+          </actions>
+          <inputs>
+            <selectedMission type="fertilizeMission"/>
+          </inputs>
+          <prerequisites>
+            <missionAvailable type="fertilizeMission"/>
+          </prerequisites>
+        </option>
+        <option id="5fd4ecc77b">
+          <text>$dataS2/npc/grandpa/missions/missionIntros/overviewMissionSelect/weedingHoe</text>
+          <actions>
+            <startConversationFromList>
+              <conversation uniqueId="c4e69b3b59"/>
+              <conversation uniqueId="8d4219c0ef"/>
+              <conversation uniqueId="fe579c6851"/>
+            </startConversationFromList>
+          </actions>
+          <inputs>
+            <selectedMission type="hoeMission"/>
+          </inputs>
+          <prerequisites>
+            <missionAvailable type="hoeMission"/>
+          </prerequisites>
+        </option>
+        <option id="a7812a0a58">
+          <text>$dataS2/npc/grandpa/missions/missionIntros/overviewMissionSelect/weedingHerbicide</text>
+          <actions>
+            <startConversationFromList>
+              <conversation uniqueId="d81a15e57c"/>
+              <conversation uniqueId="d1aad8803e"/>
+              <conversation uniqueId="b5d24938e8"/>
+            </startConversationFromList>
+          </actions>
+          <inputs>
+            <selectedMission type="herbicideMission"/>
+          </inputs>
+          <prerequisites>
+            <missionAvailable type="herbicideMission"/>
+          </prerequisites>
+        </option>
+        <option id="3ab5a8c35c">
+          <text>$dataS2/npc/grandpa/missions/missionIntros/overviewMissionSelect/weedingWeeder</text>
+          <actions>
+            <startConversationFromList>
+              <conversation uniqueId="14258546bc"/>
+              <conversation uniqueId="b8f7ad81b1"/>
+              <conversation uniqueId="5258da6f42"/>
+            </startConversationFromList>
+          </actions>
+          <inputs>
+            <selectedMission type="weedMission"/>
+          </inputs>
+          <prerequisites>
+            <missionAvailable type="weedMission"/>
+          </prerequisites>
+        </option>
+        <option id="91513901bf">
+          <text>$dataS2/npc/grandpa/missions/missionIntros/overviewMissionSelect/stonepicking</text>
+          <actions>
+            <startConversationFromList>
+              <conversation uniqueId="d9f9eabf3f"/>
+              <conversation uniqueId="44e0d186b0"/>
+              <conversation uniqueId="aa9245a5b3"/>
+            </startConversationFromList>
+          </actions>
+          <inputs>
+            <selectedMission type="stonePickMission"/>
+          </inputs>
+          <prerequisites>
+            <missionAvailable type="stonePickMission"/>
+          </prerequisites>
+        </option>
+        <option id="bf8b1b9427">
+          <text>$dataS2/npc/grandpa/missions/missionIntros/overviewMissionSelect/backButton</text>
+          <actions>
+            <startConversationById uniqueId="0bc5b0ce93"/>
+          </actions>
+        </option>
+        <option id="5d5ffb06d5">
+          <text>$dataS2/npc/grandpa/missions/missionIntros/overviewMissionSelect/exitButton</text>
+        </option>
+      </next>
+    </item>
+  </textFlow>
+</conversation>

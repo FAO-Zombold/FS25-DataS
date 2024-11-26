@@ -1,0 +1,19 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>MISSION_SELECT</type>
+  <probability>1</probability>
+  <isActive>false</isActive>
+  <prerequisites>
+    <missionAvailable>
+      <type name="baleMission"/>
+    </missionAvailable>
+  </prerequisites>
+  <textFlow startId="cc661d4133">
+    <item id="cc661d4133">
+      <text>$dataS2/npc/animalDealer/mission/baling/baling2/balingIsFun</text>
+      <actions>
+        <startConversationById uniqueId="3775c8b158"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

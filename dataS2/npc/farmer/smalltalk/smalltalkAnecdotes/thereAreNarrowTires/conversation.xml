@@ -1,0 +1,61 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>DAVID_ANECDOTES</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="277a16c62b">
+    <item id="277a16c62b">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/thereAreNarrowTires/somethingStupid</text>
+      <next>
+        <option id="a617ba31ea" nextId="c81c8c0177">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/thereAreNarrowTires/optionA</text>
+        </option>
+        <option id="7f85965fac" nextId="77c86fd839">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/thereAreNarrowTires/optionB</text>
+        </option>
+        <option id="cb20c410ea" nextId="60921faddc">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/thereAreNarrowTires/optionC</text>
+        </option>
+      </next>
+    </item>
+    <item id="c81c8c0177" nextId="72860e832f">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/thereAreNarrowTires/ofCourse</text>
+    </item>
+    <item id="72860e832f" nextId="ba7a8b7fe7">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/thereAreNarrowTires/fertilizing</text>
+    </item>
+    <item id="ba7a8b7fe7" nextId="7a48337915">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/thereAreNarrowTires/inMyDefense</text>
+    </item>
+    <item id="7a48337915" nextId="d2a44afe51">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/thereAreNarrowTires/didNotKnow</text>
+    </item>
+    <item id="d2a44afe51" nextId="b79ef6a77f">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/thereAreNarrowTires/lessGreen</text>
+    </item>
+    <item id="b79ef6a77f" nextId="68b1ad5e32">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/thereAreNarrowTires/granpaDriving</text>
+    </item>
+    <item id="68b1ad5e32" nextId="21566b0b1d">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/thereAreNarrowTires/gotWhy</text>
+    </item>
+    <item id="21566b0b1d" nextId="8f733329d9">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/thereAreNarrowTires/destiny</text>
+    </item>
+    <item id="8f733329d9" nextId="32fdcac446">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/thereAreNarrowTires/observeMyShame</text>
+    </item>
+    <item id="32fdcac446">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/thereAreNarrowTires/deserveItThough</text>
+      <actions>
+        <startConversationById uniqueId="bdd07bda2c"/>
+      </actions>
+    </item>
+    <item id="77c86fd839" nextId="72860e832f">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/thereAreNarrowTires/yeahWell</text>
+    </item>
+    <item id="60921faddc" nextId="72860e832f">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/thereAreNarrowTires/narrowTires</text>
+    </item>
+  </textFlow>
+</conversation>

@@ -1,0 +1,17 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>SMALLTALK_ABOUT_YOU_INTRO</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <retriggerTypeDelayIngameDays type="SMALLTALK_ABOUT_YOU_INTRO" minDays="1"/>
+  </prerequisites>
+  <textFlow startId="821231696b">
+    <item id="821231696b">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutYouIntro/smalltalkAboutYouIntro/aboutYouIntro05/intro</text>
+      <actions>
+        <startConversationByType type="SMALLTALK_ABOUT_YOU"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

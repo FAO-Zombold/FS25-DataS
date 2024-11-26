@@ -1,0 +1,88 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>KATIE_YOU</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="da7559428e">
+    <item id="da7559428e" nextId="72b8f8a96d">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/horsiesMayBe/planningForFoals</text>
+    </item>
+    <item id="72b8f8a96d" nextId="a121221144">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/horsiesMayBe/prospectiveBuyers</text>
+    </item>
+    <item id="a121221144" nextId="54eb41815c">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/horsiesMayBe/WhatAboutYou</text>
+    </item>
+    <item id="54eb41815c">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/horsiesMayBe/horsies</text>
+      <next>
+        <option id="efdc022b84" nextId="fa4c133ed3">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/horsiesMayBe/optionA</text>
+        </option>
+        <option id="b85306eb8a" nextId="d368d565e9">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/horsiesMayBe/optionB</text>
+        </option>
+        <option id="2abd343f13" nextId="ca28d9f4ea">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/horsiesMayBe/optionC</text>
+        </option>
+      </next>
+    </item>
+    <item id="fa4c133ed3" nextId="8620b570ac">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/horsiesMayBe/thatsOkay</text>
+    </item>
+    <item id="8620b570ac" nextId="afd90adf26">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/horsiesMayBe/mightWantToLearnMore</text>
+    </item>
+    <item id="afd90adf26" nextId="d91cc89e7b">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/horsiesMayBe/specificRoles</text>
+    </item>
+    <item id="d91cc89e7b" nextId="9cbadf451b">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/horsiesMayBe/attributes</text>
+    </item>
+    <item id="9cbadf451b" nextId="7a3dc688bc">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/horsiesMayBe/simplifying</text>
+    </item>
+    <item id="7a3dc688bc" nextId="9117071f9a">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/horsiesMayBe/stallions</text>
+    </item>
+    <item id="9117071f9a" nextId="8d3d622364">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/horsiesMayBe/highPerformance</text>
+    </item>
+    <item id="8d3d622364" nextId="f828130d1b">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/horsiesMayBe/guardingHerds</text>
+    </item>
+    <item id="f828130d1b" nextId="82b267c543">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/horsiesMayBe/yesMaresAlso</text>
+    </item>
+    <item id="82b267c543" nextId="8edd5fca51">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/horsiesMayBe/predictableMares</text>
+    </item>
+    <item id="8edd5fca51" nextId="b3eef5451d">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/horsiesMayBe/therapeuticHorses</text>
+    </item>
+    <item id="b3eef5451d" nextId="192497e2d3">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/horsiesMayBe/doNotSellFoals</text>
+    </item>
+    <item id="192497e2d3" nextId="87ad536526">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/horsiesMayBe/horseMitosis</text>
+    </item>
+    <item id="87ad536526" nextId="46c750091a">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/horsiesMayBe/imporatantValuableHorses</text>
+    </item>
+    <item id="46c750091a" nextId="8b2045c977">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/horsiesMayBe/thereIsAReason</text>
+    </item>
+    <item id="8b2045c977">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/horsiesMayBe/justWantedToLetYouknow</text>
+      <actions>
+        <startConversationById uniqueId="bb0236da62"/>
+      </actions>
+    </item>
+    <item id="d368d565e9" nextId="8620b570ac">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/horsiesMayBe/really</text>
+    </item>
+    <item id="ca28d9f4ea" nextId="8620b570ac">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/horsiesMayBe/justJoking</text>
+    </item>
+  </textFlow>
+</conversation>

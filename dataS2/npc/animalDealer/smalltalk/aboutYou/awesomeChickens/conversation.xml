@@ -1,0 +1,99 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>KATIE_YOU</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="ff3a415715">
+    <item id="ff3a415715" nextId="ece10b971d">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/awesomeChickens/thinkingAboutLately</text>
+    </item>
+    <item id="ece10b971d" nextId="ae57716a7f">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/awesomeChickens/awesomeChickens</text>
+    </item>
+    <item id="ae57716a7f">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/awesomeChickens/deflectingOntoChickens</text>
+      <next>
+        <option id="7cebc61fc9" nextId="afa50ca949">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/awesomeChickens/sureOptionA</text>
+        </option>
+        <option id="b844a2bb2a" nextId="99f560083e">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/awesomeChickens/chickenPersonOptionB</text>
+        </option>
+        <option id="edd0e46a88" nextId="afa50ca949">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/awesomeChickens/whatExactlyoptionC</text>
+        </option>
+      </next>
+    </item>
+    <item id="afa50ca949" nextId="2281534371">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/awesomeChickens/manyReasons</text>
+    </item>
+    <item id="2281534371" nextId="3f77ad3712">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/awesomeChickens/goodAtMyJob</text>
+    </item>
+    <item id="3f77ad3712" nextId="613a5c050f">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/awesomeChickens/keepYouOnYourFeet</text>
+    </item>
+    <item id="613a5c050f" nextId="e013788b78">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/awesomeChickens/withPersonalities</text>
+    </item>
+    <item id="e013788b78" nextId="e70d504a22">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/awesomeChickens/someAdventerous</text>
+    </item>
+    <item id="e70d504a22" nextId="5cab996dfb">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/awesomeChickens/strutAround</text>
+    </item>
+    <item id="5cab996dfb" nextId="429816d7a7">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/awesomeChickens/didNotLikePets</text>
+    </item>
+    <item id="429816d7a7" nextId="2eb997e928">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/awesomeChickens/eventually</text>
+    </item>
+    <item id="2eb997e928" nextId="e61b7defa4">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/awesomeChickens/peopleKeepChickens</text>
+    </item>
+    <item id="e61b7defa4" nextId="afcabcb769">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/awesomeChickens/nothingWrong</text>
+    </item>
+    <item id="afcabcb769" nextId="9cdeb4f56d">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/awesomeChickens/petChickens</text>
+    </item>
+    <item id="9cdeb4f56d" nextId="b4084ce82b">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/awesomeChickens/sirPeckers</text>
+    </item>
+    <item id="b4084ce82b">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/awesomeChickens/whatAboutYou</text>
+      <next>
+        <option id="d246d9fd25" nextId="0a06681719">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/awesomeChickens/optionA</text>
+        </option>
+        <option id="069dbb9f54" nextId="a6e41700ec">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/awesomeChickens/optionB</text>
+        </option>
+        <option id="e14db6bfe7" nextId="fb069730ee">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/awesomeChickens/optionC</text>
+        </option>
+      </next>
+    </item>
+    <item id="0a06681719" nextId="fb069730ee">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/awesomeChickens/goodForYou</text>
+    </item>
+    <item id="fb069730ee" nextId="f7017f8c59">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/awesomeChickens/justTalk</text>
+    </item>
+    <item id="f7017f8c59" nextId="4e7bd41169">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/awesomeChickens/chickensEasy</text>
+    </item>
+    <item id="4e7bd41169">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/awesomeChickens/gottaFeedAnimals</text>
+      <actions>
+        <startConversationById uniqueId="bb0236da62"/>
+      </actions>
+    </item>
+    <item id="a6e41700ec" nextId="fb069730ee">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/awesomeChickens/changeMind</text>
+    </item>
+    <item id="99f560083e" nextId="afa50ca949">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/awesomeChickens/youAreNot</text>
+    </item>
+  </textFlow>
+</conversation>

@@ -1,0 +1,41 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>DAVID_ADVICE</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <retriggerTypeDelayIngameDays type="DAVID_ADVICE" minDays="1"/>
+  </prerequisites>
+  <textFlow startId="ea0577ac2f">
+    <item id="ea0577ac2f" nextId="c23895e764">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/vehicleRepair/repairingMachines</text>
+    </item>
+    <item id="c23895e764" nextId="89394386d2">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/vehicleRepair/youShould</text>
+    </item>
+    <item id="89394386d2" nextId="f1d074bbee">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/vehicleRepair/repairMachines</text>
+    </item>
+    <item id="f1d074bbee" nextId="a11af4c256">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/vehicleRepair/comparedToRepairing</text>
+    </item>
+    <item id="a11af4c256" nextId="f7aaa1af16">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/vehicleRepair/firstTractor</text>
+    </item>
+    <item id="f7aaa1af16" nextId="c667b83180">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/vehicleRepair/sameBeginners</text>
+    </item>
+    <item id="c667b83180" nextId="123bf129ee">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/vehicleRepair/grandpaSure</text>
+    </item>
+    <item id="123bf129ee" nextId="38b5a2fa70">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/vehicleRepair/yourBuddy</text>
+    </item>
+    <item id="38b5a2fa70">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/vehicleRepair/checkMachines</text>
+      <actions>
+        <startConversationById uniqueId="bdd07bda2c"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

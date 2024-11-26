@@ -1,0 +1,90 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>MISSION</type>
+  <probability>1</probability>
+  <isActive>false</isActive>
+  <textFlow startId="9b3020b966">
+    <item id="9b3020b966" isActive="false">
+      <text>$dataS2/npc/farmer/missions/introsMissionAvailable/missionIntroOverview/howAwesome</text>
+      <next>
+        <option id="33d254ee31" isActive="false">
+          <text>$dataS2/npc/farmer/missions/introsMissionAvailable/missionIntroOverview/missionTransportingBales</text>
+          <actions>
+            <startConversationFromList>
+              <conversation uniqueId="2547e1b843"/>
+              <conversation uniqueId="dfa33f611b"/>
+              <conversation uniqueId="4a5e2729ac"/>
+            </startConversationFromList>
+          </actions>
+          <inputs>
+            <selectedMission type=""/>
+          </inputs>
+          <prerequisites>
+            <missionAvailable type=""/>
+          </prerequisites>
+        </option>
+        <option id="3c7760e81b" isActive="false">
+          <text>$dataS2/npc/farmer/missions/introsMissionAvailable/missionIntroOverview/missionTransportingGrain</text>
+          <actions>
+            <startConversationFromList>
+              <conversation uniqueId="bbaf72807c"/>
+              <conversation uniqueId="31338162fd"/>
+              <conversation uniqueId="76e2c3393b"/>
+            </startConversationFromList>
+          </actions>
+          <inputs>
+            <selectedMission type=""/>
+          </inputs>
+          <prerequisites>
+            <missionAvailable type=""/>
+          </prerequisites>
+        </option>
+        <option id="de9812d1c5" isActive="false">
+          <text>$dataS2/npc/farmer/missions/introsMissionAvailable/missionIntroOverview/missionTransportingPallets</text>
+          <actions>
+            <startConversationFromList>
+              <conversation uniqueId="a865bf275b"/>
+              <conversation uniqueId="586d2cde68"/>
+              <conversation uniqueId="ec83e73624"/>
+            </startConversationFromList>
+          </actions>
+          <inputs>
+            <selectedMission type=""/>
+          </inputs>
+          <prerequisites>
+            <missionAvailable type=""/>
+          </prerequisites>
+        </option>
+        <option id="ca19d81813" isActive="false">
+          <text>$dataS2/npc/farmer/missions/introsMissionAvailable/missionIntroOverview/missionTransportingBeets</text>
+          <actions>
+            <startConversationFromList>
+              <conversation uniqueId="59423d7e02"/>
+              <conversation uniqueId="a3db491331"/>
+              <conversation uniqueId="22a0a20e25"/>
+            </startConversationFromList>
+          </actions>
+        </option>
+        <option id="684349cb60" isActive="false">
+          <text>$dataS2/npc/farmer/missions/introsMissionAvailable/missionIntroOverview/missionsSnowplowing</text>
+          <actions>
+            <startConversationFromList>
+              <conversation uniqueId="f1cb13a146"/>
+              <conversation uniqueId="4d198bd85a"/>
+              <conversation uniqueId="08a5766b69"/>
+            </startConversationFromList>
+          </actions>
+        </option>
+        <option id="8488be66ab">
+          <text>$dataS2/npc/farmer/missions/introsMissionAvailable/missionIntroOverview/optionBack</text>
+          <actions>
+            <startConversationById uniqueId="bdd07bda2c"/>
+          </actions>
+        </option>
+        <option id="9e03b92d60">
+          <text>$dataS2/npc/farmer/missions/introsMissionAvailable/missionIntroOverview/optionExit</text>
+        </option>
+      </next>
+    </item>
+  </textFlow>
+</conversation>

@@ -1,0 +1,20 @@
+<conversation>
+  <class>NPCConversationGuidedTour</class>
+  <type>GUIDED_TOUR</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <manuallyTriggered/>
+  </prerequisites>
+  <textFlow startId="321e1fa0c3">
+    <item id="321e1fa0c3" nextId="2a675b1f12">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/seeder/switchToCombine/goodJob</text>
+    </item>
+    <item id="2a675b1f12" nextId="c06ee5707a">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/seeder/switchToCombine/goBack</text>
+    </item>
+    <item id="c06ee5707a">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/seeder/switchToCombine/doItQuickly</text>
+    </item>
+  </textFlow>
+</conversation>

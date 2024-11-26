@@ -1,0 +1,41 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="a9f10c3700">
+    <item id="a9f10c3700" nextId="cf0a1cd8f6">
+      <text>$dataS2/npc/helper/help/helpCrops/cotton/stepByStep/checkCalender</text>
+    </item>
+    <item id="cf0a1cd8f6" nextId="6ed081293f">
+      <text>$dataS2/npc/helper/help/helpCrops/cotton/stepByStep/stepOne</text>
+    </item>
+    <item id="6ed081293f" nextId="f93b9522b7">
+      <text>$dataS2/npc/helper/help/helpCrops/cotton/stepByStep/stepTwo</text>
+    </item>
+    <item id="f93b9522b7" nextId="366e29f55e">
+      <text>$dataS2/npc/helper/help/helpCrops/cotton/stepByStep/stepThree</text>
+    </item>
+    <item id="366e29f55e" nextId="0f15fb8358">
+      <text>$dataS2/npc/helper/help/helpCrops/cotton/stepByStep/stepFour</text>
+    </item>
+    <item id="0f15fb8358" nextId="fb9c5ff6da">
+      <text>$dataS2/npc/helper/help/helpCrops/cotton/stepByStep/repeat</text>
+    </item>
+    <item id="fb9c5ff6da" nextId="06231fa8f1">
+      <text>$dataS2/npc/helper/help/helpCrops/cotton/stepByStep/stepFive</text>
+    </item>
+    <item id="06231fa8f1" nextId="301362f7d6">
+      <text>$dataS2/npc/helper/help/helpCrops/cotton/stepByStep/growFurther</text>
+    </item>
+    <item id="301362f7d6" nextId="dd4a76d71f">
+      <text>$dataS2/npc/helper/help/helpCrops/cotton/stepByStep/cottonGrown</text>
+    </item>
+    <item id="dd4a76d71f">
+      <text>$dataS2/npc/helper/help/helpCrops/cotton/stepByStep/certainAmount</text>
+      <actions>
+        <startConversationById uniqueId="cfeddb0822"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

@@ -1,0 +1,30 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>INTRO</type>
+  <probability>100</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <numTriggered max="1"/>
+    <numOwnedFarmlands min="7" max="9"/>
+  </prerequisites>
+  <textFlow startId="cd807b12e5">
+    <item id="cd807b12e5" nextId="17e3457ec9">
+      <text>$dataS2/npc/grandpa/conditionalDialogue/ownedFields3/acquiringLand</text>
+    </item>
+    <item id="17e3457ec9" nextId="029216a0b4">
+      <text>$dataS2/npc/grandpa/conditionalDialogue/ownedFields3/usePlow</text>
+    </item>
+    <item id="029216a0b4" nextId="ae1fd0f825">
+      <text>$dataS2/npc/grandpa/conditionalDialogue/ownedFields3/combineThem</text>
+    </item>
+    <item id="ae1fd0f825" nextId="196a3c1ec7">
+      <text>$dataS2/npc/grandpa/conditionalDialogue/ownedFields3/keepInMind</text>
+    </item>
+    <item id="196a3c1ec7">
+      <text>$dataS2/npc/grandpa/conditionalDialogue/ownedFields3/farmGrow</text>
+      <actions>
+        <startConversationById uniqueId="0bc5b0ce93"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

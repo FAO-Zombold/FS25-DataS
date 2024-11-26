@@ -1,0 +1,46 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>DEFAULT</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="7e60f4a5df">
+    <item id="7e60f4a5df" isActive="false">
+      <text>$dataS2/npc/animalDealer/help/animals/beekeeping/beesOverview/placeholder</text>
+      <next>
+        <option id="a73884bd31">
+          <text>$dataS2/npc/animalDealer/help/animals/beekeeping/beesOverview/HowDoIFeed</text>
+          <actions>
+            <startConversationById uniqueId="4ae619de6d"/>
+          </actions>
+        </option>
+        <option id="91c4209d71">
+          <text>$dataS2/npc/animalDealer/help/animals/beekeeping/beesOverview/howDoIKeep</text>
+          <actions>
+            <startConversationById uniqueId="a0102e5254"/>
+          </actions>
+        </option>
+        <option id="a3b6f639ca">
+          <text>$dataS2/npc/animalDealer/help/animals/beekeeping/beesOverview/whatEquipment</text>
+          <actions>
+            <startConversationById uniqueId="00ae2550c8"/>
+          </actions>
+        </option>
+        <option id="7c0403ecb1">
+          <text>$dataS2/npc/animalDealer/help/animals/beekeeping/beesOverview/whereDoIPlace</text>
+          <actions>
+            <startConversationById uniqueId="043b2d52d4"/>
+          </actions>
+        </option>
+        <option id="e7206fdfce">
+          <text>$dataS2/npc/animalDealer/help/animals/beekeeping/beesOverview/optionBeesBack</text>
+          <actions>
+            <startConversationById uniqueId="345249355c"/>
+          </actions>
+        </option>
+        <option id="040cb8d66f">
+          <text>$dataS2/npc/animalDealer/help/animals/beekeeping/beesOverview/optionExit</text>
+        </option>
+      </next>
+    </item>
+  </textFlow>
+</conversation>

@@ -1,0 +1,95 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>DAVID_YOU</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="fb99333556">
+    <item id="fb99333556">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/artOrMeans/artOrMeans</text>
+      <next>
+        <option id="1158f78e9e" nextId="d8b8462c66">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/artOrMeans/artOrMeansOptionA</text>
+        </option>
+        <option id="96675c7d82" nextId="d8b8462c66">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/artOrMeans/artOrMeansOptionB</text>
+        </option>
+        <option id="a1d4433be9" nextId="d8b8462c66">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/artOrMeans/artOrMeansOptionC</text>
+        </option>
+        <option id="f05b4a558d" nextId="d8b8462c66">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/artOrMeans/artOrMeansOptionD</text>
+        </option>
+      </next>
+    </item>
+    <item id="d8b8462c66" nextId="ad4e616f48">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/artOrMeans/mostFarmers</text>
+    </item>
+    <item id="ad4e616f48" nextId="f15e273570">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/artOrMeans/shocker</text>
+    </item>
+    <item id="f15e273570" nextId="f93572dcfe">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/artOrMeans/asImportant</text>
+    </item>
+    <item id="f93572dcfe" nextId="d93d924e29">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/artOrMeans/cityDude</text>
+    </item>
+    <item id="d93d924e29" nextId="f8dde6036b">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/artOrMeans/bigTime</text>
+    </item>
+    <item id="f8dde6036b" nextId="cddb23d6b2">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/artOrMeans/differentPerspective</text>
+    </item>
+    <item id="cddb23d6b2" nextId="537023106d">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/artOrMeans/farmersIHaveTalkedTo</text>
+    </item>
+    <item id="537023106d">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/artOrMeans/imagineWhy</text>
+      <next>
+        <option id="caf53e9322" nextId="549be063aa">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/artOrMeans/imagineWhyOptionA</text>
+        </option>
+        <option id="106993e843" nextId="549be063aa">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/artOrMeans/imagineWhyOptionB</text>
+        </option>
+        <option id="47ef47ef92" nextId="549be063aa">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/artOrMeans/optionC</text>
+        </option>
+        <option id="e387c43272" nextId="549be063aa">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/artOrMeans/optionD</text>
+        </option>
+      </next>
+    </item>
+    <item id="549be063aa" nextId="2b5975da62">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/artOrMeans/createExperiment</text>
+    </item>
+    <item id="2b5975da62" nextId="cda1d7d750">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/artOrMeans/noMatter</text>
+    </item>
+    <item id="cda1d7d750" nextId="22f0fcf8d8">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/artOrMeans/goldenFields</text>
+    </item>
+    <item id="22f0fcf8d8">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/artOrMeans/evenResult</text>
+      <next>
+        <option id="33c53ba0db" nextId="b8fca7a5aa">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/artOrMeans/optionA</text>
+        </option>
+        <option id="72057b4e77" nextId="b8fca7a5aa">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/artOrMeans/optionB</text>
+        </option>
+      </next>
+    </item>
+    <item id="b8fca7a5aa" nextId="0b48d58a71">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/artOrMeans/talkedToGrandpa</text>
+    </item>
+    <item id="0b48d58a71" nextId="78c18042c3">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/artOrMeans/transformationLandscape</text>
+    </item>
+    <item id="78c18042c3">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/artOrMeans/sorryToKeepYou</text>
+      <actions>
+        <startConversationById uniqueId="bdd07bda2c"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

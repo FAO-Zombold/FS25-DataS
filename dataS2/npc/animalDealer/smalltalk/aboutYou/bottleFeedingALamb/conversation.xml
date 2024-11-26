@@ -1,0 +1,87 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>KATIE_YOU</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="48a719975c">
+    <item id="48a719975c">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/bottleFeedingALamb/bottleFeeding</text>
+      <next>
+        <option id="cea379553b" nextId="1cf7b68a87">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/bottleFeedingALamb/alrightOptionA</text>
+        </option>
+        <option id="3660bdb238" nextId="86822410cc">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/bottleFeedingALamb/longNightOptionB</text>
+        </option>
+        <option id="239f83286b" nextId="4cef76d573">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/bottleFeedingALamb/ohterEweOptionC</text>
+        </option>
+      </next>
+    </item>
+    <item id="1cf7b68a87" nextId="a85c2fe9ee">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/bottleFeedingALamb/issuesLatching</text>
+    </item>
+    <item id="a85c2fe9ee" nextId="17a70dbfdb">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/bottleFeedingALamb/bestOption</text>
+    </item>
+    <item id="17a70dbfdb" nextId="6af06e2adb">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/bottleFeedingALamb/warmAndDry</text>
+    </item>
+    <item id="6af06e2adb" nextId="1acb9e9b11">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/bottleFeedingALamb/extraRoom</text>
+    </item>
+    <item id="1acb9e9b11" nextId="b3829770fd">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/bottleFeedingALamb/newbornLamb</text>
+    </item>
+    <item id="b3829770fd" nextId="e6c004c0b8">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/bottleFeedingALamb/veryHugryLamb</text>
+    </item>
+    <item id="e6c004c0b8" nextId="8548ee4b18">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/bottleFeedingALamb/luckyToBeCute</text>
+    </item>
+    <item id="8548ee4b18" nextId="6deaca17a8">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/bottleFeedingALamb/eatsALot</text>
+    </item>
+    <item id="6deaca17a8" nextId="bf91493508">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/bottleFeedingALamb/noParties</text>
+    </item>
+    <item id="bf91493508" nextId="50b98dbd35">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/bottleFeedingALamb/noClubbing</text>
+    </item>
+    <item id="50b98dbd35">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/bottleFeedingALamb/hardWork</text>
+      <next>
+        <option id="57ae732798" nextId="034d81ebab">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/bottleFeedingALamb/niceJobOptionA</text>
+        </option>
+        <option id="1c8e56494e" nextId="8499993dd9">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/bottleFeedingALamb/coffeeOptionB</text>
+        </option>
+      </next>
+    </item>
+    <item id="034d81ebab" nextId="e60cc08eb0">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/bottleFeedingALamb/hereFor</text>
+    </item>
+    <item id="e60cc08eb0" nextId="afe3ec8b3c">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/bottleFeedingALamb/notFallAsleep</text>
+    </item>
+    <item id="afe3ec8b3c" nextId="6cd83199f2">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/bottleFeedingALamb/feedingAlarm</text>
+    </item>
+    <item id="6cd83199f2">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/bottleFeedingALamb/forTheLamb</text>
+      <actions>
+        <startConversationById uniqueId="bb0236da62"/>
+      </actions>
+    </item>
+    <item id="8499993dd9" nextId="e60cc08eb0">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/bottleFeedingALamb/davidAlready</text>
+    </item>
+    <item id="86822410cc" nextId="a85c2fe9ee">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/bottleFeedingALamb/brokenUpNight</text>
+    </item>
+    <item id="4cef76d573" nextId="a85c2fe9ee">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/bottleFeedingALamb/notAsEasy</text>
+    </item>
+  </textFlow>
+</conversation>

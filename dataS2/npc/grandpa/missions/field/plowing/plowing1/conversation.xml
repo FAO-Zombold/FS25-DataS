@@ -1,0 +1,19 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>MISSION_SELECT</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <missionAvailable>
+      <type name="plowMission"/>
+    </missionAvailable>
+  </prerequisites>
+  <textFlow startId="9e96d83b45">
+    <item id="9e96d83b45">
+      <text>$dataS2/npc/grandpa/missions/field/plowing/plowing1/plowing1</text>
+      <actions>
+        <startConversationById uniqueId="2e13b3e547"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

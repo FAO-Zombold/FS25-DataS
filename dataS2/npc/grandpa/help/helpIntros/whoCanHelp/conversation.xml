@@ -1,0 +1,40 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <manuallyTriggered/>
+  </prerequisites>
+  <textFlow startId="aea5b618fc">
+    <item id="aea5b618fc">
+      <text>$dataS2/npc/grandpa/help/helpIntros/whoCanHelp/variousExperts</text>
+      <next>
+        <option id="0d97b16985">
+          <text>$dataS2/npc/grandpa/help/helpIntros/whoCanHelp/agriculture</text>
+          <actions>
+            <startConversationById uniqueId="5b513c4a53"/>
+          </actions>
+        </option>
+        <option id="873ad50219">
+          <text>$dataS2/npc/grandpa/help/helpIntros/whoCanHelp/animalHusbandry</text>
+          <actions>
+            <startConversationById uniqueId="943dfa6ad3"/>
+          </actions>
+        </option>
+        <option id="668e8e2ad0">
+          <text>$dataS2/npc/grandpa/help/helpIntros/whoCanHelp/forestry</text>
+          <actions>
+            <startConversationById uniqueId="dbf194db50"/>
+          </actions>
+        </option>
+        <option id="5432984423">
+          <text>$dataS2/npc/grandpa/help/helpIntros/whoCanHelp/backButton</text>
+          <actions>
+            <startConversationById uniqueId="0bc5b0ce93"/>
+          </actions>
+        </option>
+      </next>
+    </item>
+  </textFlow>
+</conversation>

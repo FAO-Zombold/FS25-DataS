@@ -1,0 +1,26 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="b03e075885">
+    <item id="b03e075885" nextId="5770ba9391">
+      <text>$dataS2/npc/helper/help/helpCrops/rice/difference/riceNotRice</text>
+    </item>
+    <item id="5770ba9391" nextId="7d26d0c6b6">
+      <text>$dataS2/npc/helper/help/helpCrops/rice/difference/differentTypes</text>
+    </item>
+    <item id="7d26d0c6b6" nextId="74185f3f50">
+      <text>$dataS2/npc/helper/help/helpCrops/rice/difference/waterLevels</text>
+    </item>
+    <item id="74185f3f50" nextId="25a7a807a0">
+      <text>$dataS2/npc/helper/help/helpCrops/rice/difference/notSown</text>
+    </item>
+    <item id="25a7a807a0">
+      <text>$dataS2/npc/helper/help/helpCrops/rice/difference/afterSowing</text>
+      <actions>
+        <startConversationById uniqueId="a230916ebf"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

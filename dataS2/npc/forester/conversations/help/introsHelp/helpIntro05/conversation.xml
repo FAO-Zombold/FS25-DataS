@@ -1,0 +1,14 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="defb553a1e">
+    <item id="defb553a1e">
+      <text>$dataS2/npc/forester/conversations/help/introsHelp/helpIntro05/whatNeed</text>
+      <actions>
+        <startConversationById uniqueId="7cb1ac3f00"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

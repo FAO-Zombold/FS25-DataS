@@ -1,0 +1,78 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>DAVID_YOU</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="aafd1b47c5">
+    <item id="aafd1b47c5">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/farmingWellness/offerMassages</text>
+      <next>
+        <option id="1c532d7985" nextId="b2e5b1b608">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/farmingWellness/offerMassagesOptionA</text>
+        </option>
+        <option id="9767d3f062" nextId="b2e5b1b608">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/farmingWellness/offerMassagesOptionB</text>
+        </option>
+        <option id="3253e4046e" nextId="b2e5b1b608">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/farmingWellness/offerMassagesOptionC</text>
+        </option>
+      </next>
+    </item>
+    <item id="b2e5b1b608" nextId="bff7309e5b">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/farmingWellness/doNotgetMeWrong</text>
+    </item>
+    <item id="bff7309e5b" nextId="dd25aa643a">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/farmingWellness/metSomeFarmers</text>
+    </item>
+    <item id="dd25aa643a" nextId="a6fc9c97e5">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/farmingWellness/retreatInTheAlps</text>
+    </item>
+    <item id="a6fc9c97e5" nextId="90db96fa95">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/farmingWellness/incrediblePlace</text>
+    </item>
+    <item id="90db96fa95" nextId="0a281c729b">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/farmingWellness/cattleFarmers</text>
+    </item>
+    <item id="0a281c729b" nextId="199ed69f40">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/farmingWellness/bedAndBreakfast</text>
+    </item>
+    <item id="199ed69f40" nextId="50e1f122a2">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/farmingWellness/greatLocation</text>
+    </item>
+    <item id="50e1f122a2" nextId="60278489e8">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/farmingWellness/supportFromTown</text>
+    </item>
+    <item id="60278489e8" nextId="c05928a21a">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/farmingWellness/cultivatingForWellness</text>
+    </item>
+    <item id="c05928a21a" nextId="e62f4c0d3d">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/farmingWellness/petTheAnimals</text>
+    </item>
+    <item id="e62f4c0d3d" nextId="83ef83cb2d">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/farmingWellness/tubOfHay</text>
+    </item>
+    <item id="83ef83cb2d">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/farmingWellness/quiteNice</text>
+      <next>
+        <option id="91cbdceb66" nextId="59b7f53d74">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/farmingWellness/optionA</text>
+        </option>
+        <option id="37d428bf21" nextId="59b7f53d74">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/farmingWellness/optionB</text>
+        </option>
+        <option id="ce2542d66a" nextId="59b7f53d74">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/farmingWellness/optionC</text>
+        </option>
+      </next>
+    </item>
+    <item id="59b7f53d74" nextId="7f1b7ed96d">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/farmingWellness/besidesFeeding</text>
+    </item>
+    <item id="7f1b7ed96d">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/farmingWellness/bathtubFullOfHay</text>
+      <actions>
+        <startConversationById uniqueId="bdd07bda2c"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

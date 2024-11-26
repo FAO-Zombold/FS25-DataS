@@ -1,0 +1,14 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>INTRO</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="13cc583aa8">
+    <item id="13cc583aa8">
+      <text>$dataS2/npc/animalDealer/dialogueStart/chattyToday/chattyToday</text>
+      <actions>
+        <startConversationById uniqueId="bb0236da62"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

@@ -1,0 +1,90 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>INTRO</type>
+  <probability>100</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <numTriggered max="1"/>
+    <firstContact/>
+  </prerequisites>
+  <textFlow startId="6dda18c0e8">
+    <item id="6dda18c0e8" nextId="1357ddf743">
+      <text>$dataS2/npc/farmer/firstTimeIntro/heyThereNeighbor/heyThere</text>
+    </item>
+    <item id="1357ddf743">
+      <text>$dataS2/npc/farmer/firstTimeIntro/heyThereNeighbor/iAmDavid</text>
+      <next>
+        <option id="c6cb9e5a63" nextId="8d75a890c6">
+          <text>$dataS2/npc/farmer/firstTimeIntro/heyThereNeighbor/iAmDavidOptionA</text>
+        </option>
+        <option id="45d5fd67e8" nextId="c4396ec941">
+          <text>$dataS2/npc/farmer/firstTimeIntro/heyThereNeighbor/iAmDavidOptionB</text>
+        </option>
+      </next>
+    </item>
+    <item id="8d75a890c6" nextId="5705da29ae">
+      <text>$dataS2/npc/farmer/firstTimeIntro/heyThereNeighbor/welcomeToTheNeighborhood</text>
+    </item>
+    <item id="5705da29ae" nextId="b1e02d186d">
+      <text>$dataS2/npc/farmer/firstTimeIntro/heyThereNeighbor/newHereToo</text>
+    </item>
+    <item id="b1e02d186d" nextId="5909423782">
+      <text>$dataS2/npc/farmer/firstTimeIntro/heyThereNeighbor/noFarmingBackground</text>
+    </item>
+    <item id="5909423782">
+      <text>$dataS2/npc/farmer/firstTimeIntro/heyThereNeighbor/whatBringsYou</text>
+      <next>
+        <option id="b207c37fda" nextId="7bd4ec1164">
+          <text>$dataS2/npc/farmer/firstTimeIntro/heyThereNeighbor/whatBringsYouOptionA</text>
+        </option>
+        <option id="6cacaca42e" nextId="877348303d">
+          <text>$dataS2/npc/farmer/firstTimeIntro/heyThereNeighbor/whatBringsYouOptionB</text>
+        </option>
+        <option id="df177bedc9" nextId="f3514f4587">
+          <text>$dataS2/npc/farmer/firstTimeIntro/heyThereNeighbor/optionC</text>
+        </option>
+      </next>
+    </item>
+    <item id="7bd4ec1164" nextId="e39b01d844">
+      <text>$dataS2/npc/farmer/firstTimeIntro/heyThereNeighbor/grandpaPops</text>
+    </item>
+    <item id="e39b01d844" nextId="55ba5c959e">
+      <text>$dataS2/npc/farmer/firstTimeIntro/heyThereNeighbor/goodTimes</text>
+    </item>
+    <item id="55ba5c959e" nextId="ebb2ecfc61">
+      <text>$dataS2/npc/farmer/firstTimeIntro/heyThereNeighbor/letUsTalkSome</text>
+    </item>
+    <item id="ebb2ecfc61" nextId="19025cee4c">
+      <text>$dataS2/npc/farmer/firstTimeIntro/heyThereNeighbor/tellYouMistakes</text>
+    </item>
+    <item id="19025cee4c" nextId="20de2eb356">
+      <text>$dataS2/npc/farmer/firstTimeIntro/heyThereNeighbor/popsDissapointed</text>
+    </item>
+    <item id="20de2eb356" nextId="5455f172c1">
+      <text>$dataS2/npc/farmer/firstTimeIntro/heyThereNeighbor/noahTaunts</text>
+    </item>
+    <item id="5455f172c1" nextId="247e2b9726">
+      <text>$dataS2/npc/farmer/firstTimeIntro/heyThereNeighbor/feelFree</text>
+    </item>
+    <item id="247e2b9726">
+      <text>$dataS2/npc/farmer/firstTimeIntro/heyThereNeighbor/takeSomeTimeForYou</text>
+      <next>
+        <option id="7ec483c78f">
+          <text>$dataS2/npc/farmer/firstTimeIntro/heyThereNeighbor/optionA</text>
+        </option>
+        <option id="87e21e7a75">
+          <text>$dataS2/npc/farmer/firstTimeIntro/heyThereNeighbor/optionB</text>
+        </option>
+      </next>
+    </item>
+    <item id="877348303d" nextId="e39b01d844">
+      <text>$dataS2/npc/farmer/firstTimeIntro/heyThereNeighbor/ambitious</text>
+    </item>
+    <item id="f3514f4587" nextId="e39b01d844">
+      <text>$dataS2/npc/farmer/firstTimeIntro/heyThereNeighbor/funnyEndUp</text>
+    </item>
+    <item id="c4396ec941" nextId="8d75a890c6">
+      <text>$dataS2/npc/farmer/firstTimeIntro/heyThereNeighbor/sureAmBuddy</text>
+    </item>
+  </textFlow>
+</conversation>

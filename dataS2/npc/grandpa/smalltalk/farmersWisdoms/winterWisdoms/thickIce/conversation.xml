@@ -1,0 +1,50 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>SMALLTALK_WISDOM</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <numTriggered max="1"/>
+    <seasonPeriod min="EARLY_WINTER" max="LATE_WINTER"/>
+  </prerequisites>
+  <textFlow startId="52aad7f7ca">
+    <item id="52aad7f7ca" nextId="7a0e407765">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/winterWisdoms/thickIce/thickIceSaying</text>
+    </item>
+    <item id="7a0e407765">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/winterWisdoms/thickIce/whatThink</text>
+      <next>
+        <option id="42ff7e23f5" nextId="0028ec9d26">
+          <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/winterWisdoms/thickIce/optionA</text>
+        </option>
+        <option id="6394434a89" nextId="0028ec9d26">
+          <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/winterWisdoms/thickIce/optionB</text>
+        </option>
+        <option id="f7ed326fb9" nextId="0028ec9d26">
+          <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/winterWisdoms/thickIce/optionC</text>
+        </option>
+      </next>
+    </item>
+    <item id="0028ec9d26" nextId="a8becf50d4">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/winterWisdoms/thickIce/everyAnswer</text>
+    </item>
+    <item id="a8becf50d4" nextId="8bc1d378b8">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/winterWisdoms/thickIce/meaning</text>
+    </item>
+    <item id="8bc1d378b8" nextId="88fd33b85e">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/winterWisdoms/thickIce/metaphor</text>
+    </item>
+    <item id="88fd33b85e" nextId="57195cd20e">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/winterWisdoms/thickIce/takeaway</text>
+    </item>
+    <item id="57195cd20e" nextId="1ec7c538eb">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/winterWisdoms/thickIce/also</text>
+    </item>
+    <item id="1ec7c538eb">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/winterWisdoms/thickIce/meltSomeday</text>
+      <actions>
+        <startConversationById uniqueId="0bc5b0ce93"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

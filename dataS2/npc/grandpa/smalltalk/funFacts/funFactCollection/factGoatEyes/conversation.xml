@@ -1,0 +1,23 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>SMALLTALK_FUNFACTS</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <numTriggered max="1"/>
+  </prerequisites>
+  <textFlow startId="95dd8ca0f0">
+    <item id="95dd8ca0f0" nextId="f5dd1073dc">
+      <text>$dataS2/npc/grandpa/smalltalk/funFacts/funFactCollection/factGoatEyes/goatEyes</text>
+    </item>
+    <item id="f5dd1073dc" nextId="91bdb102b0">
+      <text>$dataS2/npc/grandpa/smalltalk/funFacts/funFactCollection/factGoatEyes/wideVision</text>
+    </item>
+    <item id="91bdb102b0">
+      <text>$dataS2/npc/grandpa/smalltalk/funFacts/funFactCollection/factGoatEyes/helpsGoat</text>
+      <actions>
+        <startConversationById uniqueId="0bc5b0ce93"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

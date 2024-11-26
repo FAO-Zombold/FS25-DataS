@@ -1,0 +1,26 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="9866d4388b">
+    <item id="9866d4388b" nextId="f08748c7a3">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/plowingCultivating/difference/notComplicated</text>
+    </item>
+    <item id="f08748c7a3" nextId="0fdf44b3f3">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/plowingCultivating/difference/process</text>
+    </item>
+    <item id="0fdf44b3f3" nextId="8946169600">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/plowingCultivating/difference/plowing</text>
+    </item>
+    <item id="8946169600" nextId="07422ee0db">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/plowingCultivating/difference/depending</text>
+    </item>
+    <item id="07422ee0db">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/plowingCultivating/difference/impact</text>
+      <actions>
+        <startConversationById uniqueId="f5fa69a7dc"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

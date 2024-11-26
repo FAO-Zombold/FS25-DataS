@@ -1,0 +1,17 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>MISSION_INTRO</type>
+  <probability>1</probability>
+  <isActive>false</isActive>
+  <prerequisites>
+    <missionAvailable/>
+  </prerequisites>
+  <textFlow startId="e3343cff85">
+    <item id="e3343cff85">
+      <text>$dataS2/npc/farmer/missions/introsMissionAvailable/thankYouSoMuch/thankYouSoMuch</text>
+      <actions>
+        <startConversationById uniqueId="0b5f6618c8"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

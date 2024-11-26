@@ -1,0 +1,19 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>MISSION_SELECT</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <missionAvailable>
+      <type name="cultivateMission"/>
+    </missionAvailable>
+  </prerequisites>
+  <textFlow startId="c1f95ec7a4">
+    <item id="c1f95ec7a4">
+      <text>$dataS2/npc/grandpa/missions/field/cultivating/cultivating2/cultivate2</text>
+      <actions>
+        <startConversationById uniqueId="52e0f9642c"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

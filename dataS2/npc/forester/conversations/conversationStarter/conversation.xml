@@ -1,0 +1,69 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>DEFAULT</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="600a7adfdb">
+    <item id="600a7adfdb" isActive="false">
+      <text>$dataS2/npc/forester/conversations/conversationStarter/startDialog</text>
+      <next>
+        <option id="9f3e135d24">
+          <text>$dataS2/npc/forester/conversations/conversationStarter/aboutYourself</text>
+          <actions>
+            <startConversationFromList>
+              <conversation uniqueId="457fa60903"/>
+              <conversation uniqueId="fb524a2f7d"/>
+              <conversation uniqueId="5d19bab2fe"/>
+              <conversation uniqueId="2b88b013eb"/>
+              <conversation uniqueId="3a7296bbfa"/>
+              <conversation uniqueId="3fc15c8015"/>
+              <conversation uniqueId="6f3ad871af"/>
+              <conversation uniqueId="d574d20e49"/>
+              <conversation uniqueId="24938f50b0"/>
+              <conversation uniqueId="b866ead748"/>
+            </startConversationFromList>
+          </actions>
+        </option>
+        <option id="552d8b623a">
+          <text>$dataS2/npc/forester/conversations/conversationStarter/missions</text>
+          <actions>
+            <startConversationFromList>
+              <conversation uniqueId="cc24a19e5d"/>
+              <conversation uniqueId="6b6970dde5"/>
+              <conversation uniqueId="f40aac3085"/>
+              <conversation uniqueId="f833a3959e"/>
+              <conversation uniqueId="0b0752b951"/>
+              <failConversation uniqueId="ad22cf4cde"/>
+              <failConversation uniqueId="ce4f1117fd"/>
+              <failConversation uniqueId="fc10b3f968"/>
+            </startConversationFromList>
+          </actions>
+          <prerequisites>
+            <missionPermission/>
+          </prerequisites>
+        </option>
+        <option id="650d67d22c">
+          <text>$dataS2/npc/forester/conversations/conversationStarter/explainForestry</text>
+          <actions>
+            <startConversationFromList>
+              <conversation uniqueId="400a42160f"/>
+              <conversation uniqueId="1a14e8550c"/>
+              <conversation uniqueId="16a6bda176"/>
+              <conversation uniqueId="ccfd88d82e"/>
+              <conversation uniqueId="e479cb4b89"/>
+              <conversation uniqueId="9f45f0ff25"/>
+              <conversation uniqueId="67df86cc34"/>
+              <conversation uniqueId="c778961af7"/>
+              <conversation uniqueId="367a580e63"/>
+              <conversation uniqueId="2b83ae2d2e"/>
+              <conversation uniqueId="afc7509a11"/>
+            </startConversationFromList>
+          </actions>
+        </option>
+        <option id="c0c70c5c10">
+          <text>$dataS2/npc/forester/conversations/conversationStarter/exitButton</text>
+        </option>
+      </next>
+    </item>
+  </textFlow>
+</conversation>

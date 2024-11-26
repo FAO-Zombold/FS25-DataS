@@ -1,0 +1,18 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>SMALLTALK_WISDOM_INTRO</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <conversationAvailableByType type="SMALLTALK_WISDOM"/>
+    <retriggerTypeDelayIngameDays type="SMALLTALK_WISDOM_INTRO" minDays="1"/>
+  </prerequisites>
+  <textFlow startId="c02aaf923a">
+    <item id="c02aaf923a">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/wisdomIntros/wisdomIntro2/overTheYears</text>
+      <actions>
+        <startConversationByType type="SMALLTALK_WISDOM"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

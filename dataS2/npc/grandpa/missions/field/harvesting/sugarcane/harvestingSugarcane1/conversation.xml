@@ -1,0 +1,19 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>MISSION_SELECT</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <missionAvailable>
+      <type name="harvestMission" variant="SUGARCANE"/>
+    </missionAvailable>
+  </prerequisites>
+  <textFlow startId="4ddf6a4dfe">
+    <item id="4ddf6a4dfe">
+      <text>$dataS2/npc/grandpa/missions/field/harvesting/sugarcane/harvestingSugarcane1/sugarcane1</text>
+      <actions>
+        <startConversationById uniqueId="2c1b7673ee"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

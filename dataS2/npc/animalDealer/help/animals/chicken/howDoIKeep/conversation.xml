@@ -1,0 +1,14 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="86281f7464">
+    <item id="86281f7464">
+      <text>$dataS2/npc/animalDealer/help/animals/chicken/howDoIKeep/chickensInPastures</text>
+      <actions>
+        <startConversationById uniqueId="ccb08919e9"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

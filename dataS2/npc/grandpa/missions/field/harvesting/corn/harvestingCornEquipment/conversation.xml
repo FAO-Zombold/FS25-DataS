@@ -1,0 +1,43 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>MISSION</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="a9477f275e">
+    <item id="a9477f275e" nextId="686d39e62c">
+      <text>$dataS2/npc/grandpa/missions/field/harvesting/corn/harvestingCornEquipment/machineChoice</text>
+    </item>
+    <item id="686d39e62c">
+      <text>$dataS2/npc/grandpa/missions/field/harvesting/corn/harvestingCornEquipment/so</text>
+      <next>
+        <option id="f68d27252e">
+          <text>$dataS2/npc/grandpa/missions/field/harvesting/corn/harvestingCornEquipment/ownMachine</text>
+          <actions>
+            <startSelectedMission/>
+          </actions>
+        </option>
+        <option id="d90011c5e2">
+          <text>$dataS2/npc/grandpa/missions/field/harvesting/corn/harvestingCornEquipment/borrowMachine</text>
+          <actions>
+            <startSelectedMission/>
+          </actions>
+          <inputs>
+            <leaseVehicles value="true"/>
+          </inputs>
+        </option>
+        <option id="cbf975ee4a" nextId="4c85387094">
+          <text>$dataS2/npc/grandpa/missions/field/harvesting/corn/harvestingCornEquipment/whatMachine</text>
+        </option>
+        <option id="cc3085e904">
+          <text>$dataS2/npc/grandpa/missions/field/harvesting/corn/harvestingCornEquipment/changedMind</text>
+        </option>
+      </next>
+    </item>
+    <item id="4c85387094" nextId="16b346837e">
+      <text>$dataS2/npc/grandpa/missions/field/harvesting/corn/harvestingCornEquipment/infoMachine</text>
+    </item>
+    <item id="16b346837e" nextId="686d39e62c">
+      <text>$dataS2/npc/grandpa/missions/field/harvesting/corn/harvestingCornEquipment/infoMachine2</text>
+    </item>
+  </textFlow>
+</conversation>

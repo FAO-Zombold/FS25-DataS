@@ -1,0 +1,20 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>SMALLTALK_FUNFACTS</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <numTriggered max="1"/>
+  </prerequisites>
+  <textFlow startId="074b7f33fe">
+    <item id="074b7f33fe" nextId="7433d1d714">
+      <text>$dataS2/npc/grandpa/smalltalk/funFacts/funFactCollection/factEdiblePlants/ediblePlants</text>
+    </item>
+    <item id="7433d1d714">
+      <text>$dataS2/npc/grandpa/smalltalk/funFacts/funFactCollection/factEdiblePlants/onlyPart</text>
+      <actions>
+        <startConversationById uniqueId="0bc5b0ce93"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

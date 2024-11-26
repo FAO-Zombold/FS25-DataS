@@ -1,0 +1,107 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>SMALLTALK_PROJECTS</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="b54bfdd553">
+    <item id="b54bfdd553">
+      <text>$dataS2/npc/forester/conversations/projects/projectNeighborlyMistake/arrangementWithNeighbors</text>
+      <next>
+        <option id="afde5ca963" nextId="a3dfff8761">
+          <text>$dataS2/npc/forester/conversations/projects/projectNeighborlyMistake/why</text>
+        </option>
+        <option id="6da0520c84" nextId="abdee9c30f">
+          <text>$dataS2/npc/forester/conversations/projects/projectNeighborlyMistake/notNecessary</text>
+        </option>
+      </next>
+    </item>
+    <item id="a3dfff8761" nextId="1f1da99351">
+      <text>$dataS2/npc/forester/conversations/projects/projectNeighborlyMistake/solvedCase</text>
+    </item>
+    <item id="1f1da99351" nextId="b83037b2a9">
+      <text>$dataS2/npc/forester/conversations/projects/projectNeighborlyMistake/example</text>
+    </item>
+    <item id="b83037b2a9" nextId="45fcde7222">
+      <text>$dataS2/npc/forester/conversations/projects/projectNeighborlyMistake/cropDisappeared</text>
+    </item>
+    <item id="45fcde7222" nextId="2b802f41b2">
+      <text>$dataS2/npc/forester/conversations/projects/projectNeighborlyMistake/visitedGreenhouse</text>
+    </item>
+    <item id="2b802f41b2" nextId="db09216ce2">
+      <text>$dataS2/npc/forester/conversations/projects/projectNeighborlyMistake/catalogingFootprints</text>
+    </item>
+    <item id="db09216ce2">
+      <text>$dataS2/npc/forester/conversations/projects/projectNeighborlyMistake/whatNext</text>
+      <next>
+        <option id="2e6416ddc9" nextId="7aefdd105e">
+          <text>$dataS2/npc/forester/conversations/projects/projectNeighborlyMistake/lookAroundFarm</text>
+        </option>
+        <option id="5fc5720e2d" nextId="385c52e786">
+          <text>$dataS2/npc/forester/conversations/projects/projectNeighborlyMistake/lookGreenhouse</text>
+        </option>
+      </next>
+    </item>
+    <item id="7aefdd105e" nextId="ea999a4f89">
+      <text>$dataS2/npc/forester/conversations/projects/projectNeighborlyMistake/right</text>
+    </item>
+    <item id="ea999a4f89" nextId="d9c4549601">
+      <text>$dataS2/npc/forester/conversations/projects/projectNeighborlyMistake/culpritActiveOutside</text>
+    </item>
+    <item id="d9c4549601" nextId="df7625bcdf">
+      <text>$dataS2/npc/forester/conversations/projects/projectNeighborlyMistake/walkAround</text>
+    </item>
+    <item id="df7625bcdf" nextId="59a099e3bb">
+      <text>$dataS2/npc/forester/conversations/projects/projectNeighborlyMistake/visitNeighbor</text>
+    </item>
+    <item id="59a099e3bb" nextId="b700ccc513">
+      <text>$dataS2/npc/forester/conversations/projects/projectNeighborlyMistake/sameSymbol</text>
+    </item>
+    <item id="b700ccc513" nextId="201b6a6a92">
+      <text>$dataS2/npc/forester/conversations/projects/projectNeighborlyMistake/culpritNeighbor</text>
+    </item>
+    <item id="201b6a6a92" nextId="4943060bb4">
+      <text>$dataS2/npc/forester/conversations/projects/projectNeighborlyMistake/neighborTakesVeggies</text>
+    </item>
+    <item id="4943060bb4" nextId="2ded4057da">
+      <text>$dataS2/npc/forester/conversations/projects/projectNeighborlyMistake/allForHim</text>
+    </item>
+    <item id="2ded4057da">
+      <text>$dataS2/npc/forester/conversations/projects/projectNeighborlyMistake/mixUp</text>
+      <next>
+        <option id="1639dd5b27" nextId="d7eb767f33">
+          <text>$dataS2/npc/forester/conversations/projects/projectNeighborlyMistake/wellDone</text>
+        </option>
+        <option id="cb1c414863" nextId="5d19a9940f">
+          <text>$dataS2/npc/forester/conversations/projects/projectNeighborlyMistake/talkedToNeighbor</text>
+        </option>
+        <option id="9660318b4c" nextId="0b6a892443">
+          <text>$dataS2/npc/forester/conversations/projects/projectNeighborlyMistake/protocol</text>
+        </option>
+      </next>
+    </item>
+    <item id="d7eb767f33" nextId="bfc948f01f">
+      <text>$dataS2/npc/forester/conversations/projects/projectNeighborlyMistake/simpleExercise</text>
+    </item>
+    <item id="bfc948f01f" nextId="55b12aa72c">
+      <text>$dataS2/npc/forester/conversations/projects/projectNeighborlyMistake/anotherCaseSolved</text>
+    </item>
+    <item id="55b12aa72c">
+      <text>$dataS2/npc/forester/conversations/projects/projectNeighborlyMistake/leaveMeAlone</text>
+      <actions>
+        <startConversationById uniqueId="8b24b3ebc0"/>
+      </actions>
+    </item>
+    <item id="5d19a9940f">
+      <text>$dataS2/npc/forester/conversations/projects/projectNeighborlyMistake/moreWork</text>
+    </item>
+    <item id="0b6a892443">
+      <text>$dataS2/npc/forester/conversations/projects/projectNeighborlyMistake/yes</text>
+    </item>
+    <item id="385c52e786" nextId="ea999a4f89">
+      <text>$dataS2/npc/forester/conversations/projects/projectNeighborlyMistake/smartAsDavid</text>
+    </item>
+    <item id="abdee9c30f">
+      <text>$dataS2/npc/forester/conversations/projects/projectNeighborlyMistake/thinkThatNow</text>
+    </item>
+  </textFlow>
+</conversation>

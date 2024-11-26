@@ -1,0 +1,129 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>DAVID_YOU</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="81bebbbe51">
+    <item id="81bebbbe51">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/whyFarming/whyFarmer</text>
+      <next>
+        <option id="5c5c855cc5" nextId="f5ea78246e">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/whyFarming/whyFarmerOptionA</text>
+        </option>
+        <option id="90b83ad582" nextId="6f4233f300">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/whyFarming/whyFarmerOptionB</text>
+        </option>
+        <option id="8c49b2cd48" nextId="182024b376">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/whyFarming/whyFarmerOptionC</text>
+        </option>
+        <option id="21feb5ba84" nextId="a1127a5379">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/whyFarming/whyFarmerOptionD</text>
+        </option>
+        <option id="9eb032359e" nextId="87acb6be15">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/whyFarming/whyFarmerOptionE</text>
+        </option>
+        <option id="92a3640228" nextId="33f1b53ee2">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/whyFarming/whyFarmerOptionF</text>
+        </option>
+      </next>
+    </item>
+    <item id="f5ea78246e" nextId="4f56b149ab">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/whyFarming/classicRoute</text>
+    </item>
+    <item id="4f56b149ab" nextId="fa55b3601e">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/whyFarming/virtualFarming</text>
+    </item>
+    <item id="fa55b3601e">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/whyFarming/tobeAsAKid</text>
+      <next>
+        <option id="4904963f67" nextId="1a2d3f2397">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/whyFarming/optionA</text>
+        </option>
+        <option id="ff159d5c41" nextId="3f35fbe589">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/whyFarming/optionB</text>
+        </option>
+        <option id="4b0c96f147" nextId="3caf5b7034">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/whyFarming/optionC</text>
+        </option>
+        <option id="f53bc40107" nextId="3d4269577d">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/whyFarming/optionD</text>
+        </option>
+        <option id="5a87d6d96a" nextId="a468bbde45">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/whyFarming/optionE</text>
+        </option>
+        <option id="4985b9c9a5" nextId="0fbae5696c">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/whyFarming/optionF</text>
+        </option>
+        <option id="4156d6503e" nextId="642d204c5c">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/whyFarming/optionG</text>
+        </option>
+      </next>
+    </item>
+    <item id="1a2d3f2397" nextId="642d204c5c">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/whyFarming/notCutOut</text>
+    </item>
+    <item id="642d204c5c" nextId="4933d4ce7a">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/whyFarming/anActor</text>
+    </item>
+    <item id="4933d4ce7a" nextId="8530335bef">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/whyFarming/actingIsHard</text>
+    </item>
+    <item id="8530335bef" nextId="ed14854dac">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/whyFarming/reliableJob</text>
+    </item>
+    <item id="ed14854dac" nextId="0b4e930498">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/whyFarming/officeJob</text>
+    </item>
+    <item id="0b4e930498" nextId="5b3a096ae2">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/whyFarming/iQuit</text>
+    </item>
+    <item id="5b3a096ae2" nextId="b2c00d34cb">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/whyFarming/risky</text>
+    </item>
+    <item id="b2c00d34cb" nextId="0e2eca948c">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/whyFarming/nowIAmHere</text>
+    </item>
+    <item id="0e2eca948c" nextId="f73ffae565">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/whyFarming/anywayNiceTalk</text>
+    </item>
+    <item id="f73ffae565">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/whyFarming/alreadyLookingForward</text>
+      <actions>
+        <startConversationById uniqueId="bdd07bda2c"/>
+      </actions>
+    </item>
+    <item id="3f35fbe589" nextId="642d204c5c">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/whyFarming/noNotReally</text>
+    </item>
+    <item id="3caf5b7034" nextId="924bbe29ae">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/whyFarming/wasInterestedSpace</text>
+    </item>
+    <item id="924bbe29ae" nextId="642d204c5c">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/whyFarming/watchingDocumentaries</text>
+    </item>
+    <item id="3d4269577d" nextId="642d204c5c">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/whyFarming/notSmartEnough</text>
+    </item>
+    <item id="a468bbde45" nextId="642d204c5c">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/whyFarming/neverInteresedInSports</text>
+    </item>
+    <item id="0fbae5696c" nextId="642d204c5c">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/whyFarming/beingResponsible</text>
+    </item>
+    <item id="6f4233f300" nextId="4f56b149ab">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/whyFarming/heavyMachines</text>
+    </item>
+    <item id="182024b376" nextId="4f56b149ab">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/whyFarming/sameForMe</text>
+    </item>
+    <item id="a1127a5379" nextId="4f56b149ab">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/whyFarming/meToo</text>
+    </item>
+    <item id="87acb6be15" nextId="4f56b149ab">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/whyFarming/meToo2</text>
+    </item>
+    <item id="33f1b53ee2" nextId="4f56b149ab">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/whyFarming/interesting</text>
+    </item>
+  </textFlow>
+</conversation>

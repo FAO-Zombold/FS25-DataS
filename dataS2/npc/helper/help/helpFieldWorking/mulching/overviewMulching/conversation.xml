@@ -1,0 +1,40 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="55e9a005e4">
+    <item id="55e9a005e4" isActive="false">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/mulching/overviewMulching/intro</text>
+      <next>
+        <option id="fc00d2e877">
+          <text>$dataS2/npc/helper/help/helpFieldWorking/mulching/overviewMulching/whyMulch</text>
+          <actions>
+            <startConversationById uniqueId="bab2e55349"/>
+          </actions>
+        </option>
+        <option id="6197901929">
+          <text>$dataS2/npc/helper/help/helpFieldWorking/mulching/overviewMulching/whatTypes</text>
+          <actions>
+            <startConversationById uniqueId="8f12a0a7d0"/>
+          </actions>
+        </option>
+        <option id="992ecd71b2">
+          <text>$dataS2/npc/helper/help/helpFieldWorking/mulching/overviewMulching/howUse</text>
+          <actions>
+            <startConversationById uniqueId="ac619d3157"/>
+          </actions>
+        </option>
+        <option id="2242973f81">
+          <text>$dataS2/npc/helper/help/helpFieldWorking/mulching/overviewMulching/backButton</text>
+          <actions>
+            <startConversationById uniqueId="0c49b93be8"/>
+          </actions>
+        </option>
+        <option id="bc5697c1d2">
+          <text>$dataS2/npc/helper/help/helpFieldWorking/mulching/overviewMulching/exitButton</text>
+        </option>
+      </next>
+    </item>
+  </textFlow>
+</conversation>

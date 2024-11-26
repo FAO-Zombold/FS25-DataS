@@ -1,0 +1,29 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="e4ee9d5e0a">
+    <item id="e4ee9d5e0a" nextId="04ac864321">
+      <text>$dataS2/npc/animalDealer/help/animals/pigs/howDoIFeedPigs/rightMixOfFeed</text>
+    </item>
+    <item id="04ac864321" nextId="ce2ab8dfaa">
+      <text>$dataS2/npc/animalDealer/help/animals/pigs/howDoIFeedPigs/mixMadeOutOf</text>
+    </item>
+    <item id="ce2ab8dfaa" nextId="77ede36439">
+      <text>$dataS2/npc/animalDealer/help/animals/pigs/howDoIFeedPigs/baseFeed</text>
+    </item>
+    <item id="77ede36439" nextId="6697f49013">
+      <text>$dataS2/npc/animalDealer/help/animals/pigs/howDoIFeedPigs/nothingWrongWith</text>
+    </item>
+    <item id="6697f49013" nextId="df5f562ae5">
+      <text>$dataS2/npc/animalDealer/help/animals/pigs/howDoIFeedPigs/potatoesOrSugarBeets</text>
+    </item>
+    <item id="df5f562ae5">
+      <text>$dataS2/npc/animalDealer/help/animals/pigs/howDoIFeedPigs/mixingWagon</text>
+      <actions>
+        <startConversationById uniqueId="07ab71a10f"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

@@ -1,0 +1,17 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="9cd797134c">
+    <item id="9cd797134c" nextId="4499ef8242">
+      <text>$dataS2/npc/animalDealer/help/animals/horses/howDoISell/needToTakeCare</text>
+    </item>
+    <item id="4499ef8242">
+      <text>$dataS2/npc/animalDealer/help/animals/horses/howDoISell/sellAtStable</text>
+      <actions>
+        <startConversationById uniqueId="85f2319db6"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

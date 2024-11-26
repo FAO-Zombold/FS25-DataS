@@ -1,0 +1,48 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>MISSION_INTRO</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <missionAvailable>
+      <type name="cultivateMission"/>
+      <type name="plowMission"/>
+      <type name="weedMission"/>
+      <type name="stonePickMission"/>
+      <type name="fertilizeMission"/>
+      <type name="sowMission" variant="BEETROOT"/>
+      <type name="sowMission" variant="CARROT"/>
+      <type name="sowMission" variant="MAIZE"/>
+      <type name="sowMission" variant="COTTON"/>
+      <type name="sowMission" variant="GRAIN"/>
+      <type name="sowMission" variant="GREENBEAN"/>
+      <type name="sowMission" variant="PARSNIP"/>
+      <type name="sowMission" variant="PEA"/>
+      <type name="sowMission" variant="POPLAR"/>
+      <type name="sowMission" variant="POTATO"/>
+      <type name="sowMission" variant="RICE"/>
+      <type name="sowMission" variant="SPINNACH"/>
+      <type name="sowMission" variant="SUGARCANE"/>
+      <type name="sowMission" variant="SUNFLOWER"/>
+      <type name="harvestMission" variant="GRAIN"/>
+      <type name="harvestMission" variant="BEETROOT"/>
+      <type name="harvestMission" variant="CARROT"/>
+      <type name="harvestMission" variant="MAIZE"/>
+      <type name="harvestMission" variant="PARSNIP"/>
+      <type name="harvestMission" variant="POTATO"/>
+      <type name="harvestMission" variant="SUGARCANE"/>
+      <type name="harvestMission" variant="SUGARBEET"/>
+      <type name="harvestMission" variant="SUNFLOWER"/>
+      <type name="herbicideMission"/>
+      <type name="hoeMission"/>
+    </missionAvailable>
+  </prerequisites>
+  <textFlow startId="f4a53bfead">
+    <item id="f4a53bfead">
+      <text>$dataS2/npc/grandpa/missions/missionIntros/missionIntro5/fewThings</text>
+      <actions>
+        <startConversationById uniqueId="df1796eea2"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

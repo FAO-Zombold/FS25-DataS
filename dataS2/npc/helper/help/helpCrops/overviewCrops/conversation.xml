@@ -1,0 +1,134 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="b758191f24">
+    <item id="b758191f24" isActive="false">
+      <text>$dataS2/npc/helper/help/helpCrops/overviewCrops/intro</text>
+      <next>
+        <option id="1e8091533b">
+          <text>$dataS2/npc/helper/help/helpCrops/overviewCrops/grains</text>
+          <actions>
+            <startConversationById uniqueId="a015a9600e"/>
+          </actions>
+        </option>
+        <option id="24b599a996">
+          <text>$dataS2/npc/helper/help/helpCrops/overviewCrops/grapesOlives</text>
+          <actions>
+            <startConversationById uniqueId="f5e07f2c91"/>
+          </actions>
+        </option>
+        <option id="80a1f987a2">
+          <text>$dataS2/npc/helper/help/helpCrops/overviewCrops/potatoes</text>
+          <actions>
+            <startConversationById uniqueId="c75499b58d"/>
+          </actions>
+        </option>
+        <option id="ac710448f0">
+          <text>$dataS2/npc/helper/help/helpCrops/overviewCrops/sugarBeet</text>
+          <actions>
+            <startConversationById uniqueId="e509a9aa94"/>
+          </actions>
+        </option>
+        <option id="fdcda18589">
+          <text>$dataS2/npc/helper/help/helpCrops/overviewCrops/cotton</text>
+          <actions>
+            <startConversationById uniqueId="cfeddb0822"/>
+          </actions>
+        </option>
+        <option id="c72c5979e4">
+          <text>$dataS2/npc/helper/help/helpCrops/overviewCrops/corn</text>
+          <actions>
+            <startConversationById uniqueId="00ac66f4fd"/>
+          </actions>
+        </option>
+        <option id="b015c4df86">
+          <text>$dataS2/npc/helper/help/helpCrops/overviewCrops/sunflower</text>
+          <actions>
+            <startConversationById uniqueId="114deffac9"/>
+          </actions>
+        </option>
+        <option id="a4740e530a">
+          <text>$dataS2/npc/helper/help/helpCrops/overviewCrops/sugarcane</text>
+          <actions>
+            <startConversationById uniqueId="dd2b93b539"/>
+          </actions>
+        </option>
+        <option id="18b63d8d41">
+          <text>$dataS2/npc/helper/help/helpCrops/overviewCrops/poplar</text>
+          <actions>
+            <startConversationById uniqueId="b4faf1a7f5"/>
+          </actions>
+        </option>
+        <option id="2ffa909a98">
+          <text>$dataS2/npc/helper/help/helpCrops/overviewCrops/carrots</text>
+          <actions>
+            <startConversationById uniqueId="be9ba42ea5"/>
+          </actions>
+        </option>
+        <option id="70db98a819">
+          <text>$dataS2/npc/helper/help/helpCrops/overviewCrops/parsnips</text>
+          <actions>
+            <startConversationById uniqueId="11e343a805"/>
+          </actions>
+        </option>
+        <option id="24270f533a">
+          <text>$dataS2/npc/helper/help/helpCrops/overviewCrops/redBeet</text>
+          <actions>
+            <startConversationById uniqueId="c332fad3d2"/>
+          </actions>
+        </option>
+        <option id="5e19650bec">
+          <text>$dataS2/npc/helper/help/helpCrops/overviewCrops/rice</text>
+          <actions>
+            <startConversationById uniqueId="a230916ebf"/>
+          </actions>
+        </option>
+        <option id="572bb6e3a0">
+          <text>$dataS2/npc/helper/help/helpCrops/overviewCrops/spinach</text>
+          <actions>
+            <startConversationById uniqueId="974196d53e"/>
+          </actions>
+        </option>
+        <option id="06dd357435">
+          <text>$dataS2/npc/helper/help/helpCrops/overviewCrops/peas</text>
+          <actions>
+            <startConversationById uniqueId="908b1e3552"/>
+          </actions>
+        </option>
+        <option id="153d630aa9">
+          <text>$dataS2/npc/helper/help/helpCrops/overviewCrops/beans</text>
+          <actions>
+            <startConversationById uniqueId="7098198290"/>
+          </actions>
+        </option>
+        <option id="474001cb62">
+          <text>$dataS2/npc/helper/help/helpCrops/overviewCrops/backButton</text>
+          <actions>
+            <startConversationFromList>
+              <conversation uniqueId="38c757415f"/>
+              <conversation uniqueId="2db889d2f2"/>
+              <conversation uniqueId="943386b1ce"/>
+              <conversation uniqueId="8d3f9a3c99"/>
+              <conversation uniqueId="613ba30131"/>
+              <conversation uniqueId="38d98e847e"/>
+              <conversation uniqueId="5fa2b685c4"/>
+              <conversation uniqueId="78327ca751"/>
+              <conversation uniqueId="e14348c30e"/>
+              <conversation uniqueId="952c3c5c39"/>
+              <conversation uniqueId="c10b8f5047"/>
+              <conversation uniqueId="f5026e6fa4"/>
+              <conversation uniqueId="6994c3a807"/>
+              <conversation uniqueId="09541b417f"/>
+              <conversation uniqueId="f2e3846f18"/>
+            </startConversationFromList>
+          </actions>
+        </option>
+        <option id="2618bbf470">
+          <text>$dataS2/npc/helper/help/helpCrops/overviewCrops/exitButton</text>
+        </option>
+      </next>
+    </item>
+  </textFlow>
+</conversation>

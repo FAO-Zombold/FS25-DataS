@@ -1,0 +1,26 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="71a09acb12">
+    <item id="71a09acb12" nextId="19f1ee1471">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/fieldStones/whatFieldStones/mayKnow</text>
+    </item>
+    <item id="19f1ee1471" nextId="e466d89258">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/fieldStones/whatFieldStones/affectSoil</text>
+    </item>
+    <item id="e466d89258" nextId="e6de35c575">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/fieldStones/whatFieldStones/badNews</text>
+    </item>
+    <item id="e6de35c575" nextId="4a7fa0e12e">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/fieldStones/whatFieldStones/harvester</text>
+    </item>
+    <item id="4a7fa0e12e">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/fieldStones/whatFieldStones/cutPlants</text>
+      <actions>
+        <startConversationById uniqueId="eeb42cc99a"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

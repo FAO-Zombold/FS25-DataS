@@ -1,0 +1,35 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>DAVID_ADVICE</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <retriggerTypeDelayIngameDays type="DAVID_ADVICE" minDays="1"/>
+  </prerequisites>
+  <textFlow startId="f6a6395809">
+    <item id="f6a6395809" nextId="8e3ff471c8">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/sellingCrops/mistake</text>
+    </item>
+    <item id="8e3ff471c8" nextId="053ec8f3b0">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/sellingCrops/soldTheHarvest</text>
+    </item>
+    <item id="053ec8f3b0" nextId="ce51b4eda1">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/sellingCrops/moneyNow</text>
+    </item>
+    <item id="ce51b4eda1" nextId="413945804e">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/sellingCrops/moreMoneyLater</text>
+    </item>
+    <item id="413945804e" nextId="86c26c789d">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/sellingCrops/priceFluctuations</text>
+    </item>
+    <item id="86c26c789d" nextId="cf19e91899">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/sellingCrops/demand</text>
+    </item>
+    <item id="cf19e91899">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/sellingCrops/impatient</text>
+      <actions>
+        <startConversationById uniqueId="bdd07bda2c"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

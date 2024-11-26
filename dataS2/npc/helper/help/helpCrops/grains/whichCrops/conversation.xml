@@ -1,0 +1,20 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="94539b5db0">
+    <item id="94539b5db0" nextId="b114c78a03">
+      <text>$dataS2/npc/helper/help/helpCrops/grains/whichCrops/grainTypes</text>
+    </item>
+    <item id="b114c78a03" nextId="3283f7246f">
+      <text>$dataS2/npc/helper/help/helpCrops/grains/whichCrops/soybeans</text>
+    </item>
+    <item id="3283f7246f">
+      <text>$dataS2/npc/helper/help/helpCrops/grains/whichCrops/grainHeader</text>
+      <actions>
+        <startConversationById uniqueId="a015a9600e"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

@@ -1,0 +1,20 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="29aa25c787">
+    <item id="29aa25c787" nextId="79d6e6e1f3">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/mulching/whyMulch/apply</text>
+    </item>
+    <item id="79d6e6e1f3" nextId="a0369bd488">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/mulching/whyMulch/homeGardeners</text>
+    </item>
+    <item id="a0369bd488">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/mulching/whyMulch/notRich</text>
+      <actions>
+        <startConversationById uniqueId="9cd825d576"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

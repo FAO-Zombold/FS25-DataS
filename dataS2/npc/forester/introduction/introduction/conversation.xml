@@ -1,0 +1,98 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>INTRO</type>
+  <probability>100</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <firstContact/>
+  </prerequisites>
+  <textFlow startId="dbd1a61937">
+    <item id="dbd1a61937" nextId="38763b8356">
+      <text>$dataS2/npc/forester/introduction/introduction/Start</text>
+    </item>
+    <item id="38763b8356">
+      <text>$dataS2/npc/forester/introduction/introduction/introduction</text>
+      <next>
+        <option id="f4f3d90d67" nextId="67caad7cd1">
+          <text>$dataS2/npc/forester/introduction/introduction/tellMore</text>
+        </option>
+        <option id="a9dc162be7" nextId="67caad7cd1">
+          <text>$dataS2/npc/forester/introduction/introduction/interesting</text>
+        </option>
+      </next>
+    </item>
+    <item id="67caad7cd1" nextId="c2d9e43f8a">
+      <text>$dataS2/npc/forester/introduction/introduction/complyYourRequest</text>
+    </item>
+    <item id="c2d9e43f8a" nextId="2f029ec6e1">
+      <text>$dataS2/npc/forester/introduction/introduction/moreInfo</text>
+    </item>
+    <item id="2f029ec6e1" nextId="41837c3145">
+      <text>$dataS2/npc/forester/introduction/introduction/carpentryFamilyStuff</text>
+    </item>
+    <item id="41837c3145" nextId="b87f5b805d">
+      <text>$dataS2/npc/forester/introduction/introduction/jokesterDad</text>
+    </item>
+    <item id="b87f5b805d" nextId="56c87ac9b4">
+      <text>$dataS2/npc/forester/introduction/introduction/ownInterests</text>
+    </item>
+    <item id="56c87ac9b4" nextId="d7dd2f0ffe">
+      <text>$dataS2/npc/forester/introduction/introduction/whyLumberjack</text>
+    </item>
+    <item id="d7dd2f0ffe" nextId="ce13f3d16b">
+      <text>$dataS2/npc/forester/introduction/introduction/woodFacts</text>
+    </item>
+    <item id="ce13f3d16b" nextId="582bfd7c9e">
+      <text>$dataS2/npc/forester/introduction/introduction/plantingTrees</text>
+    </item>
+    <item id="582bfd7c9e" nextId="2e9893a01e">
+      <text>$dataS2/npc/forester/introduction/introduction/etCetera</text>
+    </item>
+    <item id="2e9893a01e" nextId="3d66c203f4">
+      <text>$dataS2/npc/forester/introduction/introduction/likeAnOrchestra</text>
+    </item>
+    <item id="3d66c203f4">
+      <text>$dataS2/npc/forester/introduction/introduction/theConductor</text>
+      <next>
+        <option id="8e16aa800c" nextId="96058615bf">
+          <text>$dataS2/npc/forester/introduction/introduction/notNice</text>
+        </option>
+        <option id="e809346080" nextId="778b81a4a6">
+          <text>$dataS2/npc/forester/introduction/introduction/GetIt</text>
+        </option>
+        <option id="f7fb7a7193" nextId="778b81a4a6">
+          <text>$dataS2/npc/forester/introduction/introduction/DoNotGetIt</text>
+        </option>
+      </next>
+    </item>
+    <item id="96058615bf" nextId="778b81a4a6">
+      <text>$dataS2/npc/forester/introduction/introduction/apologize</text>
+    </item>
+    <item id="778b81a4a6" nextId="eba427a29a">
+      <text>$dataS2/npc/forester/introduction/introduction/sisterMelissa</text>
+    </item>
+    <item id="eba427a29a" nextId="8e41beb925">
+      <text>$dataS2/npc/forester/introduction/introduction/carvingWood</text>
+    </item>
+    <item id="8e41beb925" nextId="596c1a8052">
+      <text>$dataS2/npc/forester/introduction/introduction/competing</text>
+    </item>
+    <item id="596c1a8052" nextId="f5f4389934">
+      <text>$dataS2/npc/forester/introduction/introduction/basswood</text>
+    </item>
+    <item id="f5f4389934">
+      <text>$dataS2/npc/forester/introduction/introduction/quitePopular</text>
+      <next>
+        <option id="9590deef5d" nextId="36bf87db98">
+          <text>$dataS2/npc/forester/introduction/introduction/moreThanExpected</text>
+        </option>
+        <option id="78bd834f2c" nextId="36bf87db98">
+          <text>$dataS2/npc/forester/introduction/introduction/thanks</text>
+        </option>
+      </next>
+    </item>
+    <item id="36bf87db98">
+      <text>$dataS2/npc/forester/introduction/introduction/farewell</text>
+    </item>
+  </textFlow>
+</conversation>

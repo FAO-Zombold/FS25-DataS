@@ -1,0 +1,26 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="eea0796ec6">
+    <item id="eea0796ec6" nextId="b96a66bf69">
+      <text>$dataS2/npc/animalDealer/help/animals/goats/howDoIKeepGoats/rewardingAnimals</text>
+    </item>
+    <item id="b96a66bf69" nextId="96ae5141f8">
+      <text>$dataS2/npc/animalDealer/help/animals/goats/howDoIKeepGoats/goatPasture</text>
+    </item>
+    <item id="96ae5141f8" nextId="af57cd6df4">
+      <text>$dataS2/npc/animalDealer/help/animals/goats/howDoIKeepGoats/deliverPasture</text>
+    </item>
+    <item id="af57cd6df4" nextId="f9fd2c15df">
+      <text>$dataS2/npc/animalDealer/help/animals/goats/howDoIKeepGoats/shapeTheArea</text>
+    </item>
+    <item id="f9fd2c15df">
+      <text>$dataS2/npc/animalDealer/help/animals/goats/howDoIKeepGoats/noSlurryOrManure</text>
+      <actions>
+        <startConversationById uniqueId="41dea2465a"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

@@ -1,0 +1,52 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="d0c47a966b">
+    <item id="d0c47a966b" isActive="false">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/plowingCultivating/overviewPlowingCultivating/intro</text>
+      <next>
+        <option id="8a8e67278b">
+          <text>$dataS2/npc/helper/help/helpFieldWorking/plowingCultivating/overviewPlowingCultivating/difference</text>
+          <actions>
+            <startConversationById uniqueId="c1453a1b9b"/>
+          </actions>
+        </option>
+        <option id="e1c8e8f34b">
+          <text>$dataS2/npc/helper/help/helpFieldWorking/plowingCultivating/overviewPlowingCultivating/typesPlows</text>
+          <actions>
+            <startConversationById uniqueId="80603fe692"/>
+          </actions>
+        </option>
+        <option id="8e1d1cc253">
+          <text>$dataS2/npc/helper/help/helpFieldWorking/plowingCultivating/overviewPlowingCultivating/typesCultivator</text>
+          <actions>
+            <startConversationById uniqueId="51da1548b1"/>
+          </actions>
+        </option>
+        <option id="df46a2df10">
+          <text>$dataS2/npc/helper/help/helpFieldWorking/plowingCultivating/overviewPlowingCultivating/howWhenPlow</text>
+          <actions>
+            <startConversationById uniqueId="eed1a1e4ab"/>
+          </actions>
+        </option>
+        <option id="31068d16b4">
+          <text>$dataS2/npc/helper/help/helpFieldWorking/plowingCultivating/overviewPlowingCultivating/howWhenCultivate</text>
+          <actions>
+            <startConversationById uniqueId="74097b3d04"/>
+          </actions>
+        </option>
+        <option id="a6bc994867">
+          <text>$dataS2/npc/helper/help/helpFieldWorking/plowingCultivating/overviewPlowingCultivating/backButton</text>
+          <actions>
+            <startConversationById uniqueId="0c49b93be8"/>
+          </actions>
+        </option>
+        <option id="a4cec00f02">
+          <text>$dataS2/npc/helper/help/helpFieldWorking/plowingCultivating/overviewPlowingCultivating/exitButton</text>
+        </option>
+      </next>
+    </item>
+  </textFlow>
+</conversation>

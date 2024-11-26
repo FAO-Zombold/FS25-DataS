@@ -1,0 +1,116 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>KATIE_ANECDOTES</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="1a655cf12e">
+    <item id="1a655cf12e">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/dahu/preparedforCatchingDay</text>
+      <next>
+        <option id="70eb95a40f" nextId="5aee9480c0">
+          <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/dahu/preparedforCatchingDayOptionA</text>
+        </option>
+        <option id="a1856246b0" nextId="90b50fe9a6">
+          <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/dahu/preparedforCatchingDayOptionB</text>
+        </option>
+      </next>
+    </item>
+    <item id="5aee9480c0" nextId="74d52e1c20">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/dahu/doYouNotKnow</text>
+    </item>
+    <item id="74d52e1c20" nextId="3000de8c42">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/dahu/dahuFromSwitzerland</text>
+    </item>
+    <item id="3000de8c42" nextId="a6c9618438">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/dahu/howItMadeItsWay</text>
+    </item>
+    <item id="a6c9618438" nextId="bfbefe27b3">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/dahu/myGuess</text>
+    </item>
+    <item id="bfbefe27b3" nextId="8aa8b8ee56">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/dahu/foundItsWay</text>
+    </item>
+    <item id="8aa8b8ee56" nextId="82c3b387a3">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/dahu/unlikely</text>
+    </item>
+    <item id="82c3b387a3" nextId="16612f09fe">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/dahu/moreExplanation</text>
+    </item>
+    <item id="16612f09fe" nextId="d3491adaaf">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/dahu/mountainGoat</text>
+    </item>
+    <item id="d3491adaaf">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/dahu/frontAndHindLegs</text>
+      <next>
+        <option id="363678bcc7" nextId="934fdfbcca">
+          <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/dahu/frontAndHindLegsOptionA</text>
+        </option>
+        <option id="a702e6fc72" nextId="bed271bd8d">
+          <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/dahu/frontAndHindLegsOptionB</text>
+        </option>
+      </next>
+    </item>
+    <item id="934fdfbcca" nextId="31c8b2f043">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/dahu/reallyIs</text>
+    </item>
+    <item id="31c8b2f043" nextId="f42a605dae">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/dahu/communityEvent</text>
+    </item>
+    <item id="f42a605dae" nextId="ab41d1fee8">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/dahu/differentTypes</text>
+    </item>
+    <item id="ab41d1fee8" nextId="5ac2d2ccf6">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/dahu/theDiffenceBetweenDahus</text>
+    </item>
+    <item id="5ac2d2ccf6" nextId="a5d41a66ab">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/dahu/rarelyMeet</text>
+    </item>
+    <item id="a5d41a66ab" nextId="d229807c7f">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/dahu/sociableCreatures</text>
+    </item>
+    <item id="d229807c7f" nextId="54065d79ec">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/dahu/mountainSlope</text>
+    </item>
+    <item id="54065d79ec" nextId="717f97bddd">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/dahu/looseItsFooting</text>
+    </item>
+    <item id="717f97bddd" nextId="5b809f132f">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/dahu/hangOut</text>
+    </item>
+    <item id="5b809f132f" nextId="d2984acd0c">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/dahu/fieldOnAHill</text>
+    </item>
+    <item id="d2984acd0c" nextId="2f7d1d64ce">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/dahu/anyway</text>
+    </item>
+    <item id="2f7d1d64ce">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/dahu/datesForCatchingDay</text>
+      <next>
+        <option id="1526a3b0be" nextId="b14897d105">
+          <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/dahu/optionA</text>
+        </option>
+        <option id="eb90aaec34" nextId="6326a7ad89">
+          <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/dahu/optionB</text>
+        </option>
+      </next>
+    </item>
+    <item id="b14897d105" nextId="ff3518b9ae">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/dahu/exactly</text>
+    </item>
+    <item id="ff3518b9ae">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/dahu/pleaseComeSeeMe</text>
+      <actions>
+        <startConversationById uniqueId="bb0236da62"/>
+      </actions>
+    </item>
+    <item id="6326a7ad89" nextId="ff3518b9ae">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/dahu/happyCatchingDay</text>
+    </item>
+    <item id="bed271bd8d" nextId="31c8b2f043">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/dahu/formerCollegue</text>
+    </item>
+    <item id="90b50fe9a6" nextId="74d52e1c20">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/dahu/yeay</text>
+    </item>
+  </textFlow>
+</conversation>

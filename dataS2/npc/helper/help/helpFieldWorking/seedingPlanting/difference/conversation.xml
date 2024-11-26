@@ -1,0 +1,29 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>false</isActive>
+  <textFlow startId="b66e7ab156">
+    <item id="b66e7ab156" nextId="c5a526b5ce">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/seedingPlanting/difference/similarProcess</text>
+    </item>
+    <item id="c5a526b5ce" nextId="17255ec6af">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/seedingPlanting/difference/usage</text>
+    </item>
+    <item id="17255ec6af" nextId="377fae810c">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/seedingPlanting/difference/difference</text>
+    </item>
+    <item id="377fae810c" nextId="457a616d67">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/seedingPlanting/difference/sown</text>
+    </item>
+    <item id="457a616d67" nextId="7885bd95cd">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/seedingPlanting/difference/plants</text>
+    </item>
+    <item id="7885bd95cd">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/seedingPlanting/difference/oversimplification</text>
+      <actions>
+        <startConversationById uniqueId="7f401962c5"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

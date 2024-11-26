@@ -1,0 +1,26 @@
+<conversation>
+  <class>NPCConversationGuidedTour</class>
+  <type>GUIDED_TOUR</type>
+  <isActive>true</isActive>
+  <probability>1</probability>
+  <prerequisites>
+    <manuallyTriggered/>
+  </prerequisites>
+  <textFlow startId="08c4d2cf7a">
+    <item id="08c4d2cf7a" nextId="888ba82d25">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/combine/turnOnTheCombine/nearlyDone</text>
+    </item>
+    <item id="888ba82d25" nextId="5cc254c75a">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/combine/turnOnTheCombine/wobbly</text>
+    </item>
+    <item id="5cc254c75a" nextId="566f364c0a">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/combine/turnOnTheCombine/wannaTry</text>
+    </item>
+    <item id="566f364c0a" nextId="9bd7531410">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/combine/turnOnTheCombine/steer</text>
+    </item>
+    <item id="9bd7531410">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/combine/turnOnTheCombine/turnOn</text>
+    </item>
+  </textFlow>
+</conversation>

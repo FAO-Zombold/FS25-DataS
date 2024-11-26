@@ -1,0 +1,35 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="5bfd96f341">
+    <item id="5bfd96f341" nextId="754854ec13">
+      <text>$dataS2/npc/helper/help/helpCrops/cotton/whatEquipment/specialEquipment</text>
+    </item>
+    <item id="754854ec13" nextId="e705308e4d">
+      <text>$dataS2/npc/helper/help/helpCrops/cotton/whatEquipment/hugeField</text>
+    </item>
+    <item id="e705308e4d" nextId="fa210abd8d">
+      <text>$dataS2/npc/helper/help/helpCrops/cotton/whatEquipment/cultivator</text>
+    </item>
+    <item id="fa210abd8d" nextId="64c7f87c07">
+      <text>$dataS2/npc/helper/help/helpCrops/cotton/whatEquipment/planter</text>
+    </item>
+    <item id="64c7f87c07" nextId="89695ebc7e">
+      <text>$dataS2/npc/helper/help/helpCrops/cotton/whatEquipment/fertilizer</text>
+    </item>
+    <item id="89695ebc7e" nextId="573321785b">
+      <text>$dataS2/npc/helper/help/helpCrops/cotton/whatEquipment/weeds</text>
+    </item>
+    <item id="573321785b" nextId="36ca4289c7">
+      <text>$dataS2/npc/helper/help/helpCrops/cotton/whatEquipment/cottonHarvester</text>
+    </item>
+    <item id="36ca4289c7">
+      <text>$dataS2/npc/helper/help/helpCrops/cotton/whatEquipment/emptyTrailer</text>
+      <actions>
+        <startConversationById uniqueId="cfeddb0822"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

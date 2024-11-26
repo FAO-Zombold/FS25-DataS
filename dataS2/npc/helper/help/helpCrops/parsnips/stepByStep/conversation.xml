@@ -1,0 +1,44 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="aecbc5ef77">
+    <item id="aecbc5ef77" nextId="6e7e0ee04f">
+      <text>$dataS2/npc/helper/help/helpCrops/parsnips/stepByStep/cultivate</text>
+    </item>
+    <item id="6e7e0ee04f" nextId="0168b000b2">
+      <text>$dataS2/npc/helper/help/helpCrops/parsnips/stepByStep/cropCalendar</text>
+    </item>
+    <item id="0168b000b2" nextId="f06880f9e1">
+      <text>$dataS2/npc/helper/help/helpCrops/parsnips/stepByStep/liming</text>
+    </item>
+    <item id="f06880f9e1" nextId="ae44d9ef0e">
+      <text>$dataS2/npc/helper/help/helpCrops/parsnips/stepByStep/optional</text>
+    </item>
+    <item id="ae44d9ef0e" nextId="9a05d04237">
+      <text>$dataS2/npc/helper/help/helpCrops/parsnips/stepByStep/ridgeforming</text>
+    </item>
+    <item id="9a05d04237" nextId="a3545d4e5a">
+      <text>$dataS2/npc/helper/help/helpCrops/parsnips/stepByStep/stepFour</text>
+    </item>
+    <item id="a3545d4e5a" nextId="63d7e40845">
+      <text>$dataS2/npc/helper/help/helpCrops/parsnips/stepByStep/fertilizing</text>
+    </item>
+    <item id="63d7e40845" nextId="36a89b1050">
+      <text>$dataS2/npc/helper/help/helpCrops/parsnips/stepByStep/weedingHoe</text>
+    </item>
+    <item id="36a89b1050" nextId="c96c9d9f10">
+      <text>$dataS2/npc/helper/help/helpCrops/parsnips/stepByStep/stepSeven</text>
+    </item>
+    <item id="c96c9d9f10" nextId="b39e67557d">
+      <text>$dataS2/npc/helper/help/helpCrops/parsnips/stepByStep/parsnips</text>
+    </item>
+    <item id="b39e67557d">
+      <text>$dataS2/npc/helper/help/helpCrops/parsnips/stepByStep/strew</text>
+      <actions>
+        <startConversationById uniqueId="11e343a805"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

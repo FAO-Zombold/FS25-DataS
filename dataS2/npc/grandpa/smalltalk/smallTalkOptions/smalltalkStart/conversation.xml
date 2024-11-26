@@ -1,0 +1,59 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>SMALLTALK</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="d9e5d914db">
+    <item id="d9e5d914db">
+      <text>$dataS2/npc/grandpa/smalltalk/smallTalkOptions/smalltalkStart/sure</text>
+      <next>
+        <option id="1dec9cf21b">
+          <text>$dataS2/npc/grandpa/smalltalk/smallTalkOptions/smalltalkStart/moreAboutYou</text>
+          <actions>
+            <startConversationFromList>
+              <conversation uniqueId="12be4210c0"/>
+              <conversation uniqueId="99b12c2c23"/>
+              <conversation uniqueId="b40ba9709e"/>
+              <conversation uniqueId="8ae6884a92"/>
+              <conversation uniqueId="f46b107508"/>
+              <conversation uniqueId="68568d6c33"/>
+              <failConversation uniqueId="c4b63ef305"/>
+              <failConversation uniqueId="cb1f562495"/>
+              <failConversation uniqueId="4d3f5f136a"/>
+              <failConversation uniqueId="57d0fb580c"/>
+              <failConversation uniqueId="806bd167e8"/>
+            </startConversationFromList>
+          </actions>
+        </option>
+        <option id="3188290572">
+          <text>$dataS2/npc/grandpa/smalltalk/smallTalkOptions/smalltalkStart/wisdoms</text>
+          <actions>
+            <startConversationFromList>
+              <conversation uniqueId="7c4e0c4009"/>
+              <conversation uniqueId="8164fa4c90"/>
+              <conversation uniqueId="8f9ed9fc26"/>
+              <conversation uniqueId="be32f54356"/>
+              <conversation uniqueId="bce3791fb2"/>
+              <conversation uniqueId="574dbf7f0d"/>
+              <conversation uniqueId="b5e1820c87"/>
+              <conversation uniqueId="9241374029"/>
+              <conversation uniqueId="4e5ead0729"/>
+              <conversation uniqueId="2ce0195f73"/>
+              <failConversation uniqueId="c4b63ef305"/>
+              <failConversation uniqueId="4d3f5f136a"/>
+              <failConversation uniqueId="cb1f562495"/>
+              <failConversation uniqueId="57d0fb580c"/>
+              <failConversation uniqueId="806bd167e8"/>
+            </startConversationFromList>
+          </actions>
+        </option>
+        <option id="72876cdba9">
+          <text>$dataS2/npc/grandpa/smalltalk/smallTalkOptions/smalltalkStart/buttonBack</text>
+          <actions>
+            <startConversationById uniqueId="0bc5b0ce93"/>
+          </actions>
+        </option>
+      </next>
+    </item>
+  </textFlow>
+</conversation>

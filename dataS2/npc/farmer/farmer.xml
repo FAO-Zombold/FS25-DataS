@@ -1,0 +1,131 @@
+<npc>
+  <class>NPC</class>
+  <title>David</title>
+  <imageFilename>$dataS2/npc/farmer/farmer.png</imageFilename>
+  <filename>$dataS/character/npc/npcBase.i3d</filename>
+  <sounds>
+    <voice linkNode="audioNode" innerRadius="0.2" outerRadius="10.0" supportsReverb="false">
+      <volume indoor="2.8" outdoor="2.8"/>
+      <pitch indoor="1.00" outdoor="1.0"/>
+      <lowpassGain indoor="0.60" outdoor="0.60"/>
+    </voice>
+    <phone supportsReverb="false">
+      <volume indoor="0.9" outdoor="1.0"/>
+      <pitch indoor="1.00" outdoor="1.00"/>
+      <lowpassGain indoor="1.00" outdoor="1.00"/>
+      <lowpassCutoffFrequency indoor="2000" outdoor="2000.0"/>
+      <lowpassResonance indoor="1.0" outdoor="1.0"/>
+    </phone>
+  </sounds>
+  <playerStyle filename="dataS/character/playerM/playerM.xml">
+    <bottom color="2" name="jeans"/>
+    <face color="1" name="head04"/>
+    <top color="2" name="collaredShirt"/>
+    <headgear color="12" name="ballcap"/>
+    <glasses color="1" name="classic"/>
+    <footwear color="9" name="sneakers"/>
+    <hairStyle color="18" name="hair02"/>
+  </playerStyle>
+  <interactionTrigger node="triggerNode"/>
+  <conversations>
+    <conversation uniqueId="af67d9a45d">$dataS2/npc/farmer/dialogueStart/cameToChat/conversation.xml</conversation>
+    <conversation uniqueId="bdd07bda2c">$dataS2/npc/farmer/dialogueStart/dialogueStartOverview/conversation.xml</conversation>
+    <conversation uniqueId="a6e510e5c6">$dataS2/npc/farmer/dialogueStart/heyBuddy/conversation.xml</conversation>
+    <conversation uniqueId="8b17158766">$dataS2/npc/farmer/dialogueStart/heyThere/conversation.xml</conversation>
+    <conversation uniqueId="d78d50e506">$dataS2/npc/farmer/dialogueStart/neigborino/conversation.xml</conversation>
+    <conversation uniqueId="e502e929b5">$dataS2/npc/farmer/dialogueStart/whaaatIsUp/conversation.xml</conversation>
+    <conversation uniqueId="b8b9dcd61a">$dataS2/npc/farmer/dialogueStart/whatCanIDo/conversation.xml</conversation>
+    <conversation uniqueId="d4898c635d">$dataS2/npc/farmer/dialogueStart/whatCanIDodododo/conversation.xml</conversation>
+    <conversation uniqueId="afc87f7634">$dataS2/npc/farmer/dialogueStart/whatIsUp/conversation.xml</conversation>
+    <conversation uniqueId="18aa76b0b0">$dataS2/npc/farmer/enoughSmallTalk/chatAgainTomorrow/conversation.xml</conversation>
+    <conversation uniqueId="82186afd11">$dataS2/npc/farmer/enoughSmallTalk/continueAnotherTime/conversation.xml</conversation>
+    <conversation uniqueId="3120942e0e">$dataS2/npc/farmer/enoughSmallTalk/gotStuffToDo/conversation.xml</conversation>
+    <conversation uniqueId="5a4d7b76ab">$dataS2/npc/farmer/enoughSmallTalk/sorryICanNot/conversation.xml</conversation>
+    <conversation uniqueId="de3df4adb9">$dataS2/npc/farmer/firstTimeIntro/heyThereNeighbor/conversation.xml</conversation>
+    <conversation uniqueId="c0a26fcabf">$dataS2/npc/farmer/missions/introsMissionAvailable/awesomeToOffer/conversation.xml</conversation>
+    <conversation uniqueId="0b5f6618c8">$dataS2/npc/farmer/missions/introsMissionAvailable/missionIntroOverview/conversation.xml</conversation>
+    <conversation uniqueId="58d3edbf51">$dataS2/npc/farmer/missions/introsMissionAvailable/niceBuddy/conversation.xml</conversation>
+    <conversation uniqueId="5f875b4f14">$dataS2/npc/farmer/missions/introsMissionAvailable/thankYouSoMuch/conversation.xml</conversation>
+    <conversation uniqueId="a3bf74a1af">$dataS2/npc/farmer/missions/introsMissionAvailable/thanksForHelping/conversation.xml</conversation>
+    <conversation uniqueId="c72909ada5">$dataS2/npc/farmer/missions/introsMissionUnavailable/appreciateIt/conversation.xml</conversation>
+    <conversation uniqueId="8ffa7232a2">$dataS2/npc/farmer/missions/introsMissionUnavailable/soConsiderate/conversation.xml</conversation>
+    <conversation uniqueId="dc15e07349">$dataS2/npc/farmer/missions/introsMissionUnavailable/thanksBuddy/conversation.xml</conversation>
+    <conversation uniqueId="f1cb13a146">$dataS2/npc/farmer/missions/snowPlowing/snowPlowing1/conversation.xml</conversation>
+    <conversation uniqueId="4d198bd85a">$dataS2/npc/farmer/missions/snowPlowing/snowPlowing2/conversation.xml</conversation>
+    <conversation uniqueId="08a5766b69">$dataS2/npc/farmer/missions/snowPlowing/snowPlowing3/conversation.xml</conversation>
+    <conversation uniqueId="b181fb5f9b">$dataS2/npc/farmer/missions/snowPlowing/snowPlowingEquipment/conversation.xml</conversation>
+    <conversation uniqueId="2547e1b843">$dataS2/npc/farmer/missions/transportingBales/transportingBales1/conversation.xml</conversation>
+    <conversation uniqueId="dfa33f611b">$dataS2/npc/farmer/missions/transportingBales/transportingBales2/conversation.xml</conversation>
+    <conversation uniqueId="4a5e2729ac">$dataS2/npc/farmer/missions/transportingBales/transportingBales3/conversation.xml</conversation>
+    <conversation uniqueId="81df676c0e">$dataS2/npc/farmer/missions/transportingBales/transportingBalesEquipment/conversation.xml</conversation>
+    <conversation uniqueId="bbaf72807c">$dataS2/npc/farmer/missions/transportingGrain/transportingGrain1/conversation.xml</conversation>
+    <conversation uniqueId="31338162fd">$dataS2/npc/farmer/missions/transportingGrain/transportingGrain2/conversation.xml</conversation>
+    <conversation uniqueId="76e2c3393b">$dataS2/npc/farmer/missions/transportingGrain/transportingGrain3/conversation.xml</conversation>
+    <conversation uniqueId="1dc6fdba22">$dataS2/npc/farmer/missions/transportingGrain/transportingGrainsEquipment/conversation.xml</conversation>
+    <conversation uniqueId="a865bf275b">$dataS2/npc/farmer/missions/transportingPallets/transportingPallets1/conversation.xml</conversation>
+    <conversation uniqueId="586d2cde68">$dataS2/npc/farmer/missions/transportingPallets/transportingPallets2/conversation.xml</conversation>
+    <conversation uniqueId="ec83e73624">$dataS2/npc/farmer/missions/transportingPallets/transportingPallets3/conversation.xml</conversation>
+    <conversation uniqueId="d61d8129f7">$dataS2/npc/farmer/missions/transportingPallets/transportingPalletsEquipment/conversation.xml</conversation>
+    <conversation uniqueId="59423d7e02">$dataS2/npc/farmer/missions/transportingSugarBeet/trasportingSugarbeet1/conversation.xml</conversation>
+    <conversation uniqueId="a3db491331">$dataS2/npc/farmer/missions/transportingSugarBeet/trasportingSugarbeet2/conversation.xml</conversation>
+    <conversation uniqueId="22a0a20e25">$dataS2/npc/farmer/missions/transportingSugarBeet/trasportingSugarbeet3/conversation.xml</conversation>
+    <conversation uniqueId="5aaf25f345">$dataS2/npc/farmer/missions/transportingSugarBeet/trasportingSugarbeetEquipment/conversation.xml</conversation>
+    <conversation uniqueId="f71a10f8d1">$dataS2/npc/farmer/smalltalk/smalltalkAdvice/beesBuddyBees/conversation.xml</conversation>
+    <conversation uniqueId="161908c3ee">$dataS2/npc/farmer/smalltalk/smalltalkAdvice/biogasPlants/conversation.xml</conversation>
+    <conversation uniqueId="26af0bbe76">$dataS2/npc/farmer/smalltalk/smalltalkAdvice/goForRentals/conversation.xml</conversation>
+    <conversation uniqueId="7397f64ca4">$dataS2/npc/farmer/smalltalk/smalltalkAdvice/mulching/conversation.xml</conversation>
+    <conversation uniqueId="706b15ad4a">$dataS2/npc/farmer/smalltalk/smalltalkAdvice/passiveIncome/conversation.xml</conversation>
+    <conversation uniqueId="813e4e1692">$dataS2/npc/farmer/smalltalk/smalltalkAdvice/rigeMarkers/conversation.xml</conversation>
+    <conversation uniqueId="0e74368d8a">$dataS2/npc/farmer/smalltalk/smalltalkAdvice/sellingCrops/conversation.xml</conversation>
+    <conversation uniqueId="b803bcd05f">$dataS2/npc/farmer/smalltalk/smalltalkAdvice/soyManyThings/conversation.xml</conversation>
+    <conversation uniqueId="55d4da82c2">$dataS2/npc/farmer/smalltalk/smalltalkAdvice/usedMachines/conversation.xml</conversation>
+    <conversation uniqueId="2281159cae">$dataS2/npc/farmer/smalltalk/smalltalkAdvice/vehicleRepair/conversation.xml</conversation>
+    <conversation uniqueId="45f921ae9e">$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/cowsAteMyGrass/conversation.xml</conversation>
+    <conversation uniqueId="54b0f0b678">$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/plowedPotatoes/conversation.xml</conversation>
+    <conversation uniqueId="388af44bd0">$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/plowedRoads/conversation.xml</conversation>
+    <conversation uniqueId="9f3d155b3b">$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/runAwayBales/conversation.xml</conversation>
+    <conversation uniqueId="ebeacb73a1">$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/sleptInWastedHarvest/conversation.xml</conversation>
+    <conversation uniqueId="02efe951fb">$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/smalltalkAnecdotesIntro/funnyYouAsk/conversation.xml</conversation>
+    <conversation uniqueId="f0800f1ade">$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/smalltalkAnecdotesIntro/gladYouAsked/conversation.xml</conversation>
+    <conversation uniqueId="4e324412fc">$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/smalltalkAnecdotesIntro/gotAnAnecdote/conversation.xml</conversation>
+    <conversation uniqueId="ea171de5d3">$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/smalltalkAnecdotesIntro/iHaveAGoodOne/conversation.xml</conversation>
+    <conversation uniqueId="7bd2e5dfb4">$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/smalltalkAnecdotesIntro/inForAStory/conversation.xml</conversation>
+    <conversation uniqueId="e14b5f6668">$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/smalltalkAnecdotesIntro/letMeEntertainYou/conversation.xml</conversation>
+    <conversation uniqueId="fcd9c8be5c">$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/smalltalkAnecdotesIntro/lotsGoingOn/conversation.xml</conversation>
+    <conversation uniqueId="ebb9f751cb">$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/smalltalkAnecdotesIntro/somethingRecently/conversation.xml</conversation>
+    <conversation uniqueId="a45d1a8f6d">$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/smalltalkAnecdotesIntro/youWillNotBelieve/conversation.xml</conversation>
+    <conversation uniqueId="c6f9be07f8">$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/stonesVsHarvester/conversation.xml</conversation>
+    <conversation uniqueId="04e4d65919">$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/stormVsBales/conversation.xml</conversation>
+    <conversation uniqueId="8007fa9444">$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/thereAreNarrowTires/conversation.xml</conversation>
+    <conversation uniqueId="2e6f1ff48c">$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/weedEverywhere/conversation.xml</conversation>
+    <conversation uniqueId="3738ac7253">$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/wrongHeader/conversation.xml</conversation>
+    <conversation uniqueId="49bfd5b238">$dataS2/npc/farmer/smalltalk/smalltalkYou/aboutKatie/conversation.xml</conversation>
+    <conversation uniqueId="154091482c">$dataS2/npc/farmer/smalltalk/smalltalkYou/aboutNoah/conversation.xml</conversation>
+    <conversation uniqueId="b20d8251d6">$dataS2/npc/farmer/smalltalk/smalltalkYou/artOrMeans/conversation.xml</conversation>
+    <conversation uniqueId="616d3d127e">$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife1Disorientation/conversation.xml</conversation>
+    <conversation uniqueId="91da2fa74a">$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife2NiceSmell/conversation.xml</conversation>
+    <conversation uniqueId="b7b9cc822a">$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife3Boredom/conversation.xml</conversation>
+    <conversation uniqueId="f635a1e313">$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife4CityNoise/conversation.xml</conversation>
+    <conversation uniqueId="ac56db7701">$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife5Neighbors/conversation.xml</conversation>
+    <conversation uniqueId="ff433373fb">$dataS2/npc/farmer/smalltalk/smalltalkYou/farmingWellness/conversation.xml</conversation>
+    <conversation uniqueId="8f7f526284">$dataS2/npc/farmer/smalltalk/smalltalkYou/justJokingForReal/conversation.xml</conversation>
+    <conversation uniqueId="d623f168aa">$dataS2/npc/farmer/smalltalk/smalltalkYou/potatosalad/conversation.xml</conversation>
+    <conversation uniqueId="d95c585171">$dataS2/npc/farmer/smalltalk/smalltalkYou/smalltalkYouIntro/aboutMe/conversation.xml</conversation>
+    <conversation uniqueId="42a96e6abf">$dataS2/npc/farmer/smalltalk/smalltalkYou/smalltalkYouIntro/alrightLetUsDive/conversation.xml</conversation>
+    <conversation uniqueId="6b6006c6a8">$dataS2/npc/farmer/smalltalk/smalltalkYou/smalltalkYouIntro/letMeShare/conversation.xml</conversation>
+    <conversation uniqueId="d77021131d">$dataS2/npc/farmer/smalltalk/smalltalkYou/smalltalkYouIntro/niceThatYouAsk/conversation.xml</conversation>
+    <conversation uniqueId="8cad0aea29">$dataS2/npc/farmer/smalltalk/smalltalkYou/smalltalkYouIntro/ohMe/conversation.xml</conversation>
+    <conversation uniqueId="3dd5da6a54">$dataS2/npc/farmer/smalltalk/smalltalkYou/smalltalkYouIntro/okayHereIsSomething/conversation.xml</conversation>
+    <conversation uniqueId="b1e72c3551">$dataS2/npc/farmer/smalltalk/smalltalkYou/smalltalkYouIntro/sureIDoNotMind/conversation.xml</conversation>
+    <conversation uniqueId="bdf76f8265">$dataS2/npc/farmer/smalltalk/smalltalkYou/smalltalkYouIntro/sureIGladly/conversation.xml</conversation>
+    <conversation uniqueId="b6722d6816">$dataS2/npc/farmer/smalltalk/smalltalkYou/smalltalkYouIntro/youWantToKnow/conversation.xml</conversation>
+    <conversation uniqueId="fe8af758ca">$dataS2/npc/farmer/smalltalk/smalltalkYou/startedAsAJoke/conversation.xml</conversation>
+    <conversation uniqueId="2da452fc5c">$dataS2/npc/farmer/smalltalk/smalltalkYou/strangelyContent/conversation.xml</conversation>
+    <conversation uniqueId="1eb17ff47e">$dataS2/npc/farmer/smalltalk/smalltalkYou/whatIfSimulation/conversation.xml</conversation>
+    <conversation uniqueId="102536201f">$dataS2/npc/farmer/smalltalk/smalltalkYou/whyFarming/conversation.xml</conversation>
+  </conversations>
+  <i3dMappings>
+    <i3dMapping id="audioNode" node="0&gt;0"/>
+    <i3dMapping id="triggerNode" node="0&gt;1"/>
+  </i3dMappings>
+</npc>

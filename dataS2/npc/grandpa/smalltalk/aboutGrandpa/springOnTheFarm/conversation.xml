@@ -1,0 +1,73 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>SMALLTALK_ABOUT_YOU</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <seasonPeriod min="EARLY_SPRING" max="LATE_SPRING"/>
+  </prerequisites>
+  <textFlow startId="3ae5e958fd">
+    <item id="3ae5e958fd" nextId="22cdb92ad4">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/springOnTheFarm/specialPlace</text>
+    </item>
+    <item id="22cdb92ad4" nextId="b29bbbc86a">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/springOnTheFarm/alwaysSpecial</text>
+    </item>
+    <item id="b29bbbc86a" nextId="935ba6bd00">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/springOnTheFarm/alarmClock</text>
+    </item>
+    <item id="935ba6bd00" nextId="dd10b55cfd">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/springOnTheFarm/greenSigns</text>
+    </item>
+    <item id="dd10b55cfd" nextId="4ca57b1a6a">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/springOnTheFarm/winterSilence</text>
+    </item>
+    <item id="4ca57b1a6a" nextId="3a8540fc3d">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/springOnTheFarm/symphonyLife</text>
+    </item>
+    <item id="3a8540fc3d">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/springOnTheFarm/aboutSpring</text>
+      <next>
+        <option id="1360bc6f81" nextId="a8424acef4">
+          <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/springOnTheFarm/freshStart</text>
+        </option>
+        <option id="1da9085803" nextId="0a1e286aae">
+          <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/springOnTheFarm/freshSmell</text>
+        </option>
+        <option id="976623d014" nextId="5a6d9afdc1">
+          <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/springOnTheFarm/colorsFlowers</text>
+        </option>
+        <option id="8af03bb49f" nextId="dfc76f9379">
+          <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/springOnTheFarm/babyAnimals</text>
+        </option>
+        <option id="99247ec12e" nextId="919122758a">
+          <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/springOnTheFarm/dislikeSpring</text>
+        </option>
+      </next>
+    </item>
+    <item id="a8424acef4" nextId="cc6e556443">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/springOnTheFarm/manyOpportunities</text>
+    </item>
+    <item id="cc6e556443" nextId="402202d007">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/springOnTheFarm/springLove</text>
+    </item>
+    <item id="402202d007">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/springOnTheFarm/indulgeSpring</text>
+      <actions>
+        <startConversationById uniqueId="0bc5b0ce93"/>
+      </actions>
+    </item>
+    <item id="0a1e286aae" nextId="cc6e556443">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/springOnTheFarm/somePlowing</text>
+    </item>
+    <item id="5a6d9afdc1" nextId="cc6e556443">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/springOnTheFarm/landscapePainting</text>
+    </item>
+    <item id="dfc76f9379" nextId="cc6e556443">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/springOnTheFarm/sweetCalf</text>
+    </item>
+    <item id="919122758a" nextId="cc6e556443">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/springOnTheFarm/noFancy</text>
+    </item>
+  </textFlow>
+</conversation>

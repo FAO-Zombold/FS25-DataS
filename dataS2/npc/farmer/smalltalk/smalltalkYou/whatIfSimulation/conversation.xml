@@ -1,0 +1,75 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>DAVID_YOU</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="7a7b9e708a">
+    <item id="7a7b9e708a" nextId="603e208a0e">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/whatIfSimulation/letMeAsk</text>
+    </item>
+    <item id="603e208a0e" nextId="a0f6473342">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/whatIfSimulation/loadedQuestion</text>
+    </item>
+    <item id="a0f6473342" nextId="799bdb81e6">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/whatIfSimulation/whatIf</text>
+    </item>
+    <item id="799bdb81e6">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/whatIfSimulation/justImagine</text>
+      <next>
+        <option id="0ffa4a8493" nextId="8ae83f1511">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/whatIfSimulation/justImagineOptionA</text>
+        </option>
+        <option id="ce2642ecb3" nextId="8ae83f1511">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/whatIfSimulation/justImagineOptionB</text>
+        </option>
+      </next>
+    </item>
+    <item id="8ae83f1511" nextId="fa16e5ba28">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/whatIfSimulation/everyThought</text>
+    </item>
+    <item id="fa16e5ba28" nextId="43aa283aac">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/whatIfSimulation/notCrazy</text>
+    </item>
+    <item id="43aa283aac" nextId="af44d633eb">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/whatIfSimulation/thereAreSigns</text>
+    </item>
+    <item id="af44d633eb" nextId="c8fe0acf22">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/whatIfSimulation/dejaVu</text>
+    </item>
+    <item id="c8fe0acf22" nextId="f295af35fb">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/whatIfSimulation/iKnowIKnow</text>
+    </item>
+    <item id="f295af35fb" nextId="e19ec69796">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/whatIfSimulation/characterInAGame</text>
+    </item>
+    <item id="e19ec69796" nextId="61783a5ef9">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/whatIfSimulation/onesAndZeros</text>
+    </item>
+    <item id="61783a5ef9" nextId="eb23aa6d91">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/whatIfSimulation/descartes</text>
+    </item>
+    <item id="eb23aa6d91" nextId="ce96f6dd42">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/whatIfSimulation/completlyDifferent</text>
+    </item>
+    <item id="ce96f6dd42">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/whatIfSimulation/whatDoYouThink</text>
+      <next>
+        <option id="b8b796543b" nextId="71b6e3dbde">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/whatIfSimulation/optionA</text>
+        </option>
+        <option id="590559a7b4" nextId="71b6e3dbde">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/whatIfSimulation/optionB</text>
+        </option>
+      </next>
+    </item>
+    <item id="71b6e3dbde" nextId="bab1c417fc">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/whatIfSimulation/rightHeadspace</text>
+    </item>
+    <item id="bab1c417fc">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/whatIfSimulation/loveTalkingToYou</text>
+      <actions>
+        <startConversationById uniqueId="bdd07bda2c"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

@@ -1,0 +1,58 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>DAVID_ANECDOTES</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="38c8b1412e">
+    <item id="38c8b1412e" nextId="6ff17e52a8">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/sleptInWastedHarvest/sleepIn</text>
+    </item>
+    <item id="6ff17e52a8" nextId="e1b95317e6">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/sleptInWastedHarvest/dueToIgnorance</text>
+    </item>
+    <item id="e1b95317e6">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/sleptInWastedHarvest/rubItInMyFace</text>
+      <next>
+        <option id="ca9725dcf0" nextId="0a58f6690b">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/sleptInWastedHarvest/optionA</text>
+        </option>
+        <option id="c221927279" nextId="f45a496a33">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/sleptInWastedHarvest/optionB</text>
+        </option>
+      </next>
+    </item>
+    <item id="0a58f6690b" nextId="3a5e0c2a72">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/sleptInWastedHarvest/surprised</text>
+    </item>
+    <item id="3a5e0c2a72" nextId="d263a3b4f2">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/sleptInWastedHarvest/sunnySunday</text>
+    </item>
+    <item id="d263a3b4f2" nextId="0527ffcd65">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/sleptInWastedHarvest/bitOfACold</text>
+    </item>
+    <item id="0527ffcd65" nextId="1a03ed8f61">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/sleptInWastedHarvest/nextRaining</text>
+    </item>
+    <item id="1a03ed8f61" nextId="40a6afad2a">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/sleptInWastedHarvest/thoughLuck</text>
+    </item>
+    <item id="40a6afad2a" nextId="e7a6171d21">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/sleptInWastedHarvest/wastedTime</text>
+    </item>
+    <item id="e7a6171d21" nextId="99e8d2cc4f">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/sleptInWastedHarvest/goodThing</text>
+    </item>
+    <item id="99e8d2cc4f" nextId="2198a438e0">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/sleptInWastedHarvest/butISwear</text>
+    </item>
+    <item id="2198a438e0">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/sleptInWastedHarvest/makeFunOf</text>
+      <actions>
+        <startConversationById uniqueId="bdd07bda2c"/>
+      </actions>
+    </item>
+    <item id="f45a496a33" nextId="3a5e0c2a72">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/sleptInWastedHarvest/didNot</text>
+    </item>
+  </textFlow>
+</conversation>

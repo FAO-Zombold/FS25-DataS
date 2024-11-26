@@ -1,0 +1,85 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>SMALLTALK_ABOUT_YOU</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="cb359b15dd">
+    <item id="cb359b15dd" nextId="19a5a1636c">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/grandpaFamily/familyHistory/farmers</text>
+    </item>
+    <item id="19a5a1636c" nextId="da660ef900">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/grandpaFamily/familyHistory/auntSophie</text>
+    </item>
+    <item id="da660ef900" nextId="ddf995c9c9">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/grandpaFamily/familyHistory/writer</text>
+    </item>
+    <item id="ddf995c9c9" nextId="7968115d40">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/grandpaFamily/familyHistory/ancestry</text>
+    </item>
+    <item id="7968115d40" nextId="d09b9032e1">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/grandpaFamily/familyHistory/history</text>
+    </item>
+    <item id="d09b9032e1" nextId="4c404b93ad">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/grandpaFamily/familyHistory/country</text>
+    </item>
+    <item id="4c404b93ad" nextId="923b3f2048">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/grandpaFamily/familyHistory/challenges</text>
+    </item>
+    <item id="923b3f2048" nextId="b0ca64c49c">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/grandpaFamily/familyHistory/resilienceAbility</text>
+    </item>
+    <item id="b0ca64c49c" nextId="f350bd3fa4">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/grandpaFamily/familyHistory/tradeRoutes</text>
+    </item>
+    <item id="f350bd3fa4" nextId="1f06bfc95a">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/grandpaFamily/familyHistory/stoneRoads</text>
+    </item>
+    <item id="1f06bfc95a" nextId="966e47573d">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/grandpaFamily/familyHistory/industrialRevolution</text>
+    </item>
+    <item id="966e47573d" nextId="a7abfbf1a7">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/grandpaFamily/familyHistory/scepticalTractors</text>
+    </item>
+    <item id="a7abfbf1a7" nextId="bd72ff779f">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/grandpaFamily/familyHistory/mechanizedAgriculture</text>
+    </item>
+    <item id="bd72ff779f" nextId="c6f2da67f1">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/grandpaFamily/familyHistory/farmstead</text>
+    </item>
+    <item id="c6f2da67f1" nextId="286e4aaf03">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/grandpaFamily/familyHistory/hardships</text>
+    </item>
+    <item id="286e4aaf03" nextId="aeaa85909c">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/grandpaFamily/familyHistory/supplyingFood</text>
+    </item>
+    <item id="aeaa85909c" nextId="188419b3b3">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/grandpaFamily/familyHistory/youngFarm</text>
+    </item>
+    <item id="188419b3b3" nextId="5c34fff6b4">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/grandpaFamily/familyHistory/someRenovations</text>
+    </item>
+    <item id="5c34fff6b4" nextId="2ad10b38fa">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/grandpaFamily/familyHistory/jumpedOver</text>
+    </item>
+    <item id="2ad10b38fa" nextId="5fba1f94b0">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/grandpaFamily/familyHistory/sugarBeet</text>
+    </item>
+    <item id="5fba1f94b0">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/grandpaFamily/familyHistory/yourFarm</text>
+      <next>
+        <option id="25bff05e28">
+          <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/grandpaFamily/familyHistory/pressure</text>
+          <actions>
+            <startConversationById uniqueId="0bc5b0ce93"/>
+          </actions>
+        </option>
+        <option id="107bfbbb50">
+          <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/grandpaFamily/familyHistory/fascinating</text>
+          <actions>
+            <startConversationById uniqueId="0bc5b0ce93"/>
+          </actions>
+        </option>
+      </next>
+    </item>
+  </textFlow>
+</conversation>

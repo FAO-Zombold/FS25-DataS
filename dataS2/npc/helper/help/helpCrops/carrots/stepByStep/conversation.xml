@@ -1,0 +1,44 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="d0d21a359a">
+    <item id="d0d21a359a" nextId="f5501d3e5b">
+      <text>$dataS2/npc/helper/help/helpCrops/carrots/stepByStep/orangeSticks</text>
+    </item>
+    <item id="f5501d3e5b" nextId="2f1df32231">
+      <text>$dataS2/npc/helper/help/helpCrops/carrots/stepByStep/cropCalendar</text>
+    </item>
+    <item id="2f1df32231" nextId="3991e2e679">
+      <text>$dataS2/npc/helper/help/helpCrops/carrots/stepByStep/liming</text>
+    </item>
+    <item id="3991e2e679" nextId="5d52494f57">
+      <text>$dataS2/npc/helper/help/helpCrops/carrots/stepByStep/stepTwo</text>
+    </item>
+    <item id="5d52494f57" nextId="db83c20f4c">
+      <text>$dataS2/npc/helper/help/helpCrops/carrots/stepByStep/ridgeforming</text>
+    </item>
+    <item id="db83c20f4c" nextId="f95320f3fd">
+      <text>$dataS2/npc/helper/help/helpCrops/carrots/stepByStep/stepFour</text>
+    </item>
+    <item id="f95320f3fd" nextId="7f566d6c03">
+      <text>$dataS2/npc/helper/help/helpCrops/carrots/stepByStep/fertilizing</text>
+    </item>
+    <item id="7f566d6c03" nextId="428fb19c05">
+      <text>$dataS2/npc/helper/help/helpCrops/carrots/stepByStep/weedingHoe</text>
+    </item>
+    <item id="428fb19c05" nextId="e4332447cd">
+      <text>$dataS2/npc/helper/help/helpCrops/carrots/stepByStep/stepSeven</text>
+    </item>
+    <item id="e4332447cd" nextId="749657569e">
+      <text>$dataS2/npc/helper/help/helpCrops/carrots/stepByStep/enjoy</text>
+    </item>
+    <item id="749657569e" isActive="false">
+      <text>$dataS2/npc/helper/help/helpCrops/carrots/stepByStep/hair</text>
+      <actions>
+        <startConversationById uniqueId="be9ba42ea5"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

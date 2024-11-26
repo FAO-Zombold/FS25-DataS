@@ -1,0 +1,32 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="4fc802667e">
+    <item id="4fc802667e" nextId="b69a3b2ff6">
+      <text>$dataS2/npc/animalDealer/help/animals/cows/whatEquipmentDoINeedCows/pastureOrBarn</text>
+    </item>
+    <item id="b69a3b2ff6" nextId="87d45c7083">
+      <text>$dataS2/npc/animalDealer/help/animals/cows/whatEquipmentDoINeedCows/laidStraw</text>
+    </item>
+    <item id="87d45c7083" nextId="0bfa0e665b">
+      <text>$dataS2/npc/animalDealer/help/animals/cows/whatEquipmentDoINeedCows/andSlurry</text>
+    </item>
+    <item id="0bfa0e665b" nextId="558a1480c6">
+      <text>$dataS2/npc/animalDealer/help/animals/cows/whatEquipmentDoINeedCows/spreadManure</text>
+    </item>
+    <item id="558a1480c6" nextId="efbae691ce">
+      <text>$dataS2/npc/animalDealer/help/animals/cows/whatEquipmentDoINeedCows/balesForFeed</text>
+    </item>
+    <item id="efbae691ce" nextId="7d57598f18">
+      <text>$dataS2/npc/animalDealer/help/animals/cows/whatEquipmentDoINeedCows/tankForMilkAndWater</text>
+    </item>
+    <item id="7d57598f18">
+      <text>$dataS2/npc/animalDealer/help/animals/cows/whatEquipmentDoINeedCows/mixingWagon</text>
+      <actions>
+        <startConversationById uniqueId="dfaead6155"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

@@ -1,0 +1,44 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>DAVID_ADVICE</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <retriggerTypeDelayIngameDays type="DAVID_ADVICE" minDays="1"/>
+  </prerequisites>
+  <textFlow startId="422a64041c">
+    <item id="422a64041c" nextId="16ea7d7fd5">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/beesBuddyBees/beesBuddy</text>
+    </item>
+    <item id="16ea7d7fd5" nextId="1176503465">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/beesBuddyBees/keepSome</text>
+    </item>
+    <item id="1176503465" nextId="2018a152a5">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/beesBuddyBees/tellYouWhy</text>
+    </item>
+    <item id="2018a152a5" nextId="f7c77735ba">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/beesBuddyBees/beesAwesome</text>
+    </item>
+    <item id="f7c77735ba" nextId="87636a2851">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/beesBuddyBees/honeyDelicious</text>
+    </item>
+    <item id="87636a2851" nextId="1dc40fecdf">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/beesBuddyBees/easyToKeep</text>
+    </item>
+    <item id="1dc40fecdf" nextId="71e0f3a56d">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/beesBuddyBees/increaseYield</text>
+    </item>
+    <item id="71e0f3a56d" nextId="a5d1eb5f75">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/beesBuddyBees/profitable</text>
+    </item>
+    <item id="a5d1eb5f75" nextId="cc0133de57">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/beesBuddyBees/createBuzz</text>
+    </item>
+    <item id="cc0133de57">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/beesBuddyBees/thoughtSo</text>
+      <actions>
+        <startConversationById uniqueId="bdd07bda2c"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

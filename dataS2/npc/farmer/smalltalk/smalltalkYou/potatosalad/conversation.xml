@@ -1,0 +1,70 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>DAVID_YOU</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="92ac381b36">
+    <item id="92ac381b36">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/potatosalad/opinionPotatoSalad</text>
+      <next>
+        <option id="94e5690305" nextId="4278aafdf1">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/potatosalad/optionA</text>
+        </option>
+        <option id="0f37b9d860" nextId="4278aafdf1">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/potatosalad/optionB</text>
+        </option>
+        <option id="bd2c8c520b" nextId="4278aafdf1">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/potatosalad/optionC</text>
+        </option>
+        <option id="7a59eef235" nextId="4278aafdf1">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/potatosalad/optionD</text>
+        </option>
+      </next>
+    </item>
+    <item id="4278aafdf1" nextId="b114ca96bf">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/potatosalad/reallyGoodAtMaking</text>
+    </item>
+    <item id="b114ca96bf" nextId="de473d32db">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/potatosalad/grandmasPotatoSalad</text>
+    </item>
+    <item id="de473d32db" nextId="3b951c8eca">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/potatosalad/visitedAfterSchool</text>
+    </item>
+    <item id="3b951c8eca" nextId="068f3a026b">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/potatosalad/germanStyle</text>
+    </item>
+    <item id="068f3a026b" nextId="4474f95f01">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/potatosalad/dressingWithVinegar</text>
+    </item>
+    <item id="4474f95f01" nextId="3d95436280">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/potatosalad/vinegarVSmayonnaise</text>
+    </item>
+    <item id="3d95436280" nextId="b5bac960b4">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/potatosalad/communityofPotatoSalad</text>
+    </item>
+    <item id="b5bac960b4" nextId="69f12d83d1">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/potatosalad/toBeHonest</text>
+    </item>
+    <item id="69f12d83d1" nextId="4e5e85a7d9">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/potatosalad/loveTheSmell</text>
+    </item>
+    <item id="4e5e85a7d9" nextId="b300e456fc">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/potatosalad/neighborlyTreat</text>
+    </item>
+    <item id="b300e456fc" nextId="76eb35043e">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/potatosalad/findRandomPotatoSalad</text>
+    </item>
+    <item id="76eb35043e" nextId="68927bfb80">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/potatosalad/anotherBatch</text>
+    </item>
+    <item id="68927bfb80" nextId="27fd86c69a">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/potatosalad/extraPortion</text>
+    </item>
+    <item id="27fd86c69a">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/potatosalad/soLong</text>
+      <actions>
+        <startConversationById uniqueId="bdd07bda2c"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

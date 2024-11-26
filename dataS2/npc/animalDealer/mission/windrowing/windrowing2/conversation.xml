@@ -1,0 +1,17 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>MISSION_SELECT</type>
+  <probability>1</probability>
+  <isActive>false</isActive>
+  <prerequisites>
+    <missionAvailable/>
+  </prerequisites>
+  <textFlow startId="aa147e0092">
+    <item id="aa147e0092">
+      <text>$dataS2/npc/animalDealer/mission/windrowing/windrowing2/lineItUp</text>
+      <actions>
+        <startConversationById uniqueId="be6288fc1b"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

@@ -1,0 +1,93 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>DAVID_ANECDOTES</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="de3a91b90d">
+    <item id="de3a91b90d" nextId="fd61e399cc">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/stonesVsHarvester/doNotWannaAlarm</text>
+    </item>
+    <item id="fd61e399cc" nextId="87c9c3a1b9">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/stonesVsHarvester/reallyDoNotBe</text>
+    </item>
+    <item id="87c9c3a1b9">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/stonesVsHarvester/headerKaput</text>
+      <next>
+        <option id="340947374b" nextId="7864e84dd3">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/stonesVsHarvester/headerKaputOptionA</text>
+        </option>
+        <option id="b3be1fe8a9" nextId="7864e84dd3">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/stonesVsHarvester/headerKaputOptionB</text>
+        </option>
+        <option id="ce669237db" nextId="7864e84dd3">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/stonesVsHarvester/headerKaputOptionC</text>
+        </option>
+      </next>
+    </item>
+    <item id="7864e84dd3" nextId="ee1300940d">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/stonesVsHarvester/fieldStones</text>
+    </item>
+    <item id="ee1300940d" nextId="2f0e6cccc3">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/stonesVsHarvester/didNotKnow</text>
+    </item>
+    <item id="2f0e6cccc3" nextId="795bf0d761">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/stonesVsHarvester/subsoiler</text>
+    </item>
+    <item id="795bf0d761" nextId="3602f3b871">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/stonesVsHarvester/sometimesHardToSee</text>
+    </item>
+    <item id="3602f3b871" nextId="56454c071b">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/stonesVsHarvester/ourFields</text>
+    </item>
+    <item id="56454c071b" nextId="f25ef6e8cc">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/stonesVsHarvester/switchOff</text>
+    </item>
+    <item id="f25ef6e8cc" nextId="12a51d406a">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/stonesVsHarvester/damagedMyEquipment</text>
+    </item>
+    <item id="12a51d406a" nextId="2c142ad8f6">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/stonesVsHarvester/weirdNoises</text>
+    </item>
+    <item id="2c142ad8f6" nextId="9ba632ff0d">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/stonesVsHarvester/seederDiDNotLook</text>
+    </item>
+    <item id="9ba632ff0d">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/stonesVsHarvester/invoice</text>
+      <next>
+        <option id="bdf55a3e28" nextId="f70f47c8de">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/stonesVsHarvester/optionA</text>
+        </option>
+        <option id="3171786efd" nextId="c1be3bb441">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/stonesVsHarvester/optionB</text>
+        </option>
+        <option id="75908bf16e" nextId="c047696f69">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/stonesVsHarvester/optionC</text>
+        </option>
+      </next>
+    </item>
+    <item id="f70f47c8de" nextId="905ccf60fd">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/stonesVsHarvester/yeahThanks</text>
+    </item>
+    <item id="905ccf60fd" nextId="37cfb16531">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/stonesVsHarvester/seeStonesDifferently</text>
+    </item>
+    <item id="37cfb16531" nextId="d1b8cc681d">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/stonesVsHarvester/rockcrusher</text>
+    </item>
+    <item id="d1b8cc681d" nextId="80f12ec79b">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/stonesVsHarvester/soilroller</text>
+    </item>
+    <item id="80f12ec79b">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/stonesVsHarvester/remindYou</text>
+      <actions>
+        <startConversationById uniqueId="bdd07bda2c"/>
+      </actions>
+    </item>
+    <item id="c1be3bb441" nextId="905ccf60fd">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/stonesVsHarvester/youAreRight</text>
+    </item>
+    <item id="c047696f69" nextId="905ccf60fd">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/stonesVsHarvester/youAreWelcome</text>
+    </item>
+  </textFlow>
+</conversation>

@@ -1,0 +1,70 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>DAVID_YOU</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="7b4cd49655">
+    <item id="7b4cd49655" nextId="8a7a18ce12">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/startedAsAJoke/InterestingNowadays</text>
+    </item>
+    <item id="8a7a18ce12" nextId="b1d8268031">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/startedAsAJoke/familyTradition</text>
+    </item>
+    <item id="b1d8268031">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/startedAsAJoke/howIGotIntoBusiness</text>
+      <next>
+        <option id="adfc7af7b1" nextId="da6edb7ef0">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/startedAsAJoke/optionA</text>
+        </option>
+        <option id="e5c382bcdb" nextId="da6edb7ef0">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/startedAsAJoke/optionB</text>
+        </option>
+        <option id="880fd796ff" nextId="da6edb7ef0">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/startedAsAJoke/optionC</text>
+        </option>
+      </next>
+    </item>
+    <item id="da6edb7ef0" nextId="6d45d0792c">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/startedAsAJoke/notWrong</text>
+    </item>
+    <item id="6d45d0792c" nextId="c60029e748">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/startedAsAJoke/asAJoke</text>
+    </item>
+    <item id="c60029e748" nextId="0a3259c527">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/startedAsAJoke/tractorsAndStuff</text>
+    </item>
+    <item id="0a3259c527" nextId="ba456e4487">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/startedAsAJoke/gotThemHooked</text>
+    </item>
+    <item id="ba456e4487" nextId="98d8ad6d47">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/startedAsAJoke/playingFarmingGame</text>
+    </item>
+    <item id="98d8ad6d47" nextId="d111f920ef">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/startedAsAJoke/sparkedSomething</text>
+    </item>
+    <item id="d111f920ef" nextId="c2edf463db">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/startedAsAJoke/startedLearning</text>
+    </item>
+    <item id="c2edf463db" nextId="6268aee3ac">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/startedAsAJoke/plantsOnBalcony</text>
+    </item>
+    <item id="6268aee3ac" nextId="ed4f8ede4c">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/startedAsAJoke/tinyPlotOfLand</text>
+    </item>
+    <item id="ed4f8ede4c" nextId="d6ed418495">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/startedAsAJoke/burnedOut</text>
+    </item>
+    <item id="d6ed418495" nextId="d36ac08eeb">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/startedAsAJoke/luckyOpportunity</text>
+    </item>
+    <item id="d36ac08eeb" nextId="07157a9d81">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/startedAsAJoke/hereIAm</text>
+    </item>
+    <item id="07157a9d81">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/startedAsAJoke/letUsContinueAnother</text>
+      <actions>
+        <startConversationById uniqueId="bdd07bda2c"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

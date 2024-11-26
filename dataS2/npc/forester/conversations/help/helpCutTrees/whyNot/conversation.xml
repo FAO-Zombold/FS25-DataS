@@ -1,0 +1,20 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="d0442571c1">
+    <item id="d0442571c1" nextId="bc72d9fdf3">
+      <text>$dataS2/npc/forester/conversations/help/helpCutTrees/whyNot/inDoubt</text>
+    </item>
+    <item id="bc72d9fdf3" nextId="240e5025f0">
+      <text>$dataS2/npc/forester/conversations/help/helpCutTrees/whyNot/professional</text>
+    </item>
+    <item id="240e5025f0">
+      <text>$dataS2/npc/forester/conversations/help/helpCutTrees/whyNot/fineInstruments</text>
+      <actions>
+        <startConversationById uniqueId="f19e72ea07"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

@@ -1,0 +1,164 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>INTRO</type>
+  <probability>100</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <numTriggered max="1"/>
+    <firstContact/>
+  </prerequisites>
+  <textFlow startId="117192e150">
+    <item id="117192e150" nextId="379ec4f983">
+      <text>$dataS2/npc/helper/introduction/introductionFirstMeet/intro</text>
+    </item>
+    <item id="379ec4f983" nextId="60d7d9ec19">
+      <text>$dataS2/npc/helper/introduction/introductionFirstMeet/lastTime</text>
+    </item>
+    <item id="60d7d9ec19" nextId="9af9ec7dae">
+      <text>$dataS2/npc/helper/introduction/introductionFirstMeet/rememberMe</text>
+    </item>
+    <item id="9af9ec7dae">
+      <text>$dataS2/npc/helper/introduction/introductionFirstMeet/nickname</text>
+      <next>
+        <option id="7ed7edc616" nextId="9be1536f51">
+          <text>$dataS2/npc/helper/introduction/introductionFirstMeet/tellMore</text>
+        </option>
+        <option id="8fc4229bf6" nextId="a561a58479">
+          <text>$dataS2/npc/helper/introduction/introductionFirstMeet/cowDung</text>
+        </option>
+        <option id="56c98f00c1" nextId="f2bbaa31e1">
+          <text>$dataS2/npc/helper/introduction/introductionFirstMeet/justHelp</text>
+        </option>
+      </next>
+    </item>
+    <item id="9be1536f51" nextId="abcbd74ca8">
+      <text>$dataS2/npc/helper/introduction/introductionFirstMeet/helpingGrandpa</text>
+    </item>
+    <item id="abcbd74ca8" nextId="f0dcb3137a">
+      <text>$dataS2/npc/helper/introduction/introductionFirstMeet/hired</text>
+    </item>
+    <item id="f0dcb3137a" nextId="7a2dfd8ada">
+      <text>$dataS2/npc/helper/introduction/introductionFirstMeet/showedMe</text>
+    </item>
+    <item id="7a2dfd8ada" nextId="ac5c7604c2">
+      <text>$dataS2/npc/helper/introduction/introductionFirstMeet/welcomedMe</text>
+    </item>
+    <item id="ac5c7604c2" nextId="f21595d7c1">
+      <text>$dataS2/npc/helper/introduction/introductionFirstMeet/ownFarm</text>
+    </item>
+    <item id="f21595d7c1" nextId="517bb8ba61">
+      <text>$dataS2/npc/helper/introduction/introductionFirstMeet/gotStuck</text>
+    </item>
+    <item id="517bb8ba61" nextId="42b143a5fb">
+      <text>$dataS2/npc/helper/introduction/introductionFirstMeet/theBest</text>
+    </item>
+    <item id="42b143a5fb">
+      <text>$dataS2/npc/helper/introduction/introductionFirstMeet/exhausting</text>
+      <next>
+        <option id="7d25c7b922" nextId="c94b9a2dcf">
+          <text>$dataS2/npc/helper/introduction/introductionFirstMeet/getWhat</text>
+        </option>
+        <option id="f57dec3b07" nextId="69e143cf7e">
+          <text>$dataS2/npc/helper/introduction/introductionFirstMeet/tryNew</text>
+        </option>
+        <option id="7774e39cbf" nextId="c0f03aead0">
+          <text>$dataS2/npc/helper/introduction/introductionFirstMeet/whatever</text>
+        </option>
+      </next>
+    </item>
+    <item id="c94b9a2dcf" nextId="209c5b172e">
+      <text>$dataS2/npc/helper/introduction/introductionFirstMeet/likeYou</text>
+    </item>
+    <item id="209c5b172e" nextId="e093a5c015">
+      <text>$dataS2/npc/helper/introduction/introductionFirstMeet/greatBoss</text>
+    </item>
+    <item id="e093a5c015" nextId="e092ca70c1">
+      <text>$dataS2/npc/helper/introduction/introductionFirstMeet/takeOver</text>
+    </item>
+    <item id="e092ca70c1" nextId="a11e852d62">
+      <text>$dataS2/npc/helper/introduction/introductionFirstMeet/aChallenge</text>
+    </item>
+    <item id="a11e852d62" nextId="df7b3870b1">
+      <text>$dataS2/npc/helper/introduction/introductionFirstMeet/deepWrinkles</text>
+    </item>
+    <item id="df7b3870b1" nextId="927b8524b6">
+      <text>$dataS2/npc/helper/introduction/introductionFirstMeet/gettingOlder</text>
+    </item>
+    <item id="927b8524b6" nextId="41381822f8">
+      <text>$dataS2/npc/helper/introduction/introductionFirstMeet/setInStone</text>
+    </item>
+    <item id="41381822f8">
+      <text>$dataS2/npc/helper/introduction/introductionFirstMeet/takingOver</text>
+      <next>
+        <option id="801b269b34" nextId="739971c7b1">
+          <text>$dataS2/npc/helper/introduction/introductionFirstMeet/yes</text>
+        </option>
+        <option id="7ff78523b8" nextId="31950ef33f">
+          <text>$dataS2/npc/helper/introduction/introductionFirstMeet/willWorkOut</text>
+        </option>
+        <option id="92fa416961" nextId="d39dcb85c9">
+          <text>$dataS2/npc/helper/introduction/introductionFirstMeet/no</text>
+        </option>
+      </next>
+    </item>
+    <item id="739971c7b1" nextId="9a8a8b6846">
+      <text>$dataS2/npc/helper/introduction/introductionFirstMeet/doNotBe</text>
+    </item>
+    <item id="9a8a8b6846" nextId="0627ac0438">
+      <text>$dataS2/npc/helper/introduction/introductionFirstMeet/newbornCalf</text>
+    </item>
+    <item id="0627ac0438">
+      <text>$dataS2/npc/helper/introduction/introductionFirstMeet/doNotWorry</text>
+      <next>
+        <option id="2b091007c2" nextId="3c6db597e8">
+          <text>$dataS2/npc/helper/introduction/introductionFirstMeet/whereStart</text>
+        </option>
+        <option id="425f161ad3" nextId="3c6db597e8">
+          <text>$dataS2/npc/helper/introduction/introductionFirstMeet/whatHelp</text>
+        </option>
+      </next>
+    </item>
+    <item id="3c6db597e8" nextId="09b8fcd854">
+      <text>$dataS2/npc/helper/introduction/introductionFirstMeet/oldSchool</text>
+    </item>
+    <item id="09b8fcd854" nextId="bcbf7bb467">
+      <text>$dataS2/npc/helper/introduction/introductionFirstMeet/sentYou</text>
+    </item>
+    <item id="bcbf7bb467" nextId="e814d94535">
+      <text>$dataS2/npc/helper/introduction/introductionFirstMeet/stillLearning</text>
+    </item>
+    <item id="e814d94535" nextId="08cb3656f6">
+      <text>$dataS2/npc/helper/introduction/introductionFirstMeet/otherPeople</text>
+    </item>
+    <item id="08cb3656f6" nextId="5687355fa1">
+      <text>$dataS2/npc/helper/introduction/introductionFirstMeet/growsWell</text>
+    </item>
+    <item id="5687355fa1" nextId="a9eab4430e">
+      <text>$dataS2/npc/helper/introduction/introductionFirstMeet/exceptTwister</text>
+    </item>
+    <item id="a9eab4430e">
+      <text>$dataS2/npc/helper/introduction/introductionFirstMeet/whenever</text>
+    </item>
+    <item id="31950ef33f" nextId="9a8a8b6846">
+      <text>$dataS2/npc/helper/introduction/introductionFirstMeet/slow</text>
+    </item>
+    <item id="d39dcb85c9" nextId="9a8a8b6846">
+      <text>$dataS2/npc/helper/introduction/introductionFirstMeet/sure</text>
+    </item>
+    <item id="69e143cf7e" nextId="209c5b172e">
+      <text>$dataS2/npc/helper/introduction/introductionFirstMeet/doNotDrop</text>
+    </item>
+    <item id="c0f03aead0" nextId="209c5b172e">
+      <text>$dataS2/npc/helper/introduction/introductionFirstMeet/makeHappy</text>
+    </item>
+    <item id="a561a58479" nextId="9be1536f51">
+      <text>$dataS2/npc/helper/introduction/introductionFirstMeet/wantedPlay</text>
+    </item>
+    <item id="f2bbaa31e1">
+      <text>$dataS2/npc/helper/introduction/introductionFirstMeet/pragmatic</text>
+      <actions>
+        <startConversationById uniqueId="c3ea0425d7"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

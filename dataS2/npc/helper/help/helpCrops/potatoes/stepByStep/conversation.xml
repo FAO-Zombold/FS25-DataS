@@ -1,0 +1,38 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="f90ee2cc3b">
+    <item id="f90ee2cc3b" nextId="7d03cec433">
+      <text>$dataS2/npc/helper/help/helpCrops/potatoes/stepByStep/checkCalender</text>
+    </item>
+    <item id="7d03cec433" nextId="4f8e7399e1">
+      <text>$dataS2/npc/helper/help/helpCrops/potatoes/stepByStep/liming</text>
+    </item>
+    <item id="4f8e7399e1" nextId="448f041ec8">
+      <text>$dataS2/npc/helper/help/helpCrops/potatoes/stepByStep/plowing</text>
+    </item>
+    <item id="448f041ec8" nextId="0275ee2334">
+      <text>$dataS2/npc/helper/help/helpCrops/potatoes/stepByStep/planting</text>
+    </item>
+    <item id="0275ee2334" nextId="f924cc270b">
+      <text>$dataS2/npc/helper/help/helpCrops/potatoes/stepByStep/fertilizing</text>
+    </item>
+    <item id="f924cc270b" nextId="b4ba631e84">
+      <text>$dataS2/npc/helper/help/helpCrops/potatoes/stepByStep/weedingHoe</text>
+    </item>
+    <item id="b4ba631e84" nextId="3ba4872908">
+      <text>$dataS2/npc/helper/help/helpCrops/potatoes/stepByStep/harvesting</text>
+    </item>
+    <item id="3ba4872908" isActive="false" nextId="ba2c505288">
+      <text>$dataS2/npc/helper/help/helpCrops/potatoes/stepByStep/haulmTopper</text>
+    </item>
+    <item id="ba2c505288">
+      <text>$dataS2/npc/helper/help/helpCrops/potatoes/stepByStep/fieldWork</text>
+      <actions>
+        <startConversationById uniqueId="c75499b58d"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

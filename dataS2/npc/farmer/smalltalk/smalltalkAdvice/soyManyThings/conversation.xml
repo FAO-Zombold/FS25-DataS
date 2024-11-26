@@ -1,0 +1,32 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>DAVID_ADVICE</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <retriggerTypeDelayIngameDays type="DAVID_ADVICE" minDays="1"/>
+  </prerequisites>
+  <textFlow startId="dc1647749a">
+    <item id="dc1647749a" nextId="83c55a2cda">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/soyManyThings/cityBoySoyMilk</text>
+    </item>
+    <item id="83c55a2cda" nextId="9d408d6282">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/soyManyThings/chocolateSoyMilk</text>
+    </item>
+    <item id="9d408d6282" nextId="c89a34e7fc">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/soyManyThings/blackCoffeeElitists</text>
+    </item>
+    <item id="c89a34e7fc" nextId="f5634db9dc">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/soyManyThings/forStarters</text>
+    </item>
+    <item id="f5634db9dc" nextId="698c0eab17">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/soyManyThings/canDoALot</text>
+    </item>
+    <item id="698c0eab17">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/soyManyThings/winWin</text>
+      <actions>
+        <startConversationById uniqueId="bdd07bda2c"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

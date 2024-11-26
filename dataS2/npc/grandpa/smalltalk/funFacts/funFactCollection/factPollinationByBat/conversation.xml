@@ -1,0 +1,23 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>SMALLTALK_FUNFACTS</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <numTriggered max="1"/>
+  </prerequisites>
+  <textFlow startId="d131126220">
+    <item id="d131126220" nextId="de5aea4676">
+      <text>$dataS2/npc/grandpa/smalltalk/funFacts/funFactCollection/factPollinationByBat/batPollination</text>
+    </item>
+    <item id="de5aea4676" nextId="475a69520d">
+      <text>$dataS2/npc/grandpa/smalltalk/funFacts/funFactCollection/factPollinationByBat/nocturnalPollination</text>
+    </item>
+    <item id="475a69520d">
+      <text>$dataS2/npc/grandpa/smalltalk/funFacts/funFactCollection/factPollinationByBat/nightBloomingPlants</text>
+      <actions>
+        <startConversationById uniqueId="0bc5b0ce93"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

@@ -1,0 +1,19 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>MISSION_SELECT</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <missionAvailable>
+      <type name="weedMission"/>
+    </missionAvailable>
+  </prerequisites>
+  <textFlow startId="9e1d784073">
+    <item id="9e1d784073">
+      <text>$dataS2/npc/grandpa/missions/field/weeding/weeding1/weed1</text>
+      <actions>
+        <startConversationById uniqueId="a078247dc7"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

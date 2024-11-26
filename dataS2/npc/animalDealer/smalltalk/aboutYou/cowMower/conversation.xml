@@ -1,0 +1,96 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>KATIE_YOU</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="247e37fe25">
+    <item id="247e37fe25" nextId="e5bb942cfd">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/cowMower/inquiryAlt2</text>
+    </item>
+    <item id="e5bb942cfd">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/cowMower/canIInterestYou</text>
+      <next>
+        <option id="e696c5b3e5" nextId="c6875d6ca3">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/cowMower/canIInterestYouOptionA</text>
+        </option>
+        <option id="1d96208b86" nextId="c6875d6ca3">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/cowMower/canIInterestYouOptionB</text>
+        </option>
+        <option id="09b7eb2e15" nextId="c6875d6ca3">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/cowMower/canIInterestYouOptionC</text>
+        </option>
+      </next>
+    </item>
+    <item id="c6875d6ca3" nextId="7999d8743b">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/cowMower/letMePitch</text>
+    </item>
+    <item id="7999d8743b" nextId="b7fe96fc89">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/cowMower/fedUpWithMower</text>
+    </item>
+    <item id="b7fe96fc89" nextId="2f309d18f6">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/cowMower/armsTired</text>
+    </item>
+    <item id="2f309d18f6" nextId="fd68671075">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/cowMower/worryNot</text>
+    </item>
+    <item id="fd68671075" nextId="ea8c30b26e">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/cowMower/ecoFriendlyAlter</text>
+    </item>
+    <item id="ea8c30b26e" nextId="47ee42d7c6">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/cowMower/sayGoodbye</text>
+    </item>
+    <item id="47ee42d7c6" nextId="0e16992173">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/cowMower/fuzzyCuddlyAwesome</text>
+    </item>
+    <item id="0e16992173" nextId="91cd9768f6">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/cowMower/talkingAboutCows</text>
+    </item>
+    <item id="91cd9768f6" nextId="485a6a9d18">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/cowMower/deliveryFellThrough</text>
+    </item>
+    <item id="485a6a9d18" nextId="b4458d90c6">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/cowMower/newHome</text>
+    </item>
+    <item id="b4458d90c6" nextId="e3acd7cc90">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/cowMower/grazingAtDavids</text>
+    </item>
+    <item id="e3acd7cc90" nextId="fad6789699">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/cowMower/IWillShowHim</text>
+    </item>
+    <item id="fad6789699">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/cowMower/InterestedInLawnMowers</text>
+      <next>
+        <option id="b93be6f0a9" nextId="fc067f8d3a">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/cowMower/optionA</text>
+        </option>
+        <option id="f7a55659d7" nextId="91ab3ba714">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/cowMower/optionB</text>
+        </option>
+        <option id="aed5c61e68" nextId="caa7f8212e">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/cowMower/optionC</text>
+        </option>
+      </next>
+    </item>
+    <item id="fc067f8d3a" nextId="caa7f8212e">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/cowMower/noPressure</text>
+    </item>
+    <item id="caa7f8212e" nextId="b245c89f32">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/cowMower/directlyOrder</text>
+    </item>
+    <item id="b245c89f32" nextId="74c9672133">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/cowMower/canHelpYouWith</text>
+    </item>
+    <item id="74c9672133" nextId="70e4d40c29">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/cowMower/thinkAboutIt</text>
+    </item>
+    <item id="70e4d40c29">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/cowMower/whileStocksLast</text>
+      <actions>
+        <startConversationById uniqueId="bb0236da62"/>
+      </actions>
+    </item>
+    <item id="91ab3ba714" nextId="caa7f8212e">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/cowMower/changeYourMind</text>
+    </item>
+  </textFlow>
+</conversation>

@@ -1,0 +1,18 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>SMALLTALK_WISDOM_INTRO</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <conversationAvailableByType type="SMALLTALK_WISDOM"/>
+    <retriggerTypeDelayIngameDays type="SMALLTALK_WISDOM_INTRO" minDays="1"/>
+  </prerequisites>
+  <textFlow startId="e2ef18c629">
+    <item id="e2ef18c629">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/wisdomIntros/wisdomIntro1/confuseMe</text>
+      <actions>
+        <startConversationByType type="SMALLTALK_WISDOM"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

@@ -1,0 +1,35 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="86bdad3bd4">
+    <item id="86bdad3bd4" nextId="6eba4fe97b">
+      <text>$dataS2/npc/helper/help/helpCrops/sunflowers/whatEquipment/shinyThing</text>
+    </item>
+    <item id="6eba4fe97b" nextId="f377a764e6">
+      <text>$dataS2/npc/helper/help/helpCrops/sunflowers/whatEquipment/cultivator</text>
+    </item>
+    <item id="f377a764e6" nextId="02436df08a">
+      <text>$dataS2/npc/helper/help/helpCrops/sunflowers/whatEquipment/seeder</text>
+    </item>
+    <item id="02436df08a" nextId="97abc6f157">
+      <text>$dataS2/npc/helper/help/helpCrops/sunflowers/whatEquipment/fertilize</text>
+    </item>
+    <item id="97abc6f157" nextId="bb614395d4">
+      <text>$dataS2/npc/helper/help/helpCrops/sunflowers/whatEquipment/weeds</text>
+    </item>
+    <item id="bb614395d4" nextId="5f7d79d0b4">
+      <text>$dataS2/npc/helper/help/helpCrops/sunflowers/whatEquipment/combineHarvester</text>
+    </item>
+    <item id="5f7d79d0b4" nextId="ce731de4ca">
+      <text>$dataS2/npc/helper/help/helpCrops/sunflowers/whatEquipment/emptyTrailer</text>
+    </item>
+    <item id="ce731de4ca">
+      <text>$dataS2/npc/helper/help/helpCrops/sunflowers/whatEquipment/allNeed</text>
+      <actions>
+        <startConversationById uniqueId="114deffac9"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

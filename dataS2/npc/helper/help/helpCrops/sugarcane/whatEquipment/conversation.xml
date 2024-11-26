@@ -1,0 +1,38 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="679062ef86">
+    <item id="679062ef86" nextId="20eb728998">
+      <text>$dataS2/npc/helper/help/helpCrops/sugarcane/whatEquipment/sweetStuff</text>
+    </item>
+    <item id="20eb728998" nextId="f584cf533c">
+      <text>$dataS2/npc/helper/help/helpCrops/sugarcane/whatEquipment/asUsual</text>
+    </item>
+    <item id="f584cf533c" nextId="7f5da57ae1">
+      <text>$dataS2/npc/helper/help/helpCrops/sugarcane/whatEquipment/plowOnce</text>
+    </item>
+    <item id="7f5da57ae1" nextId="656313463f">
+      <text>$dataS2/npc/helper/help/helpCrops/sugarcane/whatEquipment/specializedPlanter</text>
+    </item>
+    <item id="656313463f" nextId="3f9721bc65">
+      <text>$dataS2/npc/helper/help/helpCrops/sugarcane/whatEquipment/lime</text>
+    </item>
+    <item id="3f9721bc65" nextId="f6b16421da">
+      <text>$dataS2/npc/helper/help/helpCrops/sugarcane/whatEquipment/mechanicalWeeder</text>
+    </item>
+    <item id="f6b16421da" nextId="92c2db4f53">
+      <text>$dataS2/npc/helper/help/helpCrops/sugarcane/whatEquipment/caneHarvester</text>
+    </item>
+    <item id="92c2db4f53" nextId="d8de7d399a">
+      <text>$dataS2/npc/helper/help/helpCrops/sugarcane/whatEquipment/trailer</text>
+    </item>
+    <item id="d8de7d399a">
+      <text>$dataS2/npc/helper/help/helpCrops/sugarcane/whatEquipment/all</text>
+      <actions>
+        <startConversationById uniqueId="dd2b93b539"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

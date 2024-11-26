@@ -1,0 +1,34 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="0962c53592">
+    <item id="0962c53592" isActive="false">
+      <text>$dataS2/npc/helper/help/helpCrops/greenBeans/overviewGreenBeans/intro</text>
+      <next>
+        <option id="bcf5752986">
+          <text>$dataS2/npc/helper/help/helpCrops/greenBeans/overviewGreenBeans/whatNeed</text>
+          <actions>
+            <startConversationById uniqueId="8a95549570"/>
+          </actions>
+        </option>
+        <option id="0022b77f6c">
+          <text>$dataS2/npc/helper/help/helpCrops/greenBeans/overviewGreenBeans/stepbyStep</text>
+          <actions>
+            <startConversationById uniqueId="978ef44b21"/>
+          </actions>
+        </option>
+        <option id="aa5748d075">
+          <text>$dataS2/npc/helper/help/helpCrops/greenBeans/overviewGreenBeans/backButton</text>
+          <actions>
+            <startConversationById uniqueId="b7b177b9c9"/>
+          </actions>
+        </option>
+        <option id="9f044834ef">
+          <text>$dataS2/npc/helper/help/helpCrops/greenBeans/overviewGreenBeans/exitButton</text>
+        </option>
+      </next>
+    </item>
+  </textFlow>
+</conversation>

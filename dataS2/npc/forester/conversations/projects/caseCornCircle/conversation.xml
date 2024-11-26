@@ -1,0 +1,157 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>SMALLTALK_PROJECTS</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="050498b931">
+    <item id="050498b931" nextId="8840d33dda">
+      <text>$dataS2/npc/forester/conversations/projects/caseCornCircle/closedCase</text>
+    </item>
+    <item id="8840d33dda">
+      <text>$dataS2/npc/forester/conversations/projects/caseCornCircle/cropCircles</text>
+      <next>
+        <option id="d4d3557749" nextId="bf8fb1275e">
+          <text>$dataS2/npc/forester/conversations/projects/caseCornCircle/itHappened</text>
+        </option>
+        <option id="0a87d37c50" nextId="b0ac2ed831">
+          <text>$dataS2/npc/forester/conversations/projects/caseCornCircle/notKnow</text>
+        </option>
+        <option id="bfca1c635f" nextId="c87aa84bcd">
+          <text>$dataS2/npc/forester/conversations/projects/caseCornCircle/someAliens</text>
+        </option>
+      </next>
+    </item>
+    <item id="bf8fb1275e" nextId="185ec6c091">
+      <text>$dataS2/npc/forester/conversations/projects/caseCornCircle/youngCouple</text>
+    </item>
+    <item id="185ec6c091" nextId="3f4f64d4de">
+      <text>$dataS2/npc/forester/conversations/projects/caseCornCircle/strangeCorridors</text>
+    </item>
+    <item id="3f4f64d4de" nextId="e391487b7a">
+      <text>$dataS2/npc/forester/conversations/projects/caseCornCircle/potentialDelinquents</text>
+    </item>
+    <item id="e391487b7a" nextId="3a08e66918">
+      <text>$dataS2/npc/forester/conversations/projects/caseCornCircle/crowdForming</text>
+    </item>
+    <item id="3a08e66918" nextId="bbfc1d5638">
+      <text>$dataS2/npc/forester/conversations/projects/caseCornCircle/tookAction</text>
+    </item>
+    <item id="bbfc1d5638" nextId="42cc947eb2">
+      <text>$dataS2/npc/forester/conversations/projects/caseCornCircle/ownerLost</text>
+    </item>
+    <item id="42cc947eb2">
+      <text>$dataS2/npc/forester/conversations/projects/caseCornCircle/anyIdea</text>
+      <next>
+        <option id="0c6aa49797" nextId="207f6fdd56">
+          <text>$dataS2/npc/forester/conversations/projects/caseCornCircle/tramlines</text>
+        </option>
+        <option id="5fb20762e9" nextId="b09691360c">
+          <text>$dataS2/npc/forester/conversations/projects/caseCornCircle/aJoke</text>
+        </option>
+        <option id="63daa3aa7c" nextId="0e0f9d4d1b">
+          <text>$dataS2/npc/forester/conversations/projects/caseCornCircle/tellMe</text>
+        </option>
+      </next>
+    </item>
+    <item id="207f6fdd56" nextId="0e0f9d4d1b">
+      <text>$dataS2/npc/forester/conversations/projects/caseCornCircle/circles</text>
+    </item>
+    <item id="0e0f9d4d1b" nextId="0ca491c053">
+      <text>$dataS2/npc/forester/conversations/projects/caseCornCircle/outOfQuestion</text>
+    </item>
+    <item id="0ca491c053" nextId="1d89a631e6">
+      <text>$dataS2/npc/forester/conversations/projects/caseCornCircle/notCropCircles</text>
+    </item>
+    <item id="1d89a631e6" nextId="f077c09241">
+      <text>$dataS2/npc/forester/conversations/projects/caseCornCircle/foundCombineHarvester</text>
+    </item>
+    <item id="f077c09241" nextId="993e0d2c4d">
+      <text>$dataS2/npc/forester/conversations/projects/caseCornCircle/ownerContacted</text>
+    </item>
+    <item id="993e0d2c4d">
+      <text>$dataS2/npc/forester/conversations/projects/caseCornCircle/whoDidIt</text>
+      <next>
+        <option id="15d58fe47b" nextId="676c20bf1c">
+          <text>$dataS2/npc/forester/conversations/projects/caseCornCircle/knowIt</text>
+        </option>
+        <option id="5c6957882b" nextId="c032c4eac0">
+          <text>$dataS2/npc/forester/conversations/projects/caseCornCircle/makeCrazy</text>
+        </option>
+        <option id="a1079ed6fa" nextId="fbd01fecb3">
+          <text>$dataS2/npc/forester/conversations/projects/caseCornCircle/finishIt</text>
+        </option>
+        <option id="6e5180b5b7" nextId="1f492b2e79">
+          <text>$dataS2/npc/forester/conversations/projects/caseCornCircle/howSolved</text>
+        </option>
+      </next>
+    </item>
+    <item id="676c20bf1c" nextId="5051d1f89d">
+      <text>$dataS2/npc/forester/conversations/projects/caseCornCircle/obvious</text>
+    </item>
+    <item id="5051d1f89d" nextId="dfbbcaad12">
+      <text>$dataS2/npc/forester/conversations/projects/caseCornCircle/theIdentity</text>
+    </item>
+    <item id="dfbbcaad12" nextId="55adc23ca0">
+      <text>$dataS2/npc/forester/conversations/projects/caseCornCircle/nickname</text>
+    </item>
+    <item id="55adc23ca0" nextId="75518a5ac0">
+      <text>$dataS2/npc/forester/conversations/projects/caseCornCircle/david</text>
+    </item>
+    <item id="75518a5ac0" nextId="8af76c7737">
+      <text>$dataS2/npc/forester/conversations/projects/caseCornCircle/fellAsleep</text>
+    </item>
+    <item id="8af76c7737">
+      <text>$dataS2/npc/forester/conversations/projects/caseCornCircle/caseClosed</text>
+      <next>
+        <option id="ccffb17ea8" nextId="033206f140">
+          <text>$dataS2/npc/forester/conversations/projects/caseCornCircle/contribute</text>
+        </option>
+        <option id="11e160d8cf" nextId="0185af5c30">
+          <text>$dataS2/npc/forester/conversations/projects/caseCornCircle/wellDone</text>
+        </option>
+        <option id="02b784778b" nextId="40922f8f47">
+          <text>$dataS2/npc/forester/conversations/projects/caseCornCircle/figured</text>
+        </option>
+        <option id="1f02c216c7" nextId="9369fa76e9">
+          <text>$dataS2/npc/forester/conversations/projects/caseCornCircle/lookingForward</text>
+        </option>
+      </next>
+    </item>
+    <item id="033206f140" nextId="735451196b">
+      <text>$dataS2/npc/forester/conversations/projects/caseCornCircle/excuseMe</text>
+    </item>
+    <item id="735451196b">
+      <text>$dataS2/npc/forester/conversations/projects/caseCornCircle/letYouOff</text>
+      <actions>
+        <startConversationById uniqueId="8b24b3ebc0"/>
+      </actions>
+    </item>
+    <item id="0185af5c30" nextId="735451196b">
+      <text>$dataS2/npc/forester/conversations/projects/caseCornCircle/warning</text>
+    </item>
+    <item id="40922f8f47" nextId="735451196b">
+      <text>$dataS2/npc/forester/conversations/projects/caseCornCircle/notHard</text>
+    </item>
+    <item id="9369fa76e9" nextId="735451196b">
+      <text>$dataS2/npc/forester/conversations/projects/caseCornCircle/waitingForCrime</text>
+    </item>
+    <item id="c032c4eac0" nextId="5051d1f89d">
+      <text>$dataS2/npc/forester/conversations/projects/caseCornCircle/containIt</text>
+    </item>
+    <item id="fbd01fecb3" nextId="5051d1f89d">
+      <text>$dataS2/npc/forester/conversations/projects/caseCornCircle/gettingToIt</text>
+    </item>
+    <item id="1f492b2e79" nextId="5051d1f89d">
+      <text>$dataS2/npc/forester/conversations/projects/caseCornCircle/sarcasm</text>
+    </item>
+    <item id="b09691360c" nextId="0e0f9d4d1b">
+      <text>$dataS2/npc/forester/conversations/projects/caseCornCircle/noJoke</text>
+    </item>
+    <item id="b0ac2ed831" nextId="bf8fb1275e">
+      <text>$dataS2/npc/forester/conversations/projects/caseCornCircle/letMeTell</text>
+    </item>
+    <item id="c87aa84bcd" nextId="bf8fb1275e">
+      <text>$dataS2/npc/forester/conversations/projects/caseCornCircle/alreadySolved</text>
+    </item>
+  </textFlow>
+</conversation>

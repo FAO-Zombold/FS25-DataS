@@ -1,0 +1,20 @@
+<conversation>
+  <class>NPCConversationGuidedTour</class>
+  <type>GUIDED_TOUR</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <manuallyTriggered/>
+  </prerequisites>
+  <textFlow startId="26bc548a85">
+    <item id="26bc548a85" nextId="984f0fd7f7">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/combine/harvestTheField/size</text>
+    </item>
+    <item id="984f0fd7f7" nextId="7f7ab0ac86">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/combine/harvestTheField/soon</text>
+    </item>
+    <item id="7f7ab0ac86">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/combine/harvestTheField/goAtIt</text>
+    </item>
+  </textFlow>
+</conversation>

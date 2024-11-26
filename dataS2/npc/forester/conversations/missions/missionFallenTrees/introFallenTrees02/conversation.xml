@@ -1,0 +1,17 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>MISSION_INTRO</type>
+  <probability>1</probability>
+  <isActive>false</isActive>
+  <prerequisites>
+    <missionAvailable/>
+  </prerequisites>
+  <textFlow startId="ce3b9c981b">
+    <item id="ce3b9c981b">
+      <text>$dataS2/npc/forester/conversations/missions/missionFallenTrees/introFallenTrees02/intro02</text>
+      <actions>
+        <startConversationById uniqueId="85430cc5dd"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

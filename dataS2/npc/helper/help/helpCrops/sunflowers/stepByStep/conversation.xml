@@ -1,0 +1,41 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="f60be873a7">
+    <item id="f60be873a7" nextId="548d216838">
+      <text>$dataS2/npc/helper/help/helpCrops/sunflowers/stepByStep/riseShine</text>
+    </item>
+    <item id="548d216838" nextId="f2dde00555">
+      <text>$dataS2/npc/helper/help/helpCrops/sunflowers/stepByStep/cropCalender</text>
+    </item>
+    <item id="f2dde00555" nextId="a9c697a595">
+      <text>$dataS2/npc/helper/help/helpCrops/sunflowers/stepByStep/liming</text>
+    </item>
+    <item id="a9c697a595" nextId="8abc849815">
+      <text>$dataS2/npc/helper/help/helpCrops/sunflowers/stepByStep/cultivate</text>
+    </item>
+    <item id="8abc849815" nextId="0338e55b9b">
+      <text>$dataS2/npc/helper/help/helpCrops/sunflowers/stepByStep/planting</text>
+    </item>
+    <item id="0338e55b9b" nextId="0d572f6760">
+      <text>$dataS2/npc/helper/help/helpCrops/sunflowers/stepByStep/fertilize</text>
+    </item>
+    <item id="0d572f6760" nextId="a0acaa186d">
+      <text>$dataS2/npc/helper/help/helpCrops/sunflowers/stepByStep/weeder</text>
+    </item>
+    <item id="a0acaa186d" nextId="40ed36bc4b">
+      <text>$dataS2/npc/helper/help/helpCrops/sunflowers/stepByStep/harvesting</text>
+    </item>
+    <item id="40ed36bc4b" nextId="8c7a683e1e">
+      <text>$dataS2/npc/helper/help/helpCrops/sunflowers/stepByStep/harvester</text>
+    </item>
+    <item id="8c7a683e1e">
+      <text>$dataS2/npc/helper/help/helpCrops/sunflowers/stepByStep/useSunflowers</text>
+      <actions>
+        <startConversationById uniqueId="114deffac9"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

@@ -1,0 +1,86 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>SMALLTALK_ABOUT_YOU</type>
+  <probability>100</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <numTriggered max="1"/>
+    <conversationWasTriggered uniqueId="ff36eae51b"/>
+  </prerequisites>
+  <textFlow startId="0c7f869974">
+    <item id="0c7f869974" nextId="67cd1635bb">
+      <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether02/storyOfHer</text>
+    </item>
+    <item id="67cd1635bb" nextId="e695aeca00">
+      <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether02/saidYes</text>
+    </item>
+    <item id="e695aeca00" nextId="e89ab0cac2">
+      <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether02/notExpeted</text>
+    </item>
+    <item id="e89ab0cac2" nextId="a0c3acf5af">
+      <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether02/meProcessing</text>
+    </item>
+    <item id="a0c3acf5af" nextId="3273859b57">
+      <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether02/whilePeople</text>
+    </item>
+    <item id="3273859b57" nextId="5fd54be94f">
+      <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether02/firstDate</text>
+    </item>
+    <item id="5fd54be94f" nextId="db63b510bd">
+      <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether02/grewFond</text>
+    </item>
+    <item id="db63b510bd" nextId="dc34166897">
+      <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether02/abstractConcept</text>
+    </item>
+    <item id="dc34166897" nextId="f20b4b22a4">
+      <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether02/inLove</text>
+    </item>
+    <item id="f20b4b22a4" nextId="6824a7a485">
+      <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether02/reachedForMyHand</text>
+    </item>
+    <item id="6824a7a485" nextId="7c31dae13c">
+      <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether02/handOnHand</text>
+    </item>
+    <item id="7c31dae13c" nextId="a80ec7ebb8">
+      <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether02/askedGirlfriend</text>
+    </item>
+    <item id="a80ec7ebb8">
+      <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether02/sheSaidYes</text>
+      <next>
+        <option id="0fb45091c2" nextId="9a7bb98817">
+          <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether02/romantic</text>
+        </option>
+        <option id="a53a944a1c" nextId="9a7bb98817">
+          <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether02/whatHappened</text>
+        </option>
+      </next>
+    </item>
+    <item id="9a7bb98817" nextId="615b743068">
+      <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether02/movedTogether</text>
+    </item>
+    <item id="615b743068" nextId="b24c5671f9">
+      <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether02/positiveInfluence</text>
+    </item>
+    <item id="b24c5671f9" nextId="4484fa272a">
+      <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether02/wasMissing</text>
+    </item>
+    <item id="4484fa272a" nextId="dc1cacde67">
+      <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether02/stoppedTilting</text>
+    </item>
+    <item id="dc1cacde67" nextId="26260948e0">
+      <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether02/spendTime</text>
+    </item>
+    <item id="26260948e0" nextId="cfbe38fc4b">
+      <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether02/driftedApart</text>
+    </item>
+    <item id="cfbe38fc4b" nextId="d601a51e87">
+      <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether02/unclogBrain</text>
+    </item>
+    <item id="d601a51e87">
+      <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether02/backToWork</text>
+      <actions>
+        <startConversationById uniqueId="8b24b3ebc0"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

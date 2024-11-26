@@ -1,0 +1,65 @@
+<conversation>
+  <class>NPCConversationGuidedTour</class>
+  <type>GUIDED_TOUR</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <manuallyTriggered/>
+  </prerequisites>
+  <textFlow startId="d694d104e8">
+    <item id="d694d104e8" nextId="791cbdf472">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/finished/youAreBack</text>
+    </item>
+    <item id="791cbdf472" nextId="da63a55323">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/finished/wondering</text>
+    </item>
+    <item id="da63a55323" nextId="36b8121f0d">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/finished/paper</text>
+    </item>
+    <item id="36b8121f0d" nextId="8e809b5826">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/finished/hereYouAre</text>
+    </item>
+    <item id="8e809b5826" nextId="20ef7a1ff0">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/finished/seenImportantSteps</text>
+    </item>
+    <item id="20ef7a1ff0" nextId="e8511c46b5">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/finished/moreToDo</text>
+    </item>
+    <item id="e8511c46b5" nextId="892e0fda75">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/finished/specialEquipment</text>
+    </item>
+    <item id="892e0fda75" nextId="a93658fdc0">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/finished/gainingFeel</text>
+    </item>
+    <item id="a93658fdc0" nextId="636bac2d5e">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/finished/leaveYouToIt</text>
+    </item>
+    <item id="636bac2d5e" nextId="dcecd0b5f7">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/finished/grandpa</text>
+    </item>
+    <item id="dcecd0b5f7" nextId="418c80df16">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/finished/hereForYou</text>
+    </item>
+    <item id="418c80df16" nextId="ef4c36026f">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/finished/askBen</text>
+    </item>
+    <item id="ef4c36026f" nextId="b284afb18f">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/finished/trustedHelpers</text>
+    </item>
+    <item id="b284afb18f" nextId="c2c586733a">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/finished/explainFarmingTechniques</text>
+    </item>
+    <item id="c2c586733a" nextId="8fb791ee84">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/finished/nowGetFarming</text>
+    </item>
+    <item id="8fb791ee84" nextId="9408e4d7a9">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/finished/dungHeap</text>
+    </item>
+    <item id="9408e4d7a9" nextId="fe6acd317c">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/finished/doJustFine</text>
+    </item>
+    <item id="fe6acd317c">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/finished/yourFarmNow</text>
+    </item>
+  </textFlow>
+</conversation>

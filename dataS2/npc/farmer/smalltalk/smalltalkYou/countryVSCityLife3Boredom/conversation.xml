@@ -1,0 +1,105 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>DAVID_YOU</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="c999e099d1">
+    <item id="c999e099d1" nextId="9c876b3f0f">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife3Boredom/reallyEnjoy</text>
+    </item>
+    <item id="9c876b3f0f">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife3Boredom/boredom</text>
+      <next>
+        <option id="702abf2699" nextId="5db7d7e49e">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife3Boredom/boredomOptionA</text>
+        </option>
+        <option id="e6af92dcb2" nextId="e3d6c736a9">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife3Boredom/boredomOptionB</text>
+        </option>
+        <option id="037b2cf45b" nextId="3bb5b406f1">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife3Boredom/boredomOptionC</text>
+        </option>
+      </next>
+    </item>
+    <item id="5db7d7e49e" nextId="6dd2133ad6">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife3Boredom/beware</text>
+    </item>
+    <item id="6dd2133ad6" nextId="2bcd531ca2">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife3Boredom/beingBoring</text>
+    </item>
+    <item id="2bcd531ca2" nextId="484ca41059">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife3Boredom/lazyAndComplaining</text>
+    </item>
+    <item id="484ca41059" nextId="613cac2cc8">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife3Boredom/frustrating</text>
+    </item>
+    <item id="613cac2cc8" nextId="15dfb8d611">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife3Boredom/backInTheCity</text>
+    </item>
+    <item id="15dfb8d611" nextId="887c5e8749">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife3Boredom/wasStressed</text>
+    </item>
+    <item id="887c5e8749" nextId="dfa756fb2d">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife3Boredom/constantNoise</text>
+    </item>
+    <item id="dfa756fb2d" nextId="c2031f8558">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife3Boredom/enjoyTheSilence</text>
+    </item>
+    <item id="c2031f8558" nextId="deb1e551ca">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife3Boredom/allTheTime</text>
+    </item>
+    <item id="deb1e551ca" nextId="35515acf20">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife3Boredom/suddentlyThinkingThrough</text>
+    </item>
+    <item id="35515acf20">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife3Boredom/beHonest</text>
+      <next>
+        <option id="903a050e8c" nextId="ae69b26ca8">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife3Boredom/optionA</text>
+        </option>
+        <option id="8d919b85e9" nextId="1633eb12f4">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife3Boredom/optionB</text>
+        </option>
+        <option id="ace9bb4f75" nextId="d7158e73c5">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife3Boredom/optionC</text>
+        </option>
+        <option id="9d80f41661" nextId="87a4e134ae">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife3Boredom/optionD</text>
+        </option>
+      </next>
+    </item>
+    <item id="ae69b26ca8" nextId="b5562d1a4c">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife3Boredom/someBoredom</text>
+    </item>
+    <item id="b5562d1a4c" nextId="537fa8ff3d">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife3Boredom/someNeedIt</text>
+    </item>
+    <item id="537fa8ff3d" nextId="e780a3d241">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife3Boredom/ownWay</text>
+    </item>
+    <item id="e780a3d241" nextId="24c4b76f22">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife3Boredom/anyway</text>
+    </item>
+    <item id="24c4b76f22">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife3Boredom/talkLater</text>
+      <actions>
+        <startConversationById uniqueId="bdd07bda2c"/>
+      </actions>
+    </item>
+    <item id="1633eb12f4" nextId="b5562d1a4c">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife3Boredom/toThink</text>
+    </item>
+    <item id="d7158e73c5" nextId="b5562d1a4c">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife3Boredom/justKidding</text>
+    </item>
+    <item id="87a4e134ae" nextId="b5562d1a4c">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife3Boredom/goodToKnow</text>
+    </item>
+    <item id="e3d6c736a9" nextId="6dd2133ad6">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife3Boredom/right</text>
+    </item>
+    <item id="3bb5b406f1" nextId="6dd2133ad6">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife3Boredom/letMeExplain</text>
+    </item>
+  </textFlow>
+</conversation>

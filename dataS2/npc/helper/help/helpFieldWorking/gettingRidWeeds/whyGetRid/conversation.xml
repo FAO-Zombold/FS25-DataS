@@ -1,0 +1,32 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="fe7904c5bf">
+    <item id="fe7904c5bf" nextId="55b27bb77b">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/gettingRidWeeds/whyGetRid/unwanted</text>
+    </item>
+    <item id="55b27bb77b" nextId="0de3ea5d9a">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/gettingRidWeeds/whyGetRid/compete</text>
+    </item>
+    <item id="0de3ea5d9a" nextId="4a030571b6">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/gettingRidWeeds/whyGetRid/profit</text>
+    </item>
+    <item id="4a030571b6" nextId="180b400dd7">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/gettingRidWeeds/whyGetRid/crucial</text>
+    </item>
+    <item id="180b400dd7" nextId="48e429d97b">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/gettingRidWeeds/whyGetRid/moreDifficult</text>
+    </item>
+    <item id="48e429d97b" nextId="afdc5a0bdb">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/gettingRidWeeds/whyGetRid/moveQuickly</text>
+    </item>
+    <item id="afdc5a0bdb">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/gettingRidWeeds/whyGetRid/turnOff</text>
+      <actions>
+        <startConversationById uniqueId="ace22bd0fe"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

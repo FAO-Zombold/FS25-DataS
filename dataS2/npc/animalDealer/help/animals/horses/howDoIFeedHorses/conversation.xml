@@ -1,0 +1,23 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="9f9a5521d8">
+    <item id="9f9a5521d8" nextId="83d821a83b">
+      <text>$dataS2/npc/animalDealer/help/animals/horses/howDoIFeedHorses/notHard</text>
+    </item>
+    <item id="83d821a83b" nextId="b81ec2213f">
+      <text>$dataS2/npc/animalDealer/help/animals/horses/howDoIFeedHorses/oatAndHay</text>
+    </item>
+    <item id="b81ec2213f" nextId="a8c783b1aa">
+      <text>$dataS2/npc/animalDealer/help/animals/horses/howDoIFeedHorses/feedingBoth</text>
+    </item>
+    <item id="a8c783b1aa">
+      <text>$dataS2/npc/animalDealer/help/animals/horses/howDoIFeedHorses/recommendRatio</text>
+      <actions>
+        <startConversationById uniqueId="85f2319db6"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

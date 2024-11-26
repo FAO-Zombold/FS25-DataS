@@ -1,0 +1,102 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>SMALLTALK_ABOUT_YOU</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <numTriggered max="1"/>
+  </prerequisites>
+  <textFlow startId="e59633aa44">
+    <item id="e59633aa44" nextId="b66d315fb3">
+      <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether01/woodenMaze</text>
+    </item>
+    <item id="b66d315fb3" nextId="6430e883ca">
+      <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether01/embraceMelancholy</text>
+    </item>
+    <item id="6430e883ca">
+      <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether01/chopDown</text>
+      <next>
+        <option id="57c37fd9a4" nextId="3b27db9fd6">
+          <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether01/wantToTalk</text>
+        </option>
+        <option id="9b08dc5188" nextId="71c7abfa7d">
+          <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether01/iKnow</text>
+        </option>
+      </next>
+    </item>
+    <item id="3b27db9fd6" nextId="71c7abfa7d">
+      <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether01/appreciated</text>
+    </item>
+    <item id="71c7abfa7d" nextId="46ddcfae8b">
+      <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether01/noLoveStory</text>
+    </item>
+    <item id="46ddcfae8b" nextId="be0b34c80c">
+      <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether01/entertainment</text>
+    </item>
+    <item id="be0b34c80c" nextId="7e5c5fb062">
+      <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether01/youngStrongFellow</text>
+    </item>
+    <item id="7e5c5fb062" nextId="2d2c6c98a9">
+      <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether01/noPersonalLife</text>
+    </item>
+    <item id="2d2c6c98a9" nextId="48c97a1b51">
+      <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether01/shyPerson</text>
+    </item>
+    <item id="48c97a1b51" nextId="fefeb193ab">
+      <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether01/improveSocialLife</text>
+    </item>
+    <item id="fefeb193ab" nextId="bc387423b1">
+      <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether01/foodIntake</text>
+    </item>
+    <item id="bc387423b1" nextId="dba4ab5080">
+      <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether01/analyzeSurroundings</text>
+    </item>
+    <item id="dba4ab5080" nextId="0e9f5f1b15">
+      <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether01/thisWoman</text>
+    </item>
+    <item id="0e9f5f1b15" nextId="f065dc9901">
+      <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether01/adoredHer</text>
+    </item>
+    <item id="f065dc9901" nextId="1885a8a6cd">
+      <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether01/staredAtHer</text>
+    </item>
+    <item id="1885a8a6cd" nextId="bd5d0e5513">
+      <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether01/heartRacing</text>
+    </item>
+    <item id="bd5d0e5513" nextId="80bfe24883">
+      <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether01/socialSituation</text>
+    </item>
+    <item id="80bfe24883" nextId="3b92c62af4">
+      <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether01/autoMode</text>
+    </item>
+    <item id="3b92c62af4" nextId="0815ba4cfc">
+      <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether01/askedOut</text>
+    </item>
+    <item id="0815ba4cfc" nextId="10c2ede3b0">
+      <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether01/revisitingMemory</text>
+    </item>
+    <item id="10c2ede3b0">
+      <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether01/letMeStay</text>
+      <next>
+        <option id="5fd86a4b2f">
+          <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether01/sure</text>
+          <actions>
+            <startConversationById uniqueId="8b24b3ebc0"/>
+          </actions>
+        </option>
+        <option id="d0d231311e">
+          <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether01/thanks</text>
+          <actions>
+            <startConversationById uniqueId="8b24b3ebc0"/>
+          </actions>
+        </option>
+        <option id="cde41ea924">
+          <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether01/noConclusion</text>
+          <actions>
+            <startConversationById uniqueId="8b24b3ebc0"/>
+          </actions>
+        </option>
+      </next>
+    </item>
+  </textFlow>
+</conversation>

@@ -1,0 +1,23 @@
+<conversation>
+  <class>NPCConversationGuidedTour</class>
+  <type>GUIDED_TOUR</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <manuallyTriggered/>
+  </prerequisites>
+  <textFlow startId="fe52df3ad1">
+    <item id="fe52df3ad1" nextId="c40594b540">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/cultivator/cultivateField/hereWeAre</text>
+    </item>
+    <item id="c40594b540" nextId="9f930925ea">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/cultivator/cultivateField/prepareStubbles</text>
+    </item>
+    <item id="9f930925ea" nextId="41e4c0d1dc">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/cultivator/cultivateField/willNotGrow</text>
+    </item>
+    <item id="41e4c0d1dc">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/cultivator/cultivateField/driveStraightAhead</text>
+    </item>
+  </textFlow>
+</conversation>

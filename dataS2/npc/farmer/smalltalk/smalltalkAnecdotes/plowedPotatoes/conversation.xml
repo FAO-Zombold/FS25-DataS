@@ -1,0 +1,81 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>DAVID_ANECDOTES</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="c22fed6519">
+    <item id="c22fed6519" nextId="b961c31ad9">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/plowedPotatoes/reallyMessedUp</text>
+    </item>
+    <item id="b961c31ad9" nextId="cb34cc2fcc">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/plowedPotatoes/toBeFair</text>
+    </item>
+    <item id="cb34cc2fcc">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/plowedPotatoes/whatCouldGoWrong</text>
+      <next>
+        <option id="275de276c8" nextId="0bca87af3a">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/plowedPotatoes/whatCouldGoWrongOptionA</text>
+        </option>
+        <option id="a704b50237" nextId="0bca87af3a">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/plowedPotatoes/whatCouldGoWrongOptionB</text>
+        </option>
+      </next>
+    </item>
+    <item id="0bca87af3a" nextId="8cfd69056f">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/plowedPotatoes/meantToPlow</text>
+    </item>
+    <item id="8cfd69056f" nextId="42745a6e26">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/plowedPotatoes/catchCrops</text>
+    </item>
+    <item id="42745a6e26">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/plowedPotatoes/looksimilar</text>
+      <next>
+        <option id="ff04b348af" nextId="e5e3df3a2e">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/plowedPotatoes/optionA</text>
+        </option>
+        <option id="5dd63372fc" nextId="86a2a73f4b">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/plowedPotatoes/optionB</text>
+        </option>
+        <option id="4638d4f83a" nextId="86a2a73f4b">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/plowedPotatoes/optionC</text>
+        </option>
+      </next>
+    </item>
+    <item id="e5e3df3a2e" nextId="86a2a73f4b">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/plowedPotatoes/spottedTheDifference</text>
+    </item>
+    <item id="86a2a73f4b" nextId="6a03a80c9c">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/plowedPotatoes/arrivedOnHisFarm</text>
+    </item>
+    <item id="6a03a80c9c" nextId="420f9cc127">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/plowedPotatoes/soFarSoGood</text>
+    </item>
+    <item id="420f9cc127" nextId="f9d7c975bc">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/plowedPotatoes/leftRightDisorientation</text>
+    </item>
+    <item id="f9d7c975bc" nextId="a4e86d4d4d">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/plowedPotatoes/wrongField</text>
+    </item>
+    <item id="a4e86d4d4d" nextId="ab813da3d8">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/plowedPotatoes/notAllOfThem</text>
+    </item>
+    <item id="ab813da3d8" nextId="191334d9cb">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/plowedPotatoes/wasNotHappy</text>
+    </item>
+    <item id="191334d9cb" nextId="b62153e3aa">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/plowedPotatoes/checkUp</text>
+    </item>
+    <item id="b62153e3aa" nextId="813d55cedb">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/plowedPotatoes/helpWithBees</text>
+    </item>
+    <item id="813d55cedb" nextId="63f79318e0">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/plowedPotatoes/onlyOneOutfit</text>
+    </item>
+    <item id="63f79318e0">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/plowedPotatoes/seeYou</text>
+      <actions>
+        <startConversationById uniqueId="bdd07bda2c"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

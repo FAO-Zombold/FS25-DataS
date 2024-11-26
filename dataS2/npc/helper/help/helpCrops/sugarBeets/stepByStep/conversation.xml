@@ -1,0 +1,41 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="c2076c67f6">
+    <item id="c2076c67f6" nextId="909b4fab11">
+      <text>$dataS2/npc/helper/help/helpCrops/sugarBeets/stepByStep/cropCalender</text>
+    </item>
+    <item id="909b4fab11" nextId="ad8589e974">
+      <text>$dataS2/npc/helper/help/helpCrops/sugarBeets/stepByStep/liming</text>
+    </item>
+    <item id="ad8589e974" nextId="903ba63d12">
+      <text>$dataS2/npc/helper/help/helpCrops/sugarBeets/stepByStep/plowing</text>
+    </item>
+    <item id="903ba63d12" nextId="7f9f5d8a1a">
+      <text>$dataS2/npc/helper/help/helpCrops/sugarBeets/stepByStep/planting</text>
+    </item>
+    <item id="7f9f5d8a1a" nextId="e57623a1c4">
+      <text>$dataS2/npc/helper/help/helpCrops/sugarBeets/stepByStep/fertilizing</text>
+    </item>
+    <item id="e57623a1c4" nextId="2c2d5a21ac">
+      <text>$dataS2/npc/helper/help/helpCrops/sugarBeets/stepByStep/moreIncome</text>
+    </item>
+    <item id="2c2d5a21ac" nextId="d7037af68c">
+      <text>$dataS2/npc/helper/help/helpCrops/sugarBeets/stepByStep/weedingHoe</text>
+    </item>
+    <item id="d7037af68c" nextId="6150dde676">
+      <text>$dataS2/npc/helper/help/helpCrops/sugarBeets/stepByStep/harvesting</text>
+    </item>
+    <item id="6150dde676" nextId="d931784282">
+      <text>$dataS2/npc/helper/help/helpCrops/sugarBeets/stepByStep/haulmTopper</text>
+    </item>
+    <item id="d931784282">
+      <text>$dataS2/npc/helper/help/helpCrops/sugarBeets/stepByStep/hungry</text>
+      <actions>
+        <startConversationById uniqueId="e509a9aa94"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

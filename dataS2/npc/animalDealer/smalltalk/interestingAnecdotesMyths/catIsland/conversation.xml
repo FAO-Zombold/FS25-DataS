@@ -1,0 +1,96 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>KATIE_ANECDOTES</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="23724bb957">
+    <item id="23724bb957">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/catIsland/surroundedByABuchOfCats</text>
+      <next>
+        <option id="455279f1bb" nextId="5db86f5592">
+          <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/catIsland/surroundedByABuchOfCatsOptionA</text>
+        </option>
+        <option id="6c59b224b0" nextId="6e8d475fe6">
+          <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/catIsland/surroundedByABuchOfCatsOptionB</text>
+        </option>
+      </next>
+    </item>
+    <item id="5db86f5592" nextId="b69d7d9303">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/catIsland/catMagnet</text>
+    </item>
+    <item id="b69d7d9303" nextId="7aa0793147">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/catIsland/visitToJapan</text>
+    </item>
+    <item id="7aa0793147" nextId="53279580ed">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/catIsland/famousIsland</text>
+    </item>
+    <item id="53279580ed" nextId="d13dfd860b">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/catIsland/hinatoTheVeterinarian</text>
+    </item>
+    <item id="d13dfd860b" nextId="e979300fe1">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/catIsland/whatWouldBeNeeded</text>
+    </item>
+    <item id="e979300fe1" nextId="90b7b314ec">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/catIsland/sitDown</text>
+    </item>
+    <item id="90b7b314ec" nextId="284f6fc848">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/catIsland/cozySpot</text>
+    </item>
+    <item id="284f6fc848" nextId="735a50d3d9">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/catIsland/whatIsNotToLike</text>
+    </item>
+    <item id="735a50d3d9" nextId="ab678de9bb">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/catIsland/fellAsleep</text>
+    </item>
+    <item id="ab678de9bb" nextId="debb482744">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/catIsland/rudeKatie</text>
+    </item>
+    <item id="debb482744" nextId="4c8704508e">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/catIsland/pawNudging</text>
+    </item>
+    <item id="4c8704508e" nextId="8e1f0beee7">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/catIsland/HumanNappingSpot</text>
+    </item>
+    <item id="8e1f0beee7" nextId="2004cfd623">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/catIsland/hinatoFoundMe</text>
+    </item>
+    <item id="2004cfd623" nextId="8da9a5490c">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/catIsland/calicoKitten</text>
+    </item>
+    <item id="8da9a5490c" nextId="0f8e75e8ba">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/catIsland/nursedHerBack</text>
+    </item>
+    <item id="0f8e75e8ba" animationType="IDLE" nextId="28f90ef1ba">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/catIsland/catChoseHinato</text>
+    </item>
+    <item id="28f90ef1ba" nextId="abddb8d9d5">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/catIsland/rinTheCalicoCat</text>
+    </item>
+    <item id="abddb8d9d5">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/catIsland/noCatsInFS</text>
+      <next>
+        <option id="0176b26bcd" nextId="76de824613">
+          <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/catIsland/optionA</text>
+        </option>
+        <option id="d685623cb3" nextId="210f33f586">
+          <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/catIsland/optionB</text>
+        </option>
+      </next>
+    </item>
+    <item id="76de824613" nextId="2037989c20">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/catIsland/glitchInDesign</text>
+    </item>
+    <item id="2037989c20">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/catIsland/maybeSomeDay</text>
+      <actions>
+        <startConversationById uniqueId="bb0236da62"/>
+      </actions>
+    </item>
+    <item id="210f33f586" nextId="2037989c20">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/catIsland/doNotKnow</text>
+    </item>
+    <item id="6e8d475fe6" nextId="b69d7d9303">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/catIsland/thoughtYouCouldRelate</text>
+    </item>
+  </textFlow>
+</conversation>

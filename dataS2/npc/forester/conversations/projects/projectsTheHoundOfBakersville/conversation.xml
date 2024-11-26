@@ -1,0 +1,131 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>SMALLTALK_PROJECTS</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="ba12b58920">
+    <item id="ba12b58920">
+      <text>$dataS2/npc/forester/conversations/projects/projectsTheHoundOfBakersville/feelGood</text>
+      <next>
+        <option id="15613d0d4d" nextId="c70829b408">
+          <text>$dataS2/npc/forester/conversations/projects/projectsTheHoundOfBakersville/meanHappy</text>
+        </option>
+        <option id="392d218cde" nextId="28cb5bf074">
+          <text>$dataS2/npc/forester/conversations/projects/projectsTheHoundOfBakersville/congratulation</text>
+        </option>
+      </next>
+    </item>
+    <item id="c70829b408" nextId="a6bd2e2c52">
+      <text>$dataS2/npc/forester/conversations/projects/projectsTheHoundOfBakersville/feelGoodHormones</text>
+    </item>
+    <item id="a6bd2e2c52" nextId="b595f05541">
+      <text>$dataS2/npc/forester/conversations/projects/projectsTheHoundOfBakersville/strawberryCake</text>
+    </item>
+    <item id="b595f05541" nextId="ba234422ae">
+      <text>$dataS2/npc/forester/conversations/projects/projectsTheHoundOfBakersville/bakingProcess</text>
+    </item>
+    <item id="ba234422ae" nextId="38e723bad0">
+      <text>$dataS2/npc/forester/conversations/projects/projectsTheHoundOfBakersville/raidedCake</text>
+    </item>
+    <item id="38e723bad0" nextId="429083be68">
+      <text>$dataS2/npc/forester/conversations/projects/projectsTheHoundOfBakersville/localConstabularyCalled</text>
+    </item>
+    <item id="429083be68" nextId="178956511f">
+      <text>$dataS2/npc/forester/conversations/projects/projectsTheHoundOfBakersville/foundFingerprint</text>
+    </item>
+    <item id="178956511f" nextId="464b24db28">
+      <text>$dataS2/npc/forester/conversations/projects/projectsTheHoundOfBakersville/helperBen</text>
+    </item>
+    <item id="464b24db28" nextId="71383ae132">
+      <text>$dataS2/npc/forester/conversations/projects/projectsTheHoundOfBakersville/classicBen</text>
+    </item>
+    <item id="71383ae132" nextId="6817073447">
+      <text>$dataS2/npc/forester/conversations/projects/projectsTheHoundOfBakersville/devouringCakes</text>
+    </item>
+    <item id="6817073447" nextId="130a65bdc3">
+      <text>$dataS2/npc/forester/conversations/projects/projectsTheHoundOfBakersville/notImportantCake</text>
+    </item>
+    <item id="130a65bdc3" nextId="9f78d497f3">
+      <text>$dataS2/npc/forester/conversations/projects/projectsTheHoundOfBakersville/wordsCanTravel</text>
+    </item>
+    <item id="9f78d497f3" nextId="33c700af72">
+      <text>$dataS2/npc/forester/conversations/projects/projectsTheHoundOfBakersville/proveInnocence</text>
+    </item>
+    <item id="33c700af72">
+      <text>$dataS2/npc/forester/conversations/projects/projectsTheHoundOfBakersville/doneNext</text>
+      <next>
+        <option id="f723a3ac83" nextId="fb0a6b042f">
+          <text>$dataS2/npc/forester/conversations/projects/projectsTheHoundOfBakersville/getTestimony</text>
+        </option>
+        <option id="66ec10b1e3" nextId="b55e003929">
+          <text>$dataS2/npc/forester/conversations/projects/projectsTheHoundOfBakersville/closeLook</text>
+        </option>
+        <option id="7e0394a0cb" nextId="bd32b25cea">
+          <text>$dataS2/npc/forester/conversations/projects/projectsTheHoundOfBakersville/bakeAnotherOne</text>
+        </option>
+      </next>
+    </item>
+    <item id="fb0a6b042f" nextId="a109a2e267">
+      <text>$dataS2/npc/forester/conversations/projects/projectsTheHoundOfBakersville/wrongPoliceDidAlready</text>
+    </item>
+    <item id="a109a2e267" nextId="7c7873dfa9">
+      <text>$dataS2/npc/forester/conversations/projects/projectsTheHoundOfBakersville/tookFingerprints</text>
+    </item>
+    <item id="7c7873dfa9" nextId="bbaf14e08e">
+      <text>$dataS2/npc/forester/conversations/projects/projectsTheHoundOfBakersville/dossiersOfAll</text>
+    </item>
+    <item id="bbaf14e08e" nextId="76ca073893">
+      <text>$dataS2/npc/forester/conversations/projects/projectsTheHoundOfBakersville/identityOfCulprit</text>
+    </item>
+    <item id="76ca073893" nextId="4e417e8654">
+      <text>$dataS2/npc/forester/conversations/projects/projectsTheHoundOfBakersville/printsOnGround</text>
+    </item>
+    <item id="4e417e8654" nextId="1719317e00">
+      <text>$dataS2/npc/forester/conversations/projects/projectsTheHoundOfBakersville/reveealedThemself</text>
+    </item>
+    <item id="1719317e00" nextId="db4b6ba711">
+      <text>$dataS2/npc/forester/conversations/projects/projectsTheHoundOfBakersville/neighborsDog</text>
+    </item>
+    <item id="db4b6ba711" nextId="806786ffd0">
+      <text>$dataS2/npc/forester/conversations/projects/projectsTheHoundOfBakersville/devouredCake</text>
+    </item>
+    <item id="806786ffd0">
+      <text>$dataS2/npc/forester/conversations/projects/projectsTheHoundOfBakersville/informedConstable</text>
+      <next>
+        <option id="587afaefb5" nextId="57cfe0448e">
+          <text>$dataS2/npc/forester/conversations/projects/projectsTheHoundOfBakersville/congrats</text>
+        </option>
+        <option id="8769dcba21" nextId="083915df56">
+          <text>$dataS2/npc/forester/conversations/projects/projectsTheHoundOfBakersville/dogSurrendered</text>
+        </option>
+        <option id="9f76451bbb" nextId="7f392ce0ec">
+          <text>$dataS2/npc/forester/conversations/projects/projectsTheHoundOfBakersville/leftFingerprints</text>
+        </option>
+      </next>
+    </item>
+    <item id="57cfe0448e" nextId="2bae1af985">
+      <text>$dataS2/npc/forester/conversations/projects/projectsTheHoundOfBakersville/nothingToBrag</text>
+    </item>
+    <item id="2bae1af985">
+      <text>$dataS2/npc/forester/conversations/projects/projectsTheHoundOfBakersville/rightCulprit</text>
+      <actions>
+        <startConversationById uniqueId="8b24b3ebc0"/>
+      </actions>
+    </item>
+    <item id="083915df56">
+      <text>$dataS2/npc/forester/conversations/projects/projectsTheHoundOfBakersville/hardDetectiveWork</text>
+    </item>
+    <item id="7f392ce0ec">
+      <text>$dataS2/npc/forester/conversations/projects/projectsTheHoundOfBakersville/closedCase</text>
+    </item>
+    <item id="b55e003929" nextId="a109a2e267">
+      <text>$dataS2/npc/forester/conversations/projects/projectsTheHoundOfBakersville/correct</text>
+    </item>
+    <item id="bd32b25cea" nextId="a109a2e267">
+      <text>$dataS2/npc/forester/conversations/projects/projectsTheHoundOfBakersville/fightSymptomNotRoot</text>
+    </item>
+    <item id="28cb5bf074" nextId="a6bd2e2c52">
+      <text>$dataS2/npc/forester/conversations/projects/projectsTheHoundOfBakersville/thanks</text>
+    </item>
+  </textFlow>
+</conversation>

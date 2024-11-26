@@ -1,0 +1,49 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>SMALLTALK_WISDOM</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <numTriggered max="1"/>
+    <seasonPeriod min="EARLY_AUTUMN" max="LATE_AUTUMN"/>
+  </prerequisites>
+  <textFlow startId="e0b523236e">
+    <item id="e0b523236e" nextId="00db44e9a8">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/fallWisdom/stormWinds/saying</text>
+    </item>
+    <item id="00db44e9a8">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/fallWisdom/stormWinds/whatMeaning</text>
+      <next>
+        <option id="c9e449963b" nextId="f93054756f">
+          <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/fallWisdom/stormWinds/windyStorms</text>
+        </option>
+        <option id="0e4f0c952b" nextId="f93054756f">
+          <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/fallWisdom/stormWinds/noPredict</text>
+        </option>
+      </next>
+    </item>
+    <item id="f93054756f" nextId="4a001b96bd">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/fallWisdom/stormWinds/unpredictableWind</text>
+    </item>
+    <item id="4a001b96bd" nextId="835f660964">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/fallWisdom/stormWinds/noPatterns</text>
+    </item>
+    <item id="835f660964" nextId="5b60e0a9e1">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/fallWisdom/stormWinds/notOnlyAboutWind</text>
+    </item>
+    <item id="5b60e0a9e1" nextId="5abeffa1df">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/fallWisdom/stormWinds/unpredictableEvents</text>
+    </item>
+    <item id="5abeffa1df">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/fallWisdom/stormWinds/likeWind</text>
+      <next>
+        <option id="32e9bca1e4">
+          <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/fallWisdom/stormWinds/interestingThanks</text>
+          <actions>
+            <startConversationById uniqueId="0bc5b0ce93"/>
+          </actions>
+        </option>
+      </next>
+    </item>
+  </textFlow>
+</conversation>

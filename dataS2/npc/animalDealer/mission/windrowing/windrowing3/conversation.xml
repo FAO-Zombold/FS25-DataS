@@ -1,0 +1,17 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>MISSION_SELECT</type>
+  <probability>1</probability>
+  <isActive>false</isActive>
+  <prerequisites>
+    <missionAvailable/>
+  </prerequisites>
+  <textFlow startId="bb3b28114c">
+    <item id="bb3b28114c">
+      <text>$dataS2/npc/animalDealer/mission/windrowing/windrowing3/organizePlants</text>
+      <actions>
+        <startConversationById uniqueId="be6288fc1b"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

@@ -1,0 +1,29 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="d180f1495f">
+    <item id="d180f1495f" nextId="a44812d5de">
+      <text>$dataS2/npc/helper/help/helpCrops/poplar/whatEquipment/guide</text>
+    </item>
+    <item id="a44812d5de" nextId="1d12057e11">
+      <text>$dataS2/npc/helper/help/helpCrops/poplar/whatEquipment/plow</text>
+    </item>
+    <item id="1d12057e11" nextId="b908ac9ea7">
+      <text>$dataS2/npc/helper/help/helpCrops/poplar/whatEquipment/planter</text>
+    </item>
+    <item id="b908ac9ea7" nextId="0e49f4ba34">
+      <text>$dataS2/npc/helper/help/helpCrops/poplar/whatEquipment/lime</text>
+    </item>
+    <item id="0e49f4ba34" nextId="0bda756f5b">
+      <text>$dataS2/npc/helper/help/helpCrops/poplar/whatEquipment/harvestPoplar</text>
+    </item>
+    <item id="0bda756f5b">
+      <text>$dataS2/npc/helper/help/helpCrops/poplar/whatEquipment/gotIt</text>
+      <actions>
+        <startConversationById uniqueId="b4faf1a7f5"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

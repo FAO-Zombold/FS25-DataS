@@ -1,0 +1,40 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>MISSION</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="c06fa6674a">
+    <item id="c06fa6674a" nextId="1325d4d06b">
+      <text>$dataS2/npc/animalDealer/mission/tedding/teddingEquipment/useOwnMachines</text>
+    </item>
+    <item id="1325d4d06b">
+      <text>$dataS2/npc/animalDealer/mission/tedding/teddingEquipment/howDoYouWant</text>
+      <next>
+        <option id="76160ede52">
+          <text>$dataS2/npc/animalDealer/mission/tedding/teddingEquipment/optionA</text>
+          <actions>
+            <startSelectedMission/>
+          </actions>
+          <inputs>
+            <leaseVehicles value="false"/>
+          </inputs>
+        </option>
+        <option id="18e3d681b4">
+          <text>$dataS2/npc/animalDealer/mission/tedding/teddingEquipment/optionB</text>
+          <inputs>
+            <leaseVehicles value="true"/>
+          </inputs>
+        </option>
+        <option id="5193d1d908" nextId="0264a6d4a1">
+          <text>$dataS2/npc/animalDealer/mission/tedding/teddingEquipment/optionC</text>
+        </option>
+        <option id="92263b6e5b">
+          <text>$dataS2/npc/animalDealer/mission/tedding/teddingEquipment/optionD</text>
+        </option>
+      </next>
+    </item>
+    <item id="0264a6d4a1" nextId="1325d4d06b">
+      <text>$dataS2/npc/animalDealer/mission/tedding/teddingEquipment/howAboutATedder</text>
+    </item>
+  </textFlow>
+</conversation>

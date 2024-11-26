@@ -1,0 +1,67 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>KATIE_ANECDOTES</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="a74ac3e313">
+    <item id="a74ac3e313" nextId="7079de45ee">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/cheekyBlackbird/timeInUKAlt2</text>
+    </item>
+    <item id="7079de45ee" nextId="c23edc5364">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/cheekyBlackbird/walesHasSheep</text>
+    </item>
+    <item id="c23edc5364" nextId="876b4dd413">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/cheekyBlackbird/woolproducionInWales</text>
+    </item>
+    <item id="876b4dd413" nextId="de7b9cc3d4">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/cheekyBlackbird/cheekyBlackbird</text>
+    </item>
+    <item id="de7b9cc3d4" nextId="a7fc9f4993">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/cheekyBlackbird/blackbirdHopping</text>
+    </item>
+    <item id="a7fc9f4993" nextId="826a52284e">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/cheekyBlackbird/cowsAreNestSupply</text>
+    </item>
+    <item id="826a52284e" nextId="6b281cf4e6">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/cheekyBlackbird/pluckingFur</text>
+    </item>
+    <item id="6b281cf4e6" nextId="fd2c87e25e">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/cheekyBlackbird/calvesWereChilling</text>
+    </item>
+    <item id="fd2c87e25e" nextId="84b446b879">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/cheekyBlackbird/beekFullOfFur</text>
+    </item>
+    <item id="84b446b879">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/cheekyBlackbird/leaveMaterials</text>
+      <next>
+        <option id="9127ab0df8" nextId="1425a78c31">
+          <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/cheekyBlackbird/optionA</text>
+        </option>
+        <option id="5bf91ea520" nextId="17ccd31fbb">
+          <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/cheekyBlackbird/optionB</text>
+        </option>
+      </next>
+    </item>
+    <item id="1425a78c31" nextId="fb384b8ebd">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/cheekyBlackbird/smallSticks</text>
+    </item>
+    <item id="fb384b8ebd" nextId="b65b0af8e9">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/cheekyBlackbird/fruitBerriesSeeds</text>
+    </item>
+    <item id="b65b0af8e9" nextId="d8fa653568">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/cheekyBlackbird/likeSupportingThem</text>
+    </item>
+    <item id="d8fa653568" nextId="cfb615e01c">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/cheekyBlackbird/boxOfSeeds</text>
+    </item>
+    <item id="cfb615e01c">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/cheekyBlackbird/lotsOfThings</text>
+      <actions>
+        <startConversationById uniqueId="bb0236da62"/>
+      </actions>
+    </item>
+    <item id="17ccd31fbb" nextId="b65b0af8e9">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/cheekyBlackbird/insectsFruitBerries</text>
+    </item>
+  </textFlow>
+</conversation>

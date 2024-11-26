@@ -1,0 +1,98 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>SMALLTALK_PROJECTS</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="44c0209419">
+    <item id="44c0209419">
+      <text>$dataS2/npc/forester/conversations/projects/projectAScandalOfBohemianPotatoSalad/newCase</text>
+      <next>
+        <option id="0529d1a793" nextId="f75b3ac47b">
+          <text>$dataS2/npc/forester/conversations/projects/projectAScandalOfBohemianPotatoSalad/what</text>
+        </option>
+        <option id="0343aef76e" nextId="f75b3ac47b">
+          <text>$dataS2/npc/forester/conversations/projects/projectAScandalOfBohemianPotatoSalad/who</text>
+        </option>
+      </next>
+    </item>
+    <item id="f75b3ac47b" nextId="4c349880e2">
+      <text>$dataS2/npc/forester/conversations/projects/projectAScandalOfBohemianPotatoSalad/unsolvedCase</text>
+    </item>
+    <item id="4c349880e2" nextId="0e35786cbd">
+      <text>$dataS2/npc/forester/conversations/projects/projectAScandalOfBohemianPotatoSalad/bagsOfPotatoSalad</text>
+    </item>
+    <item id="0e35786cbd" nextId="8040563acb">
+      <text>$dataS2/npc/forester/conversations/projects/projectAScandalOfBohemianPotatoSalad/noClues</text>
+    </item>
+    <item id="8040563acb">
+      <text>$dataS2/npc/forester/conversations/projects/projectAScandalOfBohemianPotatoSalad/germanRecipe</text>
+      <next>
+        <option id="ec30cbb38f" nextId="13d5a1a087">
+          <text>$dataS2/npc/forester/conversations/projects/projectAScandalOfBohemianPotatoSalad/delicious</text>
+        </option>
+        <option id="efb7309cb0" nextId="ac857319d7">
+          <text>$dataS2/npc/forester/conversations/projects/projectAScandalOfBohemianPotatoSalad/neighborlyGift</text>
+        </option>
+      </next>
+    </item>
+    <item id="13d5a1a087" nextId="f02b511fb7">
+      <text>$dataS2/npc/forester/conversations/projects/projectAScandalOfBohemianPotatoSalad/appearDaredevil</text>
+    </item>
+    <item id="f02b511fb7" nextId="b0560dbd5e">
+      <text>$dataS2/npc/forester/conversations/projects/projectAScandalOfBohemianPotatoSalad/otherGermanAffiliation</text>
+    </item>
+    <item id="b0560dbd5e" nextId="4f80545ad4">
+      <text>$dataS2/npc/forester/conversations/projects/projectAScandalOfBohemianPotatoSalad/dislikePotatoSalad</text>
+    </item>
+    <item id="4f80545ad4" nextId="47ef09879c">
+      <text>$dataS2/npc/forester/conversations/projects/projectAScandalOfBohemianPotatoSalad/knowsNothing</text>
+    </item>
+    <item id="47ef09879c" nextId="d704b3fa6e">
+      <text>$dataS2/npc/forester/conversations/projects/projectAScandalOfBohemianPotatoSalad/foodWaste</text>
+    </item>
+    <item id="d704b3fa6e" nextId="ece2eb6370">
+      <text>$dataS2/npc/forester/conversations/projects/projectAScandalOfBohemianPotatoSalad/whyLeavePotatoSalad</text>
+    </item>
+    <item id="ece2eb6370" nextId="faf6e33672">
+      <text>$dataS2/npc/forester/conversations/projects/projectAScandalOfBohemianPotatoSalad/toMockMe</text>
+    </item>
+    <item id="faf6e33672">
+      <text>$dataS2/npc/forester/conversations/projects/projectAScandalOfBohemianPotatoSalad/amateurDetective</text>
+      <next>
+        <option id="15901afd79" nextId="99b23530ac">
+          <text>$dataS2/npc/forester/conversations/projects/projectAScandalOfBohemianPotatoSalad/wasNotMe</text>
+        </option>
+        <option id="c24647bbfd" nextId="23ed1fca5f">
+          <text>$dataS2/npc/forester/conversations/projects/projectAScandalOfBohemianPotatoSalad/mightBeDavid</text>
+        </option>
+        <option id="0553903c91" nextId="9dc7883fe2">
+          <text>$dataS2/npc/forester/conversations/projects/projectAScandalOfBohemianPotatoSalad/doNotKnow</text>
+        </option>
+      </next>
+    </item>
+    <item id="99b23530ac" nextId="ff730b6f18">
+      <text>$dataS2/npc/forester/conversations/projects/projectAScandalOfBohemianPotatoSalad/stillSuspect</text>
+    </item>
+    <item id="ff730b6f18" nextId="74eeb573ce">
+      <text>$dataS2/npc/forester/conversations/projects/projectAScandalOfBohemianPotatoSalad/setTrap</text>
+    </item>
+    <item id="74eeb573ce" nextId="43cc692c46">
+      <text>$dataS2/npc/forester/conversations/projects/projectAScandalOfBohemianPotatoSalad/buildTrap</text>
+    </item>
+    <item id="43cc692c46">
+      <text>$dataS2/npc/forester/conversations/projects/projectAScandalOfBohemianPotatoSalad/wishSuccess</text>
+      <actions>
+        <startConversationById uniqueId="8b24b3ebc0"/>
+      </actions>
+    </item>
+    <item id="23ed1fca5f" nextId="ff730b6f18">
+      <text>$dataS2/npc/forester/conversations/projects/projectAScandalOfBohemianPotatoSalad/rightSolution</text>
+    </item>
+    <item id="9dc7883fe2" nextId="ff730b6f18">
+      <text>$dataS2/npc/forester/conversations/projects/projectAScandalOfBohemianPotatoSalad/callMe</text>
+    </item>
+    <item id="ac857319d7" nextId="f02b511fb7">
+      <text>$dataS2/npc/forester/conversations/projects/projectAScandalOfBohemianPotatoSalad/whySalad</text>
+    </item>
+  </textFlow>
+</conversation>

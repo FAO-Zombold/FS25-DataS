@@ -1,0 +1,29 @@
+<conversation>
+  <class>NPCConversationGuidedTour</class>
+  <type>GUIDED_TOUR</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <manuallyTriggered/>
+  </prerequisites>
+  <textFlow startId="5ff3e8b7aa">
+    <item id="5ff3e8b7aa" nextId="816663e2fa">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/seeder/driveToTheMarker/easySeeding</text>
+    </item>
+    <item id="816663e2fa" nextId="d4f2b4391b">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/seeder/driveToTheMarker/straightLines</text>
+    </item>
+    <item id="d4f2b4391b" nextId="e022322827">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/seeder/driveToTheMarker/backAndForth</text>
+    </item>
+    <item id="e022322827" nextId="b2ebc2b292">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/seeder/driveToTheMarker/bigBag</text>
+    </item>
+    <item id="b2ebc2b292" nextId="bca0855a44">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/seeder/driveToTheMarker/useExistingSeeds</text>
+    </item>
+    <item id="bca0855a44">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/seeder/driveToTheMarker/turnOnAndLower</text>
+    </item>
+  </textFlow>
+</conversation>

@@ -1,0 +1,34 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="02eb3daa13">
+    <item id="02eb3daa13" isActive="false">
+      <text>$dataS2/npc/helper/help/helpCrops/potatoes/overviewPotatoes/intro</text>
+      <next>
+        <option id="f152113b79">
+          <text>$dataS2/npc/helper/help/helpCrops/potatoes/overviewPotatoes/whatEquipment</text>
+          <actions>
+            <startConversationById uniqueId="45927a8e48"/>
+          </actions>
+        </option>
+        <option id="4f5ede030e">
+          <text>$dataS2/npc/helper/help/helpCrops/potatoes/overviewPotatoes/stepByStep</text>
+          <actions>
+            <startConversationById uniqueId="d141f370f7"/>
+          </actions>
+        </option>
+        <option id="9bd5e0b2ce">
+          <text>$dataS2/npc/helper/help/helpCrops/potatoes/overviewPotatoes/backButton</text>
+          <actions>
+            <startConversationById uniqueId="b7b177b9c9"/>
+          </actions>
+        </option>
+        <option id="287ef1a3f7">
+          <text>$dataS2/npc/helper/help/helpCrops/potatoes/overviewPotatoes/ExitButton</text>
+        </option>
+      </next>
+    </item>
+  </textFlow>
+</conversation>

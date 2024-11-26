@@ -1,0 +1,35 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>DAVID_ADVICE</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <retriggerTypeDelayIngameDays type="DAVID_ADVICE" minDays="1"/>
+  </prerequisites>
+  <textFlow startId="1cb348c87f">
+    <item id="1cb348c87f" nextId="4ea144006f">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/passiveIncome/steadyIncome</text>
+    </item>
+    <item id="4ea144006f" nextId="b4621acbd9">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/passiveIncome/goodOptions</text>
+    </item>
+    <item id="b4621acbd9" nextId="76b09a4f85">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/passiveIncome/windTurbines</text>
+    </item>
+    <item id="76b09a4f85" nextId="0e4e23e4ba">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/passiveIncome/mightcheck</text>
+    </item>
+    <item id="0e4e23e4ba" nextId="1525a0404a">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/passiveIncome/affordIt</text>
+    </item>
+    <item id="1525a0404a" nextId="141b9c83b4">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/passiveIncome/profitableInNoTime</text>
+    </item>
+    <item id="141b9c83b4">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/passiveIncome/investFunds</text>
+      <actions>
+        <startConversationById uniqueId="bdd07bda2c"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

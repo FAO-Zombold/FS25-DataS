@@ -1,0 +1,40 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>MISSION</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="5050c2e133">
+    <item id="5050c2e133" nextId="949f3ee67a">
+      <text>$dataS2/npc/grandpa/missions/field/fertilizing/fertilizingEquipment/machineChoice</text>
+    </item>
+    <item id="949f3ee67a">
+      <text>$dataS2/npc/grandpa/missions/field/fertilizing/fertilizingEquipment/so</text>
+      <next>
+        <option id="2fa41f9a29">
+          <text>$dataS2/npc/grandpa/missions/field/fertilizing/fertilizingEquipment/ownMachine</text>
+          <actions>
+            <startSelectedMission/>
+          </actions>
+        </option>
+        <option id="dd3b3791ff">
+          <text>$dataS2/npc/grandpa/missions/field/fertilizing/fertilizingEquipment/borrowMachine</text>
+          <actions>
+            <startSelectedMission/>
+          </actions>
+          <inputs>
+            <leaseVehicles value="true"/>
+          </inputs>
+        </option>
+        <option id="2a3b3ff051" nextId="78d296f9d5">
+          <text>$dataS2/npc/grandpa/missions/field/fertilizing/fertilizingEquipment/whatMachine</text>
+        </option>
+        <option id="502ac28810">
+          <text>$dataS2/npc/grandpa/missions/field/fertilizing/fertilizingEquipment/changedMind</text>
+        </option>
+      </next>
+    </item>
+    <item id="78d296f9d5" nextId="949f3ee67a">
+      <text>$dataS2/npc/grandpa/missions/field/fertilizing/fertilizingEquipment/infoMachine</text>
+    </item>
+  </textFlow>
+</conversation>

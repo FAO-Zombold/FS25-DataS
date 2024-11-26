@@ -1,0 +1,17 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>MISSION_INTRO</type>
+  <probability>1</probability>
+  <isActive>false</isActive>
+  <prerequisites>
+    <missionAvailable/>
+  </prerequisites>
+  <textFlow startId="9b3020b966">
+    <item id="9b3020b966">
+      <text>$dataS2/npc/farmer/missions/introsMissionAvailable/awesomeToOffer/howAwesome</text>
+      <actions>
+        <startConversationById uniqueId="0b5f6618c8"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

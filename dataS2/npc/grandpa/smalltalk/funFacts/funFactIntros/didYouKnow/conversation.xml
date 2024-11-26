@@ -1,0 +1,19 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>SMALLTALK_FUNFACTS_INTRO</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <conversationAllTriggeredByType type="SMALLTALK_WISDOM"/>
+    <conversationAvailableByType type="SMALLTALK_FUNFACTS"/>
+    <retriggerTypeDelayIngameDays type="SMALLTALK_FUNFACTS_INTRO" minDays="1"/>
+  </prerequisites>
+  <textFlow startId="603d4084bb">
+    <item id="603d4084bb">
+      <text>$dataS2/npc/grandpa/smalltalk/funFacts/funFactIntros/didYouKnow/didYouKnowThat</text>
+      <actions>
+        <startConversationByType type="SMALLTALK_FUNFACTS"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

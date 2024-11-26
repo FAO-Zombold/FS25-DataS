@@ -1,0 +1,35 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="401b41fe5a">
+    <item id="401b41fe5a" nextId="5a5d8ce399">
+      <text>$dataS2/npc/helper/help/helpCrops/sugarBeets/whatEquipment/ploeSubsoiler</text>
+    </item>
+    <item id="5a5d8ce399" nextId="9c2a2ac486">
+      <text>$dataS2/npc/helper/help/helpCrops/sugarBeets/whatEquipment/favor</text>
+    </item>
+    <item id="9c2a2ac486" nextId="7538658581">
+      <text>$dataS2/npc/helper/help/helpCrops/sugarBeets/whatEquipment/sowerSeeds</text>
+    </item>
+    <item id="7538658581" nextId="61682e5a61">
+      <text>$dataS2/npc/helper/help/helpCrops/sugarBeets/whatEquipment/fertilizer</text>
+    </item>
+    <item id="61682e5a61" nextId="cee79ccac7">
+      <text>$dataS2/npc/helper/help/helpCrops/sugarBeets/whatEquipment/weeder</text>
+    </item>
+    <item id="cee79ccac7" nextId="babc9035fb">
+      <text>$dataS2/npc/helper/help/helpCrops/sugarBeets/whatEquipment/selfPropCombo</text>
+    </item>
+    <item id="babc9035fb" nextId="6237e2fd47">
+      <text>$dataS2/npc/helper/help/helpCrops/sugarBeets/whatEquipment/emptyTrailer</text>
+    </item>
+    <item id="6237e2fd47">
+      <text>$dataS2/npc/helper/help/helpCrops/sugarBeets/whatEquipment/shouldBe</text>
+      <actions>
+        <startConversationById uniqueId="e509a9aa94"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

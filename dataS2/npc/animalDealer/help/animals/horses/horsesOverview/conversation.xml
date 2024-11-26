@@ -1,0 +1,52 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>DEFAULT</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="217170efd6">
+    <item id="217170efd6" isActive="false">
+      <text>$dataS2/npc/animalDealer/help/animals/horses/horsesOverview/placeholder</text>
+      <next>
+        <option id="94ba387539">
+          <text>$dataS2/npc/animalDealer/help/animals/horses/horsesOverview/howDoIFeedHorses</text>
+          <actions>
+            <startConversationById uniqueId="9982e5bfcc"/>
+          </actions>
+        </option>
+        <option id="426abe1ac3">
+          <text>$dataS2/npc/animalDealer/help/animals/horses/horsesOverview/howDoIKeepHorses</text>
+          <actions>
+            <startConversationById uniqueId="5c70fa640d"/>
+          </actions>
+        </option>
+        <option id="ae496a55f8">
+          <text>$dataS2/npc/animalDealer/help/animals/horses/horsesOverview/howDoISell</text>
+          <actions>
+            <startConversationById uniqueId="4188677654"/>
+          </actions>
+        </option>
+        <option id="2eae875279">
+          <text>$dataS2/npc/animalDealer/help/animals/horses/horsesOverview/whatDifferentBreeds</text>
+          <actions>
+            <startConversationById uniqueId="e477692d7e"/>
+          </actions>
+        </option>
+        <option id="e7b36e550f">
+          <text>$dataS2/npc/animalDealer/help/animals/horses/horsesOverview/whatEquipmentDoINeed</text>
+          <actions>
+            <startConversationById uniqueId="791c90fb72"/>
+          </actions>
+        </option>
+        <option id="5e9d006b5a">
+          <text>$dataS2/npc/animalDealer/help/animals/horses/horsesOverview/optionBack</text>
+          <actions>
+            <startConversationById uniqueId="345249355c"/>
+          </actions>
+        </option>
+        <option id="d3a9e7936c">
+          <text>$dataS2/npc/animalDealer/help/animals/horses/horsesOverview/optionExit</text>
+        </option>
+      </next>
+    </item>
+  </textFlow>
+</conversation>

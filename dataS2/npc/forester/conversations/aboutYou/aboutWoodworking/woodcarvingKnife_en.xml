@@ -1,0 +1,4 @@
+<text>
+  <emotional>[happiness, medium]I am proud to inform you that my new woodcarving knife just arrived.[/happiness]</emotional>
+  <silence>{.} i am proud to inform you {.} that my new woodcarving knife {..} just arrived {...}</silence>
+</text>

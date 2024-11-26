@@ -1,0 +1,17 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>KATIE_YOU_INTRO</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <retriggerTypeDelayIngameDays type="KATIE_YOU_INTRO" minDays="1"/>
+  </prerequisites>
+  <textFlow startId="424953d311">
+    <item id="424953d311">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/introsAboutYou/intro10SomethingFascinating5/somethingFascinating</text>
+      <actions>
+        <startConversationByType type="KATIE_YOU"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

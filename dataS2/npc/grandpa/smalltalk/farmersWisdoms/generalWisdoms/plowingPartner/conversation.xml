@@ -1,0 +1,55 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>SMALLTALK_WISDOM</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <numTriggered max="1"/>
+  </prerequisites>
+  <textFlow startId="e56a08d568">
+    <item id="e56a08d568" nextId="c9e517977b">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/plowingPartner/farmersPartner</text>
+    </item>
+    <item id="c9e517977b">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/plowingPartner/youAgree</text>
+      <next>
+        <option id="1a865c7cac" nextId="b101ca16fa">
+          <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/plowingPartner/plowNeed</text>
+        </option>
+        <option id="eacfca6cd5" nextId="33aab60dd7">
+          <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/plowingPartner/skipPlowing</text>
+        </option>
+        <option id="789a943ca1" nextId="b101ca16fa">
+          <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/plowingPartner/whatMeaning</text>
+        </option>
+      </next>
+    </item>
+    <item id="b101ca16fa" nextId="4f75c11439">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/plowingPartner/plowTool</text>
+    </item>
+    <item id="4f75c11439" nextId="160d506b6e">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/plowingPartner/revolutionizedHumanity</text>
+    </item>
+    <item id="160d506b6e" nextId="504f8c27a3">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/plowingPartner/breakSoil</text>
+    </item>
+    <item id="504f8c27a3" nextId="abc05b0f12">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/plowingPartner/soilHealth</text>
+    </item>
+    <item id="abc05b0f12" nextId="469cc66241">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/plowingPartner/driveProgress</text>
+    </item>
+    <item id="469cc66241" nextId="726459784b">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/plowingPartner/symbioticRelationship</text>
+    </item>
+    <item id="726459784b">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/plowingPartner/lovePlows</text>
+      <actions>
+        <startConversationById uniqueId="0bc5b0ce93"/>
+      </actions>
+    </item>
+    <item id="33aab60dd7" nextId="b101ca16fa">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/plowingPartner/essentialPlowing</text>
+    </item>
+  </textFlow>
+</conversation>

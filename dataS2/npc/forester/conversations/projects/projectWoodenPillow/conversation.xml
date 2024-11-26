@@ -1,0 +1,87 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>SMALLTALK_PROJECTS</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="d52fce491f">
+    <item id="d52fce491f">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenPillow/pillow</text>
+      <next>
+        <option id="0962f4f680" nextId="597877509e">
+          <text>$dataS2/npc/forester/conversations/projects/projectWoodenPillow/nowPillows</text>
+        </option>
+        <option id="aaa9f0a1b4" nextId="597877509e">
+          <text>$dataS2/npc/forester/conversations/projects/projectWoodenPillow/whatKind</text>
+        </option>
+        <option id="852fb06b8b" nextId="597877509e">
+          <text>$dataS2/npc/forester/conversations/projects/projectWoodenPillow/tellMore</text>
+        </option>
+      </next>
+    </item>
+    <item id="597877509e" nextId="a278aabdcb">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenPillow/backstory</text>
+    </item>
+    <item id="a278aabdcb" nextId="b2972fb03f">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenPillow/decorativePillows</text>
+    </item>
+    <item id="b2972fb03f" nextId="c37c2e90b2">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenPillow/cloggingSpace</text>
+    </item>
+    <item id="c37c2e90b2" nextId="bdfb2387f3">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenPillow/noMatter</text>
+    </item>
+    <item id="bdfb2387f3" nextId="79b20408a1">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenPillow/thatOnePillow</text>
+    </item>
+    <item id="79b20408a1">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenPillow/logicalThing</text>
+      <next>
+        <option id="3d23979b37" nextId="18cc9107d9">
+          <text>$dataS2/npc/forester/conversations/projects/projectWoodenPillow/takePhoto</text>
+        </option>
+        <option id="33a2b51091" nextId="63d91aecdd">
+          <text>$dataS2/npc/forester/conversations/projects/projectWoodenPillow/herTasks</text>
+        </option>
+        <option id="ffe346c0e8" nextId="3e616abc20">
+          <text>$dataS2/npc/forester/conversations/projects/projectWoodenPillow/guessSolution</text>
+        </option>
+      </next>
+    </item>
+    <item id="18cc9107d9" nextId="da1e55f9b9">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenPillow/youWrong</text>
+    </item>
+    <item id="da1e55f9b9" nextId="51312945cb">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenPillow/carvingKnife</text>
+    </item>
+    <item id="51312945cb" nextId="ffb3f26fdc">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenPillow/carvedCopy</text>
+    </item>
+    <item id="ffb3f26fdc" nextId="4feccb109b">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenPillow/colorMatched</text>
+    </item>
+    <item id="4feccb109b" nextId="267496bc74">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenPillow/matchingStain</text>
+    </item>
+    <item id="267496bc74" nextId="0f3a7ea452">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenPillow/noAttention</text>
+    </item>
+    <item id="0f3a7ea452" nextId="d898ab356b">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenPillow/perfectlyArranged</text>
+    </item>
+    <item id="d898ab356b" nextId="d04f73e730">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenPillow/weakBack</text>
+    </item>
+    <item id="d04f73e730">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenPillow/makePillow</text>
+      <actions>
+        <startConversationById uniqueId="8b24b3ebc0"/>
+      </actions>
+    </item>
+    <item id="63d91aecdd" nextId="da1e55f9b9">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenPillow/fascinating</text>
+    </item>
+    <item id="3e616abc20" nextId="da1e55f9b9">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenPillow/problemSolver</text>
+    </item>
+  </textFlow>
+</conversation>

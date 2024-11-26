@@ -1,0 +1,73 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>SMALLTALK_ABOUT_YOU</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="aa402f60a5">
+    <item id="aa402f60a5" nextId="95a02cc225">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutWoodworking/woodcarvingKnife</text>
+    </item>
+    <item id="95a02cc225" nextId="8b6025745e">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutWoodworking/brokenKnife</text>
+    </item>
+    <item id="8b6025745e" nextId="6eea712489">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutWoodworking/practicalThings</text>
+    </item>
+    <item id="6eea712489" nextId="147276c6a6">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutWoodworking/carveRealities</text>
+    </item>
+    <item id="147276c6a6">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutWoodworking/flower</text>
+      <next>
+        <option id="7fffde8b61" nextId="89234936e3">
+          <text>$dataS2/npc/forester/conversations/aboutYou/aboutWoodworking/iKnow</text>
+        </option>
+        <option id="71eadaae1b" nextId="89234936e3">
+          <text>$dataS2/npc/forester/conversations/aboutYou/aboutWoodworking/artisticStuff</text>
+        </option>
+        <option id="b058074ae5" nextId="c40665e935">
+          <text>$dataS2/npc/forester/conversations/aboutYou/aboutWoodworking/notSure</text>
+        </option>
+      </next>
+    </item>
+    <item id="89234936e3" nextId="94bcfce920">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutWoodworking/pleasantPastime</text>
+    </item>
+    <item id="94bcfce920" nextId="3f4937414b">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutWoodworking/properTool</text>
+    </item>
+    <item id="3f4937414b" nextId="caef629de2">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutWoodworking/goodTool</text>
+    </item>
+    <item id="caef629de2" nextId="4ae5c2c403">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutWoodworking/dullBlade</text>
+    </item>
+    <item id="4ae5c2c403" nextId="b0e18157ca">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutWoodworking/anyWoodWorks</text>
+    </item>
+    <item id="b0e18157ca" nextId="b70290fc04">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutWoodworking/lindenToStart</text>
+    </item>
+    <item id="b70290fc04" nextId="cf71da1330">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutWoodworking/handleTheWood</text>
+    </item>
+    <item id="cf71da1330" nextId="4588c4c70d">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutWoodworking/preferCherry</text>
+    </item>
+    <item id="4588c4c70d" nextId="27aaf97d60">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutWoodworking/decorativeFigurines</text>
+    </item>
+    <item id="27aaf97d60" nextId="5198d02f6b">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutWoodworking/backToCarving</text>
+    </item>
+    <item id="5198d02f6b">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutWoodworking/newKnife</text>
+      <actions>
+        <startConversationById uniqueId="8b24b3ebc0"/>
+      </actions>
+    </item>
+    <item id="c40665e935" nextId="89234936e3">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutWoodworking/noExpectations</text>
+    </item>
+  </textFlow>
+</conversation>

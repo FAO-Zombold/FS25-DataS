@@ -1,0 +1,24 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>MISSION_INTRO</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <missionAvailable>
+      <type name="baleMission" variant="ROUNDBALER"/>
+      <type name="baleMission" variant="SQUAREBALER"/>
+      <type name="mowMission"/>
+      <type name="tedderMission"/>
+      <type name="baleWrapMission" variant="ROUNDBALER"/>
+      <type name="baleWrapMission" variant="SQUAREBALER"/>
+    </missionAvailable>
+  </prerequisites>
+  <textFlow startId="8ca3f59ee2">
+    <item id="8ca3f59ee2">
+      <text>$dataS2/npc/animalDealer/mission/introsMissionAvailable/missionIntro4/actuallyHelpWith</text>
+      <actions>
+        <startConversationById uniqueId="2f29d2e84f"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

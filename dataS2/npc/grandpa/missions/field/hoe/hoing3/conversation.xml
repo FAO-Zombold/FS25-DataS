@@ -1,0 +1,19 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>MISSION_SELECT</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <missionAvailable>
+      <type name="hoeMission"/>
+    </missionAvailable>
+  </prerequisites>
+  <textFlow startId="f4f880daee">
+    <item id="f4f880daee">
+      <text>$dataS2/npc/grandpa/missions/field/hoe/hoing3/hoe3</text>
+      <actions>
+        <startConversationById uniqueId="8cd42bc0c4"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

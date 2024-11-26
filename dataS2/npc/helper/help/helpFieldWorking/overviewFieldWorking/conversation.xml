@@ -1,0 +1,87 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="2a320380bc">
+    <item id="2a320380bc" isActive="false">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/overviewFieldWorking/intro</text>
+      <next>
+        <option id="363037c219">
+          <text>$dataS2/npc/helper/help/helpFieldWorking/overviewFieldWorking/increaseYield</text>
+          <actions>
+            <startConversationById uniqueId="4bd87ca8b8"/>
+          </actions>
+        </option>
+        <option id="d7857bdd6e">
+          <text>$dataS2/npc/helper/help/helpFieldWorking/overviewFieldWorking/fertilizing</text>
+          <actions>
+            <startConversationById uniqueId="47aa8f0dea"/>
+          </actions>
+        </option>
+        <option id="139bc7774a">
+          <text>$dataS2/npc/helper/help/helpFieldWorking/overviewFieldWorking/plowingCultivating</text>
+          <actions>
+            <startConversationById uniqueId="f5fa69a7dc"/>
+          </actions>
+        </option>
+        <option id="86a138126c">
+          <text>$dataS2/npc/helper/help/helpFieldWorking/overviewFieldWorking/seedingPlanting</text>
+          <actions>
+            <startConversationById uniqueId="7f401962c5"/>
+          </actions>
+        </option>
+        <option id="fdbd3f4818">
+          <text>$dataS2/npc/helper/help/helpFieldWorking/overviewFieldWorking/gettingRidWeeds</text>
+          <actions>
+            <startConversationById uniqueId="ace22bd0fe"/>
+          </actions>
+        </option>
+        <option id="ac41a43fb2">
+          <text>$dataS2/npc/helper/help/helpFieldWorking/overviewFieldWorking/soilGrassRolling</text>
+          <actions>
+            <startConversationById uniqueId="5acdf62ea7"/>
+          </actions>
+        </option>
+        <option id="b1c9e197b1">
+          <text>$dataS2/npc/helper/help/helpFieldWorking/overviewFieldWorking/mulching</text>
+          <actions>
+            <startConversationById uniqueId="9cd825d576"/>
+          </actions>
+        </option>
+        <option id="9b12a5b194">
+          <text>$dataS2/npc/helper/help/helpFieldWorking/overviewFieldWorking/fieldStones</text>
+          <actions>
+            <startConversationById uniqueId="eeb42cc99a"/>
+          </actions>
+        </option>
+        <option id="de67e5f903">
+          <text>$dataS2/npc/helper/help/helpFieldWorking/overviewFieldWorking/backButton</text>
+          <actions>
+            <startConversationFromList>
+              <conversation uniqueId="38c757415f"/>
+              <conversation uniqueId="2db889d2f2"/>
+              <conversation uniqueId="943386b1ce"/>
+              <conversation uniqueId="8d3f9a3c99"/>
+              <conversation uniqueId="e82c2638f7"/>
+              <conversation uniqueId="613ba30131"/>
+              <conversation uniqueId="38d98e847e"/>
+              <conversation uniqueId="5fa2b685c4"/>
+              <conversation uniqueId="78327ca751"/>
+              <conversation uniqueId="e14348c30e"/>
+              <conversation uniqueId="952c3c5c39"/>
+              <conversation uniqueId="c10b8f5047"/>
+              <conversation uniqueId="f5026e6fa4"/>
+              <conversation uniqueId="6994c3a807"/>
+              <conversation uniqueId="09541b417f"/>
+              <conversation uniqueId="f2e3846f18"/>
+            </startConversationFromList>
+          </actions>
+        </option>
+        <option id="9ecb6a0b72">
+          <text>$dataS2/npc/helper/help/helpFieldWorking/overviewFieldWorking/exitButton</text>
+        </option>
+      </next>
+    </item>
+  </textFlow>
+</conversation>

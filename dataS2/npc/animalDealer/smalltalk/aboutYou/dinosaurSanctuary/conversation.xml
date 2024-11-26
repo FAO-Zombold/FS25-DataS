@@ -1,0 +1,138 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>KATIE_YOU</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="2a4ed0a327">
+    <item id="2a4ed0a327">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/dinosaurSanctuary/whatsYourFavoriteDino</text>
+      <next>
+        <option id="7e69a51375" nextId="e052ff12f8">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/dinosaurSanctuary/whatsYourFavoriteDinoOptionA</text>
+        </option>
+        <option id="d03687ea65" nextId="a1ea51c8ab">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/dinosaurSanctuary/whatsYourFavoriteDinoOptionB</text>
+        </option>
+        <option id="52bc5f0d30" nextId="e1d524f0ef">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/dinosaurSanctuary/whatsYourFavoriteDinoOptionC</text>
+        </option>
+        <option id="28eb95240f" nextId="2af1392488">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/dinosaurSanctuary/optionD</text>
+        </option>
+        <option id="904c5c5b8e" nextId="8e919ee1b6">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/dinosaurSanctuary/optionE</text>
+        </option>
+        <option id="8ed7ad455f" nextId="b7efa7ed0c">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/dinosaurSanctuary/optionF</text>
+        </option>
+        <option id="441dba4819" nextId="4bf9a961f6">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/dinosaurSanctuary/optionG</text>
+        </option>
+        <option id="6d39a58ba2" nextId="4060920350">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/dinosaurSanctuary/optionH</text>
+        </option>
+        <option id="1fd00596e1" nextId="4060920350">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/dinosaurSanctuary/optionI</text>
+        </option>
+      </next>
+    </item>
+    <item id="e052ff12f8" nextId="4060920350">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/dinosaurSanctuary/obviousOne</text>
+    </item>
+    <item id="4060920350" nextId="4ed6b9d667">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/dinosaurSanctuary/dinoIceBreaker</text>
+    </item>
+    <item id="4ed6b9d667" nextId="459e67721e">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/dinosaurSanctuary/accordingToDavid</text>
+    </item>
+    <item id="459e67721e" nextId="6c032f8c01">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/dinosaurSanctuary/davidsFavoriteDino</text>
+    </item>
+    <item id="6c032f8c01" nextId="e94667ff68">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/dinosaurSanctuary/storyAboutMeAndMonica</text>
+    </item>
+    <item id="e94667ff68" nextId="d8e9a42319">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/dinosaurSanctuary/noDinosButChickens</text>
+    </item>
+    <item id="d8e9a42319" nextId="a3bc502f3d">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/dinosaurSanctuary/lotOfReasons</text>
+    </item>
+    <item id="a3bc502f3d" nextId="b3424bc6df">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/dinosaurSanctuary/besidesFamily</text>
+    </item>
+    <item id="b3424bc6df">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/dinosaurSanctuary/drEliza</text>
+      <next>
+        <option id="b2d7848605" nextId="e4267cf6cb">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/dinosaurSanctuary/familiarOptionA</text>
+        </option>
+        <option id="dd483fd838" nextId="0a9a14703d">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/dinosaurSanctuary/doNotoptionB</text>
+        </option>
+        <option id="04f9085f63" nextId="02dc6c251f">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/dinosaurSanctuary/shouldIoptionC</text>
+        </option>
+      </next>
+    </item>
+    <item id="e4267cf6cb" nextId="0a9a14703d">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/dinosaurSanctuary/youKnowHer</text>
+    </item>
+    <item id="0a9a14703d" nextId="c52f909a5f">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/dinosaurSanctuary/mostInfluencial</text>
+    </item>
+    <item id="c52f909a5f" nextId="35b063d829">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/dinosaurSanctuary/dinoDoctor</text>
+    </item>
+    <item id="35b063d829" nextId="b015da3acd">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/dinosaurSanctuary/smartCharacters</text>
+    </item>
+    <item id="b015da3acd" nextId="ddf1090254">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/dinosaurSanctuary/saveBestDino</text>
+    </item>
+    <item id="ddf1090254" nextId="86ea50515c">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/dinosaurSanctuary/dailyRounds</text>
+    </item>
+    <item id="86ea50515c" nextId="f1a7a91357">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/dinosaurSanctuary/neverWantedToBe</text>
+    </item>
+    <item id="f1a7a91357" nextId="fc2cd48cf1">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/dinosaurSanctuary/supportingAnimals</text>
+    </item>
+    <item id="fc2cd48cf1" nextId="09f9ef7145">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/dinosaurSanctuary/lessEnthusiastic</text>
+    </item>
+    <item id="09f9ef7145" nextId="0896c591a4">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/dinosaurSanctuary/davidNewMovies</text>
+    </item>
+    <item id="0896c591a4" nextId="df58bbabae">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/dinosaurSanctuary/dinoPostcard</text>
+    </item>
+    <item id="df58bbabae">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/dinosaurSanctuary/ifYouAreBored</text>
+      <actions>
+        <startConversationById uniqueId="bb0236da62"/>
+      </actions>
+    </item>
+    <item id="02dc6c251f" nextId="0a9a14703d">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/dinosaurSanctuary/shouldYou</text>
+    </item>
+    <item id="a1ea51c8ab" nextId="4060920350">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/dinosaurSanctuary/solidDino</text>
+    </item>
+    <item id="e1d524f0ef" nextId="4060920350">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/dinosaurSanctuary/fierceDino</text>
+    </item>
+    <item id="2af1392488" nextId="4060920350">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/dinosaurSanctuary/cuteDino</text>
+    </item>
+    <item id="8e919ee1b6" nextId="4060920350">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/dinosaurSanctuary/goodDino</text>
+    </item>
+    <item id="b7efa7ed0c" nextId="4060920350">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/dinosaurSanctuary/bestDino</text>
+    </item>
+    <item id="4bf9a961f6" nextId="4060920350">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/dinosaurSanctuary/secondBestDino</text>
+    </item>
+  </textFlow>
+</conversation>

@@ -1,0 +1,41 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="6dea48622e">
+    <item id="6dea48622e" nextId="cd005dabe0">
+      <text>$dataS2/npc/helper/help/helpCrops/greenBeans/stepByStep/checkCalendar</text>
+    </item>
+    <item id="cd005dabe0" nextId="3e0c2f0bc5">
+      <text>$dataS2/npc/helper/help/helpCrops/greenBeans/stepByStep/liming</text>
+    </item>
+    <item id="3e0c2f0bc5" nextId="24f9bfb884">
+      <text>$dataS2/npc/helper/help/helpCrops/greenBeans/stepByStep/cultivating</text>
+    </item>
+    <item id="24f9bfb884" nextId="31a39e9f1f">
+      <text>$dataS2/npc/helper/help/helpCrops/greenBeans/stepByStep/planting</text>
+    </item>
+    <item id="31a39e9f1f" nextId="aa23d5790e">
+      <text>$dataS2/npc/helper/help/helpCrops/greenBeans/stepByStep/fertilizing</text>
+    </item>
+    <item id="aa23d5790e" nextId="88f60701dd">
+      <text>$dataS2/npc/helper/help/helpCrops/greenBeans/stepByStep/soilRolling</text>
+    </item>
+    <item id="88f60701dd" nextId="1648752860">
+      <text>$dataS2/npc/helper/help/helpCrops/greenBeans/stepByStep/weeding</text>
+    </item>
+    <item id="1648752860" nextId="4b31946b0d">
+      <text>$dataS2/npc/helper/help/helpCrops/greenBeans/stepByStep/harvesting</text>
+    </item>
+    <item id="4b31946b0d" nextId="bdda2c1817">
+      <text>$dataS2/npc/helper/help/helpCrops/greenBeans/stepByStep/unload</text>
+    </item>
+    <item id="bdda2c1817">
+      <text>$dataS2/npc/helper/help/helpCrops/greenBeans/stepByStep/sell</text>
+      <actions>
+        <startConversationById uniqueId="7098198290"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

@@ -1,0 +1,64 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>DAVID_YOU</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="54030807f4">
+    <item id="54030807f4" nextId="79677e99b3">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife1Disorientation/twoYearsNow</text>
+    </item>
+    <item id="79677e99b3" nextId="66be6829f2">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife1Disorientation/movedHere</text>
+    </item>
+    <item id="66be6829f2">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife1Disorientation/disorienting</text>
+      <next>
+        <option id="8b687bb009" nextId="075b601ef5">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife1Disorientation/optionA</text>
+        </option>
+        <option id="f8e09d87da" nextId="075b601ef5">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife1Disorientation/optionB</text>
+        </option>
+        <option id="a627b6d777" nextId="075b601ef5">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife1Disorientation/optionC</text>
+        </option>
+      </next>
+    </item>
+    <item id="075b601ef5" nextId="00ff17f0c0">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife1Disorientation/challengingChange</text>
+    </item>
+    <item id="00ff17f0c0" nextId="dc0b7416b4">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife1Disorientation/changeEverything</text>
+    </item>
+    <item id="dc0b7416b4" nextId="014eee53cf">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife1Disorientation/suddenlyNoise</text>
+    </item>
+    <item id="014eee53cf" nextId="40174d9346">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife1Disorientation/floatedAround</text>
+    </item>
+    <item id="40174d9346" nextId="fa064b250d">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife1Disorientation/reallyStruggeled</text>
+    </item>
+    <item id="fa064b250d" nextId="262839f140">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife1Disorientation/botherLocals</text>
+    </item>
+    <item id="262839f140" nextId="80c39dc839">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife1Disorientation/everyoneHasOwnProblems</text>
+    </item>
+    <item id="80c39dc839" nextId="85673269ce">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife1Disorientation/grandfatherKnocked</text>
+    </item>
+    <item id="85673269ce" nextId="00c1f896d9">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife1Disorientation/gaveSomeTips</text>
+    </item>
+    <item id="00c1f896d9" nextId="58a095ff2a">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife1Disorientation/tellYouMore</text>
+    </item>
+    <item id="58a095ff2a">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife1Disorientation/niceTalkingBuddy</text>
+      <actions>
+        <startConversationById uniqueId="bdd07bda2c"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

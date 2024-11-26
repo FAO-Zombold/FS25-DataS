@@ -1,0 +1,23 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="ab00a68d0f">
+    <item id="ab00a68d0f" nextId="a10791e74c">
+      <text>$dataS2/npc/animalDealer/help/animals/cows/differentBreeds/differentBreeds</text>
+    </item>
+    <item id="a10791e74c" nextId="703f3ba373">
+      <text>$dataS2/npc/animalDealer/help/animals/cows/differentBreeds/ageOfProduction</text>
+    </item>
+    <item id="703f3ba373" nextId="e779670e43">
+      <text>$dataS2/npc/animalDealer/help/animals/cows/differentBreeds/nonMilkBreeds</text>
+    </item>
+    <item id="e779670e43">
+      <text>$dataS2/npc/animalDealer/help/animals/cows/differentBreeds/reproductionAge</text>
+      <actions>
+        <startConversationById uniqueId="dfaead6155"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

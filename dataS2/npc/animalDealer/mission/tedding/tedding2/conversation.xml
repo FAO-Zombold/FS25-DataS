@@ -1,0 +1,19 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>MISSION_SELECT</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <missionAvailable>
+      <type name="tedderMission"/>
+    </missionAvailable>
+  </prerequisites>
+  <textFlow startId="656e03c115">
+    <item id="656e03c115">
+      <text>$dataS2/npc/animalDealer/mission/tedding/tedding2/spreadItOut</text>
+      <actions>
+        <startConversationById uniqueId="bf7b2e1ffb"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

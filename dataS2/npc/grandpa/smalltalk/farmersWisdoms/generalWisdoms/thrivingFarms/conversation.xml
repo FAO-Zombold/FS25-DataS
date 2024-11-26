@@ -1,0 +1,63 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>SMALLTALK_WISDOM</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <numTriggered max="1"/>
+  </prerequisites>
+  <textFlow startId="c7fa9ae2eb">
+    <item id="c7fa9ae2eb">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/thrivingFarms/passedKnowledge</text>
+      <next>
+        <option id="8375cc9554" nextId="f7bbf6e2ac">
+          <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/thrivingFarms/tellFriends</text>
+        </option>
+        <option id="e356d73d8b" nextId="f7bbf6e2ac">
+          <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/thrivingFarms/fun</text>
+        </option>
+      </next>
+    </item>
+    <item id="f7bbf6e2ac" nextId="dc3b49c4f4">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/thrivingFarms/thatsRight</text>
+    </item>
+    <item id="dc3b49c4f4" nextId="3d988e5161">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/thrivingFarms/importantPassing</text>
+    </item>
+    <item id="3d988e5161" nextId="575647f682">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/thrivingFarms/getIt</text>
+    </item>
+    <item id="575647f682" nextId="b597672a25">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/thrivingFarms/nextFarmer</text>
+    </item>
+    <item id="b597672a25" nextId="7ce5b0b9fc">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/thrivingFarms/notPresent</text>
+    </item>
+    <item id="7ce5b0b9fc" nextId="10e056125c">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/thrivingFarms/somewhatUnderstand</text>
+    </item>
+    <item id="10e056125c" nextId="ad7cbf8b07">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/thrivingFarms/dynamicPlace</text>
+    </item>
+    <item id="ad7cbf8b07" nextId="0292bca463">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/thrivingFarms/peopleMind</text>
+    </item>
+    <item id="0292bca463">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/thrivingFarms/persistentKnowledge</text>
+      <next>
+        <option id="3e5a7e86d7">
+          <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/thrivingFarms/willHelp</text>
+          <actions>
+            <startConversationById uniqueId="0bc5b0ce93"/>
+          </actions>
+        </option>
+        <option id="d96a32e882">
+          <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/thrivingFarms/aChallenge</text>
+          <actions>
+            <startConversationById uniqueId="0bc5b0ce93"/>
+          </actions>
+        </option>
+      </next>
+    </item>
+  </textFlow>
+</conversation>

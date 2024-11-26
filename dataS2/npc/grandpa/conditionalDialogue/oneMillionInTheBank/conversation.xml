@@ -1,0 +1,39 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>INTRO</type>
+  <probability>100</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <numTriggered max="1"/>
+    <money min="1000000" max="9999799"/>
+  </prerequisites>
+  <textFlow startId="256b257b16">
+    <item id="256b257b16" nextId="e70a35f7d6">
+      <text>$dataS2/npc/grandpa/conditionalDialogue/oneMillionInTheBank/callMeGoat</text>
+    </item>
+    <item id="e70a35f7d6" nextId="93a20959fe">
+      <text>$dataS2/npc/grandpa/conditionalDialogue/oneMillionInTheBank/bankAccount</text>
+    </item>
+    <item id="93a20959fe" nextId="068e92b877">
+      <text>$dataS2/npc/grandpa/conditionalDialogue/oneMillionInTheBank/proudOfYou</text>
+    </item>
+    <item id="068e92b877" nextId="a3d4352938">
+      <text>$dataS2/npc/grandpa/conditionalDialogue/oneMillionInTheBank/notAboutMoney</text>
+    </item>
+    <item id="a3d4352938" nextId="1c0297454a">
+      <text>$dataS2/npc/grandpa/conditionalDialogue/oneMillionInTheBank/stabilityAndSecurity</text>
+    </item>
+    <item id="1c0297454a" nextId="9e7d3ef74b">
+      <text>$dataS2/npc/grandpa/conditionalDialogue/oneMillionInTheBank/justAnIndicator</text>
+    </item>
+    <item id="9e7d3ef74b" nextId="fcb80bf503">
+      <text>$dataS2/npc/grandpa/conditionalDialogue/oneMillionInTheBank/getSomethingFancy</text>
+    </item>
+    <item id="fcb80bf503">
+      <text>$dataS2/npc/grandpa/conditionalDialogue/oneMillionInTheBank/congrats</text>
+      <actions>
+        <startConversationById uniqueId="0bc5b0ce93"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

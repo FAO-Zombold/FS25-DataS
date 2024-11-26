@@ -1,0 +1,63 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <manuallyTriggered/>
+  </prerequisites>
+  <textFlow startId="590a8c6dee">
+    <item id="590a8c6dee">
+      <text>$dataS2/npc/grandpa/help/agriculture/agricultureHelp/agricultureHelp</text>
+      <next>
+        <option id="9cc26b3c75" nextId="feb49419f6">
+          <text>$dataS2/npc/grandpa/help/agriculture/agricultureHelp/tellAbout</text>
+        </option>
+        <option id="263bcdec83">
+          <text>$dataS2/npc/grandpa/help/agriculture/agricultureHelp/whereHelper</text>
+          <actions>
+            <navigateToNPC npcName="HELPER"/>
+          </actions>
+        </option>
+        <option id="ed5500ea41">
+          <text>$dataS2/npc/grandpa/help/agriculture/agricultureHelp/backButton</text>
+          <actions>
+            <startConversationById uniqueId="0eb8244863"/>
+          </actions>
+        </option>
+        <option id="f9c5339cf5">
+          <text>$dataS2/npc/grandpa/help/agriculture/agricultureHelp/buttonExit</text>
+        </option>
+      </next>
+    </item>
+    <item id="feb49419f6" nextId="17f8282436">
+      <text>$dataS2/npc/grandpa/help/agriculture/agricultureHelp/quietFellow</text>
+    </item>
+    <item id="17f8282436" nextId="ea3e5aa2d2">
+      <text>$dataS2/npc/grandpa/help/agriculture/agricultureHelp/beenAround</text>
+    </item>
+    <item id="ea3e5aa2d2" nextId="56a6c72960">
+      <text>$dataS2/npc/grandpa/help/agriculture/agricultureHelp/backThen</text>
+    </item>
+    <item id="56a6c72960" nextId="b83a09c8b7">
+      <text>$dataS2/npc/grandpa/help/agriculture/agricultureHelp/goodHelper</text>
+    </item>
+    <item id="b83a09c8b7" nextId="d2549dc6ac">
+      <text>$dataS2/npc/grandpa/help/agriculture/agricultureHelp/longTime</text>
+    </item>
+    <item id="d2549dc6ac" nextId="c0067eaa32">
+      <text>$dataS2/npc/grandpa/help/agriculture/agricultureHelp/moreTheorist</text>
+    </item>
+    <item id="c0067eaa32">
+      <text>$dataS2/npc/grandpa/help/agriculture/agricultureHelp/noDetail</text>
+      <next>
+        <option id="1f476b946d">
+          <text>$dataS2/npc/grandpa/help/agriculture/agricultureHelp/thanks</text>
+          <actions>
+            <startConversationById uniqueId="0bc5b0ce93"/>
+          </actions>
+        </option>
+      </next>
+    </item>
+  </textFlow>
+</conversation>

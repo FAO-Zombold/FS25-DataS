@@ -1,0 +1,38 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="affa07ef06">
+    <item id="affa07ef06" nextId="a7cc74b630">
+      <text>$dataS2/npc/forester/conversations/help/helpTreeMarking/whatDoesMean/depends</text>
+    </item>
+    <item id="a7cc74b630" nextId="ec856ab62a">
+      <text>$dataS2/npc/forester/conversations/help/helpTreeMarking/whatDoesMean/goThrough</text>
+    </item>
+    <item id="ec856ab62a" nextId="fe8fb05ec0">
+      <text>$dataS2/npc/forester/conversations/help/helpTreeMarking/whatDoesMean/twoHorizontal</text>
+    </item>
+    <item id="fe8fb05ec0" nextId="d7ca52a9e1">
+      <text>$dataS2/npc/forester/conversations/help/helpTreeMarking/whatDoesMean/backslash</text>
+    </item>
+    <item id="d7ca52a9e1" nextId="edc01a4b53">
+      <text>$dataS2/npc/forester/conversations/help/helpTreeMarking/whatDoesMean/circle</text>
+    </item>
+    <item id="edc01a4b53" nextId="3417665c1e">
+      <text>$dataS2/npc/forester/conversations/help/helpTreeMarking/whatDoesMean/arrowDown</text>
+    </item>
+    <item id="3417665c1e" nextId="fc9ccf0471">
+      <text>$dataS2/npc/forester/conversations/help/helpTreeMarking/whatDoesMean/exclamationMark</text>
+    </item>
+    <item id="fc9ccf0471" nextId="18efcdd909">
+      <text>$dataS2/npc/forester/conversations/help/helpTreeMarking/whatDoesMean/x</text>
+    </item>
+    <item id="18efcdd909">
+      <text>$dataS2/npc/forester/conversations/help/helpTreeMarking/whatDoesMean/colors</text>
+      <actions>
+        <startConversationById uniqueId="4cc57890ef"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

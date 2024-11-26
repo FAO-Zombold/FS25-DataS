@@ -1,0 +1,69 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>SMALLTALK_WISDOM</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="4b6a2224c9">
+    <item id="4b6a2224c9">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenBackpack/fashionObjects</text>
+      <next>
+        <option id="9fa96d85c1" nextId="fb23c7142e">
+          <text>$dataS2/npc/forester/conversations/projects/projectWoodenBackpack/depends</text>
+        </option>
+        <option id="4228f8a3df" nextId="fb23c7142e">
+          <text>$dataS2/npc/forester/conversations/projects/projectWoodenBackpack/lookRidiculous</text>
+        </option>
+        <option id="8836e85bd8" nextId="fb23c7142e">
+          <text>$dataS2/npc/forester/conversations/projects/projectWoodenBackpack/neverThought</text>
+        </option>
+      </next>
+    </item>
+    <item id="fb23c7142e" nextId="377eb1168c">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenBackpack/forStudents</text>
+    </item>
+    <item id="377eb1168c" nextId="c5df6f8de2">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenBackpack/forHiking</text>
+    </item>
+    <item id="c5df6f8de2">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenBackpack/flimsy</text>
+      <next>
+        <option id="8247caa086" nextId="cfa8526bff">
+          <text>$dataS2/npc/forester/conversations/projects/projectWoodenBackpack/notProblem</text>
+        </option>
+        <option id="9749032839" nextId="1fa814fdcd">
+          <text>$dataS2/npc/forester/conversations/projects/projectWoodenBackpack/notCool</text>
+        </option>
+        <option id="bf87379fd5" nextId="1971eefbd4">
+          <text>$dataS2/npc/forester/conversations/projects/projectWoodenBackpack/aSolution</text>
+        </option>
+      </next>
+    </item>
+    <item id="cfa8526bff" nextId="5ae37fde5a">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenBackpack/youWrong</text>
+    </item>
+    <item id="5ae37fde5a" nextId="f3f7ed7c44">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenBackpack/design</text>
+    </item>
+    <item id="f3f7ed7c44" nextId="0273667bf2">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenBackpack/thePinnacle</text>
+    </item>
+    <item id="0273667bf2" animationType="IDLE" nextId="f43b7186d1">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenBackpack/badForBack</text>
+    </item>
+    <item id="f43b7186d1" nextId="c127d30f38">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenBackpack/moreSuited</text>
+    </item>
+    <item id="c127d30f38">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenBackpack/notDiscuss</text>
+      <actions>
+        <startConversationById uniqueId="8b24b3ebc0"/>
+      </actions>
+    </item>
+    <item id="1fa814fdcd" nextId="5ae37fde5a">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenBackpack/sophisticated</text>
+    </item>
+    <item id="1971eefbd4" nextId="5ae37fde5a">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenBackpack/yes</text>
+    </item>
+  </textFlow>
+</conversation>

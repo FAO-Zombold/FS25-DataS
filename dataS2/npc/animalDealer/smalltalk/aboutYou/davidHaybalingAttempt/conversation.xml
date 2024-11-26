@@ -1,0 +1,86 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>KATIE_YOU</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="271bb0158d">
+    <item id="271bb0158d">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/davidHaybalingAttempt/davidLendHand</text>
+      <next>
+        <option id="5816fb857b" nextId="8be952271d">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/davidHaybalingAttempt/davidLendHandOptionA</text>
+        </option>
+        <option id="dfdb4070a3" nextId="8be952271d">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/davidHaybalingAttempt/davidLendHandOptionB</text>
+        </option>
+        <option id="66c419a036" nextId="8be952271d">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/davidHaybalingAttempt/davidLendHandOptionC</text>
+        </option>
+      </next>
+    </item>
+    <item id="8be952271d" nextId="4b3a986a18">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/davidHaybalingAttempt/proneToDaydreaming</text>
+    </item>
+    <item id="4b3a986a18" nextId="315a0ec060">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/davidHaybalingAttempt/keepAnEye</text>
+    </item>
+    <item id="315a0ec060" nextId="75335cb3e2">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/davidHaybalingAttempt/hayBaleIncident</text>
+    </item>
+    <item id="75335cb3e2" nextId="1401e6e44d">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/davidHaybalingAttempt/davidHelping</text>
+    </item>
+    <item id="1401e6e44d" nextId="65857f0b20">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/davidHaybalingAttempt/davidLeftAlone</text>
+    </item>
+    <item id="65857f0b20" nextId="dc5f4b4855">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/davidHaybalingAttempt/forgotToFlip</text>
+    </item>
+    <item id="dc5f4b4855" nextId="e09cc594ce">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/davidHaybalingAttempt/wasNotThatBad</text>
+    </item>
+    <item id="e09cc594ce">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/davidHaybalingAttempt/cuteDavid</text>
+      <next>
+        <option id="ae8c3a3a1e" nextId="cd939d76f4">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/davidHaybalingAttempt/cuteDavidOptionA</text>
+        </option>
+        <option id="70fb76a650" nextId="cd939d76f4">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/davidHaybalingAttempt/cuteDavidOptionB</text>
+        </option>
+        <option id="5839d098ef" nextId="cd939d76f4">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/davidHaybalingAttempt/cuteDavidOptionC</text>
+        </option>
+      </next>
+    </item>
+    <item id="cd939d76f4" nextId="d65ce5425b">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/davidHaybalingAttempt/moreAmused</text>
+    </item>
+    <item id="d65ce5425b" nextId="b7bce22e1a">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/davidHaybalingAttempt/stillARookie</text>
+    </item>
+    <item id="b7bce22e1a" nextId="ce091823d5">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/davidHaybalingAttempt/davidHelpThisYear</text>
+    </item>
+    <item id="ce091823d5">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/davidHaybalingAttempt/easyOnEye</text>
+      <next>
+        <option id="e9d4a9f2ce" nextId="6db096bad0">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/davidHaybalingAttempt/iThinkOptionA</text>
+        </option>
+        <option id="696d593a88" nextId="6db096bad0">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/davidHaybalingAttempt/notSureOptionB</text>
+        </option>
+        <option id="7e76d646e4" nextId="6db096bad0">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/davidHaybalingAttempt/fancyOptionC</text>
+        </option>
+      </next>
+    </item>
+    <item id="6db096bad0">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/davidHaybalingAttempt/gottaGo</text>
+      <actions>
+        <startConversationById uniqueId="bb0236da62"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

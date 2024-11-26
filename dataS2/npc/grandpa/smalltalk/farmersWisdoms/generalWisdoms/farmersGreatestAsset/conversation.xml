@@ -1,0 +1,63 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>SMALLTALK_WISDOM</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <numTriggered max="1"/>
+  </prerequisites>
+  <textFlow startId="341e7ac362">
+    <item id="341e7ac362" nextId="007ccd8f0f">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/farmersGreatestAsset/greatestAsset</text>
+    </item>
+    <item id="007ccd8f0f">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/farmersGreatestAsset/butWhy</text>
+      <next>
+        <option id="f64087c9e8" nextId="b0ee325c02">
+          <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/farmersGreatestAsset/obviousAnswer</text>
+        </option>
+        <option id="db49339c60" nextId="b0ee325c02">
+          <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/farmersGreatestAsset/cropGrow</text>
+        </option>
+      </next>
+    </item>
+    <item id="b0ee325c02" nextId="71808de586">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/farmersGreatestAsset/easiestAnswer</text>
+    </item>
+    <item id="71808de586" nextId="43d9418489">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/farmersGreatestAsset/quiteImportant</text>
+    </item>
+    <item id="43d9418489" nextId="17ddafe00f">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/farmersGreatestAsset/yourConnection</text>
+    </item>
+    <item id="17ddafe00f" nextId="215988ac2e">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/farmersGreatestAsset/landStuff</text>
+    </item>
+    <item id="215988ac2e" nextId="c2572c9fc8">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/farmersGreatestAsset/noEnd</text>
+    </item>
+    <item id="c2572c9fc8">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/farmersGreatestAsset/forFuture</text>
+      <next>
+        <option id="c07fdb254d">
+          <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/farmersGreatestAsset/youRight</text>
+          <actions>
+            <startConversationById uniqueId="0bc5b0ce93"/>
+          </actions>
+        </option>
+        <option id="257f240e80">
+          <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/farmersGreatestAsset/growCrops</text>
+          <actions>
+            <startConversationById uniqueId="0bc5b0ce93"/>
+          </actions>
+        </option>
+        <option id="382e61e8c5">
+          <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/farmersGreatestAsset/toThink</text>
+          <actions>
+            <startConversationById uniqueId="0bc5b0ce93"/>
+          </actions>
+        </option>
+      </next>
+    </item>
+  </textFlow>
+</conversation>

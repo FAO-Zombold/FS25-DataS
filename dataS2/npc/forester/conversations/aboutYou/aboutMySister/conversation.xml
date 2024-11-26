@@ -1,0 +1,56 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>SMALLTALK_ABOUT_YOU</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="55b1834c02">
+    <item id="55b1834c02" nextId="83d02f3b11">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutMySister/startDialogue</text>
+    </item>
+    <item id="83d02f3b11" nextId="745ab05d69">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutMySister/betterWoodcarver</text>
+    </item>
+    <item id="745ab05d69" nextId="768eef8e88">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutMySister/carvingContest</text>
+    </item>
+    <item id="768eef8e88" nextId="a0c55f2038">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutMySister/noSpecialMotifs</text>
+    </item>
+    <item id="a0c55f2038" nextId="191463206f">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutMySister/carveIt</text>
+    </item>
+    <item id="191463206f" nextId="ad45171029">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutMySister/notRecognize</text>
+    </item>
+    <item id="ad45171029" nextId="fb62667953">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutMySister/fictionalMotifs</text>
+    </item>
+    <item id="fb62667953" nextId="62b2136153">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutMySister/blueRooster</text>
+    </item>
+    <item id="62b2136153" nextId="e46240d15b">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutMySister/excellentJob</text>
+    </item>
+    <item id="e46240d15b" nextId="a22e38a668">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutMySister/notToTell</text>
+    </item>
+    <item id="a22e38a668" nextId="a0aa7aace6">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutMySister/silverrunForest</text>
+    </item>
+    <item id="a0aa7aace6" nextId="965c2e193a">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutMySister/collectionFever</text>
+    </item>
+    <item id="965c2e193a" nextId="6aba1213f0">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutMySister/concludeConversation</text>
+    </item>
+    <item id="6aba1213f0" nextId="19f2a841a2">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutMySister/davidFigurine</text>
+    </item>
+    <item id="19f2a841a2">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutMySister/goodDay</text>
+      <actions>
+        <startConversationById uniqueId="8b24b3ebc0"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

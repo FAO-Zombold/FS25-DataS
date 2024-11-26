@@ -1,0 +1,93 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>KATIE_ANECDOTES</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="de4bfb5539">
+    <item id="de4bfb5539" nextId="51f458f1fe">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/whisperingCrows/noticedTheCrows</text>
+    </item>
+    <item id="51f458f1fe">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/whisperingCrows/someNotLikeTheOthers</text>
+      <next>
+        <option id="2f879e0beb" nextId="b371a018e3">
+          <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/whisperingCrows/someNotLikeTheOthersOptionA</text>
+        </option>
+        <option id="ac18990b32" nextId="21b3410efb">
+          <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/whisperingCrows/someNotLikeTheOthersOptionB</text>
+        </option>
+        <option id="f6b74afab0" nextId="9aba8a8f4c">
+          <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/whisperingCrows/someNotLikeTheOthersOptionC</text>
+        </option>
+      </next>
+    </item>
+    <item id="b371a018e3" nextId="1f0fbab11f">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/whisperingCrows/neverGottenCloseEnough</text>
+    </item>
+    <item id="1f0fbab11f" nextId="9de2d63ce4">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/whisperingCrows/theyWhisper</text>
+    </item>
+    <item id="9de2d63ce4" nextId="dcf17a5b8a">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/whisperingCrows/haveToGetClose</text>
+    </item>
+    <item id="dcf17a5b8a" nextId="1208f09d1f">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/whisperingCrows/ifTheyLetYou</text>
+    </item>
+    <item id="1208f09d1f" nextId="187ac2b5dd">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/whisperingCrows/youWouldBeTheFirst</text>
+    </item>
+    <item id="187ac2b5dd">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/whisperingCrows/indistinguishableMurmurs</text>
+      <next>
+        <option id="e6194883b3" nextId="c2dc6e271f">
+          <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/whisperingCrows/optionA</text>
+        </option>
+        <option id="9a8ff8ba8d" nextId="488405e452">
+          <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/whisperingCrows/optionB</text>
+        </option>
+        <option id="4af88c805e" nextId="a471c3a468">
+          <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/whisperingCrows/optionC</text>
+        </option>
+      </next>
+    </item>
+    <item id="c2dc6e271f" nextId="8b4ccd85ae">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/whisperingCrows/bestOfLuck</text>
+    </item>
+    <item id="8b4ccd85ae" nextId="ed2ea09e10">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/whisperingCrows/whetherTrueOrNot</text>
+    </item>
+    <item id="ed2ea09e10" nextId="c3b0c8c6c5">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/whisperingCrows/crowsMimic</text>
+    </item>
+    <item id="c3b0c8c6c5" nextId="4a1b7245f8">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/whisperingCrows/NoSources</text>
+    </item>
+    <item id="4a1b7245f8" nextId="50dc30cbbf">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/whisperingCrows/carAlarms</text>
+    </item>
+    <item id="50dc30cbbf" nextId="c9bea4b5b2">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/whisperingCrows/smartCrows</text>
+    </item>
+    <item id="c9bea4b5b2" nextId="d44b024c8e">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/whisperingCrows/crowfollowsDavid</text>
+    </item>
+    <item id="d44b024c8e">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/whisperingCrows/hopedYouLearned</text>
+      <actions>
+        <startConversationById uniqueId="bb0236da62"/>
+      </actions>
+    </item>
+    <item id="488405e452" nextId="8b4ccd85ae">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/whisperingCrows/whoMe</text>
+    </item>
+    <item id="a471c3a468" nextId="8b4ccd85ae">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/whisperingCrows/grainOfTruth</text>
+    </item>
+    <item id="21b3410efb" nextId="b371a018e3">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/whisperingCrows/canConfirm</text>
+    </item>
+    <item id="9aba8a8f4c" nextId="b371a018e3">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/whisperingCrows/localLegends</text>
+    </item>
+  </textFlow>
+</conversation>

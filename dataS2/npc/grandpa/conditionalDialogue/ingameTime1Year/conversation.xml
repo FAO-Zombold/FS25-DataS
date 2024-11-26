@@ -1,0 +1,56 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>INTRO</type>
+  <probability>100</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <numTriggered max="1"/>
+    <ingameDaysPlayed min="12" max="12"/>
+  </prerequisites>
+  <textFlow startId="a3bf5a8a5d">
+    <item id="a3bf5a8a5d" nextId="4087399f4c">
+      <text>$dataS2/npc/grandpa/conditionalDialogue/ingameTime1Year/yearPassed</text>
+    </item>
+    <item id="4087399f4c">
+      <text>$dataS2/npc/grandpa/conditionalDialogue/ingameTime1Year/howDidGo</text>
+      <next>
+        <option id="76d3e3b2d0" nextId="741bde09f5">
+          <text>$dataS2/npc/grandpa/conditionalDialogue/ingameTime1Year/ratherSuccessful</text>
+        </option>
+        <option id="231cd176ea" nextId="b0dff94029">
+          <text>$dataS2/npc/grandpa/conditionalDialogue/ingameTime1Year/learnMore</text>
+        </option>
+      </next>
+    </item>
+    <item id="741bde09f5" nextId="3d9121a619">
+      <text>$dataS2/npc/grandpa/conditionalDialogue/ingameTime1Year/nice</text>
+    </item>
+    <item id="3d9121a619" nextId="4f7dacfae5">
+      <text>$dataS2/npc/grandpa/conditionalDialogue/ingameTime1Year/throughEverySeason</text>
+    </item>
+    <item id="4f7dacfae5" nextId="4f0414733b">
+      <text>$dataS2/npc/grandpa/conditionalDialogue/ingameTime1Year/bigMoreChallenging</text>
+    </item>
+    <item id="4f0414733b">
+      <text>$dataS2/npc/grandpa/conditionalDialogue/ingameTime1Year/youManage</text>
+      <actions>
+        <startConversationById uniqueId="0bc5b0ce93"/>
+      </actions>
+    </item>
+    <item id="b0dff94029" nextId="69615fb84c">
+      <text>$dataS2/npc/grandpa/conditionalDialogue/ingameTime1Year/whoNot</text>
+    </item>
+    <item id="69615fb84c" nextId="dc7555dc11">
+      <text>$dataS2/npc/grandpa/conditionalDialogue/ingameTime1Year/justAsk</text>
+    </item>
+    <item id="dc7555dc11" nextId="fe77bdba32">
+      <text>$dataS2/npc/grandpa/conditionalDialogue/ingameTime1Year/trySomethingNew</text>
+    </item>
+    <item id="fe77bdba32" nextId="f9a67536c5">
+      <text>$dataS2/npc/grandpa/conditionalDialogue/ingameTime1Year/visitWebsite</text>
+    </item>
+    <item id="f9a67536c5" nextId="3d9121a619">
+      <text>$dataS2/npc/grandpa/conditionalDialogue/ingameTime1Year/learnBasics</text>
+    </item>
+  </textFlow>
+</conversation>

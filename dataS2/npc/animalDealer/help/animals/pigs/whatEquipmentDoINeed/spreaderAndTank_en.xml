@@ -1,0 +1,4 @@
+<text>
+  <emotional>[happiness, low]If you want to spread manure on your fields, you need to buy a spreader and tank.[/happiness]</emotional>
+  <silence>{.} if you want to spread manure on your fields {....} you need to buy a spreader and tank {...}</silence>
+</text>

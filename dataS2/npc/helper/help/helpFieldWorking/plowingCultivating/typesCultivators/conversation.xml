@@ -1,0 +1,32 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="cc73e5ec8b">
+    <item id="cc73e5ec8b" nextId="a24a02bb2e">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/plowingCultivating/typesCultivators/getsFunky</text>
+    </item>
+    <item id="a24a02bb2e" nextId="18e84ae95c">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/plowingCultivating/typesCultivators/types</text>
+    </item>
+    <item id="18e84ae95c" nextId="9e6fabd954">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/plowingCultivating/typesCultivators/regular</text>
+    </item>
+    <item id="9e6fabd954" nextId="1977c24b9e">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/plowingCultivating/typesCultivators/discHarrows</text>
+    </item>
+    <item id="1977c24b9e" nextId="779a2f3bdd">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/plowingCultivating/typesCultivators/powerHarrow</text>
+    </item>
+    <item id="779a2f3bdd" nextId="65e47fb85c">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/plowingCultivating/typesCultivators/sowingMachine</text>
+    </item>
+    <item id="65e47fb85c">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/plowingCultivating/typesCultivators/powerfulTractor</text>
+      <actions>
+        <startConversationById uniqueId="f5fa69a7dc"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

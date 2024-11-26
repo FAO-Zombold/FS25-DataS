@@ -1,0 +1,11 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>DEFAULT</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow>
+    <item id="c7fa269972">
+      <text>$dataS2/npc/helper/help/introHelp/introHelp04/intro</text>
+    </item>
+  </textFlow>
+</conversation>

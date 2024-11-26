@@ -1,0 +1,17 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>MISSION_SELECT</type>
+  <probability>1</probability>
+  <isActive>false</isActive>
+  <prerequisites>
+    <missionAvailable/>
+  </prerequisites>
+  <textFlow startId="02255ea76f">
+    <item id="02255ea76f">
+      <text>$dataS2/npc/farmer/missions/snowPlowing/snowPlowing2/realyLoveSnow</text>
+      <actions>
+        <startConversationById uniqueId="b181fb5f9b"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

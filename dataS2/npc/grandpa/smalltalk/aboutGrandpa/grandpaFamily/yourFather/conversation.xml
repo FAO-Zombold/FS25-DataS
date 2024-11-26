@@ -1,0 +1,110 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>SMALLTALK_ABOUT_YOU</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="a03bbe43a6">
+    <item id="a03bbe43a6" nextId="ebeb9561aa">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/grandpaFamily/yourFather/runFarm</text>
+    </item>
+    <item id="ebeb9561aa" nextId="ac0051a76c">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/grandpaFamily/yourFather/dearSon</text>
+    </item>
+    <item id="ac0051a76c" nextId="2c1caa62b8">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/grandpaFamily/yourFather/okay</text>
+    </item>
+    <item id="2c1caa62b8" nextId="503bf668c7">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/grandpaFamily/yourFather/playing</text>
+    </item>
+    <item id="503bf668c7">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/grandpaFamily/yourFather/cry</text>
+      <next>
+        <option id="23a01b23f0" nextId="5b1538ef92">
+          <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/grandpaFamily/yourFather/certainly</text>
+        </option>
+        <option id="86ad319ec7" nextId="5b1538ef92">
+          <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/grandpaFamily/yourFather/happened</text>
+        </option>
+      </next>
+    </item>
+    <item id="5b1538ef92" nextId="1b9a85c7f2">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/grandpaFamily/yourFather/lovedFarm</text>
+    </item>
+    <item id="1b9a85c7f2" nextId="f83be4d528">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/grandpaFamily/yourFather/explorer</text>
+    </item>
+    <item id="f83be4d528" nextId="0ab017436f">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/grandpaFamily/yourFather/exploringKid</text>
+    </item>
+    <item id="0ab017436f" nextId="bbd0d7e0e0">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/grandpaFamily/yourFather/knewEverything</text>
+    </item>
+    <item id="bbd0d7e0e0" nextId="81a2162ebb">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/grandpaFamily/yourFather/fixFences</text>
+    </item>
+    <item id="81a2162ebb" nextId="7dac88dfa8">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/grandpaFamily/yourFather/thoughtLove</text>
+    </item>
+    <item id="7dac88dfa8" nextId="4f87be3887">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/grandpaFamily/yourFather/farmingNotBoring</text>
+    </item>
+    <item id="4f87be3887" nextId="cbf7c86ee7">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/grandpaFamily/yourFather/oldMan</text>
+    </item>
+    <item id="cbf7c86ee7">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/grandpaFamily/yourFather/anotherLife</text>
+      <next>
+        <option id="e62fa8bc8d" nextId="41910860aa">
+          <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/grandpaFamily/yourFather/sorry</text>
+        </option>
+        <option id="cfa2972cdc" nextId="41910860aa">
+          <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/grandpaFamily/yourFather/understand</text>
+        </option>
+      </next>
+    </item>
+    <item id="41910860aa" nextId="f621e9eaa9">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/grandpaFamily/yourFather/stillProud</text>
+    </item>
+    <item id="f621e9eaa9" nextId="1133952cdb">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/grandpaFamily/yourFather/fancyOffice</text>
+    </item>
+    <item id="1133952cdb" nextId="389757a109">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/grandpaFamily/yourFather/wonderHappy</text>
+    </item>
+    <item id="389757a109" nextId="b574f25eff">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/grandpaFamily/yourFather/stressedOut</text>
+    </item>
+    <item id="b574f25eff" nextId="201dfd9bb8">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/grandpaFamily/yourFather/venturingAround</text>
+    </item>
+    <item id="201dfd9bb8" nextId="45bc565172">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/grandpaFamily/yourFather/disconnecting</text>
+    </item>
+    <item id="45bc565172" nextId="d560304e34">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/grandpaFamily/yourFather/disconnectFamily</text>
+    </item>
+    <item id="d560304e34" nextId="0c3a06c9b8">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/grandpaFamily/yourFather/mightHappened</text>
+    </item>
+    <item id="0c3a06c9b8">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/grandpaFamily/yourFather/allThat</text>
+      <next>
+        <option id="2805dae91f" nextId="acf5a719c7">
+          <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/grandpaFamily/yourFather/itsOkay</text>
+        </option>
+        <option id="5c7e44fccb" nextId="acf5a719c7">
+          <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/grandpaFamily/yourFather/farmLife</text>
+        </option>
+      </next>
+    </item>
+    <item id="acf5a719c7" nextId="50aabd0980">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/grandpaFamily/yourFather/rightKiddo</text>
+    </item>
+    <item id="50aabd0980">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/grandpaFamily/yourFather/backFarming</text>
+      <actions>
+        <startConversationById uniqueId="0bc5b0ce93"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

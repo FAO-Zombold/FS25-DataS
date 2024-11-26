@@ -1,0 +1,76 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>SMALLTALK_ABOUT_YOU</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="d43944def8">
+    <item id="d43944def8" nextId="2bc40f5ab5">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutForestSafety/aboutDeadWood</text>
+    </item>
+    <item id="2bc40f5ab5" nextId="deeb943688">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutForestSafety/dangerousDevelopment</text>
+    </item>
+    <item id="deeb943688" nextId="3887c7bfb8">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutForestSafety/trippingOver</text>
+    </item>
+    <item id="3887c7bfb8" nextId="7b25d56b54">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutForestSafety/davidAteLeaves</text>
+    </item>
+    <item id="7b25d56b54" nextId="c2b8d3202a">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutForestSafety/problemInSummer</text>
+    </item>
+    <item id="c2b8d3202a" nextId="10629d20bb">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutForestSafety/fireWatch</text>
+    </item>
+    <item id="10629d20bb" nextId="fbe0c7f600">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutForestSafety/vigilantAtAllTimes</text>
+    </item>
+    <item id="fbe0c7f600" nextId="58b940d1bc">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutForestSafety/sparkFire</text>
+    </item>
+    <item id="58b940d1bc" nextId="4148f00f98">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutForestSafety/smashedOnRocks</text>
+    </item>
+    <item id="4148f00f98">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutForestSafety/walkingThrough</text>
+      <next>
+        <option id="e93da57053" nextId="2836d19b24">
+          <text>$dataS2/npc/forester/conversations/aboutYou/aboutForestSafety/yes</text>
+        </option>
+        <option id="03dbba9b6a" nextId="e151d4fe49">
+          <text>$dataS2/npc/forester/conversations/aboutYou/aboutForestSafety/moreAware</text>
+        </option>
+      </next>
+    </item>
+    <item id="2836d19b24" nextId="e672d93563">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutForestSafety/noJoke</text>
+    </item>
+    <item id="e672d93563" nextId="f96a6dd529">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutForestSafety/irresponsibleActivity</text>
+    </item>
+    <item id="f96a6dd529" nextId="2bbb119cb0">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutForestSafety/letThemKnow</text>
+    </item>
+    <item id="2bbb119cb0" nextId="9eb075a4c7">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutForestSafety/notAtAllTimes</text>
+    </item>
+    <item id="9eb075a4c7" nextId="dac9d793ea">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutForestSafety/willBeThankful</text>
+    </item>
+    <item id="dac9d793ea" nextId="98d7fedc33">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutForestSafety/offenses</text>
+    </item>
+    <item id="98d7fedc33" nextId="ec79b345b5">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutForestSafety/romanticCampfire</text>
+    </item>
+    <item id="ec79b345b5">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutForestSafety/enjoyYourWalk</text>
+      <actions>
+        <startConversationById uniqueId="8b24b3ebc0"/>
+      </actions>
+    </item>
+    <item id="e151d4fe49" nextId="e672d93563">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutForestSafety/LotOfTrouble</text>
+    </item>
+  </textFlow>
+</conversation>

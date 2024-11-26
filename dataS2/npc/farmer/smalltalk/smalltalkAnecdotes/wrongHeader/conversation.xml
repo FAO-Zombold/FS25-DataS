@@ -1,0 +1,66 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>DAVID_ANECDOTES</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="1cf5e35bfc">
+    <item id="1cf5e35bfc" nextId="4a8ed75557">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/wrongHeader/thingsOnSale</text>
+    </item>
+    <item id="4a8ed75557">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/wrongHeader/closerEye</text>
+      <next>
+        <option id="69fa86fa1e" nextId="d8568e2473">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/wrongHeader/closerEyeOptionA</text>
+        </option>
+        <option id="b25ed72cb5" nextId="d8568e2473">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/wrongHeader/closerEyeOptionB</text>
+        </option>
+      </next>
+    </item>
+    <item id="d8568e2473" nextId="dcc2203dc0">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/wrongHeader/harvesterHeader</text>
+    </item>
+    <item id="dcc2203dc0" nextId="4a86278a6c">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/wrongHeader/equipment</text>
+    </item>
+    <item id="4a86278a6c" nextId="b9e4acfe3d">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/wrongHeader/different</text>
+    </item>
+    <item id="b9e4acfe3d">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/wrongHeader/sunflowers</text>
+      <next>
+        <option id="cb94493f73" nextId="0e8475acc4">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/wrongHeader/optionA</text>
+        </option>
+        <option id="61c6ad9c2f" nextId="2d05b0fe3b">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/wrongHeader/optionB</text>
+        </option>
+        <option id="84f48fcacb" nextId="1ad4be4ff3">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/wrongHeader/optionC</text>
+        </option>
+      </next>
+    </item>
+    <item id="0e8475acc4" nextId="1ad4be4ff3">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/wrongHeader/aheadOfMe</text>
+    </item>
+    <item id="1ad4be4ff3" nextId="bb5ac677f3">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/wrongHeader/grandpaForHelp</text>
+    </item>
+    <item id="bb5ac677f3" nextId="a79397e2e5">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/wrongHeader/aLotOfFarmers</text>
+    </item>
+    <item id="a79397e2e5" nextId="c75a8528b7">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/wrongHeader/headersAutomatically</text>
+    </item>
+    <item id="c75a8528b7">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/wrongHeader/shouldHavePaid</text>
+      <actions>
+        <startConversationById uniqueId="bdd07bda2c"/>
+      </actions>
+    </item>
+    <item id="2d05b0fe3b" nextId="1ad4be4ff3">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/wrongHeader/goodToKnow</text>
+    </item>
+  </textFlow>
+</conversation>

@@ -1,0 +1,38 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="1e70d59985">
+    <item id="1e70d59985" nextId="fd6c7734af">
+      <text>$dataS2/npc/helper/help/helpCrops/parsnips/whatEquipment/plowSubsoiler</text>
+    </item>
+    <item id="fd6c7734af" nextId="05fec4e334">
+      <text>$dataS2/npc/helper/help/helpCrops/parsnips/whatEquipment/veggiPlanter</text>
+    </item>
+    <item id="05fec4e334" nextId="2d4aa3bd96">
+      <text>$dataS2/npc/helper/help/helpCrops/parsnips/whatEquipment/ridgeFormer</text>
+    </item>
+    <item id="2d4aa3bd96" nextId="d7d15c7674">
+      <text>$dataS2/npc/helper/help/helpCrops/parsnips/whatEquipment/fertilizer</text>
+    </item>
+    <item id="d7d15c7674" nextId="269c60460f">
+      <text>$dataS2/npc/helper/help/helpCrops/parsnips/whatEquipment/hoe</text>
+    </item>
+    <item id="269c60460f" nextId="e7a7ba8975">
+      <text>$dataS2/npc/helper/help/helpCrops/parsnips/whatEquipment/harvester</text>
+    </item>
+    <item id="e7a7ba8975" nextId="1199d9591b">
+      <text>$dataS2/npc/helper/help/helpCrops/parsnips/whatEquipment/choice</text>
+    </item>
+    <item id="1199d9591b" nextId="d530e87f26">
+      <text>$dataS2/npc/helper/help/helpCrops/parsnips/whatEquipment/pallet</text>
+    </item>
+    <item id="d530e87f26">
+      <text>$dataS2/npc/helper/help/helpCrops/parsnips/whatEquipment/mother</text>
+      <actions>
+        <startConversationById uniqueId="11e343a805"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

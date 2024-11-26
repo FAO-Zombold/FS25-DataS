@@ -1,0 +1,123 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>KATIE_YOU</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="d43b249b8a">
+    <item id="d43b249b8a" nextId="47f894e3a3">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/crayFishMemory/iLikeFish</text>
+    </item>
+    <item id="47f894e3a3" nextId="98ebffc6ab">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/crayFishMemory/needElaborate</text>
+    </item>
+    <item id="98ebffc6ab" nextId="fe45877156">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/crayFishMemory/visitingNearbyRiver</text>
+    </item>
+    <item id="fe45877156" nextId="bf496b5705">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/crayFishMemory/fishingWithJoe</text>
+    </item>
+    <item id="bf496b5705" nextId="00a8b3be73">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/crayFishMemory/joeImpersonation</text>
+    </item>
+    <item id="00a8b3be73" nextId="666c9bb76f">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/crayFishMemory/siblingsOnRaft</text>
+    </item>
+    <item id="666c9bb76f" nextId="d3338df7e1">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/crayFishMemory/oldEnough</text>
+    </item>
+    <item id="d3338df7e1">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/crayFishMemory/oneOfFavouriteMemories</text>
+      <next>
+        <option id="aa5b615076" nextId="c8467efa11">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/crayFishMemory/oneOfFavouriteMemoriesOptionA</text>
+        </option>
+        <option id="6af1070548" nextId="4b7cfdd215">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/crayFishMemory/oneOfFavouriteMemoriesOptionB</text>
+        </option>
+        <option id="d64dde0089" nextId="a59042eb53">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/crayFishMemory/oneOfFavouriteMemoriesOptionC</text>
+        </option>
+      </next>
+    </item>
+    <item id="c8467efa11" nextId="e550957923">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/crayFishMemory/youDo</text>
+    </item>
+    <item id="e550957923" nextId="81490436fd">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/crayFishMemory/notContinued</text>
+    </item>
+    <item id="81490436fd" nextId="b6138d8097">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/crayFishMemory/uncleTravels</text>
+    </item>
+    <item id="b6138d8097" nextId="fc3feac7f3">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/crayFishMemory/buggingAboutFishingRod</text>
+    </item>
+    <item id="fc3feac7f3" animationType="IDLE" nextId="565ee2877a">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/crayFishMemory/brotherOnlyFewTimes</text>
+    </item>
+    <item id="565ee2877a" nextId="89aca7c72f">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/crayFishMemory/sisterHasToddler</text>
+    </item>
+    <item id="89aca7c72f" nextId="bb7fd3bffb">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/crayFishMemory/playingPranks</text>
+    </item>
+    <item id="bb7fd3bffb" nextId="b9a9192abf">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/crayFishMemory/pathsDiverge</text>
+    </item>
+    <item id="b9a9192abf" nextId="9e1d95ed2d">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/crayFishMemory/nostalgia</text>
+    </item>
+    <item id="9e1d95ed2d" nextId="5710cfb154">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/crayFishMemory/appreciatedMore</text>
+    </item>
+    <item id="5710cfb154">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/crayFishMemory/HonorthoseTimes</text>
+      <next>
+        <option id="0fa2899196" nextId="593dc9e1bc">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/crayFishMemory/funOptionA</text>
+        </option>
+        <option id="fa8e54bd78" nextId="7624a3e129">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/crayFishMemory/whyNotDavidOptionB</text>
+        </option>
+        <option id="7144b23255" nextId="2857373d7f">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/crayFishMemory/familyOptionC</text>
+        </option>
+      </next>
+    </item>
+    <item id="593dc9e1bc" nextId="5370c4b619">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/crayFishMemory/youAreRight</text>
+    </item>
+    <item id="5370c4b619" nextId="1947cfdf8e">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/crayFishMemory/davidGoofsUp</text>
+    </item>
+    <item id="1947cfdf8e" nextId="e173fc0d1a">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/crayFishMemory/fisheryIdea</text>
+    </item>
+    <item id="e173fc0d1a" nextId="982c6129e8">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/crayFishMemory/maybeOneDay</text>
+    </item>
+    <item id="982c6129e8" nextId="898089c850">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/crayFishMemory/nephewPettingSheep</text>
+    </item>
+    <item id="898089c850" nextId="5d320decaf">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/crayFishMemory/moreIntersting</text>
+    </item>
+    <item id="5d320decaf">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/crayFishMemory/seeYou</text>
+      <actions>
+        <startConversationById uniqueId="bb0236da62"/>
+      </actions>
+    </item>
+    <item id="7624a3e129" nextId="1947cfdf8e">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/crayFishMemory/withDavid</text>
+    </item>
+    <item id="2857373d7f" nextId="1947cfdf8e">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/crayFishMemory/takeNephew</text>
+    </item>
+    <item id="4b7cfdd215" nextId="e550957923">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/crayFishMemory/shouldTry</text>
+    </item>
+    <item id="a59042eb53" nextId="e550957923">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/crayFishMemory/relaxingAndRewarding</text>
+    </item>
+  </textFlow>
+</conversation>

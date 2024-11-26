@@ -1,0 +1,32 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="73f87dec46">
+    <item id="73f87dec46" nextId="ed6902492a">
+      <text>$dataS2/npc/forester/conversations/help/helpWoodChips/usageWoodChips/heatingFuel</text>
+    </item>
+    <item id="ed6902492a" nextId="8bfc11a6f8">
+      <text>$dataS2/npc/forester/conversations/help/helpWoodChips/usageWoodChips/deciduousTrees</text>
+    </item>
+    <item id="8bfc11a6f8" nextId="671b7c5ffc">
+      <text>$dataS2/npc/forester/conversations/help/helpWoodChips/usageWoodChips/otherTreesToo</text>
+    </item>
+    <item id="671b7c5ffc" nextId="23743aa47b">
+      <text>$dataS2/npc/forester/conversations/help/helpWoodChips/usageWoodChips/byProduct</text>
+    </item>
+    <item id="23743aa47b" nextId="f2752e2cc0">
+      <text>$dataS2/npc/forester/conversations/help/helpWoodChips/usageWoodChips/notAsMany</text>
+    </item>
+    <item id="f2752e2cc0" nextId="b60be585bd">
+      <text>$dataS2/npc/forester/conversations/help/helpWoodChips/usageWoodChips/forExample</text>
+    </item>
+    <item id="b60be585bd">
+      <text>$dataS2/npc/forester/conversations/help/helpWoodChips/usageWoodChips/ofCourse</text>
+      <actions>
+        <startConversationById uniqueId="3de844dcad"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

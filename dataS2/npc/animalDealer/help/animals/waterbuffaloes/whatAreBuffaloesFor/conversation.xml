@@ -1,0 +1,17 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="f53edf6fee">
+    <item id="f53edf6fee" nextId="59a365d6ee">
+      <text>$dataS2/npc/animalDealer/help/animals/waterbuffaloes/whatAreBuffaloesFor/milk</text>
+    </item>
+    <item id="59a365d6ee">
+      <text>$dataS2/npc/animalDealer/help/animals/waterbuffaloes/whatAreBuffaloesFor/breeding</text>
+      <actions>
+        <startConversationById uniqueId="73d06a2363"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

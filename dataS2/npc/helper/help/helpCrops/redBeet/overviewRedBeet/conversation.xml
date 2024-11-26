@@ -1,0 +1,34 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="18708e23dc">
+    <item id="18708e23dc" isActive="false">
+      <text>$dataS2/npc/helper/help/helpCrops/redBeet/overviewRedBeet/intro</text>
+      <next>
+        <option id="5ba4bd9788">
+          <text>$dataS2/npc/helper/help/helpCrops/redBeet/overviewRedBeet/whatEquipment</text>
+          <actions>
+            <startConversationById uniqueId="397ef64863"/>
+          </actions>
+        </option>
+        <option id="85ae4193f1">
+          <text>$dataS2/npc/helper/help/helpCrops/redBeet/overviewRedBeet/stepbyStep</text>
+          <actions>
+            <startConversationById uniqueId="5bb3f789a6"/>
+          </actions>
+        </option>
+        <option id="c911affb33">
+          <text>$dataS2/npc/helper/help/helpCrops/redBeet/overviewRedBeet/backButton</text>
+          <actions>
+            <startConversationById uniqueId="b7b177b9c9"/>
+          </actions>
+        </option>
+        <option id="ec5ff08d33">
+          <text>$dataS2/npc/helper/help/helpCrops/redBeet/overviewRedBeet/exitButton</text>
+        </option>
+      </next>
+    </item>
+  </textFlow>
+</conversation>

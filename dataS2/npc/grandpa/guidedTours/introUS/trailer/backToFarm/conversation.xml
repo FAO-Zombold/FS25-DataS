@@ -1,0 +1,20 @@
+<conversation>
+  <class>NPCConversationGuidedTour</class>
+  <type>GUIDED_TOUR</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <manuallyTriggered/>
+  </prerequisites>
+  <textFlow startId="c863f0eadf">
+    <item id="c863f0eadf" nextId="f1f6080d45">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/trailer/backToFarm/wellDone</text>
+    </item>
+    <item id="f1f6080d45" nextId="ec81d7cc46">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/trailer/backToFarm/sleep</text>
+    </item>
+    <item id="ec81d7cc46">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/trailer/backToFarm/backToTheFarm</text>
+    </item>
+  </textFlow>
+</conversation>

@@ -1,0 +1,108 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>KATIE_YOU</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="0c2b5473d6">
+    <item id="0c2b5473d6" nextId="47312f0605">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/howMumDadMet/fixASwingAlt2</text>
+    </item>
+    <item id="47312f0605" nextId="857d794c7f">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/howMumDadMet/removeSplinter</text>
+    </item>
+    <item id="857d794c7f" nextId="c0667a084b">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/howMumDadMet/deepDarkSecrets</text>
+    </item>
+    <item id="c0667a084b" nextId="bfcf27b433">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/howMumDadMet/neverGetThem</text>
+    </item>
+    <item id="bfcf27b433">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/howMumDadMet/callHimself</text>
+      <next>
+        <option id="869be47be9" nextId="5b284185ab">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/howMumDadMet/youWillNeverOptionA</text>
+        </option>
+        <option id="3966599ad9" nextId="65caabd605">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/howMumDadMet/youWillNeverOptionB</text>
+        </option>
+        <option id="58a1b243b5" nextId="68bbcf8bab">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/howMumDadMet/youWillNeverOptionC</text>
+        </option>
+      </next>
+    </item>
+    <item id="5b284185ab" nextId="61547a012f">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/howMumDadMet/iMight</text>
+    </item>
+    <item id="61547a012f" nextId="30064fb2fe">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/howMumDadMet/swingsAreWings</text>
+    </item>
+    <item id="30064fb2fe" nextId="57ed570ea6">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/howMumDadMet/timeToRenew</text>
+    </item>
+    <item id="57ed570ea6" nextId="9960728c07">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/howMumDadMet/changeBranch</text>
+    </item>
+    <item id="9960728c07" nextId="1088a78bc8">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/howMumDadMet/farmMums</text>
+    </item>
+    <item id="1088a78bc8" nextId="c616a664c5">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/howMumDadMet/cheeseTruck</text>
+    </item>
+    <item id="c616a664c5" nextId="250a995939">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/howMumDadMet/chasingCheese</text>
+    </item>
+    <item id="250a995939" nextId="acb9ddd86a">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/howMumDadMet/loveAtFirstCheese</text>
+    </item>
+    <item id="acb9ddd86a" nextId="3a6c504816">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/howMumDadMet/ruinedCheese</text>
+    </item>
+    <item id="3a6c504816" nextId="5e7a1e14d7">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/howMumDadMet/unloadCheese</text>
+    </item>
+    <item id="5e7a1e14d7" nextId="1cad66d1ea">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/howMumDadMet/shakespeareanCheese</text>
+    </item>
+    <item id="1cad66d1ea" nextId="c6eedf6605">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/howMumDadMet/soldOutCheese</text>
+    </item>
+    <item id="c6eedf6605" nextId="38f2f9f748">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/howMumDadMet/firstCheeseDate</text>
+    </item>
+    <item id="38f2f9f748">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/howMumDadMet/cheesecakeMum</text>
+      <next>
+        <option id="82ec06a999" nextId="be256d2f01">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/howMumDadMet/optionA</text>
+        </option>
+        <option id="e8f1acbc49" nextId="66d13fcde5">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/howMumDadMet/optionB</text>
+        </option>
+        <option id="abfb199b8b" nextId="667a0231ab">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/howMumDadMet/optionC</text>
+        </option>
+      </next>
+    </item>
+    <item id="be256d2f01" nextId="8e2bab8cc3">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/howMumDadMet/futureMarriage</text>
+    </item>
+    <item id="8e2bab8cc3">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/howMumDadMet/gottaContinue</text>
+      <actions>
+        <startConversationById uniqueId="bb0236da62"/>
+      </actions>
+    </item>
+    <item id="66d13fcde5" nextId="8e2bab8cc3">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/howMumDadMet/nicknameIdeas</text>
+    </item>
+    <item id="667a0231ab" nextId="8e2bab8cc3">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/howMumDadMet/alwaysStraightlaced</text>
+    </item>
+    <item id="65caabd605" nextId="61547a012f">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/howMumDadMet/howNice</text>
+    </item>
+    <item id="68bbcf8bab" nextId="61547a012f">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/howMumDadMet/okCool</text>
+    </item>
+  </textFlow>
+</conversation>

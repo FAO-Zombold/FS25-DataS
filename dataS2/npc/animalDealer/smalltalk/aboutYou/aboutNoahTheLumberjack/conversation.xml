@@ -1,0 +1,101 @@
+<conversation>
+  <class>NPCConversationGuidedTour</class>
+  <type>KATIE_YOU</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="f869e1d8b1">
+    <item id="f869e1d8b1">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/aboutNoahTheLumberjack/metNoah</text>
+      <next>
+        <option id="7975d09ce8" nextId="24dd229167">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/aboutNoahTheLumberjack/haveYouMetNoahOptionA</text>
+        </option>
+        <option id="2ef95bd7ae" nextId="15fe13db37">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/aboutNoahTheLumberjack/haveYouMetNoahOptionB</text>
+        </option>
+      </next>
+    </item>
+    <item id="24dd229167" nextId="2d527febac">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/aboutNoahTheLumberjack/roughAroundEdges</text>
+    </item>
+    <item id="2d527febac" nextId="0a6d599214">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/aboutNoahTheLumberjack/noahHappyToHelp</text>
+    </item>
+    <item id="0a6d599214" nextId="5441707ce6">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/aboutNoahTheLumberjack/noahRepairsFence</text>
+    </item>
+    <item id="5441707ce6" nextId="8f2db00e30">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/aboutNoahTheLumberjack/giftImpersonationNoah</text>
+    </item>
+    <item id="8f2db00e30">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/aboutNoahTheLumberjack/strangeAndSweet</text>
+      <next>
+        <option id="1b6d581b28" nextId="b77db3d92a">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/aboutNoahTheLumberjack/strangeAndSweetOptionA</text>
+        </option>
+        <option id="aabd60b8c9" nextId="f167a678de">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/aboutNoahTheLumberjack/strangeAndSweetOptionB</text>
+        </option>
+      </next>
+    </item>
+    <item id="b77db3d92a" nextId="cda14c48ee">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/aboutNoahTheLumberjack/youThink</text>
+    </item>
+    <item id="cda14c48ee" nextId="89f4089aab">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/aboutNoahTheLumberjack/siblingRivalry</text>
+    </item>
+    <item id="89f4089aab" nextId="19a66edc6d">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/aboutNoahTheLumberjack/talkingToSister</text>
+    </item>
+    <item id="19a66edc6d" nextId="90d899a488">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/aboutNoahTheLumberjack/siblingCompetition</text>
+    </item>
+    <item id="90d899a488">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/aboutNoahTheLumberjack/forOwnAmusement</text>
+      <next>
+        <option id="dca40b214e" nextId="1895c9bafc">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/aboutNoahTheLumberjack/pokingOptionA</text>
+        </option>
+        <option id="916ab0b799" nextId="de740ba3ab">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/aboutNoahTheLumberjack/ideaOptionB</text>
+        </option>
+        <option id="cad1d3a0cd" nextId="921086df9b">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/aboutNoahTheLumberjack/notSureOptionC</text>
+        </option>
+      </next>
+    </item>
+    <item id="1895c9bafc" nextId="2d3db15f3a">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/aboutNoahTheLumberjack/yupIDo</text>
+    </item>
+    <item id="2d3db15f3a" nextId="fb97cbbfa0">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/aboutNoahTheLumberjack/bitHarsh</text>
+    </item>
+    <item id="fb97cbbfa0" nextId="2d2a8f13bd">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/aboutNoahTheLumberjack/doesNotMeanIt</text>
+    </item>
+    <item id="2d2a8f13bd" nextId="23058ab65a">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/aboutNoahTheLumberjack/asManyPuns</text>
+    </item>
+    <item id="23058ab65a" nextId="935de43eac">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/aboutNoahTheLumberjack/timeFlies</text>
+    </item>
+    <item id="935de43eac">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/aboutNoahTheLumberjack/teaWithDavid</text>
+      <actions>
+        <startConversationById uniqueId="bb0236da62"/>
+      </actions>
+    </item>
+    <item id="de740ba3ab" nextId="2d3db15f3a">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/aboutNoahTheLumberjack/townHall</text>
+    </item>
+    <item id="921086df9b" nextId="2d3db15f3a">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/aboutNoahTheLumberjack/youAreRight</text>
+    </item>
+    <item id="f167a678de" nextId="cda14c48ee">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/aboutNoahTheLumberjack/aLotOfThings</text>
+    </item>
+    <item id="15fe13db37" nextId="24dd229167">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/aboutNoahTheLumberjack/payHimVisit</text>
+    </item>
+  </textFlow>
+</conversation>

@@ -1,0 +1,17 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>MISSION_SELECT</type>
+  <probability>1</probability>
+  <isActive>false</isActive>
+  <prerequisites>
+    <missionAvailable/>
+  </prerequisites>
+  <textFlow startId="befca1542b">
+    <item id="befca1542b">
+      <text>$dataS2/npc/farmer/missions/transportingSugarBeet/trasportingSugarbeet1/sweetLittleBeets</text>
+      <actions>
+        <startConversationById uniqueId="5aaf25f345"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

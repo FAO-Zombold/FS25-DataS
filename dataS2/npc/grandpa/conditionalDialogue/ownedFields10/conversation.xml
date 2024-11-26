@@ -1,0 +1,30 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>INTRO</type>
+  <probability>100</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <numTriggered max="1"/>
+    <numOwnedFarmlands min="15" max="20"/>
+  </prerequisites>
+  <textFlow startId="ce3b1e6422">
+    <item id="ce3b1e6422" nextId="ef4ba2001d">
+      <text>$dataS2/npc/grandpa/conditionalDialogue/ownedFields10/leaveSomeLand</text>
+    </item>
+    <item id="ef4ba2001d" nextId="256022bea7">
+      <text>$dataS2/npc/grandpa/conditionalDialogue/ownedFields10/justKidding</text>
+    </item>
+    <item id="256022bea7" nextId="9ddaef49e0">
+      <text>$dataS2/npc/grandpa/conditionalDialogue/ownedFields10/largeFarm</text>
+    </item>
+    <item id="9ddaef49e0" nextId="82a395b9d2">
+      <text>$dataS2/npc/grandpa/conditionalDialogue/ownedFields10/underControl</text>
+    </item>
+    <item id="82a395b9d2">
+      <text>$dataS2/npc/grandpa/conditionalDialogue/ownedFields10/justAsk</text>
+      <actions>
+        <startConversationById uniqueId="0bc5b0ce93"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

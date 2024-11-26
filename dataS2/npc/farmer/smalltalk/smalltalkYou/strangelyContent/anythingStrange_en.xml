@@ -1,0 +1,4 @@
+<text>
+  <emotional>[happiness, low]Tell me, have you noticed anything strange with the others in town?[/happiness]</emotional>
+  <silence>{.} tell me {....} have you noticed anything strange with the others in town {...}</silence>
+</text>

@@ -1,0 +1,96 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>DAVID_YOU</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="df647eb455">
+    <item id="df647eb455">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/strangelyContent/anythingStrange</text>
+      <next>
+        <option id="53716099fe" nextId="9756b1a56b">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/strangelyContent/anythingStrangeOptionA</text>
+        </option>
+        <option id="e6d101cfcd" nextId="9756b1a56b">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/strangelyContent/anythingStrangeOptionB</text>
+        </option>
+      </next>
+    </item>
+    <item id="9756b1a56b" nextId="e0c3381f72">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/strangelyContent/maybeJustMe</text>
+    </item>
+    <item id="e0c3381f72" nextId="c46f6a0ffb">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/strangelyContent/strangelyContentCalm</text>
+    </item>
+    <item id="c46f6a0ffb" nextId="b1a3b5ddc5">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/strangelyContent/toBeHonest</text>
+    </item>
+    <item id="b1a3b5ddc5" nextId="befbded001">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/strangelyContent/backInTheCity</text>
+    </item>
+    <item id="befbded001" nextId="57ae4c04a7">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/strangelyContent/everyoneWasHurry</text>
+    </item>
+    <item id="57ae4c04a7" nextId="deeb320960">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/strangelyContent/turnOffMyHead</text>
+    </item>
+    <item id="deeb320960" nextId="9b626dfe3d">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/strangelyContent/takeInSurroundings</text>
+    </item>
+    <item id="9b626dfe3d" nextId="39343cc8e1">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/strangelyContent/peopleInThisTown</text>
+    </item>
+    <item id="39343cc8e1">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/strangelyContent/notStandingAround</text>
+      <next>
+        <option id="0c7782cae9" nextId="77a7275dc7">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/strangelyContent/optionA</text>
+        </option>
+        <option id="6866ec93fb" nextId="2a84b0e9fa">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/strangelyContent/optionB</text>
+        </option>
+        <option id="720f552164" nextId="1757236925">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/strangelyContent/optionC</text>
+        </option>
+      </next>
+    </item>
+    <item id="77a7275dc7" nextId="b430a3ffc9">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/strangelyContent/goodForYou</text>
+    </item>
+    <item id="b430a3ffc9" nextId="b26c1be122">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/strangelyContent/youKnowWhat</text>
+    </item>
+    <item id="b26c1be122" nextId="45fbbb115e">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/strangelyContent/onceADay</text>
+    </item>
+    <item id="45fbbb115e" nextId="481299966d">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/strangelyContent/justAMinute</text>
+    </item>
+    <item id="481299966d" nextId="2992875ced">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/strangelyContent/canSuddenlySpotThings</text>
+    </item>
+    <item id="2992875ced" nextId="10034b7a82">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/strangelyContent/likeASquirrel</text>
+    </item>
+    <item id="10034b7a82" nextId="70bbc1e97a">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/strangelyContent/appreachiateSurroundings</text>
+    </item>
+    <item id="70bbc1e97a" nextId="429cc405f1">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/strangelyContent/canLearnSomething</text>
+    </item>
+    <item id="429cc405f1" nextId="58ecc1a5db">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/strangelyContent/standAroundHere</text>
+    </item>
+    <item id="58ecc1a5db">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/strangelyContent/letUsTalkMore</text>
+      <actions>
+        <startConversationById uniqueId="bdd07bda2c"/>
+      </actions>
+    </item>
+    <item id="2a84b0e9fa" nextId="b430a3ffc9">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/strangelyContent/whoCouldNotBe</text>
+    </item>
+    <item id="1757236925" nextId="b430a3ffc9">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/strangelyContent/thatIsABummer</text>
+    </item>
+  </textFlow>
+</conversation>

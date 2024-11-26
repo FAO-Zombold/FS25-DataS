@@ -1,0 +1,26 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="3b2a37a339">
+    <item id="3b2a37a339" nextId="96954226da">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/fieldStones/whenEmerge/result</text>
+    </item>
+    <item id="96954226da" nextId="b9f6ec5ac4">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/fieldStones/whenEmerge/machine</text>
+    </item>
+    <item id="b9f6ec5ac4" nextId="f866c0c043">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/fieldStones/whenEmerge/example</text>
+    </item>
+    <item id="f866c0c043" nextId="b418012184">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/fieldStones/whenEmerge/dig</text>
+    </item>
+    <item id="b418012184">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/fieldStones/whenEmerge/depends</text>
+      <actions>
+        <startConversationById uniqueId="eeb42cc99a"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

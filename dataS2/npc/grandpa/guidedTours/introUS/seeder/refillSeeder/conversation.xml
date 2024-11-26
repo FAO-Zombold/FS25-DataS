@@ -1,0 +1,26 @@
+<conversation>
+  <class>NPCConversationGuidedTour</class>
+  <type>GUIDED_TOUR</type>
+  <isActive>true</isActive>
+  <probability>1</probability>
+  <prerequisites>
+    <manuallyTriggered/>
+  </prerequisites>
+  <textFlow startId="7abb6c61f6">
+    <item id="7abb6c61f6" nextId="b013be62b4">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/seeder/refillSeeder/thatsHowItIsDone</text>
+    </item>
+    <item id="b013be62b4" nextId="72de1afd80">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/seeder/refillSeeder/empty</text>
+    </item>
+    <item id="72de1afd80" nextId="1078c4851f">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/seeder/refillSeeder/fret</text>
+    </item>
+    <item id="1078c4851f" nextId="318e78d3a4">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/seeder/refillSeeder/shed</text>
+    </item>
+    <item id="318e78d3a4">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/seeder/refillSeeder/driveThere</text>
+    </item>
+  </textFlow>
+</conversation>

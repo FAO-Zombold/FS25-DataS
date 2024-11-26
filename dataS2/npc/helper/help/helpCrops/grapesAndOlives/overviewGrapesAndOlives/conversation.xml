@@ -1,0 +1,34 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="0b9da7f400">
+    <item id="0b9da7f400" isActive="false">
+      <text>$dataS2/npc/helper/help/helpCrops/grapesAndOlives/overviewGrapesAndOlives/intro</text>
+      <next>
+        <option id="2a4c86b88c">
+          <text>$dataS2/npc/helper/help/helpCrops/grapesAndOlives/overviewGrapesAndOlives/whatNeed</text>
+          <actions>
+            <startConversationById uniqueId="65b3289961"/>
+          </actions>
+        </option>
+        <option id="85865e00c1">
+          <text>$dataS2/npc/helper/help/helpCrops/grapesAndOlives/overviewGrapesAndOlives/stepByStep</text>
+          <actions>
+            <startConversationById uniqueId="883a7f2cff"/>
+          </actions>
+        </option>
+        <option id="cd4e030233">
+          <text>$dataS2/npc/helper/help/helpCrops/grapesAndOlives/overviewGrapesAndOlives/backButton</text>
+          <actions>
+            <startConversationById uniqueId="b7b177b9c9"/>
+          </actions>
+        </option>
+        <option id="7cb0271128">
+          <text>$dataS2/npc/helper/help/helpCrops/grapesAndOlives/overviewGrapesAndOlives/exitButton</text>
+        </option>
+      </next>
+    </item>
+  </textFlow>
+</conversation>

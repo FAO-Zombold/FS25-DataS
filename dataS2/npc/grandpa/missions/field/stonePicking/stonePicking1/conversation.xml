@@ -1,0 +1,19 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>MISSION_SELECT</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <missionAvailable>
+      <type name="stonePickMission"/>
+    </missionAvailable>
+  </prerequisites>
+  <textFlow startId="067f6a10e7">
+    <item id="067f6a10e7">
+      <text>$dataS2/npc/grandpa/missions/field/stonePicking/stonePicking1/stone1</text>
+      <actions>
+        <startConversationById uniqueId="a845d2adb0"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

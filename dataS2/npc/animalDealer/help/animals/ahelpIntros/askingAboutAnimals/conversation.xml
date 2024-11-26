@@ -1,0 +1,14 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="cf3dec708c">
+    <item id="cf3dec708c">
+      <text>$dataS2/npc/animalDealer/help/animals/ahelpIntros/askingAboutAnimals/askAway</text>
+      <actions>
+        <startConversationById uniqueId="345249355c"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

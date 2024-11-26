@@ -1,0 +1,46 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>DEFAULT</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="ddeeac487b">
+    <item id="ddeeac487b" isActive="false">
+      <text>$dataS2/npc/animalDealer/help/animals/cows/cowsOverview/placeholder</text>
+      <next>
+        <option id="cd26a1c58d">
+          <text>$dataS2/npc/animalDealer/help/animals/cows/cowsOverview/differentBreeds</text>
+          <actions>
+            <startConversationById uniqueId="1d245e80f4"/>
+          </actions>
+        </option>
+        <option id="a7fb02ce8e">
+          <text>$dataS2/npc/animalDealer/help/animals/cows/cowsOverview/howDoIFeedCows</text>
+          <actions>
+            <startConversationById uniqueId="011f066db1"/>
+          </actions>
+        </option>
+        <option id="b366a74ce0">
+          <text>$dataS2/npc/animalDealer/help/animals/cows/cowsOverview/howDoIKeepCows</text>
+          <actions>
+            <startConversationById uniqueId="14c7041038"/>
+          </actions>
+        </option>
+        <option id="c1f24c86c2">
+          <text>$dataS2/npc/animalDealer/help/animals/cows/cowsOverview/whatDoINeedCows</text>
+          <actions>
+            <startConversationById uniqueId="e447e72870"/>
+          </actions>
+        </option>
+        <option id="0c1a3e2021">
+          <text>$dataS2/npc/animalDealer/help/animals/cows/cowsOverview/optionBack</text>
+          <actions>
+            <startConversationById uniqueId="345249355c"/>
+          </actions>
+        </option>
+        <option id="89767bb936">
+          <text>$dataS2/npc/animalDealer/help/animals/cows/cowsOverview/optionExit</text>
+        </option>
+      </next>
+    </item>
+  </textFlow>
+</conversation>

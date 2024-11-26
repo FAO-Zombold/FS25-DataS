@@ -1,0 +1,38 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="0c5ddf403e">
+    <item id="0c5ddf403e" nextId="538e659eba">
+      <text>$dataS2/npc/helper/help/helpCrops/poplar/stepByStep/notComplex</text>
+    </item>
+    <item id="538e659eba" nextId="88b0e28587">
+      <text>$dataS2/npc/helper/help/helpCrops/poplar/stepByStep/cropCalendar</text>
+    </item>
+    <item id="88b0e28587" nextId="6c16bc96b2">
+      <text>$dataS2/npc/helper/help/helpCrops/poplar/stepByStep/liming</text>
+    </item>
+    <item id="6c16bc96b2" nextId="f22a62e165">
+      <text>$dataS2/npc/helper/help/helpCrops/poplar/stepByStep/plowing</text>
+    </item>
+    <item id="f22a62e165" nextId="71ca166714">
+      <text>$dataS2/npc/helper/help/helpCrops/poplar/stepByStep/plant</text>
+    </item>
+    <item id="71ca166714" nextId="026e820673">
+      <text>$dataS2/npc/helper/help/helpCrops/poplar/stepByStep/fertilizing</text>
+    </item>
+    <item id="026e820673" nextId="6b778d23a6">
+      <text>$dataS2/npc/helper/help/helpCrops/poplar/stepByStep/stepFive</text>
+    </item>
+    <item id="6b778d23a6" nextId="efe33a0d81">
+      <text>$dataS2/npc/helper/help/helpCrops/poplar/stepByStep/trailer</text>
+    </item>
+    <item id="efe33a0d81">
+      <text>$dataS2/npc/helper/help/helpCrops/poplar/stepByStep/soundsEasy</text>
+      <actions>
+        <startConversationById uniqueId="b4faf1a7f5"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

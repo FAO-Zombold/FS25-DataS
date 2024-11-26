@@ -1,0 +1,14 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>DEFAULT</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="d3576c8eae">
+    <item id="d3576c8eae">
+      <text>$dataS2/npc/helper/help/introRepeatMore/introRepeat11/intro</text>
+      <actions>
+        <startConversationById uniqueId="c3ea0425d7"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

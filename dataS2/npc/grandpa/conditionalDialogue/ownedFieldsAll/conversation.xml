@@ -1,0 +1,33 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>INTRO</type>
+  <probability>100</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <numTriggered max="1"/>
+    <ownedAllFarmlands/>
+  </prerequisites>
+  <textFlow startId="23e22c3fc4">
+    <item id="23e22c3fc4" nextId="d3cff9332d">
+      <text>$dataS2/npc/grandpa/conditionalDialogue/ownedFieldsAll/impressedMe</text>
+    </item>
+    <item id="d3cff9332d" nextId="71562d00da">
+      <text>$dataS2/npc/grandpa/conditionalDialogue/ownedFieldsAll/moreLand</text>
+    </item>
+    <item id="71562d00da" nextId="45ea6f0a98">
+      <text>$dataS2/npc/grandpa/conditionalDialogue/ownedFieldsAll/proudOfYou</text>
+    </item>
+    <item id="45ea6f0a98" nextId="e308fb9731">
+      <text>$dataS2/npc/grandpa/conditionalDialogue/ownedFieldsAll/soldAll</text>
+    </item>
+    <item id="e308fb9731" nextId="ee98f2ca75">
+      <text>$dataS2/npc/grandpa/conditionalDialogue/ownedFieldsAll/haveTheirReasons</text>
+    </item>
+    <item id="ee98f2ca75">
+      <text>$dataS2/npc/grandpa/conditionalDialogue/ownedFieldsAll/farmEmpire</text>
+      <actions>
+        <startConversationById uniqueId="0bc5b0ce93"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

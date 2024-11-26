@@ -1,0 +1,40 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>DEFAULT</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="0cd7fe1acb">
+    <item id="0cd7fe1acb" isActive="false">
+      <text>$dataS2/npc/animalDealer/help/animals/goats/goatsOverview/placeholder</text>
+      <next>
+        <option id="7833c17b94">
+          <text>$dataS2/npc/animalDealer/help/animals/goats/goatsOverview/howDoIFeed</text>
+          <actions>
+            <startConversationById uniqueId="66abe819a7"/>
+          </actions>
+        </option>
+        <option id="78906406bb">
+          <text>$dataS2/npc/animalDealer/help/animals/goats/goatsOverview/howDoIKeep</text>
+          <actions>
+            <startConversationById uniqueId="fc8dea48d7"/>
+          </actions>
+        </option>
+        <option id="c441a50eac">
+          <text>$dataS2/npc/animalDealer/help/animals/goats/goatsOverview/whatDoINeed</text>
+          <actions>
+            <startConversationById uniqueId="4042e69fb2"/>
+          </actions>
+        </option>
+        <option id="80f8ac586d">
+          <text>$dataS2/npc/animalDealer/help/animals/goats/goatsOverview/optionBack</text>
+          <actions>
+            <startConversationById uniqueId="345249355c"/>
+          </actions>
+        </option>
+        <option id="c8a91620af">
+          <text>$dataS2/npc/animalDealer/help/animals/goats/goatsOverview/optionExit</text>
+        </option>
+      </next>
+    </item>
+  </textFlow>
+</conversation>

@@ -1,0 +1,14 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>MISSION_NOT_AVAILABLE</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="5454ae94d5">
+    <item id="5454ae94d5">
+      <text>$dataS2/npc/grandpa/missions/noMissions/oldButNotLazy/nothingToDo</text>
+      <actions>
+        <startConversationById uniqueId="0bc5b0ce93"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

@@ -1,0 +1,19 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>MISSION_INTRO</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <missionAvailable>
+      <type name="deadwoodMission"/>
+    </missionAvailable>
+  </prerequisites>
+  <textFlow startId="7d48294463">
+    <item id="7d48294463">
+      <text>$dataS2/npc/forester/conversations/missions/missionDeadTrees/introDeadTrees03/intro03</text>
+      <actions>
+        <startConversationById uniqueId="8692dc7a33"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

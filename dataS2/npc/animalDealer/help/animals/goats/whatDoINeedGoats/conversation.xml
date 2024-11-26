@@ -1,0 +1,35 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="4c1971ebcc">
+    <item id="4c1971ebcc" nextId="d2af6ae8c8">
+      <text>$dataS2/npc/animalDealer/help/animals/goats/whatDoINeedGoats/likeISaid</text>
+    </item>
+    <item id="d2af6ae8c8" nextId="18331c72aa">
+      <text>$dataS2/npc/animalDealer/help/animals/goats/whatDoINeedGoats/needATractor</text>
+    </item>
+    <item id="18331c72aa" nextId="8287e89a45">
+      <text>$dataS2/npc/animalDealer/help/animals/goats/whatDoINeedGoats/tankForWater</text>
+    </item>
+    <item id="8287e89a45" nextId="a75a3da88a">
+      <text>$dataS2/npc/animalDealer/help/animals/goats/whatDoINeedGoats/deliveryService</text>
+    </item>
+    <item id="a75a3da88a" nextId="986a647c83">
+      <text>$dataS2/npc/animalDealer/help/animals/goats/whatDoINeedGoats/dolly</text>
+    </item>
+    <item id="986a647c83" nextId="608056a756">
+      <text>$dataS2/npc/animalDealer/help/animals/goats/whatDoINeedGoats/dairyProduction</text>
+    </item>
+    <item id="608056a756" isActive="false" nextId="283078c405">
+      <text>$dataS2/npc/animalDealer/help/animals/goats/whatDoINeedGoats/sellingWool</text>
+    </item>
+    <item id="283078c405">
+      <text>$dataS2/npc/animalDealer/help/animals/goats/whatDoINeedGoats/ThatIsIt</text>
+      <actions>
+        <startConversationById uniqueId="41dea2465a"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

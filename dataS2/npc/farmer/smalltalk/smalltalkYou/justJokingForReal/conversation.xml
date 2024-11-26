@@ -1,0 +1,105 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>DAVID_YOU</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <conversationWasTriggered uniqueId="1eb17ff47e"/>
+  </prerequisites>
+  <textFlow startId="8fbef5ee20">
+    <item id="8fbef5ee20" nextId="5e98fe38cc">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/justJokingForReal/playerOption</text>
+    </item>
+    <item id="5e98fe38cc" nextId="1028cf28ec">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/justJokingForReal/playerInput</text>
+    </item>
+    <item id="1028cf28ec" nextId="284eba5561">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/justJokingForReal/replayNode</text>
+    </item>
+    <item id="284eba5561">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/justJokingForReal/talkAbout</text>
+      <next>
+        <option id="16ebb89cf0" nextId="54b397cccd">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/justJokingForReal/talkAboutOptionA</text>
+        </option>
+        <option id="adf43e3c39" nextId="54b397cccd">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/justJokingForReal/talkAboutOptionB</text>
+        </option>
+        <option id="bf50a39d73" nextId="bf29591eb5">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/justJokingForReal/talkAboutOptionC</text>
+        </option>
+      </next>
+    </item>
+    <item id="54b397cccd" nextId="d66b0c92a9">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/justJokingForReal/doNotWorry</text>
+    </item>
+    <item id="d66b0c92a9" nextId="76348eee20">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/justJokingForReal/orAmI</text>
+    </item>
+    <item id="76348eee20" nextId="4e130b6ba0">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/justJokingForReal/reallyAm</text>
+    </item>
+    <item id="4e130b6ba0" nextId="b4d3a6a43d">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/justJokingForReal/justRead</text>
+    </item>
+    <item id="b4d3a6a43d" nextId="895dc6f7af">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/justJokingForReal/youKnow</text>
+    </item>
+    <item id="895dc6f7af" nextId="d1293a7061">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/justJokingForReal/heavyStuff</text>
+    </item>
+    <item id="d1293a7061" nextId="c43f9bcefc">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/justJokingForReal/thoughtExperiment</text>
+    </item>
+    <item id="c43f9bcefc" nextId="ed7b36ce95">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/justJokingForReal/canNotProve</text>
+    </item>
+    <item id="ed7b36ce95" nextId="e6bc4a7002">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/justJokingForReal/canNotDisprove</text>
+    </item>
+    <item id="e6bc4a7002" nextId="2fe5a77c39">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/justJokingForReal/basedOn</text>
+    </item>
+    <item id="2fe5a77c39">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/justJokingForReal/advances</text>
+      <next>
+        <option id="28b7b6be39" nextId="1691b71056">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/justJokingForReal/optionA</text>
+        </option>
+        <option id="fd4047b04c" nextId="1691b71056">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/justJokingForReal/optionB</text>
+        </option>
+        <option id="edb6394a4d" nextId="1691b71056">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/justJokingForReal/optionC</text>
+        </option>
+        <option id="d0e48f1588" nextId="b967099109">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/justJokingForReal/optionD</text>
+        </option>
+      </next>
+    </item>
+    <item id="1691b71056" nextId="6d18e71dcd">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/justJokingForReal/wellMaybe</text>
+    </item>
+    <item id="6d18e71dcd" nextId="cdf4baf335">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/justJokingForReal/whoKnows</text>
+    </item>
+    <item id="cdf4baf335" nextId="8139b9747e">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/justJokingForReal/someOfUs</text>
+    </item>
+    <item id="8139b9747e" nextId="caa5e1cfe1">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/justJokingForReal/startThere</text>
+    </item>
+    <item id="caa5e1cfe1">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/justJokingForReal/realFarming</text>
+      <actions>
+        <startConversationById uniqueId="bdd07bda2c"/>
+      </actions>
+    </item>
+    <item id="b967099109" nextId="1691b71056">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/justJokingForReal/didYouJustCAllMe</text>
+    </item>
+    <item id="bf29591eb5" nextId="54b397cccd">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/justJokingForReal/playerRequest</text>
+    </item>
+  </textFlow>
+</conversation>

@@ -1,0 +1,162 @@
+<npc>
+  <class>NPC</class>
+  <title>Ben</title>
+  <imageFilename>$dataS2/npc/helper/helper.png</imageFilename>
+  <filename>$dataS/character/npc/npcBase.i3d</filename>
+  <sounds>
+    <voice linkNode="audioNode" innerRadius="0.2" outerRadius="10.0" supportsReverb="false">
+      <volume indoor="2.9" outdoor="2.9"/>
+      <pitch indoor="1.00" outdoor="1.0"/>
+      <lowpassGain indoor="0.9" outdoor="0.9"/>
+    </voice>
+    <phone supportsReverb="false">
+      <volume indoor="1.0" outdoor="1.0"/>
+      <pitch indoor="1.00" outdoor="1.00"/>
+      <lowpassGain indoor="1.00" outdoor="1.00"/>
+      <lowpassCutoffFrequency indoor="2000" outdoor="2000.0"/>
+      <lowpassResonance indoor="1.0" outdoor="1.0"/>
+    </phone>
+  </sounds>
+  <playerStyle filename="dataS/character/playerM/playerM.xml">
+    <bottom color="9" name="jeans"/>
+    <face color="1" name="head07"/>
+    <hairStyle color="22" name="hair01"/>
+    <top color="1" name="topFarmJacketM"/>
+    <headgear color="4" name="vintage"/>
+    <footwear color="1" name="workBoots2"/>
+  </playerStyle>
+  <interactionTrigger node="triggerNode"/>
+  <conversations>
+    <conversation uniqueId="be9ba42ea5">$dataS2/npc/helper/help/helpCrops/carrots/overviewCarrots/conversation.xml</conversation>
+    <conversation uniqueId="846c10d883">$dataS2/npc/helper/help/helpCrops/carrots/stepByStep/conversation.xml</conversation>
+    <conversation uniqueId="f58fbe7e5b">$dataS2/npc/helper/help/helpCrops/carrots/whatEquipment/conversation.xml</conversation>
+    <conversation uniqueId="1adfbf40c9">$dataS2/npc/helper/help/helpCrops/corn/equipmentCorn/conversation.xml</conversation>
+    <conversation uniqueId="00ac66f4fd">$dataS2/npc/helper/help/helpCrops/corn/overviewCorn/conversation.xml</conversation>
+    <conversation uniqueId="c05264a413">$dataS2/npc/helper/help/helpCrops/corn/stepByStep/conversation.xml</conversation>
+    <conversation uniqueId="cfeddb0822">$dataS2/npc/helper/help/helpCrops/cotton/overviewCotton/conversation.xml</conversation>
+    <conversation uniqueId="ec86e8b7df">$dataS2/npc/helper/help/helpCrops/cotton/stepByStep/conversation.xml</conversation>
+    <conversation uniqueId="bd2eb1dd27">$dataS2/npc/helper/help/helpCrops/cotton/whatEquipment/conversation.xml</conversation>
+    <conversation uniqueId="a015a9600e">$dataS2/npc/helper/help/helpCrops/grains/overviewGrains/conversation.xml</conversation>
+    <conversation uniqueId="fa3da843fd">$dataS2/npc/helper/help/helpCrops/grains/stepByStep/conversation.xml</conversation>
+    <conversation uniqueId="43d36af282">$dataS2/npc/helper/help/helpCrops/grains/whatEquipment/conversation.xml</conversation>
+    <conversation uniqueId="8be4d45ed2">$dataS2/npc/helper/help/helpCrops/grains/whichCrops/conversation.xml</conversation>
+    <conversation uniqueId="f5e07f2c91">$dataS2/npc/helper/help/helpCrops/grapesAndOlives/overviewGrapesAndOlives/conversation.xml</conversation>
+    <conversation uniqueId="883a7f2cff">$dataS2/npc/helper/help/helpCrops/grapesAndOlives/stepByStep/conversation.xml</conversation>
+    <conversation uniqueId="65b3289961">$dataS2/npc/helper/help/helpCrops/grapesAndOlives/whatNeed/conversation.xml</conversation>
+    <conversation uniqueId="7098198290">$dataS2/npc/helper/help/helpCrops/greenBeans/overviewGreenBeans/conversation.xml</conversation>
+    <conversation uniqueId="978ef44b21">$dataS2/npc/helper/help/helpCrops/greenBeans/stepByStep/conversation.xml</conversation>
+    <conversation uniqueId="8a95549570">$dataS2/npc/helper/help/helpCrops/greenBeans/whatNeed/conversation.xml</conversation>
+    <conversation uniqueId="b7b177b9c9">$dataS2/npc/helper/help/helpCrops/overviewCrops/conversation.xml</conversation>
+    <conversation uniqueId="11e343a805">$dataS2/npc/helper/help/helpCrops/parsnips/overviewParsnips/conversation.xml</conversation>
+    <conversation uniqueId="9d2e53675e">$dataS2/npc/helper/help/helpCrops/parsnips/stepByStep/conversation.xml</conversation>
+    <conversation uniqueId="f73dccb0c8">$dataS2/npc/helper/help/helpCrops/parsnips/whatEquipment/conversation.xml</conversation>
+    <conversation uniqueId="908b1e3552">$dataS2/npc/helper/help/helpCrops/peas/overviewPeas/conversation.xml</conversation>
+    <conversation uniqueId="6d19ca3df9">$dataS2/npc/helper/help/helpCrops/peas/stepByStepPeas/conversation.xml</conversation>
+    <conversation uniqueId="9976579d3b">$dataS2/npc/helper/help/helpCrops/peas/whatNeed/conversation.xml</conversation>
+    <conversation uniqueId="b4faf1a7f5">$dataS2/npc/helper/help/helpCrops/poplar/overviewPoplar/conversation.xml</conversation>
+    <conversation uniqueId="ec29d0ce9e">$dataS2/npc/helper/help/helpCrops/poplar/stepByStep/conversation.xml</conversation>
+    <conversation uniqueId="9515813d1d">$dataS2/npc/helper/help/helpCrops/poplar/whatEquipment/conversation.xml</conversation>
+    <conversation uniqueId="f8be51b706">$dataS2/npc/helper/help/helpCrops/poplar/whatSpecial/conversation.xml</conversation>
+    <conversation uniqueId="c75499b58d">$dataS2/npc/helper/help/helpCrops/potatoes/overviewPotatoes/conversation.xml</conversation>
+    <conversation uniqueId="d141f370f7">$dataS2/npc/helper/help/helpCrops/potatoes/stepByStep/conversation.xml</conversation>
+    <conversation uniqueId="45927a8e48">$dataS2/npc/helper/help/helpCrops/potatoes/whatEquipment/conversation.xml</conversation>
+    <conversation uniqueId="c332fad3d2">$dataS2/npc/helper/help/helpCrops/redBeet/overviewRedBeet/conversation.xml</conversation>
+    <conversation uniqueId="5bb3f789a6">$dataS2/npc/helper/help/helpCrops/redBeet/stepByStep/conversation.xml</conversation>
+    <conversation uniqueId="397ef64863">$dataS2/npc/helper/help/helpCrops/redBeet/whatEquipment/conversation.xml</conversation>
+    <conversation uniqueId="16f8a7bcff">$dataS2/npc/helper/help/helpCrops/rice/difference/conversation.xml</conversation>
+    <conversation uniqueId="a230916ebf">$dataS2/npc/helper/help/helpCrops/rice/overviewRice/conversation.xml</conversation>
+    <conversation uniqueId="70ffda7d91">$dataS2/npc/helper/help/helpCrops/rice/stepByStepLongGrainRice/conversation.xml</conversation>
+    <conversation uniqueId="176362e128">$dataS2/npc/helper/help/helpCrops/rice/stepByStepRice/conversation.xml</conversation>
+    <conversation uniqueId="6fa435bf50">$dataS2/npc/helper/help/helpCrops/rice/whatNeedLongGrainRice/conversation.xml</conversation>
+    <conversation uniqueId="712f2c838c">$dataS2/npc/helper/help/helpCrops/rice/whatNeedRice/conversation.xml</conversation>
+    <conversation uniqueId="974196d53e">$dataS2/npc/helper/help/helpCrops/spinach/overviewSpinach/conversation.xml</conversation>
+    <conversation uniqueId="8c677f1866">$dataS2/npc/helper/help/helpCrops/spinach/stepByStep/conversation.xml</conversation>
+    <conversation uniqueId="f030909d7d">$dataS2/npc/helper/help/helpCrops/spinach/whatNeed/conversation.xml</conversation>
+    <conversation uniqueId="5f7d7b29df">$dataS2/npc/helper/help/helpCrops/spinach/whatSpecial/conversation.xml</conversation>
+    <conversation uniqueId="e509a9aa94">$dataS2/npc/helper/help/helpCrops/sugarBeets/overviewSugarBeets/conversation.xml</conversation>
+    <conversation uniqueId="039f23f07d">$dataS2/npc/helper/help/helpCrops/sugarBeets/stepByStep/conversation.xml</conversation>
+    <conversation uniqueId="9b2c36bb30">$dataS2/npc/helper/help/helpCrops/sugarBeets/whatEquipment/conversation.xml</conversation>
+    <conversation uniqueId="dd2b93b539">$dataS2/npc/helper/help/helpCrops/sugarcane/overviewSugarcane/conversation.xml</conversation>
+    <conversation uniqueId="331d3b2d31">$dataS2/npc/helper/help/helpCrops/sugarcane/stepByStep/conversation.xml</conversation>
+    <conversation uniqueId="5958fa2119">$dataS2/npc/helper/help/helpCrops/sugarcane/whatEquipment/conversation.xml</conversation>
+    <conversation uniqueId="91b3b8eae4">$dataS2/npc/helper/help/helpCrops/sugarcane/whatSpecial/conversation.xml</conversation>
+    <conversation uniqueId="114deffac9">$dataS2/npc/helper/help/helpCrops/sunflowers/overviewSunflowers/conversation.xml</conversation>
+    <conversation uniqueId="4804ccb632">$dataS2/npc/helper/help/helpCrops/sunflowers/stepByStep/conversation.xml</conversation>
+    <conversation uniqueId="9086658327">$dataS2/npc/helper/help/helpCrops/sunflowers/whatEquipment/conversation.xml</conversation>
+    <conversation uniqueId="80349e351e">$dataS2/npc/helper/help/helpFieldWorking/fertilizing/howFertilizing/conversation.xml</conversation>
+    <conversation uniqueId="47aa8f0dea">$dataS2/npc/helper/help/helpFieldWorking/fertilizing/overviewFertilizing/conversation.xml</conversation>
+    <conversation uniqueId="2ba9d967a2">$dataS2/npc/helper/help/helpFieldWorking/fertilizing/whatTypes/conversation.xml</conversation>
+    <conversation uniqueId="b8a2275e9d">$dataS2/npc/helper/help/helpFieldWorking/fieldStones/howRemove/conversation.xml</conversation>
+    <conversation uniqueId="eeb42cc99a">$dataS2/npc/helper/help/helpFieldWorking/fieldStones/overviewFieldStones/conversation.xml</conversation>
+    <conversation uniqueId="4005b77d8e">$dataS2/npc/helper/help/helpFieldWorking/fieldStones/whatFieldStones/conversation.xml</conversation>
+    <conversation uniqueId="1c4845a88a">$dataS2/npc/helper/help/helpFieldWorking/fieldStones/whenEmerge/conversation.xml</conversation>
+    <conversation uniqueId="0c97e23935">$dataS2/npc/helper/help/helpFieldWorking/gettingRidWeeds/howRemoveWeeds/conversation.xml</conversation>
+    <conversation uniqueId="efa052d503">$dataS2/npc/helper/help/helpFieldWorking/gettingRidWeeds/howWeedsGrow/conversation.xml</conversation>
+    <conversation uniqueId="ace22bd0fe">$dataS2/npc/helper/help/helpFieldWorking/gettingRidWeeds/overviewWeeds/conversation.xml</conversation>
+    <conversation uniqueId="13a88fcf07">$dataS2/npc/helper/help/helpFieldWorking/gettingRidWeeds/whyGetRid/conversation.xml</conversation>
+    <conversation uniqueId="ac619d3157">$dataS2/npc/helper/help/helpFieldWorking/mulching/howUseMulchers/conversation.xml</conversation>
+    <conversation uniqueId="9cd825d576">$dataS2/npc/helper/help/helpFieldWorking/mulching/overviewMulching/conversation.xml</conversation>
+    <conversation uniqueId="8f12a0a7d0">$dataS2/npc/helper/help/helpFieldWorking/mulching/whatTypes/conversation.xml</conversation>
+    <conversation uniqueId="bab2e55349">$dataS2/npc/helper/help/helpFieldWorking/mulching/whyMulch/conversation.xml</conversation>
+    <conversation uniqueId="0c49b93be8">$dataS2/npc/helper/help/helpFieldWorking/overviewFieldWorking/conversation.xml</conversation>
+    <conversation uniqueId="c1453a1b9b">$dataS2/npc/helper/help/helpFieldWorking/plowingCultivating/difference/conversation.xml</conversation>
+    <conversation uniqueId="74097b3d04">$dataS2/npc/helper/help/helpFieldWorking/plowingCultivating/howWhenCultivate/conversation.xml</conversation>
+    <conversation uniqueId="eed1a1e4ab">$dataS2/npc/helper/help/helpFieldWorking/plowingCultivating/howWhenPlow/conversation.xml</conversation>
+    <conversation uniqueId="f5fa69a7dc">$dataS2/npc/helper/help/helpFieldWorking/plowingCultivating/overviewPlowingCultivating/conversation.xml</conversation>
+    <conversation uniqueId="51da1548b1">$dataS2/npc/helper/help/helpFieldWorking/plowingCultivating/typesCultivators/conversation.xml</conversation>
+    <conversation uniqueId="80603fe692">$dataS2/npc/helper/help/helpFieldWorking/plowingCultivating/typesPlows/conversation.xml</conversation>
+    <conversation uniqueId="e3b472a2f6">$dataS2/npc/helper/help/helpFieldWorking/seedingPlanting/difference/conversation.xml</conversation>
+    <conversation uniqueId="67cff44069">$dataS2/npc/helper/help/helpFieldWorking/seedingPlanting/howPlantSow/conversation.xml</conversation>
+    <conversation uniqueId="7f401962c5">$dataS2/npc/helper/help/helpFieldWorking/seedingPlanting/overviewSeedingPlanting/conversation.xml</conversation>
+    <conversation uniqueId="7d377e4adf">$dataS2/npc/helper/help/helpFieldWorking/soilGrassRolling/howUseRollers/conversation.xml</conversation>
+    <conversation uniqueId="5acdf62ea7">$dataS2/npc/helper/help/helpFieldWorking/soilGrassRolling/overviewSoilGrassRolling/conversation.xml</conversation>
+    <conversation uniqueId="c22efd8c31">$dataS2/npc/helper/help/helpFieldWorking/soilGrassRolling/whatSoilGrassRolling/conversation.xml</conversation>
+    <conversation uniqueId="4bd87ca8b8">$dataS2/npc/helper/help/helpFieldWorking/yieldImprovement/increaseYield/conversation.xml</conversation>
+    <conversation uniqueId="6190c9d142">$dataS2/npc/helper/help/introHelp/introHelp01/conversation.xml</conversation>
+    <conversation uniqueId="9fa230f688">$dataS2/npc/helper/help/introHelp/introHelp02/conversation.xml</conversation>
+    <conversation uniqueId="f66d0d0dcf">$dataS2/npc/helper/help/introHelp/introHelp03/conversation.xml</conversation>
+    <conversation uniqueId="ac3dec0cda">$dataS2/npc/helper/help/introHelp/introHelp04/conversation.xml</conversation>
+    <conversation uniqueId="1ea015ea2f">$dataS2/npc/helper/help/introHelp/introHelp05/conversation.xml</conversation>
+    <conversation uniqueId="b083926fcd">$dataS2/npc/helper/help/introHelp/introHelp06/conversation.xml</conversation>
+    <conversation uniqueId="38c757415f">$dataS2/npc/helper/help/introRepeatMore/introRepeat01/conversation.xml</conversation>
+    <conversation uniqueId="2db889d2f2">$dataS2/npc/helper/help/introRepeatMore/introRepeat02/conversation.xml</conversation>
+    <conversation uniqueId="943386b1ce">$dataS2/npc/helper/help/introRepeatMore/introRepeat03/conversation.xml</conversation>
+    <conversation uniqueId="8d3f9a3c99">$dataS2/npc/helper/help/introRepeatMore/introRepeat04/conversation.xml</conversation>
+    <conversation uniqueId="e82c2638f7">$dataS2/npc/helper/help/introRepeatMore/introRepeat05/conversation.xml</conversation>
+    <conversation uniqueId="613ba30131">$dataS2/npc/helper/help/introRepeatMore/introRepeat06/conversation.xml</conversation>
+    <conversation uniqueId="38d98e847e">$dataS2/npc/helper/help/introRepeatMore/introRepeat07/conversation.xml</conversation>
+    <conversation uniqueId="5fa2b685c4">$dataS2/npc/helper/help/introRepeatMore/introRepeat08/conversation.xml</conversation>
+    <conversation uniqueId="78327ca751">$dataS2/npc/helper/help/introRepeatMore/introRepeat09/conversation.xml</conversation>
+    <conversation uniqueId="e14348c30e">$dataS2/npc/helper/help/introRepeatMore/introRepeat10/conversation.xml</conversation>
+    <conversation uniqueId="952c3c5c39">$dataS2/npc/helper/help/introRepeatMore/introRepeat11/conversation.xml</conversation>
+    <conversation uniqueId="c10b8f5047">$dataS2/npc/helper/help/introRepeatMore/introRepeat12/conversation.xml</conversation>
+    <conversation uniqueId="f5026e6fa4">$dataS2/npc/helper/help/introRepeatMore/introRepeat13/conversation.xml</conversation>
+    <conversation uniqueId="6994c3a807">$dataS2/npc/helper/help/introRepeatMore/introRepeat14/conversation.xml</conversation>
+    <conversation uniqueId="09541b417f">$dataS2/npc/helper/help/introRepeatMore/introRepeat15/conversation.xml</conversation>
+    <conversation uniqueId="f2e3846f18">$dataS2/npc/helper/help/introRepeatMore/introRepeat16/conversation.xml</conversation>
+    <conversation uniqueId="c3ea0425d7">$dataS2/npc/helper/help/overviewHelp/conversation.xml</conversation>
+    <conversation uniqueId="b214a80a97">$dataS2/npc/helper/introduction/introductionFirstMeet/conversation.xml</conversation>
+    <conversation uniqueId="8d895dc244">$dataS2/npc/helper/smalltalk/introDialogueStart/intro01/conversation.xml</conversation>
+    <conversation uniqueId="43063dd42a">$dataS2/npc/helper/smalltalk/introDialogueStart/intro02/conversation.xml</conversation>
+    <conversation uniqueId="9110516bed">$dataS2/npc/helper/smalltalk/introDialogueStart/intro03/conversation.xml</conversation>
+    <conversation uniqueId="4c69445a24">$dataS2/npc/helper/smalltalk/introDialogueStart/intro04/conversation.xml</conversation>
+    <conversation uniqueId="e98417e10a">$dataS2/npc/helper/smalltalk/introDialogueStart/intro05/conversation.xml</conversation>
+    <conversation uniqueId="17659f394e">$dataS2/npc/helper/smalltalk/introDialogueStart/intro06/conversation.xml</conversation>
+    <conversation uniqueId="23ea9b3071">$dataS2/npc/helper/smalltalk/introDialogueStart/intro07/conversation.xml</conversation>
+    <conversation uniqueId="7bbecc0f7d">$dataS2/npc/helper/smalltalk/introDialogueStart/intro08/conversation.xml</conversation>
+    <conversation uniqueId="61dc807be4">$dataS2/npc/helper/smalltalk/introDialogueStart/intro09/conversation.xml</conversation>
+    <conversation uniqueId="f65f82aefe">$dataS2/npc/helper/smalltalk/introDialogueStart/intro10/conversation.xml</conversation>
+    <conversation uniqueId="e577fc042c">$dataS2/npc/helper/smalltalk/introDialogueStart/intro11/conversation.xml</conversation>
+    <conversation uniqueId="8281064444">$dataS2/npc/helper/smalltalk/introDialogueStart/intro12/conversation.xml</conversation>
+    <conversation uniqueId="e547de6ed6">$dataS2/npc/helper/smalltalk/introDialogueStart/intro13/conversation.xml</conversation>
+    <conversation uniqueId="6e352b379b">$dataS2/npc/helper/smalltalk/introDialogueStart/intro14/conversation.xml</conversation>
+    <conversation uniqueId="dbdd1fd818">$dataS2/npc/helper/smalltalk/introDialogueStart/intro15/conversation.xml</conversation>
+    <conversation uniqueId="7d0114a53a">$dataS2/npc/helper/smalltalk/introEnoughSmalltalk/introEnough01/conversation.xml</conversation>
+    <conversation uniqueId="dc19be9e41">$dataS2/npc/helper/smalltalk/introEnoughSmalltalk/introEnough02/conversation.xml</conversation>
+    <conversation uniqueId="3b4b6dc083">$dataS2/npc/helper/smalltalk/introEnoughSmalltalk/introEnough03/conversation.xml</conversation>
+  </conversations>
+  <i3dMappings>
+    <i3dMapping id="audioNode" node="0&gt;0"/>
+    <i3dMapping id="triggerNode" node="0&gt;1"/>
+  </i3dMappings>
+</npc>

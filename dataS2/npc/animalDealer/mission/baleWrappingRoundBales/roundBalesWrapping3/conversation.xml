@@ -1,0 +1,19 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>MISSION_SELECT</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <missionAvailable>
+      <type name="baleWrapMission" variant="ROUNDBALER"/>
+    </missionAvailable>
+  </prerequisites>
+  <textFlow startId="d62aaeaeac">
+    <item id="d62aaeaeac">
+      <text>$dataS2/npc/animalDealer/mission/baleWrappingRoundBales/roundBalesWrapping3/wouldYouBeSoKind</text>
+      <actions>
+        <startConversationById uniqueId="37ee6ccc79"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

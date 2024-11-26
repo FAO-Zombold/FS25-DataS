@@ -1,0 +1,4 @@
+<text>
+  <emotional>[happiness, low]You can sell your wool at the farmers market or to the spinning mill for further processing. You need your front loader attacher and the pallet fork for that.[/happiness]</emotional>
+  <silence>{.} you can sell your wool at the farmers market {..} or to the spinning mill for further processing {....} you need your front loader attacher {.} and the pallet fork for that {...}</silence>
+</text>

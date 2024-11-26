@@ -1,0 +1,32 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="9bbb3b4b0b">
+    <item id="9bbb3b4b0b" nextId="74db7d1622">
+      <text>$dataS2/npc/helper/help/helpCrops/grapesAndOlives/stepByStep/checkCalender</text>
+    </item>
+    <item id="74db7d1622" nextId="fd899057b1">
+      <text>$dataS2/npc/helper/help/helpCrops/grapesAndOlives/stepByStep/stepOne</text>
+    </item>
+    <item id="fd899057b1" nextId="ab359e6536">
+      <text>$dataS2/npc/helper/help/helpCrops/grapesAndOlives/stepByStep/stepTwo</text>
+    </item>
+    <item id="ab359e6536" nextId="7b0f302471">
+      <text>$dataS2/npc/helper/help/helpCrops/grapesAndOlives/stepByStep/stepThree</text>
+    </item>
+    <item id="7b0f302471" nextId="1ce7f668b3">
+      <text>$dataS2/npc/helper/help/helpCrops/grapesAndOlives/stepByStep/stepFour</text>
+    </item>
+    <item id="1ce7f668b3" nextId="72dfa97476">
+      <text>$dataS2/npc/helper/help/helpCrops/grapesAndOlives/stepByStep/stepFive</text>
+    </item>
+    <item id="72dfa97476">
+      <text>$dataS2/npc/helper/help/helpCrops/grapesAndOlives/stepByStep/stepSix</text>
+      <actions>
+        <startConversationById uniqueId="f5e07f2c91"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

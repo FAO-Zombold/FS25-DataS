@@ -1,0 +1,41 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="6dea48622e">
+    <item id="6dea48622e" nextId="cd005dabe0">
+      <text>$dataS2/npc/helper/help/helpCrops/peas/stepByStepPeas/checkCalendar</text>
+    </item>
+    <item id="cd005dabe0" nextId="3e0c2f0bc5">
+      <text>$dataS2/npc/helper/help/helpCrops/peas/stepByStepPeas/liming</text>
+    </item>
+    <item id="3e0c2f0bc5" nextId="24f9bfb884">
+      <text>$dataS2/npc/helper/help/helpCrops/peas/stepByStepPeas/cultivating</text>
+    </item>
+    <item id="24f9bfb884" nextId="31a39e9f1f">
+      <text>$dataS2/npc/helper/help/helpCrops/peas/stepByStepPeas/planting</text>
+    </item>
+    <item id="31a39e9f1f" nextId="aa23d5790e">
+      <text>$dataS2/npc/helper/help/helpCrops/peas/stepByStepPeas/fertilizing</text>
+    </item>
+    <item id="aa23d5790e" nextId="88f60701dd">
+      <text>$dataS2/npc/helper/help/helpCrops/peas/stepByStepPeas/soilRolling</text>
+    </item>
+    <item id="88f60701dd" nextId="1648752860">
+      <text>$dataS2/npc/helper/help/helpCrops/peas/stepByStepPeas/weeding</text>
+    </item>
+    <item id="1648752860" nextId="4b31946b0d">
+      <text>$dataS2/npc/helper/help/helpCrops/peas/stepByStepPeas/harvesting</text>
+    </item>
+    <item id="4b31946b0d" nextId="bdda2c1817">
+      <text>$dataS2/npc/helper/help/helpCrops/peas/stepByStepPeas/unload</text>
+    </item>
+    <item id="bdda2c1817">
+      <text>$dataS2/npc/helper/help/helpCrops/peas/stepByStepPeas/sell</text>
+      <actions>
+        <startConversationById uniqueId="908b1e3552"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

@@ -1,0 +1,47 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="809be6d6b7">
+    <item id="809be6d6b7" nextId="42be4b943b">
+      <text>$dataS2/npc/helper/help/helpCrops/grapesAndOlives/whatNeed/first</text>
+    </item>
+    <item id="42be4b943b" nextId="c768ba30eb">
+      <text>$dataS2/npc/helper/help/helpCrops/grapesAndOlives/whatNeed/flatField</text>
+    </item>
+    <item id="c768ba30eb" nextId="72158dcaff">
+      <text>$dataS2/npc/helper/help/helpCrops/grapesAndOlives/whatNeed/notLikeOther</text>
+    </item>
+    <item id="72158dcaff" nextId="2fd74f69be">
+      <text>$dataS2/npc/helper/help/helpCrops/grapesAndOlives/whatNeed/plant</text>
+    </item>
+    <item id="2fd74f69be" nextId="dcb6c56a04">
+      <text>$dataS2/npc/helper/help/helpCrops/grapesAndOlives/whatNeed/why</text>
+    </item>
+    <item id="dcb6c56a04" nextId="14737857b5">
+      <text>$dataS2/npc/helper/help/helpCrops/grapesAndOlives/whatNeed/keepSpace</text>
+    </item>
+    <item id="14737857b5" nextId="d542bfe201">
+      <text>$dataS2/npc/helper/help/helpCrops/grapesAndOlives/whatNeed/normally</text>
+    </item>
+    <item id="d542bfe201" nextId="d29446c56b">
+      <text>$dataS2/npc/helper/help/helpCrops/grapesAndOlives/whatNeed/youBuy</text>
+    </item>
+    <item id="d29446c56b" nextId="1b0b3a8610">
+      <text>$dataS2/npc/helper/help/helpCrops/grapesAndOlives/whatNeed/specialFertilizer</text>
+    </item>
+    <item id="1b0b3a8610" nextId="0dafdb6834">
+      <text>$dataS2/npc/helper/help/helpCrops/grapesAndOlives/whatNeed/moreIntersting</text>
+    </item>
+    <item id="0dafdb6834" nextId="fe3276c43b">
+      <text>$dataS2/npc/helper/help/helpCrops/grapesAndOlives/whatNeed/leafCutter</text>
+    </item>
+    <item id="fe3276c43b">
+      <text>$dataS2/npc/helper/help/helpCrops/grapesAndOlives/whatNeed/emptyTrailer</text>
+      <actions>
+        <startConversationById uniqueId="f5e07f2c91"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

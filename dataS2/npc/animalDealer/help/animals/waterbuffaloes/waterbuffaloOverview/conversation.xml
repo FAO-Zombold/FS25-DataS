@@ -1,0 +1,46 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>DEFAULT</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="217170efd6">
+    <item id="217170efd6" isActive="false">
+      <text>$dataS2/npc/animalDealer/help/animals/waterbuffaloes/waterbuffaloOverview/placeholder</text>
+      <next>
+        <option id="bedfe8ff87">
+          <text>$dataS2/npc/animalDealer/help/animals/waterbuffaloes/waterbuffaloOverview/howDoIFeedBuffaloes</text>
+          <actions>
+            <startConversationById uniqueId="8598b931de"/>
+          </actions>
+        </option>
+        <option id="d028464214">
+          <text>$dataS2/npc/animalDealer/help/animals/waterbuffaloes/waterbuffaloOverview/howDoIKeepbuffaloes</text>
+          <actions>
+            <startConversationById uniqueId="85fe5be8d9"/>
+          </actions>
+        </option>
+        <option id="b8250e4c6b">
+          <text>$dataS2/npc/animalDealer/help/animals/waterbuffaloes/waterbuffaloOverview/whatToUseFor</text>
+          <actions>
+            <startConversationById uniqueId="176b718ed5"/>
+          </actions>
+        </option>
+        <option id="e7b36e550f">
+          <text>$dataS2/npc/animalDealer/help/animals/waterbuffaloes/waterbuffaloOverview/whatEquipmentDoINeed</text>
+          <actions>
+            <startConversationById uniqueId="0c34a15aea"/>
+          </actions>
+        </option>
+        <option id="9c27433bb0">
+          <text>$dataS2/npc/animalDealer/help/animals/waterbuffaloes/waterbuffaloOverview/optionBack</text>
+          <actions>
+            <startConversationById uniqueId="345249355c"/>
+          </actions>
+        </option>
+        <option id="5093cd61e3">
+          <text>$dataS2/npc/animalDealer/help/animals/waterbuffaloes/waterbuffaloOverview/optionExit</text>
+        </option>
+      </next>
+    </item>
+  </textFlow>
+</conversation>

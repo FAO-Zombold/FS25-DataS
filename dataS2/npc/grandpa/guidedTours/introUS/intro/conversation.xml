@@ -1,0 +1,88 @@
+<conversation>
+  <class>NPCConversationGuidedTour</class>
+  <type>GUIDED_TOUR</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <manuallyTriggered/>
+  </prerequisites>
+  <textFlow startId="570d0febec">
+    <item id="570d0febec" nextId="89f2670324">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/intro/welcome</text>
+    </item>
+    <item id="89f2670324" nextId="77a3a7dbe9">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/intro/soGood</text>
+    </item>
+    <item id="77a3a7dbe9" nextId="93470f32fd">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/intro/makeHappy</text>
+    </item>
+    <item id="93470f32fd" nextId="bb3c9a34c0">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/intro/fatherSaid</text>
+    </item>
+    <item id="bb3c9a34c0" nextId="b4274526ad">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/intro/calledIt</text>
+    </item>
+    <item id="b4274526ad" nextId="8daf93f44a">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/intro/stepOnManure</text>
+    </item>
+    <item id="8daf93f44a" nextId="65f5586093">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/intro/sellFarm</text>
+    </item>
+    <item id="65f5586093" nextId="8fa9560216">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/intro/stayInFamily</text>
+    </item>
+    <item id="8fa9560216" nextId="1bfbf9761d">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/intro/meansToMe</text>
+    </item>
+    <item id="1bfbf9761d" nextId="94a9e82ded">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/intro/uncleIdeas</text>
+    </item>
+    <item id="94a9e82ded" nextId="a735f628bd">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/intro/tellLater</text>
+    </item>
+    <item id="a735f628bd" nextId="76e1d8ce3d">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/intro/notAwayYet</text>
+    </item>
+    <item id="76e1d8ce3d" nextId="b4c87700bc">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/intro/talkSomeTime</text>
+    </item>
+    <item id="b4c87700bc" nextId="bc3eed6ce5">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/intro/nicePeople</text>
+    </item>
+    <item id="bc3eed6ce5">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/intro/quickTour</text>
+      <next>
+        <option id="d9edd8afd2" nextId="9ad008ff02">
+          <text>$dataS2/npc/grandpa/guidedTours/introUS/intro/yesTour</text>
+        </option>
+        <option id="f5a9887166" nextId="172fbfae56">
+          <text>$dataS2/npc/grandpa/guidedTours/introUS/intro/noTour</text>
+        </option>
+      </next>
+    </item>
+    <item id="9ad008ff02" nextId="b18b3d6574">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/intro/showYou</text>
+    </item>
+    <item id="b18b3d6574" nextId="aa3fb1bcbc">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/intro/doneAllSteps</text>
+    </item>
+    <item id="aa3fb1bcbc" nextId="d663e0150e">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/intro/workField</text>
+    </item>
+    <item id="d663e0150e" nextId="0b623c53f6">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/intro/tractorWithCultivator</text>
+    </item>
+    <item id="0b623c53f6" nextId="5d02c903cc">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/intro/howToOperate</text>
+    </item>
+    <item id="5d02c903cc">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/intro/canNotWait</text>
+    </item>
+    <item id="172fbfae56">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/intro/yoursNow</text>
+      <actions>
+        <cancelTour/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

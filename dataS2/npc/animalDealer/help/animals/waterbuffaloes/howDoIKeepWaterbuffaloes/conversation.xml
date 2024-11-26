@@ -1,0 +1,23 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="a4e1008558">
+    <item id="a4e1008558" nextId="3eb5ef90f2">
+      <text>$dataS2/npc/animalDealer/help/animals/waterbuffaloes/howDoIKeepWaterbuffaloes/pastureOrBarn</text>
+    </item>
+    <item id="3eb5ef90f2" nextId="aee5e547cd">
+      <text>$dataS2/npc/animalDealer/help/animals/waterbuffaloes/howDoIKeepWaterbuffaloes/sluryOrManure</text>
+    </item>
+    <item id="aee5e547cd" nextId="d6f51cfe60">
+      <text>$dataS2/npc/animalDealer/help/animals/waterbuffaloes/howDoIKeepWaterbuffaloes/freshWaterAccess</text>
+    </item>
+    <item id="d6f51cfe60">
+      <text>$dataS2/npc/animalDealer/help/animals/waterbuffaloes/howDoIKeepWaterbuffaloes/shapeArea</text>
+      <actions>
+        <startConversationById uniqueId="73d06a2363"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

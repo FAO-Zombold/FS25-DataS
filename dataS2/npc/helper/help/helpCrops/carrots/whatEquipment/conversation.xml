@@ -1,0 +1,44 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="3d64e6199e">
+    <item id="3d64e6199e" nextId="d0ff98fc50">
+      <text>$dataS2/npc/helper/help/helpCrops/carrots/whatEquipment/equipment</text>
+    </item>
+    <item id="d0ff98fc50" nextId="adab0aa059">
+      <text>$dataS2/npc/helper/help/helpCrops/carrots/whatEquipment/guideYou</text>
+    </item>
+    <item id="adab0aa059" nextId="dd222ad46b">
+      <text>$dataS2/npc/helper/help/helpCrops/carrots/whatEquipment/plowing</text>
+    </item>
+    <item id="dd222ad46b" nextId="02dc50f2a8">
+      <text>$dataS2/npc/helper/help/helpCrops/carrots/whatEquipment/planter</text>
+    </item>
+    <item id="02dc50f2a8" nextId="579da9ae84">
+      <text>$dataS2/npc/helper/help/helpCrops/carrots/whatEquipment/ridgeFormer</text>
+    </item>
+    <item id="579da9ae84" nextId="859f5ceab0">
+      <text>$dataS2/npc/helper/help/helpCrops/carrots/whatEquipment/fertilizer</text>
+    </item>
+    <item id="859f5ceab0" nextId="cb0e2b57bd">
+      <text>$dataS2/npc/helper/help/helpCrops/carrots/whatEquipment/hoe</text>
+    </item>
+    <item id="cb0e2b57bd" nextId="59c83d686c">
+      <text>$dataS2/npc/helper/help/helpCrops/carrots/whatEquipment/harvester</text>
+    </item>
+    <item id="59c83d686c" nextId="7d9e7d4d88">
+      <text>$dataS2/npc/helper/help/helpCrops/carrots/whatEquipment/choice</text>
+    </item>
+    <item id="cff8e7e91f">
+      <text>$dataS2/npc/helper/help/helpCrops/carrots/whatEquipment/notes</text>
+      <actions>
+        <startConversationById uniqueId="be9ba42ea5"/>
+      </actions>
+    </item>
+    <item id="7d9e7d4d88" nextId="cff8e7e91f">
+      <text>$dataS2/npc/helper/help/helpCrops/carrots/whatEquipment/keepMind</text>
+    </item>
+  </textFlow>
+</conversation>

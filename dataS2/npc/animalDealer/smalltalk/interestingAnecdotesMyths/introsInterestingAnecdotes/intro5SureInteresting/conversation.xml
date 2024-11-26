@@ -1,0 +1,17 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>KATIE_ANECDOTES_INTRO</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <retriggerTypeDelayIngameDays type="KATIE_ANECDOTES_INTRO" minDays="1"/>
+  </prerequisites>
+  <textFlow startId="e5e20baa57">
+    <item id="e5e20baa57">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/introsInterestingAnecdotes/intro5SureInteresting/sure</text>
+      <actions>
+        <startConversationByType type="KATIE_ANECDOTES"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

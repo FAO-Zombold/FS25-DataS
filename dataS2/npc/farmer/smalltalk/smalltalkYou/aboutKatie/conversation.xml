@@ -1,0 +1,81 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>DAVID_YOU</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="54b87680c8">
+    <item id="54b87680c8">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/aboutKatie/knowKatie</text>
+      <next>
+        <option id="f2575268b2" nextId="ba57c92cc2">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/aboutKatie/knowKatieOptionA</text>
+        </option>
+        <option id="c25583bb31" nextId="7cd5836b58">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/aboutKatie/knowKatieOptionB</text>
+        </option>
+      </next>
+    </item>
+    <item id="ba57c92cc2" nextId="21a389fb1d">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/aboutKatie/hardToDislike</text>
+    </item>
+    <item id="21a389fb1d" nextId="8c90c9692b">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/aboutKatie/funnyTravelStories</text>
+    </item>
+    <item id="8c90c9692b" nextId="9191ab2020">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/aboutKatie/goToGal</text>
+    </item>
+    <item id="9191ab2020" nextId="ed3c0ef46f">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/aboutKatie/someAdvice</text>
+    </item>
+    <item id="ed3c0ef46f" nextId="b1fe722afc">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/aboutKatie/helpfulWithThings</text>
+    </item>
+    <item id="b1fe722afc" nextId="1351acb5e5">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/aboutKatie/feedTheBuffaloes</text>
+    </item>
+    <item id="1351acb5e5" nextId="bfb538354e">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/aboutKatie/inReturn</text>
+    </item>
+    <item id="bfb538354e" nextId="96b3c5bc80">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/aboutKatie/bakingCake</text>
+    </item>
+    <item id="96b3c5bc80" nextId="dd9490cda9">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/aboutKatie/aCakeForKatie</text>
+    </item>
+    <item id="dd9490cda9" nextId="2b4b5fd440">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/aboutKatie/drinkTeaSometimes</text>
+    </item>
+    <item id="2b4b5fd440" nextId="0f2d173168">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/aboutKatie/doesNotFeelLikeWork</text>
+    </item>
+    <item id="0f2d173168">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/aboutKatie/askHerOut</text>
+      <next>
+        <option id="03c081f0cd" nextId="55fe64bf87">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/aboutKatie/optionA</text>
+        </option>
+        <option id="3b6d6026ba" nextId="55fe64bf87">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/aboutKatie/optionB</text>
+        </option>
+      </next>
+    </item>
+    <item id="55fe64bf87" nextId="8aa3bad693">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/aboutKatie/sendNoah</text>
+    </item>
+    <item id="8aa3bad693" nextId="fcdf38ec9c">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/aboutKatie/laughedAtMe</text>
+    </item>
+    <item id="fcdf38ec9c" nextId="0b933aec66">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/aboutKatie/quiteProtective</text>
+    </item>
+    <item id="0b933aec66">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/aboutKatie/thanksForListening</text>
+      <actions>
+        <startConversationById uniqueId="bdd07bda2c"/>
+      </actions>
+    </item>
+    <item id="7cd5836b58" nextId="21a389fb1d">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/aboutKatie/maybeTalkMore</text>
+    </item>
+  </textFlow>
+</conversation>

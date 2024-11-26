@@ -1,0 +1,70 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>KATIE_YOU</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="e285cc21f8">
+    <item id="e285cc21f8" nextId="bcbdf0ac16">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/gettingGoats/middleOfSomething</text>
+    </item>
+    <item id="bcbdf0ac16" nextId="75261bf21a">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/gettingGoats/goatsGoatsGoats</text>
+    </item>
+    <item id="75261bf21a" nextId="7e1bdc7b2a">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/gettingGoats/howAboutYou</text>
+    </item>
+    <item id="7e1bdc7b2a">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/gettingGoats/rectangularPupils</text>
+      <next>
+        <option id="d792bbfa25" nextId="6ba615b056">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/gettingGoats/optionA</text>
+        </option>
+        <option id="d1e9804c4e" nextId="3dae25f221">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/gettingGoats/optionB</text>
+        </option>
+        <option id="a512a733c7" nextId="3dae25f221">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/gettingGoats/optionC</text>
+        </option>
+        <option id="67ac1127e0" nextId="d70ead6533">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/gettingGoats/optionD</text>
+        </option>
+      </next>
+    </item>
+    <item id="6ba615b056" nextId="3dae25f221">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/gettingGoats/Shame</text>
+    </item>
+    <item id="3dae25f221" nextId="2ca0fe2cb2">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/gettingGoats/moreGoatsThanNormal</text>
+    </item>
+    <item id="2ca0fe2cb2" nextId="4ddd316cc1">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/gettingGoats/profitGoats</text>
+    </item>
+    <item id="4ddd316cc1" nextId="46456e129d">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/gettingGoats/milkInHighDemand</text>
+    </item>
+    <item id="46456e129d" nextId="cb18f92a89">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/gettingGoats/fascinatingGoats</text>
+    </item>
+    <item id="cb18f92a89" nextId="fe9ad4ca17">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/gettingGoats/chillGoats</text>
+    </item>
+    <item id="fe9ad4ca17" nextId="39acfcbca4">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/gettingGoats/firstDomesticated</text>
+    </item>
+    <item id="39acfcbca4" nextId="2ee1a78848">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/gettingGoats/nineThousandYears</text>
+    </item>
+    <item id="2ee1a78848" nextId="797deebf71">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/gettingGoats/basicInfo</text>
+    </item>
+    <item id="797deebf71">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/gettingGoats/aaaaanywayGetGoats</text>
+      <actions>
+        <startConversationById uniqueId="bb0236da62"/>
+      </actions>
+    </item>
+    <item id="d70ead6533" nextId="3dae25f221">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/gettingGoats/brotherCalledMe</text>
+    </item>
+  </textFlow>
+</conversation>

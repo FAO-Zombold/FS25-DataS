@@ -1,0 +1,20 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="b40c344e68">
+    <item id="b40c344e68" nextId="6cbed1a43e">
+      <text>$dataS2/npc/forester/conversations/help/helpGrowTrees/equipmentNeed/shortList</text>
+    </item>
+    <item id="6cbed1a43e" nextId="9bc39c9666">
+      <text>$dataS2/npc/forester/conversations/help/helpGrowTrees/equipmentNeed/transport</text>
+    </item>
+    <item id="9bc39c9666">
+      <text>$dataS2/npc/forester/conversations/help/helpGrowTrees/equipmentNeed/thatsAll</text>
+      <actions>
+        <startConversationById uniqueId="6230adf8f5"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

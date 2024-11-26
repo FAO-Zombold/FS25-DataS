@@ -1,0 +1,102 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>KATIE_YOU</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="bed598c677">
+    <item id="bed598c677" nextId="ee91c88f7c">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/howBecomeFarmer/mentionParents</text>
+    </item>
+    <item id="ee91c88f7c" nextId="71135b887d">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/howBecomeFarmer/grewUp</text>
+    </item>
+    <item id="71135b887d" nextId="7f45eaeae6">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/howBecomeFarmer/afterHighschool</text>
+    </item>
+    <item id="7f45eaeae6">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/howBecomeFarmer/interestedInPast</text>
+      <next>
+        <option id="f4d7c7fb13" nextId="9c87b302fc">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/howBecomeFarmer/interestedInPastOptionA</text>
+        </option>
+        <option id="adde5b4af4" nextId="a5ed08b64a">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/howBecomeFarmer/interestedInPastOptionB</text>
+        </option>
+      </next>
+    </item>
+    <item id="9c87b302fc" nextId="fc47b30a1f">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/howBecomeFarmer/personWhoDoes</text>
+    </item>
+    <item id="fc47b30a1f" nextId="62c8b37aff">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/howBecomeFarmer/missedHome</text>
+    </item>
+    <item id="62c8b37aff" nextId="1bc96b7f69">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/howBecomeFarmer/handsOn</text>
+    </item>
+    <item id="1bc96b7f69" nextId="6422722c94">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/howBecomeFarmer/medievalFarming</text>
+    </item>
+    <item id="6422722c94">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/howBecomeFarmer/changedMajor</text>
+      <next>
+        <option id="e6ddf9a8d9" nextId="0555c9d93b">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/howBecomeFarmer/rightoptionA</text>
+        </option>
+        <option id="b11976fd03" nextId="a0db31c760">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/howBecomeFarmer/triedOptionB</text>
+        </option>
+        <option id="1869d125b9" nextId="5f126dadcc">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/howBecomeFarmer/InterestingOptionC</text>
+        </option>
+      </next>
+    </item>
+    <item id="0555c9d93b" nextId="e4bc68c527">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/howBecomeFarmer/getEachOther</text>
+    </item>
+    <item id="e4bc68c527" nextId="42f1cd0edc">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/howBecomeFarmer/finishedCollege</text>
+    </item>
+    <item id="42f1cd0edc" nextId="ff4d8942f6">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/howBecomeFarmer/supportiveParents</text>
+    </item>
+    <item id="ff4d8942f6" nextId="bbe9b54fa4">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/howBecomeFarmer/experienceUnderBelt</text>
+    </item>
+    <item id="bbe9b54fa4" nextId="325aebd81f">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/howBecomeFarmer/happyForThem</text>
+    </item>
+    <item id="325aebd81f" nextId="46057367c3">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/howBecomeFarmer/littleSister</text>
+    </item>
+    <item id="46057367c3" nextId="e75d9be6c1">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/howBecomeFarmer/goneForGood</text>
+    </item>
+    <item id="e75d9be6c1" nextId="003cb39c0f">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/howBecomeFarmer/helpOut</text>
+    </item>
+    <item id="003cb39c0f" nextId="3606939c8d">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/howBecomeFarmer/physicianBrother</text>
+    </item>
+    <item id="3606939c8d" nextId="164f4b7b6f">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/howBecomeFarmer/brotherResidency</text>
+    </item>
+    <item id="164f4b7b6f" nextId="b93ca8dbe8">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/howBecomeFarmer/canNotEscape</text>
+    </item>
+    <item id="b93ca8dbe8">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/howBecomeFarmer/doNotLetMe</text>
+      <actions>
+        <startConversationById uniqueId="bb0236da62"/>
+      </actions>
+    </item>
+    <item id="a0db31c760" nextId="e4bc68c527">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/howBecomeFarmer/wouldNotBe</text>
+    </item>
+    <item id="5f126dadcc" nextId="e4bc68c527">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/howBecomeFarmer/curiousOne</text>
+    </item>
+    <item id="a5ed08b64a" nextId="fc47b30a1f">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/howBecomeFarmer/lookingForward</text>
+    </item>
+  </textFlow>
+</conversation>

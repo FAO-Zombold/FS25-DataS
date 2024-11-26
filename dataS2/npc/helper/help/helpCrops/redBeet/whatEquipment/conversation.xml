@@ -1,0 +1,41 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="2805dca65a">
+    <item id="2805dca65a" nextId="10cc956a2d">
+      <text>$dataS2/npc/helper/help/helpCrops/redBeet/whatEquipment/grow</text>
+    </item>
+    <item id="10cc956a2d" nextId="963b084649">
+      <text>$dataS2/npc/helper/help/helpCrops/redBeet/whatEquipment/plowSubsoiler</text>
+    </item>
+    <item id="963b084649" nextId="bbbea89e66">
+      <text>$dataS2/npc/helper/help/helpCrops/redBeet/whatEquipment/planter</text>
+    </item>
+    <item id="bbbea89e66" nextId="81e25ab5e2">
+      <text>$dataS2/npc/helper/help/helpCrops/redBeet/whatEquipment/ridgeFormer</text>
+    </item>
+    <item id="81e25ab5e2" nextId="10e4a64295">
+      <text>$dataS2/npc/helper/help/helpCrops/redBeet/whatEquipment/fertilizer</text>
+    </item>
+    <item id="10e4a64295" nextId="79b88e2e40">
+      <text>$dataS2/npc/helper/help/helpCrops/redBeet/whatEquipment/hoe</text>
+    </item>
+    <item id="79b88e2e40" nextId="1b5d2bbb67">
+      <text>$dataS2/npc/helper/help/helpCrops/redBeet/whatEquipment/harvester</text>
+    </item>
+    <item id="1b5d2bbb67" nextId="b40053867c">
+      <text>$dataS2/npc/helper/help/helpCrops/redBeet/whatEquipment/acquisition</text>
+    </item>
+    <item id="b40053867c" nextId="cd190280b0">
+      <text>$dataS2/npc/helper/help/helpCrops/redBeet/whatEquipment/trailer</text>
+    </item>
+    <item id="cd190280b0">
+      <text>$dataS2/npc/helper/help/helpCrops/redBeet/whatEquipment/allNeed</text>
+      <actions>
+        <startConversationById uniqueId="c332fad3d2"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

@@ -1,0 +1,4 @@
+<text>
+  <emotional>[happiness, medium]Thanks for talking to your old grandpa.[/happiness] [happiness, high]But now, let's get back to farming![/happiness]</emotional>
+  <silence>{.} thanks for talking to your old grandpa {....} but now {....} let's get back to farming {...}</silence>
+</text>

@@ -1,0 +1,23 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="8079bcbecb">
+    <item id="8079bcbecb" nextId="dc334617f3">
+      <text>$dataS2/npc/animalDealer/help/animals/silageAndTMR/whatisTMR/ThatIsTMR</text>
+    </item>
+    <item id="dc334617f3" nextId="728492f895">
+      <text>$dataS2/npc/animalDealer/help/animals/silageAndTMR/whatisTMR/produceOrBuy</text>
+    </item>
+    <item id="728492f895" nextId="86be5491a6">
+      <text>$dataS2/npc/animalDealer/help/animals/silageAndTMR/whatisTMR/justFillIn</text>
+    </item>
+    <item id="86be5491a6">
+      <text>$dataS2/npc/animalDealer/help/animals/silageAndTMR/whatisTMR/wonderfullyNutritious</text>
+      <actions>
+        <startConversationById uniqueId="67571deb6c"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

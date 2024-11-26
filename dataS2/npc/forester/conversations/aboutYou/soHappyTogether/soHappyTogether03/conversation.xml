@@ -1,0 +1,112 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>SMALLTALK_ABOUT_YOU</type>
+  <probability>100</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <numTriggered max="1"/>
+    <conversationWasTriggered uniqueId="cbbdc9160f"/>
+  </prerequisites>
+  <textFlow startId="4149994eea">
+    <item id="4149994eea" nextId="b27b887c42">
+      <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether03/someUnclogging</text>
+    </item>
+    <item id="b27b887c42" nextId="be7ff77017">
+      <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether03/loveLife</text>
+    </item>
+    <item id="be7ff77017" nextId="d3ed0489ef">
+      <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether03/wasMissingSomething</text>
+    </item>
+    <item id="d3ed0489ef" nextId="47d096c556">
+      <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether03/notWantAcknowledge</text>
+    </item>
+    <item id="47d096c556" nextId="c8d86cf71f">
+      <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether03/chickenCoop</text>
+    </item>
+    <item id="c8d86cf71f" nextId="c578d30ef0">
+      <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether03/sellBadStuff</text>
+    </item>
+    <item id="c578d30ef0" nextId="45897c0ef6">
+      <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether03/knowWhatLookingFor</text>
+    </item>
+    <item id="45897c0ef6" nextId="97f5e32485">
+      <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether03/somethingWasOff</text>
+    </item>
+    <item id="97f5e32485" nextId="3e7e7cc5b2">
+      <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether03/notBuy</text>
+    </item>
+    <item id="3e7e7cc5b2" nextId="e7221411bf">
+      <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether03/missFamily</text>
+    </item>
+    <item id="e7221411bf" nextId="c6bb022e26">
+      <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether03/movingAway</text>
+    </item>
+    <item id="c6bb022e26" nextId="590f497a99">
+      <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether03/independence</text>
+    </item>
+    <item id="590f497a99" nextId="de3a456e27">
+      <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether03/stoppedWriting</text>
+    </item>
+    <item id="de3a456e27" nextId="3d883e7273">
+      <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether03/wishHerHappiness</text>
+    </item>
+    <item id="3d883e7273" nextId="b18e16d36e">
+      <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether03/holdInMemory</text>
+    </item>
+    <item id="b18e16d36e">
+      <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether03/wouldBeAnniversary</text>
+      <next>
+        <option id="d8244e4a24" nextId="84bad7d3f9">
+          <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether03/sorry</text>
+        </option>
+        <option id="8c465ac5d4" nextId="170d4e1c33">
+          <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether03/contacting</text>
+        </option>
+        <option id="636321541a" nextId="e5d64f33e0">
+          <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether03/thatIsLife</text>
+        </option>
+      </next>
+    </item>
+    <item id="84bad7d3f9" nextId="d6f5f58e7a">
+      <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether03/appreciateThem</text>
+    </item>
+    <item id="d6f5f58e7a" nextId="7c9aa1043d">
+      <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether03/noNeed</text>
+    </item>
+    <item id="7c9aa1043d" nextId="a8d09913b6">
+      <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether03/notExpected</text>
+    </item>
+    <item id="a8d09913b6" nextId="c3278c616c">
+      <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether03/meetSoon</text>
+    </item>
+    <item id="c3278c616c">
+      <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether03/goodOutcome</text>
+      <next>
+        <option id="03afa4dd8c">
+          <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether03/youBet</text>
+          <actions>
+            <startConversationById uniqueId="8b24b3ebc0"/>
+          </actions>
+        </option>
+        <option id="ce3302fbc7">
+          <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether03/great</text>
+          <actions>
+            <startConversationById uniqueId="8b24b3ebc0"/>
+          </actions>
+        </option>
+        <option id="06edb29926">
+          <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether03/lookForward</text>
+          <actions>
+            <startConversationById uniqueId="8b24b3ebc0"/>
+          </actions>
+        </option>
+      </next>
+    </item>
+    <item id="170d4e1c33" nextId="d6f5f58e7a">
+      <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether03/didIt</text>
+    </item>
+    <item id="e5d64f33e0" nextId="d6f5f58e7a">
+      <text>$dataS2/npc/forester/conversations/aboutYou/soHappyTogether/soHappyTogether03/indeed</text>
+    </item>
+  </textFlow>
+</conversation>

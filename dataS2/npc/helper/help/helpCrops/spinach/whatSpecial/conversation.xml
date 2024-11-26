@@ -1,0 +1,23 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="a14c418799">
+    <item id="a14c418799" nextId="8181b893b7">
+      <text>$dataS2/npc/helper/help/helpCrops/spinach/whatSpecial/favoriteMeal</text>
+    </item>
+    <item id="8181b893b7" nextId="822424d279">
+      <text>$dataS2/npc/helper/help/helpCrops/spinach/whatSpecial/powerPlant</text>
+    </item>
+    <item id="822424d279" nextId="4c9e68ca70">
+      <text>$dataS2/npc/helper/help/helpCrops/spinach/whatSpecial/growsTwice</text>
+    </item>
+    <item id="4c9e68ca70">
+      <text>$dataS2/npc/helper/help/helpCrops/spinach/whatSpecial/keepInMind</text>
+      <actions>
+        <startConversationById uniqueId="974196d53e"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

@@ -1,0 +1,34 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="8dba22eac0">
+    <item id="8dba22eac0" isActive="false">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/seedingPlanting/overviewSeedingPlanting/intro</text>
+      <next>
+        <option id="3a6131aad2" isActive="false">
+          <text>$dataS2/npc/helper/help/helpFieldWorking/seedingPlanting/overviewSeedingPlanting/difference</text>
+          <actions>
+            <startConversationById uniqueId="e3b472a2f6"/>
+          </actions>
+        </option>
+        <option id="4192242766">
+          <text>$dataS2/npc/helper/help/helpFieldWorking/seedingPlanting/overviewSeedingPlanting/howPlantSow</text>
+          <actions>
+            <startConversationById uniqueId="67cff44069"/>
+          </actions>
+        </option>
+        <option id="233788c2f9">
+          <text>$dataS2/npc/helper/help/helpFieldWorking/seedingPlanting/overviewSeedingPlanting/backButton</text>
+          <actions>
+            <startConversationById uniqueId="0c49b93be8"/>
+          </actions>
+        </option>
+        <option id="c58092b2c4">
+          <text>$dataS2/npc/helper/help/helpFieldWorking/seedingPlanting/overviewSeedingPlanting/exitButton</text>
+        </option>
+      </next>
+    </item>
+  </textFlow>
+</conversation>

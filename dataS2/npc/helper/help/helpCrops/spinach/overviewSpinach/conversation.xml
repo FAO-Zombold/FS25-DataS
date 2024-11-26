@@ -1,0 +1,40 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="22b99bd786">
+    <item id="22b99bd786" isActive="false">
+      <text>$dataS2/npc/helper/help/helpCrops/spinach/overviewSpinach/intro</text>
+      <next>
+        <option id="2ed9401fb6">
+          <text>$dataS2/npc/helper/help/helpCrops/spinach/overviewSpinach/whatSpecial</text>
+          <actions>
+            <startConversationById uniqueId="5f7d7b29df"/>
+          </actions>
+        </option>
+        <option id="6fe4c44b97">
+          <text>$dataS2/npc/helper/help/helpCrops/spinach/overviewSpinach/needFor</text>
+          <actions>
+            <startConversationById uniqueId="f030909d7d"/>
+          </actions>
+        </option>
+        <option id="d6fa8f13af">
+          <text>$dataS2/npc/helper/help/helpCrops/spinach/overviewSpinach/stepByStep</text>
+          <actions>
+            <startConversationById uniqueId="8c677f1866"/>
+          </actions>
+        </option>
+        <option id="c992dbbda2">
+          <text>$dataS2/npc/helper/help/helpCrops/spinach/overviewSpinach/backButton</text>
+          <actions>
+            <startConversationById uniqueId="b7b177b9c9"/>
+          </actions>
+        </option>
+        <option id="fc4568eb75">
+          <text>$dataS2/npc/helper/help/helpCrops/spinach/overviewSpinach/exitButton</text>
+        </option>
+      </next>
+    </item>
+  </textFlow>
+</conversation>

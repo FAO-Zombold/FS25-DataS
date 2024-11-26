@@ -1,0 +1,40 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="fec52fd07a">
+    <item id="fec52fd07a" isActive="false">
+      <text>$dataS2/npc/forester/conversations/help/helpTransport/overviewTransport/start</text>
+      <next>
+        <option id="3643d337a5">
+          <text>$dataS2/npc/forester/conversations/help/helpTransport/overviewTransport/whatNeedKnow</text>
+          <actions>
+            <startConversationById uniqueId="461cb358ec"/>
+          </actions>
+        </option>
+        <option id="f979583b45">
+          <text>$dataS2/npc/forester/conversations/help/helpTransport/overviewTransport/whatEquipment</text>
+          <actions>
+            <startConversationById uniqueId="251bcdf3f3"/>
+          </actions>
+        </option>
+        <option id="d4a7b4616f">
+          <text>$dataS2/npc/forester/conversations/help/helpTransport/overviewTransport/howUseMachinery</text>
+          <actions>
+            <startConversationById uniqueId="2e9208fc4e"/>
+          </actions>
+        </option>
+        <option id="44625cf0ba">
+          <text>$dataS2/npc/forester/conversations/help/helpTransport/overviewTransport/backButton</text>
+          <actions>
+            <startConversationById uniqueId="7cb1ac3f00"/>
+          </actions>
+        </option>
+        <option id="66a3c55893">
+          <text>$dataS2/npc/forester/conversations/help/helpTransport/overviewTransport/exitButton</text>
+        </option>
+      </next>
+    </item>
+  </textFlow>
+</conversation>

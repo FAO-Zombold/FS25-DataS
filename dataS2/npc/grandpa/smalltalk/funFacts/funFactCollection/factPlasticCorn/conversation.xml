@@ -1,0 +1,29 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>SMALLTALK_FUNFACTS</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <numTriggered max="1"/>
+  </prerequisites>
+  <textFlow startId="00fbd04158">
+    <item id="00fbd04158" nextId="61d616cb20">
+      <text>$dataS2/npc/grandpa/smalltalk/funFacts/funFactCollection/factPlasticCorn/cornFact</text>
+    </item>
+    <item id="61d616cb20" nextId="7d72c29dc0">
+      <text>$dataS2/npc/grandpa/smalltalk/funFacts/funFactCollection/factPlasticCorn/versatileCrop</text>
+    </item>
+    <item id="7d72c29dc0" nextId="3f3e914a07">
+      <text>$dataS2/npc/grandpa/smalltalk/funFacts/funFactCollection/factPlasticCorn/forFuel</text>
+    </item>
+    <item id="3f3e914a07" nextId="919d886e16">
+      <text>$dataS2/npc/grandpa/smalltalk/funFacts/funFactCollection/factPlasticCorn/forBioplastic</text>
+    </item>
+    <item id="919d886e16">
+      <text>$dataS2/npc/grandpa/smalltalk/funFacts/funFactCollection/factPlasticCorn/lovePopcorn</text>
+      <actions>
+        <startConversationById uniqueId="0bc5b0ce93"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

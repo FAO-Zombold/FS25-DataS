@@ -1,0 +1,76 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>SMALLTALK_ABOUT_YOU</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="be1d601592">
+    <item id="be1d601592" nextId="bdec85d04e">
+      <text>$dataS2/npc/forester/conversations/aboutYou/iAmTheLumberDetective/lumberDetective</text>
+    </item>
+    <item id="bdec85d04e" nextId="f6cda60ea9">
+      <text>$dataS2/npc/forester/conversations/aboutYou/iAmTheLumberDetective/someContext</text>
+    </item>
+    <item id="f6cda60ea9" nextId="7dba0a036f">
+      <text>$dataS2/npc/forester/conversations/aboutYou/iAmTheLumberDetective/focusOnOffenses</text>
+    </item>
+    <item id="7dba0a036f" nextId="2f47738243">
+      <text>$dataS2/npc/forester/conversations/aboutYou/iAmTheLumberDetective/lumberjackFirst</text>
+    </item>
+    <item id="2f47738243" nextId="5503ca6ba9">
+      <text>$dataS2/npc/forester/conversations/aboutYou/iAmTheLumberDetective/aHobby</text>
+    </item>
+    <item id="5503ca6ba9" nextId="9e3ee3dd4d">
+      <text>$dataS2/npc/forester/conversations/aboutYou/iAmTheLumberDetective/resourcefulUse</text>
+    </item>
+    <item id="9e3ee3dd4d" nextId="a487366b6c">
+      <text>$dataS2/npc/forester/conversations/aboutYou/iAmTheLumberDetective/notEveryCase</text>
+    </item>
+    <item id="a487366b6c" nextId="b008322457">
+      <text>$dataS2/npc/forester/conversations/aboutYou/iAmTheLumberDetective/takeCase</text>
+    </item>
+    <item id="b008322457" nextId="b4d0707f24">
+      <text>$dataS2/npc/forester/conversations/aboutYou/iAmTheLumberDetective/mysterySolving</text>
+    </item>
+    <item id="b4d0707f24">
+      <text>$dataS2/npc/forester/conversations/aboutYou/iAmTheLumberDetective/outOfInk</text>
+      <next>
+        <option id="e105d1f268" nextId="070f7717c1">
+          <text>$dataS2/npc/forester/conversations/aboutYou/iAmTheLumberDetective/why</text>
+        </option>
+        <option id="4fd4bea197" nextId="fd9ec1c498">
+          <text>$dataS2/npc/forester/conversations/aboutYou/iAmTheLumberDetective/strangePerson</text>
+        </option>
+      </next>
+    </item>
+    <item id="070f7717c1" nextId="78b2187c01">
+      <text>$dataS2/npc/forester/conversations/aboutYou/iAmTheLumberDetective/logicalThinking</text>
+    </item>
+    <item id="78b2187c01" nextId="e59394bd16">
+      <text>$dataS2/npc/forester/conversations/aboutYou/iAmTheLumberDetective/lookAtHands</text>
+    </item>
+    <item id="e59394bd16" nextId="c1fa4a2d6c">
+      <text>$dataS2/npc/forester/conversations/aboutYou/iAmTheLumberDetective/manyClues</text>
+    </item>
+    <item id="c1fa4a2d6c" nextId="d03beb0d20">
+      <text>$dataS2/npc/forester/conversations/aboutYou/iAmTheLumberDetective/tools</text>
+    </item>
+    <item id="d03beb0d20" nextId="3b521e1596">
+      <text>$dataS2/npc/forester/conversations/aboutYou/iAmTheLumberDetective/noGoodDetective</text>
+    </item>
+    <item id="3b521e1596" nextId="6536cf52ae">
+      <text>$dataS2/npc/forester/conversations/aboutYou/iAmTheLumberDetective/howToSolve</text>
+    </item>
+    <item id="6536cf52ae" nextId="a2b3eb1dea">
+      <text>$dataS2/npc/forester/conversations/aboutYou/iAmTheLumberDetective/maySoundEasy</text>
+    </item>
+    <item id="a2b3eb1dea">
+      <text>$dataS2/npc/forester/conversations/aboutYou/iAmTheLumberDetective/getInk</text>
+      <actions>
+        <startConversationById uniqueId="8b24b3ebc0"/>
+      </actions>
+    </item>
+    <item id="fd9ec1c498" nextId="070f7717c1">
+      <text>$dataS2/npc/forester/conversations/aboutYou/iAmTheLumberDetective/noOffense</text>
+    </item>
+  </textFlow>
+</conversation>

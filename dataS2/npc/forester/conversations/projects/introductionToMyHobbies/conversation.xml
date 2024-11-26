@@ -1,0 +1,55 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>SMALLTALK_PROJECTS</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="44be93f47c">
+    <item id="44be93f47c" nextId="c63c29ac70">
+      <text>$dataS2/npc/forester/conversations/projects/introductionToMyHobbies/payingAttention</text>
+    </item>
+    <item id="c63c29ac70" nextId="5f55557a3f">
+      <text>$dataS2/npc/forester/conversations/projects/introductionToMyHobbies/currentProjects</text>
+    </item>
+    <item id="5f55557a3f" nextId="cc57caf950">
+      <text>$dataS2/npc/forester/conversations/projects/introductionToMyHobbies/sideHobbies</text>
+    </item>
+    <item id="cc57caf950">
+      <text>$dataS2/npc/forester/conversations/projects/introductionToMyHobbies/lumberDetective</text>
+      <next>
+        <option id="63b13f9cff" nextId="11c663f322">
+          <text>$dataS2/npc/forester/conversations/projects/introductionToMyHobbies/mrDetective</text>
+        </option>
+        <option id="eb5bf8c66b" nextId="abaf9fd406">
+          <text>$dataS2/npc/forester/conversations/projects/introductionToMyHobbies/hobbies</text>
+        </option>
+      </next>
+    </item>
+    <item id="11c663f322" nextId="34728e0169">
+      <text>$dataS2/npc/forester/conversations/projects/introductionToMyHobbies/pleaseAssist</text>
+    </item>
+    <item id="34728e0169" nextId="0583e6a049">
+      <text>$dataS2/npc/forester/conversations/projects/introductionToMyHobbies/inquireFurther</text>
+    </item>
+    <item id="0583e6a049" nextId="be399fe8f4">
+      <text>$dataS2/npc/forester/conversations/projects/introductionToMyHobbies/crossPaths</text>
+    </item>
+    <item id="be399fe8f4" nextId="d91c394fe3">
+      <text>$dataS2/npc/forester/conversations/projects/introductionToMyHobbies/makeYourselfSuspicious</text>
+    </item>
+    <item id="d91c394fe3" nextId="a24b29d4e4">
+      <text>$dataS2/npc/forester/conversations/projects/introductionToMyHobbies/abandonedSodaCan</text>
+    </item>
+    <item id="a24b29d4e4" nextId="d7b9fe87e6">
+      <text>$dataS2/npc/forester/conversations/projects/introductionToMyHobbies/notBeenCleared</text>
+    </item>
+    <item id="d7b9fe87e6">
+      <text>$dataS2/npc/forester/conversations/projects/introductionToMyHobbies/allowedToLeave</text>
+      <actions>
+        <startConversationById uniqueId="8b24b3ebc0"/>
+      </actions>
+    </item>
+    <item id="abaf9fd406" nextId="34728e0169">
+      <text>$dataS2/npc/forester/conversations/projects/introductionToMyHobbies/reason</text>
+    </item>
+  </textFlow>
+</conversation>

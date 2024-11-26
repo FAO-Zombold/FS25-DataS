@@ -1,0 +1,110 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>SMALLTALK_PROJECTS</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="24a0d7b635">
+    <item id="24a0d7b635" nextId="ac8b4b1010">
+      <text>$dataS2/npc/forester/conversations/projects/projectGrandpaHeartFlowers/collaboration</text>
+    </item>
+    <item id="ac8b4b1010" nextId="a6738c6d0f">
+      <text>$dataS2/npc/forester/conversations/projects/projectGrandpaHeartFlowers/makeGift</text>
+    </item>
+    <item id="a6738c6d0f" nextId="30225f7972">
+      <text>$dataS2/npc/forester/conversations/projects/projectGrandpaHeartFlowers/romance</text>
+    </item>
+    <item id="30225f7972" nextId="f0aeba2c9f">
+      <text>$dataS2/npc/forester/conversations/projects/projectGrandpaHeartFlowers/notFan</text>
+    </item>
+    <item id="f0aeba2c9f">
+      <text>$dataS2/npc/forester/conversations/projects/projectGrandpaHeartFlowers/entertainment</text>
+      <next>
+        <option id="cad0c8591c" nextId="c62ec24eec">
+          <text>$dataS2/npc/forester/conversations/projects/projectGrandpaHeartFlowers/moreImportant</text>
+        </option>
+        <option id="5033e52f07" nextId="1a46ec8081">
+          <text>$dataS2/npc/forester/conversations/projects/projectGrandpaHeartFlowers/saySo</text>
+        </option>
+        <option id="e6ebb495dc" nextId="1a46ec8081">
+          <text>$dataS2/npc/forester/conversations/projects/projectGrandpaHeartFlowers/continue</text>
+        </option>
+      </next>
+    </item>
+    <item id="c62ec24eec" nextId="1a46ec8081">
+      <text>$dataS2/npc/forester/conversations/projects/projectGrandpaHeartFlowers/reevaluate</text>
+    </item>
+    <item id="1a46ec8081" nextId="a938f5433f">
+      <text>$dataS2/npc/forester/conversations/projects/projectGrandpaHeartFlowers/niceGesture</text>
+    </item>
+    <item id="a938f5433f" nextId="6eb8196b02">
+      <text>$dataS2/npc/forester/conversations/projects/projectGrandpaHeartFlowers/expressionOfLove</text>
+    </item>
+    <item id="6eb8196b02" nextId="4459341a8e">
+      <text>$dataS2/npc/forester/conversations/projects/projectGrandpaHeartFlowers/meaningRomance</text>
+    </item>
+    <item id="4459341a8e">
+      <text>$dataS2/npc/forester/conversations/projects/projectGrandpaHeartFlowers/anatomicallyCorrect</text>
+      <next>
+        <option id="dbc3b68616" nextId="581780b8d9">
+          <text>$dataS2/npc/forester/conversations/projects/projectGrandpaHeartFlowers/different</text>
+        </option>
+        <option id="074ee247fc" nextId="581780b8d9">
+          <text>$dataS2/npc/forester/conversations/projects/projectGrandpaHeartFlowers/correctHeart</text>
+        </option>
+        <option id="f993644422" nextId="581780b8d9">
+          <text>$dataS2/npc/forester/conversations/projects/projectGrandpaHeartFlowers/howEnd</text>
+        </option>
+      </next>
+    </item>
+    <item id="581780b8d9" nextId="c912f84863">
+      <text>$dataS2/npc/forester/conversations/projects/projectGrandpaHeartFlowers/miscommunication</text>
+    </item>
+    <item id="c912f84863" nextId="7105a136e8">
+      <text>$dataS2/npc/forester/conversations/projects/projectGrandpaHeartFlowers/loveResult</text>
+    </item>
+    <item id="7105a136e8">
+      <text>$dataS2/npc/forester/conversations/projects/projectGrandpaHeartFlowers/giftBrain</text>
+      <next>
+        <option id="b22d9bf808" nextId="b014211670">
+          <text>$dataS2/npc/forester/conversations/projects/projectGrandpaHeartFlowers/what</text>
+        </option>
+        <option id="98c03ec54c" nextId="1469c95ea7">
+          <text>$dataS2/npc/forester/conversations/projects/projectGrandpaHeartFlowers/weird</text>
+        </option>
+        <option id="d526222760" nextId="1469c95ea7">
+          <text>$dataS2/npc/forester/conversations/projects/projectGrandpaHeartFlowers/nice</text>
+        </option>
+      </next>
+    </item>
+    <item id="b014211670" nextId="1469c95ea7">
+      <text>$dataS2/npc/forester/conversations/projects/projectGrandpaHeartFlowers/scans</text>
+    </item>
+    <item id="1469c95ea7" nextId="08b7bf4933">
+      <text>$dataS2/npc/forester/conversations/projects/projectGrandpaHeartFlowers/amusedPops</text>
+    </item>
+    <item id="08b7bf4933" nextId="4d4d8dcd9e">
+      <text>$dataS2/npc/forester/conversations/projects/projectGrandpaHeartFlowers/bouquet</text>
+    </item>
+    <item id="4d4d8dcd9e" nextId="3d56dd78b2">
+      <text>$dataS2/npc/forester/conversations/projects/projectGrandpaHeartFlowers/symmetry</text>
+    </item>
+    <item id="3d56dd78b2" nextId="a4a8e84cf6">
+      <text>$dataS2/npc/forester/conversations/projects/projectGrandpaHeartFlowers/aesthetic</text>
+    </item>
+    <item id="a4a8e84cf6" nextId="7669764828">
+      <text>$dataS2/npc/forester/conversations/projects/projectGrandpaHeartFlowers/betterWorks</text>
+    </item>
+    <item id="7669764828" nextId="ee46a8fa3d">
+      <text>$dataS2/npc/forester/conversations/projects/projectGrandpaHeartFlowers/stillGotHeart</text>
+    </item>
+    <item id="ee46a8fa3d" nextId="284b85e83c">
+      <text>$dataS2/npc/forester/conversations/projects/projectGrandpaHeartFlowers/ifNeeded</text>
+    </item>
+    <item id="284b85e83c">
+      <text>$dataS2/npc/forester/conversations/projects/projectGrandpaHeartFlowers/davidFavor</text>
+      <actions>
+        <startConversationById uniqueId="8b24b3ebc0"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

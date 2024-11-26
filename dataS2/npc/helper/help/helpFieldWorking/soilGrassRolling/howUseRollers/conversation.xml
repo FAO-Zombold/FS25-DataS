@@ -1,0 +1,29 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="214a8dafbc">
+    <item id="214a8dafbc" nextId="29c9197b23">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/soilGrassRolling/howUseRollers/easyUse</text>
+    </item>
+    <item id="29c9197b23" nextId="27f5bb5f89">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/soilGrassRolling/howUseRollers/tractor</text>
+    </item>
+    <item id="27f5bb5f89" nextId="6c905c1603">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/soilGrassRolling/howUseRollers/points</text>
+    </item>
+    <item id="6c905c1603" nextId="415f3a6c17">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/soilGrassRolling/howUseRollers/unfolding</text>
+    </item>
+    <item id="415f3a6c17" nextId="ddc6dc9946">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/soilGrassRolling/howUseRollers/attach</text>
+    </item>
+    <item id="ddc6dc9946">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/soilGrassRolling/howUseRollers/roll</text>
+      <actions>
+        <startConversationById uniqueId="5acdf62ea7"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

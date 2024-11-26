@@ -1,0 +1,70 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>SMALLTALK_WISDOM</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="ceb803e5c4">
+    <item id="ceb803e5c4" nextId="034d3ff89e">
+      <text>$dataS2/npc/forester/conversations/projects/projectNewFence/newGate</text>
+    </item>
+    <item id="034d3ff89e" nextId="144827d0da">
+      <text>$dataS2/npc/forester/conversations/projects/projectNewFence/passion</text>
+    </item>
+    <item id="144827d0da" nextId="55156dd566">
+      <text>$dataS2/npc/forester/conversations/projects/projectNewFence/likeAnimals</text>
+    </item>
+    <item id="55156dd566" nextId="5140958556">
+      <text>$dataS2/npc/forester/conversations/projects/projectNewFence/buffalos</text>
+    </item>
+    <item id="5140958556">
+      <text>$dataS2/npc/forester/conversations/projects/projectNewFence/tooSimple</text>
+      <next>
+        <option id="9f07086a19" nextId="6867ac3cb6">
+          <text>$dataS2/npc/forester/conversations/projects/projectNewFence/solution</text>
+        </option>
+        <option id="8d3156110d" nextId="7fce356278">
+          <text>$dataS2/npc/forester/conversations/projects/projectNewFence/smartBuffalo</text>
+        </option>
+        <option id="f8c66ac713" nextId="6867ac3cb6">
+          <text>$dataS2/npc/forester/conversations/projects/projectNewFence/interesting</text>
+        </option>
+      </next>
+    </item>
+    <item id="6867ac3cb6" nextId="ff611f4d10">
+      <text>$dataS2/npc/forester/conversations/projects/projectNewFence/withoutThumbs</text>
+    </item>
+    <item id="ff611f4d10" nextId="4c12c7aa3f">
+      <text>$dataS2/npc/forester/conversations/projects/projectNewFence/cameClose</text>
+    </item>
+    <item id="4c12c7aa3f" nextId="a29a5fad06">
+      <text>$dataS2/npc/forester/conversations/projects/projectNewFence/noPrison</text>
+    </item>
+    <item id="a29a5fad06" nextId="bff0e55128">
+      <text>$dataS2/npc/forester/conversations/projects/projectNewFence/oppositeDavid</text>
+    </item>
+    <item id="bff0e55128" nextId="cad949e1fa">
+      <text>$dataS2/npc/forester/conversations/projects/projectNewFence/wantedToHelp</text>
+    </item>
+    <item id="cad949e1fa" nextId="1c11678d26">
+      <text>$dataS2/npc/forester/conversations/projects/projectNewFence/mentalCapacities</text>
+    </item>
+    <item id="1c11678d26" nextId="59972d0f89">
+      <text>$dataS2/npc/forester/conversations/projects/projectNewFence/couldNotOpen</text>
+    </item>
+    <item id="59972d0f89" nextId="d7793dacf5">
+      <text>$dataS2/npc/forester/conversations/projects/projectNewFence/farFromOpening</text>
+    </item>
+    <item id="d7793dacf5" nextId="e2c6dc8f58">
+      <text>$dataS2/npc/forester/conversations/projects/projectNewFence/almostHurt</text>
+    </item>
+    <item id="e2c6dc8f58">
+      <text>$dataS2/npc/forester/conversations/projects/projectNewFence/didJob</text>
+      <actions>
+        <startConversationById uniqueId="8b24b3ebc0"/>
+      </actions>
+    </item>
+    <item id="7fce356278" nextId="6867ac3cb6">
+      <text>$dataS2/npc/forester/conversations/projects/projectNewFence/smarterThanPeople</text>
+    </item>
+  </textFlow>
+</conversation>

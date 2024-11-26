@@ -1,0 +1,17 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="bd2d9dcd50">
+    <item id="bd2d9dcd50" nextId="4a8944cee0">
+      <text>$dataS2/npc/animalDealer/help/animals/sheep/whatBreedsSheep/breedsSheep</text>
+    </item>
+    <item id="4a8944cee0">
+      <text>$dataS2/npc/animalDealer/help/animals/sheep/whatBreedsSheep/noDifference</text>
+      <actions>
+        <startConversationById uniqueId="ea51a7982b"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

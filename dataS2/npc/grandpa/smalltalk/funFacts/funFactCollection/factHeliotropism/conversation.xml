@@ -1,0 +1,26 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>SMALLTALK_FUNFACTS</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <numTriggered max="1"/>
+  </prerequisites>
+  <textFlow startId="0a8838ab1b">
+    <item id="0a8838ab1b" nextId="a3c4f290fd">
+      <text>$dataS2/npc/grandpa/smalltalk/funFacts/funFactCollection/factHeliotropism/sunflowerFact</text>
+    </item>
+    <item id="a3c4f290fd" nextId="b48f6349d7">
+      <text>$dataS2/npc/grandpa/smalltalk/funFacts/funFactCollection/factHeliotropism/sunMovement</text>
+    </item>
+    <item id="b48f6349d7" nextId="618492e1a8">
+      <text>$dataS2/npc/grandpa/smalltalk/funFacts/funFactCollection/factHeliotropism/faceSunlight</text>
+    </item>
+    <item id="618492e1a8">
+      <text>$dataS2/npc/grandpa/smalltalk/funFacts/funFactCollection/factHeliotropism/growKnowledge</text>
+      <actions>
+        <startConversationById uniqueId="0bc5b0ce93"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

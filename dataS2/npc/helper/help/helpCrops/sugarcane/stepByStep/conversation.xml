@@ -1,0 +1,47 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="2411b53e60">
+    <item id="2411b53e60" nextId="2da0aadb29">
+      <text>$dataS2/npc/helper/help/helpCrops/sugarcane/stepByStep/sweet</text>
+    </item>
+    <item id="2da0aadb29" nextId="19d9f5de24">
+      <text>$dataS2/npc/helper/help/helpCrops/sugarcane/stepByStep/cropCalendar</text>
+    </item>
+    <item id="19d9f5de24" nextId="ad1a76b42e">
+      <text>$dataS2/npc/helper/help/helpCrops/sugarcane/stepByStep/stepOne</text>
+    </item>
+    <item id="ad1a76b42e" nextId="c81cf88045">
+      <text>$dataS2/npc/helper/help/helpCrops/sugarcane/stepByStep/stepTwo</text>
+    </item>
+    <item id="c81cf88045" nextId="4121309cc9">
+      <text>$dataS2/npc/helper/help/helpCrops/sugarcane/stepByStep/stepThree</text>
+    </item>
+    <item id="4121309cc9" nextId="8ed5d0a8bc">
+      <text>$dataS2/npc/helper/help/helpCrops/sugarcane/stepByStep/stepFour</text>
+    </item>
+    <item id="8ed5d0a8bc" nextId="b187b5ed09">
+      <text>$dataS2/npc/helper/help/helpCrops/sugarcane/stepByStep/stepFive</text>
+    </item>
+    <item id="b187b5ed09" nextId="5864b2bc0b">
+      <text>$dataS2/npc/helper/help/helpCrops/sugarcane/stepByStep/stepSix</text>
+    </item>
+    <item id="5864b2bc0b" nextId="3c68a9e955">
+      <text>$dataS2/npc/helper/help/helpCrops/sugarcane/stepByStep/trailer</text>
+    </item>
+    <item id="3c68a9e955" nextId="5db424cc69">
+      <text>$dataS2/npc/helper/help/helpCrops/sugarcane/stepByStep/sugar</text>
+    </item>
+    <item id="5db424cc69" nextId="32b4453a1d">
+      <text>$dataS2/npc/helper/help/helpCrops/sugarcane/stepByStep/chocolate</text>
+    </item>
+    <item id="32b4453a1d">
+      <text>$dataS2/npc/helper/help/helpCrops/sugarcane/stepByStep/notMad</text>
+      <actions>
+        <startConversationById uniqueId="dd2b93b539"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

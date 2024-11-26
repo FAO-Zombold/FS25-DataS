@@ -1,0 +1,17 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>DAVID_YOU_INTRO</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <retriggerTypeDelayIngameDays type="DAVID_YOU_INTRO" minDays="1"/>
+  </prerequisites>
+  <textFlow startId="86ead89401">
+    <item id="86ead89401">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/smalltalkYouIntro/alrightLetUsDive/alrightLetUs</text>
+      <actions>
+        <startConversationByType type="DAVID_YOU"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

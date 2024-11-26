@@ -1,0 +1,38 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="532719acaf">
+    <item id="532719acaf" nextId="1109311a53">
+      <text>$dataS2/npc/helper/help/helpCrops/corn/stepByStep/cropCalender</text>
+    </item>
+    <item id="1109311a53" nextId="758609fdc1">
+      <text>$dataS2/npc/helper/help/helpCrops/corn/stepByStep/stepOne</text>
+    </item>
+    <item id="758609fdc1" nextId="2868e5ef25">
+      <text>$dataS2/npc/helper/help/helpCrops/corn/stepByStep/stepTwo</text>
+    </item>
+    <item id="2868e5ef25" nextId="3b05911057">
+      <text>$dataS2/npc/helper/help/helpCrops/corn/stepByStep/planting</text>
+    </item>
+    <item id="3b05911057" nextId="2421b58b0b">
+      <text>$dataS2/npc/helper/help/helpCrops/corn/stepByStep/fertilizing</text>
+    </item>
+    <item id="2421b58b0b" nextId="ff9971a14e">
+      <text>$dataS2/npc/helper/help/helpCrops/corn/stepByStep/earnWay</text>
+    </item>
+    <item id="ff9971a14e" nextId="e7a4edc138">
+      <text>$dataS2/npc/helper/help/helpCrops/corn/stepByStep/hoe</text>
+    </item>
+    <item id="e7a4edc138" nextId="cc72fde5c7">
+      <text>$dataS2/npc/helper/help/helpCrops/corn/stepByStep/harvesting</text>
+    </item>
+    <item id="cc72fde5c7">
+      <text>$dataS2/npc/helper/help/helpCrops/corn/stepByStep/getCorny</text>
+      <actions>
+        <startConversationById uniqueId="00ac66f4fd"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

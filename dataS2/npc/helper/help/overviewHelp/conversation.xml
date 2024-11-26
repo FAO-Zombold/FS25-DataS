@@ -1,0 +1,31 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="8c327ca1a5">
+    <item id="8c327ca1a5" isActive="false">
+      <text>$dataS2/npc/helper/help/overviewHelp/intro</text>
+      <next>
+        <option id="5209e54899">
+          <text>$dataS2/npc/helper/help/overviewHelp/helpCrops</text>
+          <actions>
+            <startConversationById uniqueId="b7b177b9c9"/>
+          </actions>
+        </option>
+        <option id="5daa5762c0">
+          <text>$dataS2/npc/helper/help/overviewHelp/helpFieldWorking</text>
+          <actions>
+            <startConversationById uniqueId="0c49b93be8"/>
+          </actions>
+        </option>
+        <option id="7905e94a01" isActive="false">
+          <text>$dataS2/npc/helper/help/overviewHelp/backButton</text>
+        </option>
+        <option id="41c02dd421">
+          <text>$dataS2/npc/helper/help/overviewHelp/exitButton</text>
+        </option>
+      </next>
+    </item>
+  </textFlow>
+</conversation>

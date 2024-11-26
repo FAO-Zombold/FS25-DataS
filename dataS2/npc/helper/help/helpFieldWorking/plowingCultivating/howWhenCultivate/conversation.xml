@@ -1,0 +1,17 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="01e7886a1e">
+    <item id="01e7886a1e" nextId="a75466fbcf">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/plowingCultivating/howWhenCultivate/easyToDo</text>
+    </item>
+    <item id="a75466fbcf">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/plowingCultivating/howWhenCultivate/useSubsoiler</text>
+      <actions>
+        <startConversationById uniqueId="f5fa69a7dc"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

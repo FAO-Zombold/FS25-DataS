@@ -1,0 +1,23 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="e558c098d1">
+    <item id="e558c098d1" nextId="9669515094">
+      <text>$dataS2/npc/helper/help/helpCrops/rice/whatNeedRice/alreadyFlooded</text>
+    </item>
+    <item id="9669515094" nextId="8b197e139e">
+      <text>$dataS2/npc/helper/help/helpCrops/rice/whatNeedRice/openSpace</text>
+    </item>
+    <item id="8b197e139e" nextId="a013c75985">
+      <text>$dataS2/npc/helper/help/helpCrops/rice/whatNeedRice/need</text>
+    </item>
+    <item id="a013c75985">
+      <text>$dataS2/npc/helper/help/helpCrops/rice/whatNeedRice/planter</text>
+      <actions>
+        <startConversationById uniqueId="a230916ebf"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

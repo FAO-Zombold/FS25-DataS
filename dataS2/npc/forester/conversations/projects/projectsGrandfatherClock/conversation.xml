@@ -1,0 +1,92 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>SMALLTALK_PROJECTS</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="59928643a4">
+    <item id="59928643a4">
+      <text>$dataS2/npc/forester/conversations/projects/projectsGrandfatherClock/selfmadeClock</text>
+      <next>
+        <option id="0b9cf5d26d" nextId="92d3e9c332">
+          <text>$dataS2/npc/forester/conversations/projects/projectsGrandfatherClock/clockmaker</text>
+        </option>
+        <option id="a21f15c302" nextId="909299d594">
+          <text>$dataS2/npc/forester/conversations/projects/projectsGrandfatherClock/neverShowed</text>
+        </option>
+      </next>
+    </item>
+    <item id="92d3e9c332" nextId="ac2583d578">
+      <text>$dataS2/npc/forester/conversations/projects/projectsGrandfatherClock/shapedLike</text>
+    </item>
+    <item id="ac2583d578" nextId="70e657c7bd">
+      <text>$dataS2/npc/forester/conversations/projects/projectsGrandfatherClock/familyHeirloom</text>
+    </item>
+    <item id="70e657c7bd" nextId="c31e8bf947">
+      <text>$dataS2/npc/forester/conversations/projects/projectsGrandfatherClock/tookOver</text>
+    </item>
+    <item id="c31e8bf947" nextId="4b6acf5496">
+      <text>$dataS2/npc/forester/conversations/projects/projectsGrandfatherClock/deliverWood</text>
+    </item>
+    <item id="4b6acf5496" nextId="cb720b3eed">
+      <text>$dataS2/npc/forester/conversations/projects/projectsGrandfatherClock/nostalgia</text>
+    </item>
+    <item id="cb720b3eed" nextId="9c0f87d987">
+      <text>$dataS2/npc/forester/conversations/projects/projectsGrandfatherClock/annoyingFeeling</text>
+    </item>
+    <item id="9c0f87d987" nextId="40e70cd956">
+      <text>$dataS2/npc/forester/conversations/projects/projectsGrandfatherClock/pinnedOnClock</text>
+    </item>
+    <item id="40e70cd956">
+      <text>$dataS2/npc/forester/conversations/projects/projectsGrandfatherClock/dislikeSounds</text>
+      <next>
+        <option id="737c134d89" nextId="3ec059d19c">
+          <text>$dataS2/npc/forester/conversations/projects/projectsGrandfatherClock/relaxing</text>
+        </option>
+        <option id="05455ed204" nextId="5c9d88ddb2">
+          <text>$dataS2/npc/forester/conversations/projects/projectsGrandfatherClock/notGetClock</text>
+        </option>
+      </next>
+    </item>
+    <item id="3ec059d19c" nextId="986d5290ee">
+      <text>$dataS2/npc/forester/conversations/projects/projectsGrandfatherClock/insulting</text>
+    </item>
+    <item id="986d5290ee" nextId="b120eafe51">
+      <text>$dataS2/npc/forester/conversations/projects/projectsGrandfatherClock/carving</text>
+    </item>
+    <item id="b120eafe51" nextId="3dd7a872d7">
+      <text>$dataS2/npc/forester/conversations/projects/projectsGrandfatherClock/noSounds</text>
+    </item>
+    <item id="3dd7a872d7" nextId="003687edda">
+      <text>$dataS2/npc/forester/conversations/projects/projectsGrandfatherClock/favoriteTime</text>
+    </item>
+    <item id="003687edda">
+      <text>$dataS2/npc/forester/conversations/projects/projectsGrandfatherClock/twiceRight</text>
+      <next>
+        <option id="c51849eb14" nextId="4d589dd267">
+          <text>$dataS2/npc/forester/conversations/projects/projectsGrandfatherClock/noSense</text>
+        </option>
+        <option id="b85c540253" nextId="90bec74bb3">
+          <text>$dataS2/npc/forester/conversations/projects/projectsGrandfatherClock/simple</text>
+        </option>
+      </next>
+    </item>
+    <item id="4d589dd267" nextId="7eb6c2e798">
+      <text>$dataS2/npc/forester/conversations/projects/projectsGrandfatherClock/itDoes</text>
+    </item>
+    <item id="7eb6c2e798">
+      <text>$dataS2/npc/forester/conversations/projects/projectsGrandfatherClock/perfectClock</text>
+      <actions>
+        <startConversationById uniqueId="8b24b3ebc0"/>
+      </actions>
+    </item>
+    <item id="90bec74bb3" nextId="7eb6c2e798">
+      <text>$dataS2/npc/forester/conversations/projects/projectsGrandfatherClock/thankYou</text>
+    </item>
+    <item id="5c9d88ddb2" nextId="986d5290ee">
+      <text>$dataS2/npc/forester/conversations/projects/projectsGrandfatherClock/wrong</text>
+    </item>
+    <item id="909299d594" nextId="ac2583d578">
+      <text>$dataS2/npc/forester/conversations/projects/projectsGrandfatherClock/askToSee</text>
+    </item>
+  </textFlow>
+</conversation>

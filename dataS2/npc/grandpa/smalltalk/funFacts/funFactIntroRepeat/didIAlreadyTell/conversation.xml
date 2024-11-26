@@ -1,0 +1,19 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>SMALLTALK</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <conversationAllTriggeredByType type="SMALLTALK_FUNFACTS"/>
+  </prerequisites>
+  <textFlow startId="48bdccf03f">
+    <item id="48bdccf03f">
+      <text>$dataS2/npc/grandpa/smalltalk/funFacts/funFactIntroRepeat/didIAlreadyTell/alreadyTellYou</text>
+      <actions>
+        <resetNumTriggeredByType type="SMALLTALK_WISDOM"/>
+        <resetNumTriggeredByType type="SMALLTALK_FUNFACTS"/>
+        <startConversationByType type="SMALLTALK_WISDOM"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

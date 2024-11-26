@@ -1,0 +1,61 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>SMALLTALK_PROJECTS</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="56fbe81047">
+    <item id="56fbe81047" nextId="12ac912265">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenUmbrella/woodCarving</text>
+    </item>
+    <item id="12ac912265" nextId="c1de005287">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenUmbrella/socialInteraction</text>
+    </item>
+    <item id="c1de005287" nextId="b31af28239">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenUmbrella/carvingUmbrella</text>
+    </item>
+    <item id="b31af28239" nextId="b09469b702">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenUmbrella/allWooden</text>
+    </item>
+    <item id="b09469b702" nextId="3ae42b7ed1">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenUmbrella/oakWood</text>
+    </item>
+    <item id="3ae42b7ed1">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenUmbrella/movement</text>
+      <next>
+        <option id="e757d43210" nextId="d46b8b12e3">
+          <text>$dataS2/npc/forester/conversations/projects/projectWoodenUmbrella/cool</text>
+        </option>
+        <option id="73dd08f819" nextId="8d24d77214">
+          <text>$dataS2/npc/forester/conversations/projects/projectWoodenUmbrella/howWork</text>
+        </option>
+        <option id="f98dc5908f" nextId="35c037d2b8">
+          <text>$dataS2/npc/forester/conversations/projects/projectWoodenUmbrella/cannotClose</text>
+        </option>
+      </next>
+    </item>
+    <item id="d46b8b12e3" nextId="20701aedfc">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenUmbrella/onePiece</text>
+    </item>
+    <item id="20701aedfc" nextId="464f7cc6f7">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenUmbrella/notBreak</text>
+    </item>
+    <item id="464f7cc6f7" nextId="c5c35536f6">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenUmbrella/heavyUmbrella</text>
+    </item>
+    <item id="c5c35536f6" nextId="b94a4d526f">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenUmbrella/proceedFinish</text>
+    </item>
+    <item id="b94a4d526f">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenUmbrella/walkAway</text>
+      <actions>
+        <startConversationById uniqueId="8b24b3ebc0"/>
+      </actions>
+    </item>
+    <item id="8d24d77214" nextId="d46b8b12e3">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenUmbrella/whatMean</text>
+    </item>
+    <item id="35c037d2b8" nextId="d46b8b12e3">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenUmbrella/why</text>
+    </item>
+  </textFlow>
+</conversation>

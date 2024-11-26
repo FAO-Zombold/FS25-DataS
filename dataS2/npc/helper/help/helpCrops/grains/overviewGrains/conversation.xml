@@ -1,0 +1,40 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="2efad8b39d">
+    <item id="2efad8b39d" isActive="false">
+      <text>$dataS2/npc/helper/help/helpCrops/grains/overviewGrains/intro</text>
+      <next>
+        <option id="bcaa19ced8">
+          <text>$dataS2/npc/helper/help/helpCrops/grains/overviewGrains/whichCrops</text>
+          <actions>
+            <startConversationById uniqueId="8be4d45ed2"/>
+          </actions>
+        </option>
+        <option id="0fc5e31dc1">
+          <text>$dataS2/npc/helper/help/helpCrops/grains/overviewGrains/whatEquipment</text>
+          <actions>
+            <startConversationById uniqueId="43d36af282"/>
+          </actions>
+        </option>
+        <option id="8ec11c2987">
+          <text>$dataS2/npc/helper/help/helpCrops/grains/overviewGrains/stepByStep</text>
+          <actions>
+            <startConversationById uniqueId="fa3da843fd"/>
+          </actions>
+        </option>
+        <option id="bc19ac8cce">
+          <text>$dataS2/npc/helper/help/helpCrops/grains/overviewGrains/backButton</text>
+          <actions>
+            <startConversationById uniqueId="b7b177b9c9"/>
+          </actions>
+        </option>
+        <option id="b262f4f76a">
+          <text>$dataS2/npc/helper/help/helpCrops/grains/overviewGrains/exitButton</text>
+        </option>
+      </next>
+    </item>
+  </textFlow>
+</conversation>

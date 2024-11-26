@@ -1,0 +1,84 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>KATIE_YOU</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="c7c883d8d6">
+    <item id="c7c883d8d6" nextId="3d4469b001">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/animalWorkshopIdea/likeOpinion</text>
+    </item>
+    <item id="3d4469b001">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/animalWorkshopIdea/shareKnowledge</text>
+      <next>
+        <option id="ea038cf928" nextId="c05d2d3252">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/animalWorkshopIdea/shareKnowledgeOptionA</text>
+        </option>
+        <option id="742f481cdd" nextId="6645f60ea2">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/animalWorkshopIdea/shareKnowledgeOptionB</text>
+        </option>
+        <option id="3478da5981" nextId="36d4952c7a">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/animalWorkshopIdea/shareKnowledgeOptionC</text>
+        </option>
+      </next>
+    </item>
+    <item id="c05d2d3252" nextId="cb843d64a1">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/animalWorkshopIdea/workshopAnimalHusbandry</text>
+    </item>
+    <item id="cb843d64a1" nextId="3a91a22204">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/animalWorkshopIdea/boringStuff</text>
+    </item>
+    <item id="3a91a22204" nextId="521d8a8956">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/animalWorkshopIdea/farmVacations</text>
+    </item>
+    <item id="521d8a8956" nextId="47738d24b6">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/animalWorkshopIdea/anyoneReally</text>
+    </item>
+    <item id="47738d24b6" nextId="87ea3ea5b5">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/animalWorkshopIdea/makeProducts</text>
+    </item>
+    <item id="87ea3ea5b5" nextId="55c5be9a78">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/animalWorkshopIdea/farmTour</text>
+    </item>
+    <item id="55c5be9a78" nextId="a559143596">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/animalWorkshopIdea/splitGroups</text>
+    </item>
+    <item id="a559143596" nextId="9b84c652f9">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/animalWorkshopIdea/otherGroup</text>
+    </item>
+    <item id="9b84c652f9" nextId="cb5a277722">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/animalWorkshopIdea/otherOtherGroup</text>
+    </item>
+    <item id="cb5a277722" nextId="4ffecef673">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/animalWorkshopIdea/eatDinnerTogether</text>
+    </item>
+    <item id="4ffecef673">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/animalWorkshopIdea/whatDoYouThink</text>
+      <next>
+        <option id="e51272c74b" nextId="5ad9a23e5c">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/animalWorkshopIdea/interestingOptionA</text>
+        </option>
+        <option id="8771d2d83a" nextId="5ad9a23e5c">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/animalWorkshopIdea/workOptionB</text>
+        </option>
+        <option id="c53ba31de4" nextId="5ad9a23e5c">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/animalWorkshopIdea/luckOptionC</text>
+        </option>
+      </next>
+    </item>
+    <item id="5ad9a23e5c" nextId="fc0a31095e">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/animalWorkshopIdea/couldBeFun</text>
+    </item>
+    <item id="fc0a31095e">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/animalWorkshopIdea/letYouKnow</text>
+      <actions>
+        <startConversationById uniqueId="bb0236da62"/>
+      </actions>
+    </item>
+    <item id="6645f60ea2" nextId="c05d2d3252">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/animalWorkshopIdea/largerScale</text>
+    </item>
+    <item id="36d4952c7a" nextId="c05d2d3252">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/animalWorkshopIdea/youDo</text>
+    </item>
+  </textFlow>
+</conversation>

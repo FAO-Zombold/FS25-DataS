@@ -1,0 +1,19 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>MISSION_SELECT</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <missionAvailable>
+      <type name="herbicideMission"/>
+    </missionAvailable>
+  </prerequisites>
+  <textFlow startId="abe2f9be90">
+    <item id="abe2f9be90">
+      <text>$dataS2/npc/grandpa/missions/field/herbicide/useHerbicide1/herbicide1</text>
+      <actions>
+        <startConversationById uniqueId="2cb29105f0"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

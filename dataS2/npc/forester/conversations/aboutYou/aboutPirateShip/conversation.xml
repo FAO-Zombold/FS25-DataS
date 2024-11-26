@@ -1,0 +1,93 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>SMALLTALK_ABOUT_YOU</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="e681fcab20">
+    <item id="e681fcab20" nextId="b43e6784b4">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutPirateShip/theCarpenter</text>
+    </item>
+    <item id="b43e6784b4" nextId="1b5efe528b">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutPirateShip/manyProjects</text>
+    </item>
+    <item id="1b5efe528b" nextId="7514e935f2">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutPirateShip/complexProjects</text>
+    </item>
+    <item id="7514e935f2" nextId="0ebbfda9d0">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutPirateShip/bigProjects</text>
+    </item>
+    <item id="0ebbfda9d0" nextId="3ab5764c3f">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutPirateShip/cannotGetFinishes</text>
+    </item>
+    <item id="3ab5764c3f">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutPirateShip/buildPirateShip</text>
+      <next>
+        <option id="22f25e8276" nextId="0bbda1cf53">
+          <text>$dataS2/npc/forester/conversations/aboutYou/aboutPirateShip/ambitious</text>
+        </option>
+        <option id="3f95639436" nextId="0bbda1cf53">
+          <text>$dataS2/npc/forester/conversations/aboutYou/aboutPirateShip/knowTheShip</text>
+        </option>
+      </next>
+    </item>
+    <item id="0bbda1cf53" nextId="41dcb22141">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutPirateShip/initiallyInBjornholm</text>
+    </item>
+    <item id="41dcb22141" nextId="cab9380394">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutPirateShip/madeFriends</text>
+    </item>
+    <item id="cab9380394" nextId="66f7887e35">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutPirateShip/approvedProjects</text>
+    </item>
+    <item id="66f7887e35" nextId="ff182a0036">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutPirateShip/workingAllTheTime</text>
+    </item>
+    <item id="ff182a0036" nextId="1770be6c68">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutPirateShip/gotOld</text>
+    </item>
+    <item id="1770be6c68" nextId="35ea1f1299">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutPirateShip/abandonedShip</text>
+    </item>
+    <item id="35ea1f1299" nextId="dd3b2d908c">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutPirateShip/mostlyChairs</text>
+    </item>
+    <item id="dd3b2d908c" nextId="cbbe661c77">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutPirateShip/jokesAboutLegs</text>
+    </item>
+    <item id="cbbe661c77" nextId="508f661d46">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutPirateShip/closeObservation</text>
+    </item>
+    <item id="508f661d46" nextId="86b1d1afd6">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutPirateShip/joyToCommunity</text>
+    </item>
+    <item id="86b1d1afd6" nextId="79ec289c40">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutPirateShip/helpWithResources</text>
+    </item>
+    <item id="79ec289c40">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutPirateShip/giveAnConsideration</text>
+      <next>
+        <option id="24ea7c86f6" nextId="1079afa0a2">
+          <text>$dataS2/npc/forester/conversations/aboutYou/aboutPirateShip/bigTask</text>
+        </option>
+        <option id="51e22b2069" nextId="0edac100a8">
+          <text>$dataS2/npc/forester/conversations/aboutYou/aboutPirateShip/thinkAbout</text>
+        </option>
+      </next>
+    </item>
+    <item id="1079afa0a2" nextId="70133f09cf">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutPirateShip/mostPeopleare</text>
+    </item>
+    <item id="70133f09cf" nextId="289a1c1f46">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutPirateShip/continueWithJob</text>
+    </item>
+    <item id="289a1c1f46">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutPirateShip/goodDay</text>
+      <actions>
+        <startConversationById uniqueId="8b24b3ebc0"/>
+      </actions>
+    </item>
+    <item id="0edac100a8" nextId="70133f09cf">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutPirateShip/thankYou</text>
+    </item>
+  </textFlow>
+</conversation>

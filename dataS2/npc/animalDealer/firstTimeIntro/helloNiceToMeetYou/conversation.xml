@@ -1,0 +1,87 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>FIRST_CONTACT</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <firstContact/>
+  </prerequisites>
+  <textFlow startId="e680e2653d">
+    <item id="e680e2653d" animationType="IDLE" nextId="344c508460">
+      <text>$dataS2/npc/animalDealer/firstTimeIntro/helloNiceToMeetYou/firstHello</text>
+    </item>
+    <item id="344c508460">
+      <text>$dataS2/npc/animalDealer/firstTimeIntro/helloNiceToMeetYou/niceToMeet</text>
+      <next>
+        <option id="983d896539" nextId="2aeb4c7965">
+          <text>$dataS2/npc/animalDealer/firstTimeIntro/helloNiceToMeetYou/niceToMeetOptionA</text>
+        </option>
+        <option id="431d98e97b" nextId="b7d7dd3e91">
+          <text>$dataS2/npc/animalDealer/firstTimeIntro/helloNiceToMeetYou/likewiseOptionB</text>
+        </option>
+      </next>
+    </item>
+    <item id="2aeb4c7965" nextId="1b9337d013">
+      <text>$dataS2/npc/animalDealer/firstTimeIntro/helloNiceToMeetYou/welcomeYou</text>
+    </item>
+    <item id="1b9337d013" nextId="7178b8a9f2">
+      <text>$dataS2/npc/animalDealer/firstTimeIntro/helloNiceToMeetYou/tookFarmOver</text>
+    </item>
+    <item id="7178b8a9f2" nextId="1d04b20615">
+      <text>$dataS2/npc/animalDealer/firstTimeIntro/helloNiceToMeetYou/anotherTime</text>
+    </item>
+    <item id="1d04b20615">
+      <text>$dataS2/npc/animalDealer/firstTimeIntro/helloNiceToMeetYou/whatCanI</text>
+      <next>
+        <option id="d4b39bdb75" nextId="bb9aa3db16">
+          <text>$dataS2/npc/animalDealer/firstTimeIntro/helloNiceToMeetYou/justOptionA</text>
+        </option>
+        <option id="e3d0873534" nextId="1383391ba9">
+          <text>$dataS2/npc/animalDealer/firstTimeIntro/helloNiceToMeetYou/justIntroducing</text>
+        </option>
+      </next>
+    </item>
+    <item id="bb9aa3db16" nextId="15b5f78cf3">
+      <text>$dataS2/npc/animalDealer/firstTimeIntro/helloNiceToMeetYou/good</text>
+    </item>
+    <item id="15b5f78cf3" nextId="6819dee441">
+      <text>$dataS2/npc/animalDealer/firstTimeIntro/helloNiceToMeetYou/specializeInLivestock</text>
+    </item>
+    <item id="6819dee441" nextId="6232c9836b">
+      <text>$dataS2/npc/animalDealer/firstTimeIntro/helloNiceToMeetYou/recentAdditions</text>
+    </item>
+    <item id="6232c9836b" nextId="2639d3a41d">
+      <text>$dataS2/npc/animalDealer/firstTimeIntro/helloNiceToMeetYou/eclecticEnsemble</text>
+    </item>
+    <item id="2639d3a41d" nextId="f9c3ce1cdf">
+      <text>$dataS2/npc/animalDealer/firstTimeIntro/helloNiceToMeetYou/dipYourToes</text>
+    </item>
+    <item id="f9c3ce1cdf" nextId="72c460eba4">
+      <text>$dataS2/npc/animalDealer/firstTimeIntro/helloNiceToMeetYou/alsoHelp</text>
+    </item>
+    <item id="72c460eba4" nextId="3be25d3ff4">
+      <text>$dataS2/npc/animalDealer/firstTimeIntro/helloNiceToMeetYou/wholeLife</text>
+    </item>
+    <item id="3be25d3ff4" nextId="048683d93d">
+      <text>$dataS2/npc/animalDealer/firstTimeIntro/helloNiceToMeetYou/travelingWorld</text>
+    </item>
+    <item id="048683d93d" nextId="52831d210d">
+      <text>$dataS2/npc/animalDealer/firstTimeIntro/helloNiceToMeetYou/collectedStories</text>
+    </item>
+    <item id="52831d210d" nextId="0264781388">
+      <text>$dataS2/npc/animalDealer/firstTimeIntro/helloNiceToMeetYou/myths</text>
+    </item>
+    <item id="0264781388" nextId="f71286e916">
+      <text>$dataS2/npc/animalDealer/firstTimeIntro/helloNiceToMeetYou/stuffToDo</text>
+    </item>
+    <item id="f71286e916">
+      <text>$dataS2/npc/animalDealer/firstTimeIntro/helloNiceToMeetYou/talkAgain</text>
+    </item>
+    <item id="1383391ba9" nextId="15b5f78cf3">
+      <text>$dataS2/npc/animalDealer/firstTimeIntro/helloNiceToMeetYou/admirableWhatElse</text>
+    </item>
+    <item id="b7d7dd3e91" nextId="2aeb4c7965">
+      <text>$dataS2/npc/animalDealer/firstTimeIntro/helloNiceToMeetYou/wordTravels</text>
+    </item>
+  </textFlow>
+</conversation>

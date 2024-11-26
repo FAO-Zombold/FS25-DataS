@@ -1,0 +1,67 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>SMALLTALK_ABOUT_YOU</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="880aabd835">
+    <item id="880aabd835" nextId="6727ecea77">
+      <text>$dataS2/npc/forester/conversations/aboutYou/lifeAsLumberjack/orderNewYarder</text>
+    </item>
+    <item id="6727ecea77" nextId="1f619af0d8">
+      <text>$dataS2/npc/forester/conversations/aboutYou/lifeAsLumberjack/madeGoodDeal</text>
+    </item>
+    <item id="1f619af0d8" nextId="fb5c369d21">
+      <text>$dataS2/npc/forester/conversations/aboutYou/lifeAsLumberjack/markedTress</text>
+    </item>
+    <item id="fb5c369d21" nextId="68ab40c214">
+      <text>$dataS2/npc/forester/conversations/aboutYou/lifeAsLumberjack/moreProductiveThings</text>
+    </item>
+    <item id="68ab40c214">
+      <text>$dataS2/npc/forester/conversations/aboutYou/lifeAsLumberjack/doYouKnow</text>
+      <next>
+        <option id="fdc64daa71" nextId="543422126e">
+          <text>$dataS2/npc/forester/conversations/aboutYou/lifeAsLumberjack/sure</text>
+        </option>
+        <option id="be8dd4820b" nextId="963a25c80b">
+          <text>$dataS2/npc/forester/conversations/aboutYou/lifeAsLumberjack/nope</text>
+        </option>
+      </next>
+    </item>
+    <item id="543422126e" nextId="d37d403854">
+      <text>$dataS2/npc/forester/conversations/aboutYou/lifeAsLumberjack/youKnow</text>
+    </item>
+    <item id="d37d403854" nextId="0f001f17e3">
+      <text>$dataS2/npc/forester/conversations/aboutYou/lifeAsLumberjack/favoriteTask</text>
+    </item>
+    <item id="0f001f17e3" nextId="dc673adc46">
+      <text>$dataS2/npc/forester/conversations/aboutYou/lifeAsLumberjack/reliableChainsaw</text>
+    </item>
+    <item id="dc673adc46" nextId="34506ece55">
+      <text>$dataS2/npc/forester/conversations/aboutYou/lifeAsLumberjack/goodStuff</text>
+    </item>
+    <item id="34506ece55" nextId="547a1fab62">
+      <text>$dataS2/npc/forester/conversations/aboutYou/lifeAsLumberjack/settingUpYarder</text>
+    </item>
+    <item id="547a1fab62" nextId="68032b06e5">
+      <text>$dataS2/npc/forester/conversations/aboutYou/lifeAsLumberjack/criticalAmountOfRust</text>
+    </item>
+    <item id="68032b06e5" nextId="fb8ce8fc7f">
+      <text>$dataS2/npc/forester/conversations/aboutYou/lifeAsLumberjack/readyToRetire</text>
+    </item>
+    <item id="fb8ce8fc7f" nextId="1b5c56b03f">
+      <text>$dataS2/npc/forester/conversations/aboutYou/lifeAsLumberjack/missTheMachine</text>
+    </item>
+    <item id="1b5c56b03f" nextId="2d0bd40030">
+      <text>$dataS2/npc/forester/conversations/aboutYou/lifeAsLumberjack/repairSooner</text>
+    </item>
+    <item id="2d0bd40030">
+      <text>$dataS2/npc/forester/conversations/aboutYou/lifeAsLumberjack/proceedMourning</text>
+      <actions>
+        <startConversationById uniqueId="8b24b3ebc0"/>
+      </actions>
+    </item>
+    <item id="963a25c80b" nextId="d37d403854">
+      <text>$dataS2/npc/forester/conversations/aboutYou/lifeAsLumberjack/yarderInfo</text>
+    </item>
+  </textFlow>
+</conversation>

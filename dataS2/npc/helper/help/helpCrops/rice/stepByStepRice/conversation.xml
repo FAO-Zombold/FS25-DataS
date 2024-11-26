@@ -1,0 +1,59 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="8a67d8d003">
+    <item id="8a67d8d003" nextId="497ac20b3a">
+      <text>$dataS2/npc/helper/help/helpCrops/rice/stepByStepRice/checkCalendar</text>
+    </item>
+    <item id="497ac20b3a" nextId="87672112d8">
+      <text>$dataS2/npc/helper/help/helpCrops/rice/stepByStepRice/growRice</text>
+    </item>
+    <item id="87672112d8" nextId="a1c4582777">
+      <text>$dataS2/npc/helper/help/helpCrops/rice/stepByStepRice/planting</text>
+    </item>
+    <item id="a1c4582777" nextId="525e6913d9">
+      <text>$dataS2/npc/helper/help/helpCrops/rice/stepByStepRice/keepUp</text>
+    </item>
+    <item id="525e6913d9" nextId="6d14b66cf7">
+      <text>$dataS2/npc/helper/help/helpCrops/rice/stepByStepRice/stepThree</text>
+    </item>
+    <item id="6d14b66cf7" nextId="45f49fb062">
+      <text>$dataS2/npc/helper/help/helpCrops/rice/stepByStepRice/fill</text>
+    </item>
+    <item id="45f49fb062" nextId="875551fdad">
+      <text>$dataS2/npc/helper/help/helpCrops/rice/stepByStepRice/stepFour</text>
+    </item>
+    <item id="875551fdad" nextId="586512e9f1">
+      <text>$dataS2/npc/helper/help/helpCrops/rice/stepByStepRice/pump</text>
+    </item>
+    <item id="586512e9f1" nextId="0486f8d12f">
+      <text>$dataS2/npc/helper/help/helpCrops/rice/stepByStepRice/stepFive</text>
+    </item>
+    <item id="0486f8d12f" nextId="d946fdf4b4">
+      <text>$dataS2/npc/helper/help/helpCrops/rice/stepByStepRice/harvester</text>
+    </item>
+    <item id="d946fdf4b4" nextId="e27f82b093">
+      <text>$dataS2/npc/helper/help/helpCrops/rice/stepByStepRice/stepSix</text>
+    </item>
+    <item id="e27f82b093" nextId="ecf2150b49">
+      <text>$dataS2/npc/helper/help/helpCrops/rice/stepByStepRice/betterPrices</text>
+    </item>
+    <item id="ecf2150b49" nextId="794185da27">
+      <text>$dataS2/npc/helper/help/helpCrops/rice/stepByStepRice/notDone</text>
+    </item>
+    <item id="794185da27" nextId="a6dcd7fa36">
+      <text>$dataS2/npc/helper/help/helpCrops/rice/stepByStepRice/lime</text>
+    </item>
+    <item id="a6dcd7fa36" nextId="4eb60ef1b4">
+      <text>$dataS2/npc/helper/help/helpCrops/rice/stepByStepRice/afterHarvest</text>
+    </item>
+    <item id="4eb60ef1b4">
+      <text>$dataS2/npc/helper/help/helpCrops/rice/stepByStepRice/enjoy</text>
+      <actions>
+        <startConversationById uniqueId="a230916ebf"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

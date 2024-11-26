@@ -1,0 +1,17 @@
+<conversation>
+  <class>NPCConversationGuidedTour</class>
+  <type>GUIDED_TOUR</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <manuallyTriggered/>
+  </prerequisites>
+  <textFlow startId="01d84bea8c">
+    <item id="01d84bea8c" nextId="ddef4056f1">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/cultivator/driveToField1/justLikeThat</text>
+    </item>
+    <item id="ddef4056f1">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/cultivator/driveToField1/meetMeOverThere</text>
+    </item>
+  </textFlow>
+</conversation>

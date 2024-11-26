@@ -1,0 +1,17 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>MISSION_SELECT</type>
+  <probability>1</probability>
+  <isActive>false</isActive>
+  <prerequisites>
+    <missionAvailable/>
+  </prerequisites>
+  <textFlow startId="714a90214e">
+    <item id="714a90214e">
+      <text>$dataS2/npc/farmer/missions/transportingPallets/transportingPallets2/palletsPackedAndStacked</text>
+      <actions>
+        <startConversationById uniqueId="d61d8129f7"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

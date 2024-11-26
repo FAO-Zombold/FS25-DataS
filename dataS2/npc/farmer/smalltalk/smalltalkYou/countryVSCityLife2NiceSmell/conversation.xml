@@ -1,0 +1,111 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>DAVID_YOU</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="49fdbd415e">
+    <item id="49fdbd415e">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife2NiceSmell/favoriteSmell</text>
+      <next>
+        <option id="6887dda211" nextId="b66aaf6221">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife2NiceSmell/favoriteSmellOptionA</text>
+        </option>
+        <option id="5c5f91b0bf" nextId="b66aaf6221">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife2NiceSmell/favoriteSmellOptionB</text>
+        </option>
+        <option id="561eeb1a3a" nextId="b66aaf6221">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife2NiceSmell/favoriteSmellOptionC</text>
+        </option>
+        <option id="4099f618f2" nextId="b66aaf6221">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife2NiceSmell/favoriteSmellOptionD</text>
+        </option>
+        <option id="595807fbdb" nextId="b66aaf6221">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife2NiceSmell/optionE</text>
+        </option>
+        <option id="96f3fa5bd5" nextId="b66aaf6221">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife2NiceSmell/optionF</text>
+        </option>
+      </next>
+    </item>
+    <item id="b66aaf6221" nextId="e996b1d7a8">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife2NiceSmell/okayNotToConfuse</text>
+    </item>
+    <item id="e996b1d7a8" nextId="3180493107">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife2NiceSmell/everyMorning</text>
+    </item>
+    <item id="3180493107" nextId="389c5d6a7b">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife2NiceSmell/smellOfProduce</text>
+    </item>
+    <item id="389c5d6a7b">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife2NiceSmell/regularSupermarket</text>
+      <next>
+        <option id="9f5f12f1c8" nextId="94a71ae87f">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife2NiceSmell/optionA</text>
+        </option>
+        <option id="b629eeafc6" nextId="aafad24318">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife2NiceSmell/optionB</text>
+        </option>
+        <option id="c8501a61b5" nextId="21a6f61dbd">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife2NiceSmell/optionC</text>
+        </option>
+        <option id="05a7146336" nextId="8c8324f328">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife2NiceSmell/optionD</text>
+        </option>
+      </next>
+    </item>
+    <item id="94a71ae87f" nextId="3ac3e25edd">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife2NiceSmell/betterNose</text>
+    </item>
+    <item id="3ac3e25edd" nextId="779c084097">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife2NiceSmell/farmersMarket</text>
+    </item>
+    <item id="779c084097" nextId="0116171f43">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife2NiceSmell/rightInFront</text>
+    </item>
+    <item id="0116171f43" nextId="8a0765c3e1">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife2NiceSmell/iWalkedThrough</text>
+    </item>
+    <item id="8a0765c3e1" nextId="07e7d33e17">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife2NiceSmell/hitWithHarvested</text>
+    </item>
+    <item id="07e7d33e17" nextId="b0bfff8eaf">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife2NiceSmell/wildStrawberries</text>
+    </item>
+    <item id="b0bfff8eaf" nextId="77524781c2">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife2NiceSmell/aromatic</text>
+    </item>
+    <item id="77524781c2" nextId="446e06210e">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife2NiceSmell/floralNotes</text>
+    </item>
+    <item id="446e06210e" nextId="b36adafd18">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife2NiceSmell/supermarketWasDissapointing</text>
+    </item>
+    <item id="b36adafd18" nextId="3e7d13e775">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife2NiceSmell/reasonsForThat</text>
+    </item>
+    <item id="3e7d13e775" nextId="2117907321">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife2NiceSmell/massMarkets</text>
+    </item>
+    <item id="2117907321" nextId="528a17f946">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife2NiceSmell/refrigerationAffects</text>
+    </item>
+    <item id="528a17f946" nextId="fbd6cef3c5">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife2NiceSmell/commonCityBoy</text>
+    </item>
+    <item id="fbd6cef3c5">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife2NiceSmell/speakingOf</text>
+      <actions>
+        <startConversationById uniqueId="bdd07bda2c"/>
+      </actions>
+    </item>
+    <item id="aafad24318" nextId="3ac3e25edd">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife2NiceSmell/payAttention</text>
+    </item>
+    <item id="21a6f61dbd" nextId="3ac3e25edd">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife2NiceSmell/youGetMe</text>
+    </item>
+    <item id="8c8324f328" nextId="3ac3e25edd">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkYou/countryVSCityLife2NiceSmell/youGetWhat</text>
+    </item>
+  </textFlow>
+</conversation>

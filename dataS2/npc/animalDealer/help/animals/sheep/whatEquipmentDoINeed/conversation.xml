@@ -1,0 +1,29 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="a8c270c338">
+    <item id="a8c270c338" nextId="a6e2ebe6b4">
+      <text>$dataS2/npc/animalDealer/help/animals/sheep/whatEquipmentDoINeed/pastureOrBarn</text>
+    </item>
+    <item id="a6e2ebe6b4" nextId="9b3298d8e2">
+      <text>$dataS2/npc/animalDealer/help/animals/sheep/whatEquipmentDoINeed/feedYourSheep</text>
+    </item>
+    <item id="9b3298d8e2" nextId="cc26e0104a">
+      <text>$dataS2/npc/animalDealer/help/animals/sheep/whatEquipmentDoINeed/refillWater</text>
+    </item>
+    <item id="cc26e0104a" nextId="3166d39ab3">
+      <text>$dataS2/npc/animalDealer/help/animals/sheep/whatEquipmentDoINeed/deliveryService</text>
+    </item>
+    <item id="3166d39ab3" nextId="97ae4e8d77">
+      <text>$dataS2/npc/animalDealer/help/animals/sheep/whatEquipmentDoINeed/dollyOrTruck</text>
+    </item>
+    <item id="97ae4e8d77">
+      <text>$dataS2/npc/animalDealer/help/animals/sheep/whatEquipmentDoINeed/thatIsAll</text>
+      <actions>
+        <startConversationById uniqueId="ea51a7982b"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

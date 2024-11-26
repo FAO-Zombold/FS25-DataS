@@ -1,0 +1,23 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>SMALLTALK_FUNFACTS</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <numTriggered max="1"/>
+  </prerequisites>
+  <textFlow startId="8f6f499654">
+    <item id="8f6f499654" nextId="2b9573dd92">
+      <text>$dataS2/npc/grandpa/smalltalk/funFacts/funFactCollection/factBeansBeansBeans/beanVariety</text>
+    </item>
+    <item id="2b9573dd92" nextId="bfae013149">
+      <text>$dataS2/npc/grandpa/smalltalk/funFacts/funFactCollection/factBeansBeansBeans/differentSpecies</text>
+    </item>
+    <item id="bfae013149">
+      <text>$dataS2/npc/grandpa/smalltalk/funFacts/funFactCollection/factBeansBeansBeans/usingBeans</text>
+      <actions>
+        <startConversationById uniqueId="0bc5b0ce93"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

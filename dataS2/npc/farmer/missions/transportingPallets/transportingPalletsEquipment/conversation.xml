@@ -1,0 +1,49 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>MISSION</type>
+  <probability>1</probability>
+  <isActive>false</isActive>
+  <textFlow startId="b58f070095">
+    <item id="b58f070095" nextId="83ba94b137">
+      <text>$dataS2/npc/farmer/missions/transportingPallets/transportingPalletsEquipment/doYouOwn</text>
+    </item>
+    <item id="83ba94b137">
+      <text>$dataS2/npc/farmer/missions/transportingPallets/transportingPalletsEquipment/howDoYou</text>
+      <next>
+        <option id="57d138aef5">
+          <text>$dataS2/npc/farmer/missions/transportingPallets/transportingPalletsEquipment/optionA</text>
+          <actions>
+            <startSelectedMission/>
+          </actions>
+          <inputs>
+            <leaseVehicles value="false"/>
+          </inputs>
+        </option>
+        <option id="9b20d37d82">
+          <text>$dataS2/npc/farmer/missions/transportingPallets/transportingPalletsEquipment/optionB</text>
+          <actions>
+            <startSelectedMission/>
+          </actions>
+          <inputs>
+            <leaseVehicles value="true"/>
+          </inputs>
+        </option>
+        <option id="e617328b24" nextId="254f25083a">
+          <text>$dataS2/npc/farmer/missions/transportingPallets/transportingPalletsEquipment/optionC</text>
+        </option>
+        <option id="274bf33835">
+          <text>$dataS2/npc/farmer/missions/transportingPallets/transportingPalletsEquipment/optionD</text>
+        </option>
+      </next>
+    </item>
+    <item id="254f25083a" nextId="469c67ff3a">
+      <text>$dataS2/npc/farmer/missions/transportingPallets/transportingPalletsEquipment/letMeThink</text>
+    </item>
+    <item id="469c67ff3a" nextId="2a4f4019e6">
+      <text>$dataS2/npc/farmer/missions/transportingPallets/transportingPalletsEquipment/frontLoader</text>
+    </item>
+    <item id="2a4f4019e6" nextId="83ba94b137">
+      <text>$dataS2/npc/farmer/missions/transportingPallets/transportingPalletsEquipment/flatbedTrailer</text>
+    </item>
+  </textFlow>
+</conversation>

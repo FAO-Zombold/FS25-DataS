@@ -1,0 +1,26 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="a602c6d22c">
+    <item id="a602c6d22c" nextId="c4e08f0da6">
+      <text>$dataS2/npc/animalDealer/help/animals/sheep/howIDoIKeepSheep/itMaySurpriseYou</text>
+    </item>
+    <item id="c4e08f0da6" nextId="cb77a7ff00">
+      <text>$dataS2/npc/animalDealer/help/animals/sheep/howIDoIKeepSheep/sizeOfHousing</text>
+    </item>
+    <item id="cb77a7ff00" nextId="2c3af86f6c">
+      <text>$dataS2/npc/animalDealer/help/animals/sheep/howIDoIKeepSheep/deliverFreshWater</text>
+    </item>
+    <item id="2c3af86f6c" nextId="af8c146ade">
+      <text>$dataS2/npc/animalDealer/help/animals/sheep/howIDoIKeepSheep/shapeAreaOudoor</text>
+    </item>
+    <item id="af8c146ade">
+      <text>$dataS2/npc/animalDealer/help/animals/sheep/howIDoIKeepSheep/ifYouNeedSlurry</text>
+      <actions>
+        <startConversationById uniqueId="ea51a7982b"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

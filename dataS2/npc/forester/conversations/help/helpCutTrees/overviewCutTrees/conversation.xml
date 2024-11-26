@@ -1,0 +1,52 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="951cc9df4c">
+    <item id="951cc9df4c" isActive="false">
+      <text>$dataS2/npc/forester/conversations/help/helpCutTrees/overviewCutTrees/start</text>
+      <next>
+        <option id="a3458367e7">
+          <text>$dataS2/npc/forester/conversations/help/helpCutTrees/overviewCutTrees/difference</text>
+          <actions>
+            <startConversationById uniqueId="290f240e58"/>
+          </actions>
+        </option>
+        <option id="e01d9aa214">
+          <text>$dataS2/npc/forester/conversations/help/helpCutTrees/overviewCutTrees/whatEquipment</text>
+          <actions>
+            <startConversationById uniqueId="712ab9de03"/>
+          </actions>
+        </option>
+        <option id="3c8ee42edf">
+          <text>$dataS2/npc/forester/conversations/help/helpCutTrees/overviewCutTrees/whyNotMachines</text>
+          <actions>
+            <startConversationById uniqueId="25ab65a972"/>
+          </actions>
+        </option>
+        <option id="1673bfeaa9">
+          <text>$dataS2/npc/forester/conversations/help/helpCutTrees/overviewCutTrees/howCut</text>
+          <actions>
+            <startConversationById uniqueId="10023fb7db"/>
+          </actions>
+        </option>
+        <option id="fb53522489">
+          <text>$dataS2/npc/forester/conversations/help/helpCutTrees/overviewCutTrees/treeStumps</text>
+          <actions>
+            <startConversationById uniqueId="f17971a0f4"/>
+          </actions>
+        </option>
+        <option id="a259e39f5e">
+          <text>$dataS2/npc/forester/conversations/help/helpCutTrees/overviewCutTrees/backButton</text>
+          <actions>
+            <startConversationById uniqueId="7cb1ac3f00"/>
+          </actions>
+        </option>
+        <option id="61814f8800">
+          <text>$dataS2/npc/forester/conversations/help/helpCutTrees/overviewCutTrees/exitButton</text>
+        </option>
+      </next>
+    </item>
+  </textFlow>
+</conversation>

@@ -1,0 +1,4 @@
+<text>
+  <emotional>[anger, low]Before I forget, I just spoke to your great uncle on the phone.[/anger]</emotional>
+  <silence>{.} before i forget i just spoke to your great {..} uncle on the phone {...}</silence>
+</text>

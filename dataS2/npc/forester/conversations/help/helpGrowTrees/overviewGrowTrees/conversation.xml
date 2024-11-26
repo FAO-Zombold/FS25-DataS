@@ -1,0 +1,40 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="e9a83f3d0a">
+    <item id="e9a83f3d0a" isActive="false">
+      <text>$dataS2/npc/forester/conversations/help/helpGrowTrees/overviewGrowTrees/start</text>
+      <next>
+        <option id="28e0b4c99e">
+          <text>$dataS2/npc/forester/conversations/help/helpGrowTrees/overviewGrowTrees/plantTrees</text>
+          <actions>
+            <startConversationById uniqueId="066fa03766"/>
+          </actions>
+        </option>
+        <option id="ed4fd66bf6">
+          <text>$dataS2/npc/forester/conversations/help/helpGrowTrees/overviewGrowTrees/equipment</text>
+          <actions>
+            <startConversationById uniqueId="a11b75be07"/>
+          </actions>
+        </option>
+        <option id="8f951611c0">
+          <text>$dataS2/npc/forester/conversations/help/helpGrowTrees/overviewGrowTrees/buyTrees</text>
+          <actions>
+            <startConversationById uniqueId="39863a9cb4"/>
+          </actions>
+        </option>
+        <option id="66f2ae0ad2">
+          <text>$dataS2/npc/forester/conversations/help/helpGrowTrees/overviewGrowTrees/backButton</text>
+          <actions>
+            <startConversationById uniqueId="7cb1ac3f00"/>
+          </actions>
+        </option>
+        <option id="1e005e687b">
+          <text>$dataS2/npc/forester/conversations/help/helpGrowTrees/overviewGrowTrees/exitButton</text>
+        </option>
+      </next>
+    </item>
+  </textFlow>
+</conversation>

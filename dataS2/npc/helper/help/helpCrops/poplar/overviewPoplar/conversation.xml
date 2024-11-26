@@ -1,0 +1,40 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="e596347bee">
+    <item id="e596347bee" isActive="false">
+      <text>$dataS2/npc/helper/help/helpCrops/poplar/overviewPoplar/intro</text>
+      <next>
+        <option id="5488da3e4f">
+          <text>$dataS2/npc/helper/help/helpCrops/poplar/overviewPoplar/whatSpecial</text>
+          <actions>
+            <startConversationById uniqueId="f8be51b706"/>
+          </actions>
+        </option>
+        <option id="3a4b0dcef4">
+          <text>$dataS2/npc/helper/help/helpCrops/poplar/overviewPoplar/whatEquipment</text>
+          <actions>
+            <startConversationById uniqueId="9515813d1d"/>
+          </actions>
+        </option>
+        <option id="a0cbdddffa">
+          <text>$dataS2/npc/helper/help/helpCrops/poplar/overviewPoplar/stepByStep</text>
+          <actions>
+            <startConversationById uniqueId="ec29d0ce9e"/>
+          </actions>
+        </option>
+        <option id="9bca6d404d">
+          <text>$dataS2/npc/helper/help/helpCrops/poplar/overviewPoplar/backButton</text>
+          <actions>
+            <startConversationById uniqueId="b7b177b9c9"/>
+          </actions>
+        </option>
+        <option id="ba14fd87ca">
+          <text>$dataS2/npc/helper/help/helpCrops/poplar/overviewPoplar/exitButton</text>
+        </option>
+      </next>
+    </item>
+  </textFlow>
+</conversation>

@@ -1,0 +1,63 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>SMALLTALK_PROJECTS</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="bbf29c7f7a">
+    <item id="bbf29c7f7a" nextId="c2f4721a83">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenSuitcase/tinyWheels</text>
+    </item>
+    <item id="c2f4721a83" nextId="5a809f7fa0">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenSuitcase/properlyCarrying</text>
+    </item>
+    <item id="5a809f7fa0" nextId="aace1be185">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenSuitcase/onlyHearFootsteps</text>
+    </item>
+    <item id="aace1be185" nextId="9696c4441c">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenSuitcase/rattlingNoise</text>
+    </item>
+    <item id="9696c4441c">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenSuitcase/quietSuitcase</text>
+      <next>
+        <option id="20c9ca40eb" nextId="ae6c53a3a7">
+          <text>$dataS2/npc/forester/conversations/projects/projectWoodenSuitcase/agreed</text>
+        </option>
+        <option id="de5ddeb506" nextId="ae6c53a3a7">
+          <text>$dataS2/npc/forester/conversations/projects/projectWoodenSuitcase/solution</text>
+        </option>
+        <option id="04e8b3b882" nextId="ae6c53a3a7">
+          <text>$dataS2/npc/forester/conversations/projects/projectWoodenSuitcase/noRealProblem</text>
+        </option>
+      </next>
+    </item>
+    <item id="ae6c53a3a7" nextId="b2ab45a50c">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenSuitcase/carvingSuitcase</text>
+    </item>
+    <item id="b2ab45a50c">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenSuitcase/allWood</text>
+      <next>
+        <option id="5678805586" nextId="c6c468926c">
+          <text>$dataS2/npc/forester/conversations/projects/projectWoodenSuitcase/practical</text>
+        </option>
+        <option id="d0b08d5c27" nextId="c6c468926c">
+          <text>$dataS2/npc/forester/conversations/projects/projectWoodenSuitcase/soundRight</text>
+        </option>
+      </next>
+    </item>
+    <item id="c6c468926c" nextId="9e116ca3cd">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenSuitcase/notGetThrown</text>
+    </item>
+    <item id="9e116ca3cd" nextId="ced21b8275">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenSuitcase/heavySuitcase</text>
+    </item>
+    <item id="ced21b8275" nextId="170c6f7c3a">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenSuitcase/classy</text>
+    </item>
+    <item id="170c6f7c3a">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenSuitcase/youAreWelcome</text>
+      <actions>
+        <startConversationById uniqueId="8b24b3ebc0"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

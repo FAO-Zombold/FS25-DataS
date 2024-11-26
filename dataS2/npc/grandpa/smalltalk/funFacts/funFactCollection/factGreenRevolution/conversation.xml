@@ -1,0 +1,32 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>SMALLTALK_FUNFACTS</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <numTriggered max="1"/>
+  </prerequisites>
+  <textFlow startId="a68d546fb1">
+    <item id="a68d546fb1" nextId="ae6773e5b7">
+      <text>$dataS2/npc/grandpa/smalltalk/funFacts/funFactCollection/factGreenRevolution/greenRevolution</text>
+    </item>
+    <item id="ae6773e5b7" nextId="219cb9bdc0">
+      <text>$dataS2/npc/grandpa/smalltalk/funFacts/funFactCollection/factGreenRevolution/noTrend</text>
+    </item>
+    <item id="219cb9bdc0" nextId="82899c8260">
+      <text>$dataS2/npc/grandpa/smalltalk/funFacts/funFactCollection/factGreenRevolution/farmingThing</text>
+    </item>
+    <item id="82899c8260" nextId="9fad4ebe52">
+      <text>$dataS2/npc/grandpa/smalltalk/funFacts/funFactCollection/factGreenRevolution/farmingTechnology</text>
+    </item>
+    <item id="9fad4ebe52" nextId="0735d8bc6b">
+      <text>$dataS2/npc/grandpa/smalltalk/funFacts/funFactCollection/factGreenRevolution/farmStuff</text>
+    </item>
+    <item id="0735d8bc6b">
+      <text>$dataS2/npc/grandpa/smalltalk/funFacts/funFactCollection/factGreenRevolution/soCalled</text>
+      <actions>
+        <startConversationById uniqueId="0bc5b0ce93"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

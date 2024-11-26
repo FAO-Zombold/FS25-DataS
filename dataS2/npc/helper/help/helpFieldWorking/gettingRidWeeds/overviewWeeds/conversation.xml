@@ -1,0 +1,40 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="bc20fcb323">
+    <item id="bc20fcb323" isActive="false">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/gettingRidWeeds/overviewWeeds/intro</text>
+      <next>
+        <option id="b65939f7e4">
+          <text>$dataS2/npc/helper/help/helpFieldWorking/gettingRidWeeds/overviewWeeds/whyGetRid</text>
+          <actions>
+            <startConversationById uniqueId="13a88fcf07"/>
+          </actions>
+        </option>
+        <option id="543bd1c17b">
+          <text>$dataS2/npc/helper/help/helpFieldWorking/gettingRidWeeds/overviewWeeds/howWeedsGrow</text>
+          <actions>
+            <startConversationById uniqueId="efa052d503"/>
+          </actions>
+        </option>
+        <option id="5c23cd0aa1">
+          <text>$dataS2/npc/helper/help/helpFieldWorking/gettingRidWeeds/overviewWeeds/howRemoveWeeds</text>
+          <actions>
+            <startConversationById uniqueId="0c97e23935"/>
+          </actions>
+        </option>
+        <option id="f96bf37bfa">
+          <text>$dataS2/npc/helper/help/helpFieldWorking/gettingRidWeeds/overviewWeeds/backButton</text>
+          <actions>
+            <startConversationById uniqueId="0c49b93be8"/>
+          </actions>
+        </option>
+        <option id="339587e106">
+          <text>$dataS2/npc/helper/help/helpFieldWorking/gettingRidWeeds/overviewWeeds/exitButton</text>
+        </option>
+      </next>
+    </item>
+  </textFlow>
+</conversation>

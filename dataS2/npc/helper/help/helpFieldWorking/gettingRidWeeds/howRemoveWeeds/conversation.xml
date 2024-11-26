@@ -1,0 +1,41 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="f2dc41c6c0">
+    <item id="f2dc41c6c0" nextId="306fb573fc">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/gettingRidWeeds/howRemoveWeeds/tools</text>
+    </item>
+    <item id="306fb573fc" nextId="18016d87f7">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/gettingRidWeeds/howRemoveWeeds/mechanical</text>
+    </item>
+    <item id="18016d87f7" nextId="cecc442a39">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/gettingRidWeeds/howRemoveWeeds/crop</text>
+    </item>
+    <item id="cecc442a39" nextId="e40416e498">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/gettingRidWeeds/howRemoveWeeds/damageCrops</text>
+    </item>
+    <item id="e40416e498" nextId="9666104b71">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/gettingRidWeeds/howRemoveWeeds/weeder</text>
+    </item>
+    <item id="9666104b71" nextId="c60b66bfd7">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/gettingRidWeeds/howRemoveWeeds/likeCultivators</text>
+    </item>
+    <item id="c60b66bfd7" nextId="653897d14b">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/gettingRidWeeds/howRemoveWeeds/sprayers</text>
+    </item>
+    <item id="653897d14b" nextId="b0f78a965c">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/gettingRidWeeds/howRemoveWeeds/avoidHerbicide</text>
+    </item>
+    <item id="b0f78a965c" nextId="8cfa19dc45">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/gettingRidWeeds/howRemoveWeeds/consumable</text>
+    </item>
+    <item id="8cfa19dc45">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/gettingRidWeeds/howRemoveWeeds/lastResort</text>
+      <actions>
+        <startConversationById uniqueId="ace22bd0fe"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

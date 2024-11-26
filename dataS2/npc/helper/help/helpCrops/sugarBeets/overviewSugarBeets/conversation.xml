@@ -1,0 +1,34 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="7e09a5483c">
+    <item id="7e09a5483c" isActive="false">
+      <text>$dataS2/npc/helper/help/helpCrops/sugarBeets/overviewSugarBeets/intro</text>
+      <next>
+        <option id="21e3ba39b1">
+          <text>$dataS2/npc/helper/help/helpCrops/sugarBeets/overviewSugarBeets/whatEquipment</text>
+          <actions>
+            <startConversationById uniqueId="9b2c36bb30"/>
+          </actions>
+        </option>
+        <option id="e83bf26f00">
+          <text>$dataS2/npc/helper/help/helpCrops/sugarBeets/overviewSugarBeets/stepByStep</text>
+          <actions>
+            <startConversationById uniqueId="039f23f07d"/>
+          </actions>
+        </option>
+        <option id="c4a247c279">
+          <text>$dataS2/npc/helper/help/helpCrops/sugarBeets/overviewSugarBeets/backButton</text>
+          <actions>
+            <startConversationById uniqueId="b7b177b9c9"/>
+          </actions>
+        </option>
+        <option id="cd29d4bf51">
+          <text>$dataS2/npc/helper/help/helpCrops/sugarBeets/overviewSugarBeets/exitButton</text>
+        </option>
+      </next>
+    </item>
+  </textFlow>
+</conversation>

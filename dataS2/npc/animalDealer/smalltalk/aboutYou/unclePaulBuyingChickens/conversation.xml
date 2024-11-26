@@ -1,0 +1,89 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>KATIE_YOU</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="898d2d0f05">
+    <item id="898d2d0f05">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/unclePaulBuyingChickens/questionAboutPaul</text>
+      <next>
+        <option id="0b20123ef6" nextId="00f4315ef7">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/unclePaulBuyingChickens/notSurelOptionA</text>
+        </option>
+        <option id="c5f16b8404" nextId="ff1cc54ed6">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/unclePaulBuyingChickens/mightOptionB</text>
+        </option>
+        <option id="5586183478" nextId="42961f4fb3">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/unclePaulBuyingChickens/noIdeaOptionC</text>
+        </option>
+      </next>
+    </item>
+    <item id="00f4315ef7" nextId="42961f4fb3">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/unclePaulBuyingChickens/incoherent</text>
+    </item>
+    <item id="42961f4fb3" nextId="eb074f47de">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/unclePaulBuyingChickens/pettingZoo</text>
+    </item>
+    <item id="eb074f47de" nextId="e312c9b2a3">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/unclePaulBuyingChickens/notSellingChickens</text>
+    </item>
+    <item id="e312c9b2a3" nextId="ebf8c8e2dc">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/unclePaulBuyingChickens/howDoesHe</text>
+    </item>
+    <item id="ebf8c8e2dc" nextId="52779b48b8">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/unclePaulBuyingChickens/stressful</text>
+    </item>
+    <item id="52779b48b8">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/unclePaulBuyingChickens/notToMention</text>
+      <next>
+        <option id="bafa51c389" nextId="cfbe658732">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/unclePaulBuyingChickens/eccentricOptionA</text>
+        </option>
+        <option id="aeebdf5005" nextId="99caeb160c">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/unclePaulBuyingChickens/doNotWorryOptionB</text>
+        </option>
+      </next>
+    </item>
+    <item id="cfbe658732" nextId="d2a84b7f17">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/unclePaulBuyingChickens/sugarBeetStand</text>
+    </item>
+    <item id="d2a84b7f17" nextId="7c994912c9">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/unclePaulBuyingChickens/notBadIdea</text>
+    </item>
+    <item id="7c994912c9" nextId="f5b61f957f">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/unclePaulBuyingChickens/workshopAnimalHusbandry</text>
+    </item>
+    <item id="f5b61f957f" nextId="0e8ea8b546">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/unclePaulBuyingChickens/keepHimSafe</text>
+    </item>
+    <item id="0e8ea8b546">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/unclePaulBuyingChickens/learnSomething</text>
+      <next>
+        <option id="f50493e0af" nextId="5893a0c8ed">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/unclePaulBuyingChickens/greatOptionA</text>
+        </option>
+        <option id="ad2d4edef9" nextId="5d11e1c511">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/unclePaulBuyingChickens/teachOptionB</text>
+        </option>
+      </next>
+    </item>
+    <item id="5893a0c8ed" nextId="2245b5314e">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/unclePaulBuyingChickens/thanks</text>
+    </item>
+    <item id="2245b5314e">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/unclePaulBuyingChickens/seeYou</text>
+      <actions>
+        <startConversationById uniqueId="bb0236da62"/>
+      </actions>
+    </item>
+    <item id="5d11e1c511" nextId="2245b5314e">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/unclePaulBuyingChickens/anytime</text>
+    </item>
+    <item id="99caeb160c" nextId="d2a84b7f17">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/unclePaulBuyingChickens/thankGoodness</text>
+    </item>
+    <item id="ff1cc54ed6" nextId="42961f4fb3">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/unclePaulBuyingChickens/exactlySeemed</text>
+    </item>
+  </textFlow>
+</conversation>

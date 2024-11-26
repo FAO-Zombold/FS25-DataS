@@ -1,0 +1,78 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>SMALLTALK_ABOUT_YOU</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="d181259d2e">
+    <item id="d181259d2e">
+      <text>$dataS2/npc/forester/conversations/aboutYou/projectsCatTrees/triedCatTrees</text>
+      <next>
+        <option id="f2adf2a896" nextId="c64c882c85">
+          <text>$dataS2/npc/forester/conversations/aboutYou/projectsCatTrees/talkingAbout</text>
+        </option>
+        <option id="fa9d8fc0ad" nextId="75579aa9f8">
+          <text>$dataS2/npc/forester/conversations/aboutYou/projectsCatTrees/deliveredWood</text>
+        </option>
+      </next>
+    </item>
+    <item id="c64c882c85" nextId="f8afe20711">
+      <text>$dataS2/npc/forester/conversations/aboutYou/projectsCatTrees/notMissingMuch</text>
+    </item>
+    <item id="f8afe20711" nextId="9025158d4d">
+      <text>$dataS2/npc/forester/conversations/aboutYou/projectsCatTrees/producingCatTrees</text>
+    </item>
+    <item id="9025158d4d" nextId="a409480200">
+      <text>$dataS2/npc/forester/conversations/aboutYou/projectsCatTrees/flirtedWithCarpentry</text>
+    </item>
+    <item id="a409480200" nextId="fb7a492797">
+      <text>$dataS2/npc/forester/conversations/aboutYou/projectsCatTrees/newThingsToMaster</text>
+    </item>
+    <item id="fb7a492797" nextId="400df9c5a8">
+      <text>$dataS2/npc/forester/conversations/aboutYou/projectsCatTrees/notCatPerson</text>
+    </item>
+    <item id="400df9c5a8" nextId="46de9895a1">
+      <text>$dataS2/npc/forester/conversations/aboutYou/projectsCatTrees/possibleCareerChange</text>
+    </item>
+    <item id="46de9895a1">
+      <text>$dataS2/npc/forester/conversations/aboutYou/projectsCatTrees/soldMyTrees</text>
+      <next>
+        <option id="7069a8d3fa" nextId="833c368257">
+          <text>$dataS2/npc/forester/conversations/aboutYou/projectsCatTrees/whyStop</text>
+        </option>
+        <option id="b58e134e12" nextId="55d68fb1d5">
+          <text>$dataS2/npc/forester/conversations/aboutYou/projectsCatTrees/notLikeCats</text>
+        </option>
+      </next>
+    </item>
+    <item id="833c368257" nextId="628226ab57">
+      <text>$dataS2/npc/forester/conversations/aboutYou/projectsCatTrees/letMeFinish</text>
+    </item>
+    <item id="628226ab57" nextId="db9e2cd3e6">
+      <text>$dataS2/npc/forester/conversations/aboutYou/projectsCatTrees/couldNotKeepUp</text>
+    </item>
+    <item id="db9e2cd3e6" nextId="0c431c84d4">
+      <text>$dataS2/npc/forester/conversations/aboutYou/projectsCatTrees/notRestOfLife</text>
+    </item>
+    <item id="0c431c84d4" nextId="2330637056">
+      <text>$dataS2/npc/forester/conversations/aboutYou/projectsCatTrees/noDoubts</text>
+    </item>
+    <item id="2330637056" nextId="4b862e9057">
+      <text>$dataS2/npc/forester/conversations/aboutYou/projectsCatTrees/noOtherCats</text>
+    </item>
+    <item id="4b862e9057" nextId="feb7f367f1">
+      <text>$dataS2/npc/forester/conversations/aboutYou/projectsCatTrees/whoBuysCatTrees</text>
+    </item>
+    <item id="feb7f367f1">
+      <text>$dataS2/npc/forester/conversations/aboutYou/projectsCatTrees/anotherCase</text>
+      <actions>
+        <startConversationById uniqueId="8b24b3ebc0"/>
+      </actions>
+    </item>
+    <item id="55d68fb1d5" nextId="628226ab57">
+      <text>$dataS2/npc/forester/conversations/aboutYou/projectsCatTrees/beQuiet</text>
+    </item>
+    <item id="75579aa9f8" nextId="f8afe20711">
+      <text>$dataS2/npc/forester/conversations/aboutYou/projectsCatTrees/goodQualityWood</text>
+    </item>
+  </textFlow>
+</conversation>

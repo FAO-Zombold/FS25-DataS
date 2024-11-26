@@ -1,0 +1,20 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="73124c0e33">
+    <item id="73124c0e33" nextId="48c8381efe">
+      <text>$dataS2/npc/animalDealer/help/animals/beekeeping/feedBees/neatThingAboutBees</text>
+    </item>
+    <item id="48c8381efe" nextId="f6ebe175d5">
+      <text>$dataS2/npc/animalDealer/help/animals/beekeeping/feedBees/hiveNextToFlowers</text>
+    </item>
+    <item id="f6ebe175d5">
+      <text>$dataS2/npc/animalDealer/help/animals/beekeeping/feedBees/beehiveNextToField</text>
+      <actions>
+        <startConversationById uniqueId="cf2f5b928a"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

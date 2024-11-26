@@ -1,0 +1,32 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="4348433952">
+    <item id="4348433952" nextId="fd14cdcc6f">
+      <text>$dataS2/npc/helper/help/helpCrops/peas/whatNeed/cultivator</text>
+    </item>
+    <item id="fd14cdcc6f" nextId="b92b7ef648">
+      <text>$dataS2/npc/helper/help/helpCrops/peas/whatNeed/seeder</text>
+    </item>
+    <item id="b92b7ef648" nextId="c446bc9c69">
+      <text>$dataS2/npc/helper/help/helpCrops/peas/whatNeed/soilRoller</text>
+    </item>
+    <item id="c446bc9c69" nextId="92eddcf6f0">
+      <text>$dataS2/npc/helper/help/helpCrops/peas/whatNeed/fertilizer</text>
+    </item>
+    <item id="92eddcf6f0" nextId="6780469fa3">
+      <text>$dataS2/npc/helper/help/helpCrops/peas/whatNeed/weeds</text>
+    </item>
+    <item id="6780469fa3" nextId="e877737324">
+      <text>$dataS2/npc/helper/help/helpCrops/peas/whatNeed/crop</text>
+    </item>
+    <item id="e877737324">
+      <text>$dataS2/npc/helper/help/helpCrops/peas/whatNeed/emptyTrailer</text>
+      <actions>
+        <startConversationById uniqueId="908b1e3552"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

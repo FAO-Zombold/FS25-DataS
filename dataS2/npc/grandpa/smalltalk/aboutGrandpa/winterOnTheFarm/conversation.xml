@@ -1,0 +1,61 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>SMALLTALK_ABOUT_YOU</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <seasonPeriod min="EARLY_WINTER" max="LATE_WINTER"/>
+  </prerequisites>
+  <textFlow startId="4983879fbb">
+    <item id="4983879fbb" nextId="8fdaf551bf">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/winterOnTheFarm/winterStarted</text>
+    </item>
+    <item id="8fdaf551bf" nextId="f8f85f71b3">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/winterOnTheFarm/earthBlanket</text>
+    </item>
+    <item id="f8f85f71b3" nextId="b55e0b7351">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/winterOnTheFarm/farmWork</text>
+    </item>
+    <item id="b55e0b7351" nextId="399620e36d">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/winterOnTheFarm/takeTime</text>
+    </item>
+    <item id="399620e36d" nextId="fafc49bb9a">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/winterOnTheFarm/enterHibernation</text>
+    </item>
+    <item id="fafc49bb9a">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/winterOnTheFarm/sameUs</text>
+      <next>
+        <option id="8768af76b9" nextId="3a7400459a">
+          <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/winterOnTheFarm/calmingWinter</text>
+        </option>
+        <option id="4e2626b121" nextId="4e7ae68e7e">
+          <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/winterOnTheFarm/boringWinter</text>
+        </option>
+      </next>
+    </item>
+    <item id="3a7400459a" nextId="70bf9c3e7d">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/winterOnTheFarm/reallyListen</text>
+    </item>
+    <item id="70bf9c3e7d" nextId="7cf1179d88">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/winterOnTheFarm/quieter</text>
+    </item>
+    <item id="7cf1179d88" nextId="f8d8be2ab6">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/winterOnTheFarm/servesPurpose</text>
+    </item>
+    <item id="f8d8be2ab6" nextId="ef17f1f211">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/winterOnTheFarm/reflectExperience</text>
+    </item>
+    <item id="ef17f1f211" nextId="d8f6518c3e">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/winterOnTheFarm/newStart</text>
+    </item>
+    <item id="d8f6518c3e">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/winterOnTheFarm/enjoy</text>
+      <actions>
+        <startConversationById uniqueId="0bc5b0ce93"/>
+      </actions>
+    </item>
+    <item id="4e7ae68e7e" nextId="3a7400459a">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/winterOnTheFarm/notBad</text>
+    </item>
+  </textFlow>
+</conversation>

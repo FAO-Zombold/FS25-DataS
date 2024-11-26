@@ -1,0 +1,26 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="f6ac260da2">
+    <item id="f6ac260da2" nextId="7668256002">
+      <text>$dataS2/npc/forester/conversations/help/helpTransport/whatNeedKnow/aFewThings</text>
+    </item>
+    <item id="7668256002" nextId="a883e75ee8">
+      <text>$dataS2/npc/forester/conversations/help/helpTransport/whatNeedKnow/toCollectingPoint</text>
+    </item>
+    <item id="a883e75ee8" nextId="a7cc0aec36">
+      <text>$dataS2/npc/forester/conversations/help/helpTransport/whatNeedKnow/depending</text>
+    </item>
+    <item id="a7cc0aec36" nextId="b0334a7304">
+      <text>$dataS2/npc/forester/conversations/help/helpTransport/whatNeedKnow/profession</text>
+    </item>
+    <item id="b0334a7304">
+      <text>$dataS2/npc/forester/conversations/help/helpTransport/whatNeedKnow/forestrxFocus</text>
+      <actions>
+        <startConversationById uniqueId="bb45534978"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

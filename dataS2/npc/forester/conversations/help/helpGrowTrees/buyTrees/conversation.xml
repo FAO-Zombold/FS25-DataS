@@ -1,0 +1,26 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="92044245ad">
+    <item id="92044245ad" nextId="7175943ff9">
+      <text>$dataS2/npc/forester/conversations/help/helpGrowTrees/buyTrees/yes</text>
+    </item>
+    <item id="7175943ff9" nextId="348ca4f7b3">
+      <text>$dataS2/npc/forester/conversations/help/helpGrowTrees/buyTrees/prizes</text>
+    </item>
+    <item id="348ca4f7b3" nextId="46de3883c0">
+      <text>$dataS2/npc/forester/conversations/help/helpGrowTrees/buyTrees/decoration</text>
+    </item>
+    <item id="46de3883c0" nextId="d296740adc">
+      <text>$dataS2/npc/forester/conversations/help/helpGrowTrees/buyTrees/notForForestry</text>
+    </item>
+    <item id="d296740adc">
+      <text>$dataS2/npc/forester/conversations/help/helpGrowTrees/buyTrees/plant</text>
+      <actions>
+        <startConversationById uniqueId="6230adf8f5"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

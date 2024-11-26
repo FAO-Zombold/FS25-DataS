@@ -1,0 +1,34 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="f404187d87">
+    <item id="f404187d87" isActive="false">
+      <text>$dataS2/npc/forester/conversations/help/helpTreeMarking/overviewTreeMarking/start</text>
+      <next>
+        <option id="69e0b7b188">
+          <text>$dataS2/npc/forester/conversations/help/helpTreeMarking/overviewTreeMarking/whyMarkTrees</text>
+          <actions>
+            <startConversationById uniqueId="f037baebab"/>
+          </actions>
+        </option>
+        <option id="a699f969b9">
+          <text>$dataS2/npc/forester/conversations/help/helpTreeMarking/overviewTreeMarking/whatDoesMean</text>
+          <actions>
+            <startConversationById uniqueId="a77629d9eb"/>
+          </actions>
+        </option>
+        <option id="f04fdd1022">
+          <text>$dataS2/npc/forester/conversations/help/helpTreeMarking/overviewTreeMarking/backButton</text>
+          <actions>
+            <startConversationById uniqueId="7cb1ac3f00"/>
+          </actions>
+        </option>
+        <option id="1df55f870b">
+          <text>$dataS2/npc/forester/conversations/help/helpTreeMarking/overviewTreeMarking/exitButton</text>
+        </option>
+      </next>
+    </item>
+  </textFlow>
+</conversation>

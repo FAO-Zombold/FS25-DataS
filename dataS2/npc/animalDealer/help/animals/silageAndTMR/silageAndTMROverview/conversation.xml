@@ -1,0 +1,34 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>DEFAULT</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="217170efd6">
+    <item id="217170efd6" isActive="false">
+      <text>$dataS2/npc/animalDealer/help/animals/silageAndTMR/silageAndTMROverview/placeholder</text>
+      <next>
+        <option id="8bdc3e2fe2">
+          <text>$dataS2/npc/animalDealer/help/animals/silageAndTMR/silageAndTMROverview/silage</text>
+          <actions>
+            <startConversationById uniqueId="db99a262bd"/>
+          </actions>
+        </option>
+        <option id="758d062f86">
+          <text>$dataS2/npc/animalDealer/help/animals/silageAndTMR/silageAndTMROverview/tmr</text>
+          <actions>
+            <startConversationById uniqueId="9d235b1b48"/>
+          </actions>
+        </option>
+        <option id="3e2ee2ca4f">
+          <text>$dataS2/npc/animalDealer/help/animals/silageAndTMR/silageAndTMROverview/optionBack</text>
+          <actions>
+            <startConversationById uniqueId="345249355c"/>
+          </actions>
+        </option>
+        <option id="2d9b18254b">
+          <text>$dataS2/npc/animalDealer/help/animals/silageAndTMR/silageAndTMROverview/optionExit</text>
+        </option>
+      </next>
+    </item>
+  </textFlow>
+</conversation>

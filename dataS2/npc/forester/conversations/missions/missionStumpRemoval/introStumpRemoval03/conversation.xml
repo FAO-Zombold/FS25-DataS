@@ -1,0 +1,17 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>MISSION_INTRO</type>
+  <probability>1</probability>
+  <isActive>false</isActive>
+  <prerequisites>
+    <missionAvailable/>
+  </prerequisites>
+  <textFlow startId="76734f84e0">
+    <item id="76734f84e0">
+      <text>$dataS2/npc/forester/conversations/missions/missionStumpRemoval/introStumpRemoval03/intro03</text>
+      <actions>
+        <startConversationById uniqueId="bdc6e8044d"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

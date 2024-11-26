@@ -1,0 +1,17 @@
+<conversation>
+  <class>NPCConversationGuidedTour</class>
+  <type>GUIDED_TOUR</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <manuallyTriggered/>
+  </prerequisites>
+  <textFlow startId="3e5c38b324">
+    <item id="3e5c38b324" nextId="51390230e7">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/trailer/driveBelowThePipe/emptyTank</text>
+    </item>
+    <item id="51390230e7">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/trailer/driveBelowThePipe/correctPosition</text>
+    </item>
+  </textFlow>
+</conversation>

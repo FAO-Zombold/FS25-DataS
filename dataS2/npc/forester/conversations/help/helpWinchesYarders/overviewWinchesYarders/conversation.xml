@@ -1,0 +1,40 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="a0d67b82ca">
+    <item id="a0d67b82ca" isActive="false">
+      <text>$dataS2/npc/forester/conversations/help/helpWinchesYarders/overviewWinchesYarders/start</text>
+      <next>
+        <option id="465e5fa46b">
+          <text>$dataS2/npc/forester/conversations/help/helpWinchesYarders/overviewWinchesYarders/difference</text>
+          <actions>
+            <startConversationById uniqueId="07f849dfa8"/>
+          </actions>
+        </option>
+        <option id="10c457d8a1">
+          <text>$dataS2/npc/forester/conversations/help/helpWinchesYarders/overviewWinchesYarders/whatEquipment</text>
+          <actions>
+            <startConversationById uniqueId="8bcba90d0d"/>
+          </actions>
+        </option>
+        <option id="b7a55ac530">
+          <text>$dataS2/npc/forester/conversations/help/helpWinchesYarders/overviewWinchesYarders/howuseMachines</text>
+          <actions>
+            <startConversationById uniqueId="a5bd2bf04b"/>
+          </actions>
+        </option>
+        <option id="164b217daa">
+          <text>$dataS2/npc/forester/conversations/help/helpWinchesYarders/overviewWinchesYarders/backButton</text>
+          <actions>
+            <startConversationById uniqueId="7cb1ac3f00"/>
+          </actions>
+        </option>
+        <option id="2a764a88c7">
+          <text>$dataS2/npc/forester/conversations/help/helpWinchesYarders/overviewWinchesYarders/exitButton</text>
+        </option>
+      </next>
+    </item>
+  </textFlow>
+</conversation>

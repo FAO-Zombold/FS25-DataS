@@ -1,0 +1,59 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>SMALLTALK_WISDOM</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <numTriggered max="1"/>
+    <seasonPeriod min="EARLY_WINTER" max="LATE_WINTER"/>
+  </prerequisites>
+  <textFlow startId="293bc6aa4b">
+    <item id="293bc6aa4b" nextId="6af760dfc9">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/winterWisdoms/winterInheritance/winterInheritanceSaying</text>
+    </item>
+    <item id="6af760dfc9">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/winterWisdoms/winterInheritance/whatThink</text>
+      <next>
+        <option id="77df86218e" nextId="a942aeebd1">
+          <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/winterWisdoms/winterInheritance/optionA</text>
+        </option>
+        <option id="86f2ec5517" nextId="9cdc164a54">
+          <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/winterWisdoms/winterInheritance/optionB</text>
+        </option>
+        <option id="3af568acc7" nextId="55c9ca96c0">
+          <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/winterWisdoms/winterInheritance/optionC</text>
+        </option>
+      </next>
+    </item>
+    <item id="a942aeebd1" nextId="4ceecfb012">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/winterWisdoms/winterInheritance/rightAnswer</text>
+    </item>
+    <item id="4ceecfb012" nextId="3f9ca2d01d">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/winterWisdoms/winterInheritance/meaning</text>
+    </item>
+    <item id="3f9ca2d01d" nextId="ae0233cc96">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/winterWisdoms/winterInheritance/summerWeather</text>
+    </item>
+    <item id="ae0233cc96" nextId="e5bc77884d">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/winterWisdoms/winterInheritance/seasonsConnected</text>
+    </item>
+    <item id="e5bc77884d" nextId="6a68a0fc0d">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/winterWisdoms/winterInheritance/unforseenEvents</text>
+    </item>
+    <item id="6a68a0fc0d" nextId="efc01b9b1e">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/winterWisdoms/winterInheritance/yourActions</text>
+    </item>
+    <item id="efc01b9b1e">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/winterWisdoms/winterInheritance/finalNote</text>
+      <actions>
+        <startConversationById uniqueId="0bc5b0ce93"/>
+      </actions>
+    </item>
+    <item id="9cdc164a54" nextId="4ceecfb012">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/winterWisdoms/winterInheritance/almostRight</text>
+    </item>
+    <item id="55c9ca96c0" nextId="4ceecfb012">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/winterWisdoms/winterInheritance/sorryWhat</text>
+    </item>
+  </textFlow>
+</conversation>

@@ -1,0 +1,17 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>SMALLTALK_ABOUT_YOU_INTRO</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <retriggerTypeDelayIngameDays type="SMALLTALK_ABOUT_YOU_INTRO" minDays="1"/>
+  </prerequisites>
+  <textFlow startId="6f51e5d045">
+    <item id="6f51e5d045">
+      <text>$dataS2/npc/grandpa/smalltalk/smallTalkOptions/aboutYouIntros/aboutYouIntro1/jawWorks</text>
+      <actions>
+        <startConversationByType type="SMALLTALK_ABOUT_YOU"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

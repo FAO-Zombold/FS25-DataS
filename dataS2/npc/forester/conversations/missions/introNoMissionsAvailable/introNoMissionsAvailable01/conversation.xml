@@ -1,0 +1,14 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>MISSION_NOT_AVAILABLE</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="4a3e695a5a">
+    <item id="4a3e695a5a">
+      <text>$dataS2/npc/forester/conversations/missions/introNoMissionsAvailable/introNoMissionsAvailable01/noMission01</text>
+      <actions>
+        <startConversationById uniqueId="8b24b3ebc0"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

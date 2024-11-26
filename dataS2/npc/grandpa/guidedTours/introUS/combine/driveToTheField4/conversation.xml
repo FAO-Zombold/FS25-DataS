@@ -1,0 +1,20 @@
+<conversation>
+  <class>NPCConversationGuidedTour</class>
+  <type>GUIDED_TOUR</type>
+  <isActive>true</isActive>
+  <probability>1</probability>
+  <prerequisites>
+    <manuallyTriggered/>
+  </prerequisites>
+  <textFlow startId="e03b564870">
+    <item id="e03b564870" nextId="a76960b8c6">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/combine/driveToTheField4/almostDone</text>
+    </item>
+    <item id="a76960b8c6" nextId="4e0ccaed89">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/combine/driveToTheField4/unfold</text>
+    </item>
+    <item id="4e0ccaed89">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/combine/driveToTheField4/position</text>
+    </item>
+  </textFlow>
+</conversation>

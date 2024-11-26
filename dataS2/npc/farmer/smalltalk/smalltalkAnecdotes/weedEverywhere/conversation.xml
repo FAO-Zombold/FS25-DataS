@@ -1,0 +1,49 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>DAVID_ANECDOTES</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="bb5896c0a6">
+    <item id="bb5896c0a6" nextId="0b2a970a56">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/weedEverywhere/fastWeeds</text>
+    </item>
+    <item id="0b2a970a56" nextId="f0edab10d3">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/weedEverywhere/toBeHonest</text>
+    </item>
+    <item id="f0edab10d3" nextId="fe63cbde7a">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/weedEverywhere/enoughTime</text>
+    </item>
+    <item id="fe63cbde7a" nextId="8a924f0539">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/weedEverywhere/distractMyself</text>
+    </item>
+    <item id="8a924f0539" nextId="d89d4a6d33">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/weedEverywhere/takeCareOfThings</text>
+    </item>
+    <item id="d89d4a6d33" nextId="918a55d531">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/weedEverywhere/wasRight</text>
+    </item>
+    <item id="918a55d531">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/weedEverywhere/nothingInReturn</text>
+      <next>
+        <option id="b7b5024609" nextId="eec3efb7d8">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/weedEverywhere/optionA</text>
+        </option>
+        <option id="a1ffa990db" nextId="8b46c06f42">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/weedEverywhere/optionB</text>
+        </option>
+      </next>
+    </item>
+    <item id="eec3efb7d8" nextId="d742edf11b">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/weedEverywhere/soOnce</text>
+    </item>
+    <item id="d742edf11b">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/weedEverywhere/moreMisdeeds</text>
+      <actions>
+        <startConversationById uniqueId="bdd07bda2c"/>
+      </actions>
+    </item>
+    <item id="8b46c06f42" nextId="eec3efb7d8">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/weedEverywhere/sureIKnow</text>
+    </item>
+  </textFlow>
+</conversation>

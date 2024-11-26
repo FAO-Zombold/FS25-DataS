@@ -1,0 +1,43 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>MISSION</type>
+  <probability>1</probability>
+  <isActive>false</isActive>
+  <textFlow startId="b58f070095">
+    <item id="b58f070095" nextId="83ba94b137">
+      <text>$dataS2/npc/farmer/missions/snowPlowing/snowPlowingEquipment/doYouOwn</text>
+    </item>
+    <item id="83ba94b137">
+      <text>$dataS2/npc/farmer/missions/snowPlowing/snowPlowingEquipment/howDoYou</text>
+      <next>
+        <option id="57d138aef5">
+          <text>$dataS2/npc/farmer/missions/snowPlowing/snowPlowingEquipment/optionA</text>
+          <actions>
+            <startSelectedMission/>
+          </actions>
+          <inputs>
+            <leaseVehicles value="false"/>
+          </inputs>
+        </option>
+        <option id="9b20d37d82">
+          <text>$dataS2/npc/farmer/missions/snowPlowing/snowPlowingEquipment/optionB</text>
+          <actions>
+            <startSelectedMission/>
+          </actions>
+          <inputs>
+            <leaseVehicles value="true"/>
+          </inputs>
+        </option>
+        <option id="e617328b24" nextId="254f25083a">
+          <text>$dataS2/npc/farmer/missions/snowPlowing/snowPlowingEquipment/optionC</text>
+        </option>
+        <option id="274bf33835">
+          <text>$dataS2/npc/farmer/missions/snowPlowing/snowPlowingEquipment/optionD</text>
+        </option>
+      </next>
+    </item>
+    <item id="254f25083a" nextId="83ba94b137">
+      <text>$dataS2/npc/farmer/missions/snowPlowing/snowPlowingEquipment/letMeThink</text>
+    </item>
+  </textFlow>
+</conversation>

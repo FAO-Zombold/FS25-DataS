@@ -1,0 +1,75 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>DAVID_ANECDOTES</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="27480edc05">
+    <item id="27480edc05">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/cowsAteMyGrass/cowsEatGrass</text>
+      <next>
+        <option id="4d7bb2f254" nextId="4ad948eb52">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/cowsAteMyGrass/cowsEatGrassOptionA</text>
+        </option>
+        <option id="b6bff9803f" nextId="4ad948eb52">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/cowsAteMyGrass/cowsEatGrassOptionB</text>
+        </option>
+        <option id="f7c8deff1c" nextId="4ad948eb52">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/cowsAteMyGrass/cowsEatGrassOptionC</text>
+        </option>
+      </next>
+    </item>
+    <item id="4ad948eb52" nextId="71307eab96">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/cowsAteMyGrass/calmAndRelaxed</text>
+    </item>
+    <item id="71307eab96" nextId="304d08b0d3">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/cowsAteMyGrass/chewOnThatGrass</text>
+    </item>
+    <item id="304d08b0d3" nextId="3b3e68df8e">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/cowsAteMyGrass/splitUpCattle</text>
+    </item>
+    <item id="3b3e68df8e" nextId="fab9e40750">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/cowsAteMyGrass/iOffered</text>
+    </item>
+    <item id="fab9e40750" nextId="967a11fdc4">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/cowsAteMyGrass/useItToChill</text>
+    </item>
+    <item id="967a11fdc4" nextId="a5b9b15680">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/cowsAteMyGrass/sleptOnGrass</text>
+    </item>
+    <item id="a5b9b15680" nextId="c8d2c4db72">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/cowsAteMyGrass/breakfastHaven</text>
+    </item>
+    <item id="c8d2c4db72" nextId="d96922f40c">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/cowsAteMyGrass/tenToTwentyKilos</text>
+    </item>
+    <item id="d96922f40c">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/cowsAteMyGrass/notThatIMind</text>
+      <next>
+        <option id="d8477b1f36" nextId="4efc604fc5">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/cowsAteMyGrass/optionA</text>
+        </option>
+        <option id="b8f4f86f94" nextId="b1aab52cdc">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/cowsAteMyGrass/optionB</text>
+        </option>
+        <option id="0865f56a9a" nextId="64c9fabf54">
+          <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/cowsAteMyGrass/optionC</text>
+        </option>
+      </next>
+    </item>
+    <item id="4efc604fc5" nextId="6b0ba8807f">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/cowsAteMyGrass/getSomeCoaching</text>
+    </item>
+    <item id="6b0ba8807f">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/cowsAteMyGrass/inAnyCase</text>
+      <actions>
+        <startConversationById uniqueId="bdd07bda2c"/>
+      </actions>
+    </item>
+    <item id="b1aab52cdc" nextId="6b0ba8807f">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/cowsAteMyGrass/doNotMockMe</text>
+    </item>
+    <item id="64c9fabf54" nextId="6b0ba8807f">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/cowsAteMyGrass/thatIsTrue</text>
+    </item>
+  </textFlow>
+</conversation>

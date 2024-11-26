@@ -1,0 +1,43 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>MISSION</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="75f94cc11b">
+    <item id="75f94cc11b" nextId="7993406ebf">
+      <text>$dataS2/npc/forester/conversations/missions/missionRockRemoval/equipmentRockRemoval/inPossesion</text>
+    </item>
+    <item id="7993406ebf">
+      <text>$dataS2/npc/forester/conversations/missions/missionRockRemoval/equipmentRockRemoval/how</text>
+      <next>
+        <option id="82c72714ca">
+          <text>$dataS2/npc/forester/conversations/missions/missionRockRemoval/equipmentRockRemoval/gotEverything</text>
+          <actions>
+            <startSelectedMission/>
+          </actions>
+          <inputs>
+            <leaseVehicles value="false"/>
+          </inputs>
+        </option>
+        <option id="70f6ee3279">
+          <text>$dataS2/npc/forester/conversations/missions/missionRockRemoval/equipmentRockRemoval/borrowMachines</text>
+          <actions>
+            <startSelectedMission/>
+          </actions>
+          <inputs>
+            <leaseVehicles value="true"/>
+          </inputs>
+        </option>
+        <option id="4b18f35706" nextId="09b7535497">
+          <text>$dataS2/npc/forester/conversations/missions/missionRockRemoval/equipmentRockRemoval/whatNeed</text>
+        </option>
+        <option id="62b88cfa51">
+          <text>$dataS2/npc/forester/conversations/missions/missionRockRemoval/equipmentRockRemoval/nope</text>
+        </option>
+      </next>
+    </item>
+    <item id="09b7535497" nextId="7993406ebf">
+      <text>$dataS2/npc/forester/conversations/missions/missionRockRemoval/equipmentRockRemoval/equipmentNeeded</text>
+    </item>
+  </textFlow>
+</conversation>

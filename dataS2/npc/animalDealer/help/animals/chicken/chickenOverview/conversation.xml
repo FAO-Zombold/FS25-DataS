@@ -1,0 +1,46 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>DEFAULT</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="3754b3d7fd">
+    <item id="3754b3d7fd" isActive="false">
+      <text>$dataS2/npc/animalDealer/help/animals/chicken/chickenOverview/placeholder</text>
+      <next>
+        <option id="34e3b6ea7e">
+          <text>$dataS2/npc/animalDealer/help/animals/chicken/chickenOverview/differenceChickens</text>
+          <actions>
+            <startConversationById uniqueId="2d92c90fe3"/>
+          </actions>
+        </option>
+        <option id="4dde3ffb89">
+          <text>$dataS2/npc/animalDealer/help/animals/chicken/chickenOverview/howDoIFeed</text>
+          <actions>
+            <startConversationById uniqueId="3af24170d0"/>
+          </actions>
+        </option>
+        <option id="ddd314029f">
+          <text>$dataS2/npc/animalDealer/help/animals/chicken/chickenOverview/howDoIKeep</text>
+          <actions>
+            <startConversationById uniqueId="20fa8bb4ff"/>
+          </actions>
+        </option>
+        <option id="b8b3ee2b71">
+          <text>$dataS2/npc/animalDealer/help/animals/chicken/chickenOverview/whatDoINeed</text>
+          <actions>
+            <startConversationById uniqueId="3afea67a5f"/>
+          </actions>
+        </option>
+        <option id="633f1922bc">
+          <text>$dataS2/npc/animalDealer/help/animals/chicken/chickenOverview/optionBack</text>
+          <actions>
+            <startConversationById uniqueId="345249355c"/>
+          </actions>
+        </option>
+        <option id="5c304055ce">
+          <text>$dataS2/npc/animalDealer/help/animals/chicken/chickenOverview/optionExit</text>
+        </option>
+      </next>
+    </item>
+  </textFlow>
+</conversation>

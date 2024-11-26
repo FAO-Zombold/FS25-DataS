@@ -1,0 +1,32 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="fe39dc1b27">
+    <item id="fe39dc1b27" nextId="05b8c97f8c">
+      <text>$dataS2/npc/forester/conversations/help/helpWinchesYarders/differenceWinchesYarders/movingYourLogs</text>
+    </item>
+    <item id="05b8c97f8c" nextId="5e90f4cc94">
+      <text>$dataS2/npc/forester/conversations/help/helpWinchesYarders/differenceWinchesYarders/winches</text>
+    </item>
+    <item id="5e90f4cc94" nextId="75b49b225a">
+      <text>$dataS2/npc/forester/conversations/help/helpWinchesYarders/differenceWinchesYarders/helpMove</text>
+    </item>
+    <item id="75b49b225a" nextId="49552cfeaa">
+      <text>$dataS2/npc/forester/conversations/help/helpWinchesYarders/differenceWinchesYarders/yarders</text>
+    </item>
+    <item id="49552cfeaa" nextId="a6e7a7f73d">
+      <text>$dataS2/npc/forester/conversations/help/helpWinchesYarders/differenceWinchesYarders/transport</text>
+    </item>
+    <item id="a6e7a7f73d" nextId="77a20cf414">
+      <text>$dataS2/npc/forester/conversations/help/helpWinchesYarders/differenceWinchesYarders/hillyBypass</text>
+    </item>
+    <item id="77a20cf414">
+      <text>$dataS2/npc/forester/conversations/help/helpWinchesYarders/differenceWinchesYarders/cables</text>
+      <actions>
+        <startConversationById uniqueId="0845832ccb"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

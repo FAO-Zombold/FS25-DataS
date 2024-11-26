@@ -1,0 +1,38 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>DAVID_ADVICE</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <retriggerTypeDelayIngameDays type="DAVID_ADVICE" minDays="1"/>
+  </prerequisites>
+  <textFlow startId="c1e03c01dd">
+    <item id="c1e03c01dd" nextId="118664b0ab">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/rigeMarkers/ridges</text>
+    </item>
+    <item id="118664b0ab" nextId="00fb0b7b74">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/rigeMarkers/ridgeMarkers</text>
+    </item>
+    <item id="00fb0b7b74" nextId="8d1bf892c2">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/rigeMarkers/notEveryoneNeeds</text>
+    </item>
+    <item id="8d1bf892c2" nextId="14c05ba473">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/rigeMarkers/forMe</text>
+    </item>
+    <item id="14c05ba473" nextId="402c09160b">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/rigeMarkers/straightLines</text>
+    </item>
+    <item id="402c09160b" nextId="3a54b1d108">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/rigeMarkers/markingsInSoil</text>
+    </item>
+    <item id="3a54b1d108" nextId="fbb13eb10f">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/rigeMarkers/previouslyPlowed</text>
+    </item>
+    <item id="fbb13eb10f">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/rigeMarkers/troubleWithIt</text>
+      <actions>
+        <startConversationById uniqueId="bdd07bda2c"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

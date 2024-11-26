@@ -1,0 +1,67 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>SMALLTALK_ABOUT_YOU</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="74cd1c6263">
+    <item id="74cd1c6263" nextId="b584049d67">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/newHobbies/newHobby</text>
+    </item>
+    <item id="b584049d67" nextId="00cb97856d">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/newHobbies/startedJogging</text>
+    </item>
+    <item id="00cb97856d" nextId="0fed59e74f">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/newHobbies/moreYears</text>
+    </item>
+    <item id="0fed59e74f" nextId="84aefbf799">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/newHobbies/inspiring</text>
+    </item>
+    <item id="84aefbf799">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/newHobbies/helpKiddo</text>
+      <next>
+        <option id="33601e47e2" nextId="8c4f6a45ff">
+          <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/newHobbies/moreFarming</text>
+        </option>
+        <option id="f985e1b78b" nextId="28de3a0682">
+          <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/newHobbies/playingGames</text>
+        </option>
+        <option id="c56fc3c1e6" nextId="0705695bc6">
+          <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/newHobbies/doingSports</text>
+        </option>
+        <option id="4fa598fd3f" nextId="59e1be062e">
+          <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/newHobbies/getCreative</text>
+        </option>
+      </next>
+    </item>
+    <item id="8c4f6a45ff" nextId="80d43f77fe">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/newHobbies/meToo</text>
+    </item>
+    <item id="80d43f77fe" nextId="cede567fb6">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/newHobbies/thinkMore</text>
+    </item>
+    <item id="cede567fb6" nextId="a676fa2c9d">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/newHobbies/trySomething</text>
+    </item>
+    <item id="a676fa2c9d" nextId="8c79f429a2">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/newHobbies/hurtBones</text>
+    </item>
+    <item id="8c79f429a2" nextId="6ffde6f6d6">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/newHobbies/ifFound</text>
+    </item>
+    <item id="6ffde6f6d6">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/newHobbies/backFarming</text>
+      <actions>
+        <startConversationById uniqueId="0bc5b0ce93"/>
+      </actions>
+    </item>
+    <item id="28de3a0682" nextId="80d43f77fe">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/newHobbies/farmingGame</text>
+    </item>
+    <item id="0705695bc6" nextId="80d43f77fe">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/newHobbies/likeStanding</text>
+    </item>
+    <item id="59e1be062e" nextId="80d43f77fe">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/newHobbies/startPainting</text>
+    </item>
+  </textFlow>
+</conversation>

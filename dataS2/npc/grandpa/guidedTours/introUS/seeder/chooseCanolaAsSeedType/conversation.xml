@@ -1,0 +1,32 @@
+<conversation>
+  <class>NPCConversationGuidedTour</class>
+  <type>GUIDED_TOUR</type>
+  <isActive>true</isActive>
+  <probability>1</probability>
+  <prerequisites>
+    <manuallyTriggered/>
+  </prerequisites>
+  <textFlow startId="fbe5ea0a30">
+    <item id="fbe5ea0a30" nextId="d2faee90fd">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/seeder/chooseCanolaAsSeedType/hereWeAre</text>
+    </item>
+    <item id="d2faee90fd" nextId="903f46f95c">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/seeder/chooseCanolaAsSeedType/timing</text>
+    </item>
+    <item id="903f46f95c" nextId="417cebea4b">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/seeder/chooseCanolaAsSeedType/seasons</text>
+    </item>
+    <item id="417cebea4b" nextId="e0908f70b3">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/seeder/chooseCanolaAsSeedType/summer</text>
+    </item>
+    <item id="e0908f70b3" nextId="601b183f60">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/seeder/chooseCanolaAsSeedType/otherMonth</text>
+    </item>
+    <item id="601b183f60" nextId="8420975b03">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/seeder/chooseCanolaAsSeedType/calendar</text>
+    </item>
+    <item id="8420975b03">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/seeder/chooseCanolaAsSeedType/prepare</text>
+    </item>
+  </textFlow>
+</conversation>

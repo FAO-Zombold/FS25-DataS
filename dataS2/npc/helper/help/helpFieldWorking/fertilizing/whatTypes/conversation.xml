@@ -1,0 +1,38 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="d0d0a9229b">
+    <item id="d0d0a9229b" nextId="7bbaad565e">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/fertilizing/whatTypes/depending</text>
+    </item>
+    <item id="7bbaad565e" nextId="232da93606">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/fertilizing/whatTypes/solidFertilizer</text>
+    </item>
+    <item id="232da93606" nextId="2d7507f036">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/fertilizing/whatTypes/liquidFertilizer</text>
+    </item>
+    <item id="2d7507f036" nextId="ac4596655b">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/fertilizing/whatTypes/slurry</text>
+    </item>
+    <item id="ac4596655b" nextId="772e0f6b6f">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/fertilizing/whatTypes/produceFertilizer</text>
+    </item>
+    <item id="772e0f6b6f" nextId="84757511e3">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/fertilizing/whatTypes/digestate</text>
+    </item>
+    <item id="84757511e3" nextId="9ee953359c">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/fertilizing/whatTypes/catchCrops</text>
+    </item>
+    <item id="9ee953359c" nextId="7144ca1b46">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/fertilizing/whatTypes/oilseed</text>
+    </item>
+    <item id="7144ca1b46">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/fertilizing/whatTypes/chooseWisely</text>
+      <actions>
+        <startConversationById uniqueId="47aa8f0dea"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

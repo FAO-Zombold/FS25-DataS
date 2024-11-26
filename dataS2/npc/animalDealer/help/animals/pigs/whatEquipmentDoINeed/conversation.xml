@@ -1,0 +1,23 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="fa5fe793d2">
+    <item id="fa5fe793d2" nextId="d6bf940655">
+      <text>$dataS2/npc/animalDealer/help/animals/pigs/whatEquipmentDoINeed/pastureOrPigsty</text>
+    </item>
+    <item id="d6bf940655" nextId="6a5a2c01fa">
+      <text>$dataS2/npc/animalDealer/help/animals/pigs/whatEquipmentDoINeed/manureProduction</text>
+    </item>
+    <item id="6a5a2c01fa" nextId="9dbe6c4259">
+      <text>$dataS2/npc/animalDealer/help/animals/pigs/whatEquipmentDoINeed/spreaderAndTank</text>
+    </item>
+    <item id="9dbe6c4259">
+      <text>$dataS2/npc/animalDealer/help/animals/pigs/whatEquipmentDoINeed/tractorWithFrontLoader</text>
+      <actions>
+        <startConversationById uniqueId="07ab71a10f"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

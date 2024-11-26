@@ -1,0 +1,35 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="3c3033c3b5">
+    <item id="3c3033c3b5" nextId="d03b8588d2">
+      <text>$dataS2/npc/forester/conversations/help/helpCutTrees/howCut/useChainsaw</text>
+    </item>
+    <item id="d03b8588d2" nextId="936aa67d2b">
+      <text>$dataS2/npc/forester/conversations/help/helpCutTrees/howCut/trimBranches</text>
+    </item>
+    <item id="936aa67d2b" nextId="f22fe46dff">
+      <text>$dataS2/npc/forester/conversations/help/helpCutTrees/howCut/savesSteps</text>
+    </item>
+    <item id="f22fe46dff" nextId="5d3b1b1f23">
+      <text>$dataS2/npc/forester/conversations/help/helpCutTrees/howCut/position</text>
+    </item>
+    <item id="5d3b1b1f23" nextId="7d18e60012">
+      <text>$dataS2/npc/forester/conversations/help/helpCutTrees/howCut/machine</text>
+    </item>
+    <item id="7d18e60012" nextId="12a117572d">
+      <text>$dataS2/npc/forester/conversations/help/helpCutTrees/howCut/positionHeader</text>
+    </item>
+    <item id="12a117572d" nextId="c9f28e36af">
+      <text>$dataS2/npc/forester/conversations/help/helpCutTrees/howCut/cutDown</text>
+    </item>
+    <item id="c9f28e36af">
+      <text>$dataS2/npc/forester/conversations/help/helpCutTrees/howCut/seperateBranches</text>
+      <actions>
+        <startConversationById uniqueId="f19e72ea07"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

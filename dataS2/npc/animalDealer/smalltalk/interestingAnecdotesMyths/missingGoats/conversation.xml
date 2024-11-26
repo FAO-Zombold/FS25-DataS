@@ -1,0 +1,70 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>KATIE_ANECDOTES</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="11d637258a">
+    <item id="11d637258a" nextId="63ebf99694">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/missingGoats/someLegends</text>
+    </item>
+    <item id="63ebf99694" nextId="4b34072c0c">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/missingGoats/particularInterestingOne</text>
+    </item>
+    <item id="4b34072c0c" nextId="602b8ef5f2">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/missingGoats/goatsVanish</text>
+    </item>
+    <item id="602b8ef5f2">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/missingGoats/returnLater</text>
+      <next>
+        <option id="ffdf7f080d" nextId="aef0fa101a">
+          <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/missingGoats/optionA</text>
+        </option>
+        <option id="bc44749a08" nextId="aef0fa101a">
+          <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/missingGoats/optionB</text>
+        </option>
+        <option id="b84d3a30b7" nextId="aef0fa101a">
+          <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/missingGoats/optionC</text>
+        </option>
+      </next>
+    </item>
+    <item id="aef0fa101a" nextId="a67c293869">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/missingGoats/manyTheories</text>
+    </item>
+    <item id="a67c293869" nextId="ba6d2b4e2c">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/missingGoats/whenIWasSeven</text>
+    </item>
+    <item id="ba6d2b4e2c" nextId="a1fda9ab61">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/missingGoats/timmyTheJumper</text>
+    </item>
+    <item id="a1fda9ab61" nextId="428b16f46e">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/missingGoats/strangeMemory</text>
+    </item>
+    <item id="428b16f46e" nextId="c443b33ab2">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/missingGoats/vividlyRemember</text>
+    </item>
+    <item id="c443b33ab2" nextId="0cca39c873">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/missingGoats/parentsToldMe</text>
+    </item>
+    <item id="0cca39c873" nextId="1818319f5b">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/missingGoats/elaborateStory</text>
+    </item>
+    <item id="1818319f5b" nextId="dec5ca8a87">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/missingGoats/nextDay</text>
+    </item>
+    <item id="dec5ca8a87" nextId="190824f869">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/missingGoats/nobodyCouldRemember</text>
+    </item>
+    <item id="190824f869" nextId="6235e6f280">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/missingGoats/davidLostAGoatToo</text>
+    </item>
+    <item id="6235e6f280" nextId="cff1fb25cd">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/missingGoats/escapedGoat</text>
+    </item>
+    <item id="cff1fb25cd">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/missingGoats/goatsWillBeBack</text>
+      <actions>
+        <startConversationById uniqueId="bb0236da62"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

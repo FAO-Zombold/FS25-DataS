@@ -1,0 +1,17 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="f12d581ccd">
+    <item id="f12d581ccd" nextId="d9635d9b8c">
+      <text>$dataS2/npc/forester/conversations/help/helpTransport/whatEquipment/trailerOption</text>
+    </item>
+    <item id="d9635d9b8c">
+      <text>$dataS2/npc/forester/conversations/help/helpTransport/whatEquipment/varietyForContainer</text>
+      <actions>
+        <startConversationById uniqueId="bb45534978"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

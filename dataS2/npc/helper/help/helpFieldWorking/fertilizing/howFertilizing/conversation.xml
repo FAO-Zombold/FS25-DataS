@@ -1,0 +1,29 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="059e95f524">
+    <item id="059e95f524" nextId="4288c90790">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/fertilizing/howFertilizing/easy</text>
+    </item>
+    <item id="4288c90790" nextId="957e25d671">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/fertilizing/howFertilizing/catchCrops</text>
+    </item>
+    <item id="957e25d671" nextId="c69030e978">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/fertilizing/howFertilizing/applyFertilizer</text>
+    </item>
+    <item id="c69030e978" nextId="15e2ebda9f">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/fertilizing/howFertilizing/keepMind</text>
+    </item>
+    <item id="15e2ebda9f" nextId="aa10219c77">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/fertilizing/howFertilizing/exceptions</text>
+    </item>
+    <item id="aa10219c77">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/fertilizing/howFertilizing/manure</text>
+      <actions>
+        <startConversationById uniqueId="47aa8f0dea"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

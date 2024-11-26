@@ -1,0 +1,38 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="d4a9fe5b27">
+    <item id="d4a9fe5b27" nextId="2bb1f7f8ea">
+      <text>$dataS2/npc/helper/help/helpCrops/grains/stepByStep/cropCalender</text>
+    </item>
+    <item id="2bb1f7f8ea" nextId="7712c83868">
+      <text>$dataS2/npc/helper/help/helpCrops/grains/stepByStep/liming</text>
+    </item>
+    <item id="7712c83868" nextId="82330d2b9b">
+      <text>$dataS2/npc/helper/help/helpCrops/grains/stepByStep/cultivating</text>
+    </item>
+    <item id="82330d2b9b" nextId="aebc4ae32e">
+      <text>$dataS2/npc/helper/help/helpCrops/grains/stepByStep/sowing</text>
+    </item>
+    <item id="aebc4ae32e" nextId="b78d905851">
+      <text>$dataS2/npc/helper/help/helpCrops/grains/stepByStep/fertilizing</text>
+    </item>
+    <item id="b78d905851" nextId="db03cb8f88">
+      <text>$dataS2/npc/helper/help/helpCrops/grains/stepByStep/weeding</text>
+    </item>
+    <item id="db03cb8f88" nextId="65b3a79cb3">
+      <text>$dataS2/npc/helper/help/helpCrops/grains/stepByStep/harvest</text>
+    </item>
+    <item id="65b3a79cb3" nextId="bac32de036">
+      <text>$dataS2/npc/helper/help/helpCrops/grains/stepByStep/unload</text>
+    </item>
+    <item id="bac32de036">
+      <text>$dataS2/npc/helper/help/helpCrops/grains/stepByStep/thatsIt</text>
+      <actions>
+        <startConversationById uniqueId="a015a9600e"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

@@ -1,0 +1,72 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>SMALLTALK_WISDOM</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <numTriggered max="1"/>
+  </prerequisites>
+  <textFlow startId="61fa628535">
+    <item id="61fa628535" nextId="f79e359c4b">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/oneBadHarvest/badHarvest</text>
+    </item>
+    <item id="f79e359c4b">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/oneBadHarvest/whatTakeaway</text>
+      <next>
+        <option id="8962fa8a65" nextId="b214e2415d">
+          <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/oneBadHarvest/mistakesHappen</text>
+        </option>
+        <option id="8fc8b98ae4" nextId="b214e2415d">
+          <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/oneBadHarvest/noControl</text>
+        </option>
+        <option id="ce98684eb3" nextId="b214e2415d">
+          <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/oneBadHarvest/alwaysPrepared</text>
+        </option>
+        <option id="21e99d25e1" nextId="b214e2415d">
+          <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/oneBadHarvest/nothing</text>
+        </option>
+      </next>
+    </item>
+    <item id="b214e2415d" nextId="95fa7b6cfe">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/oneBadHarvest/fatherAsked</text>
+    </item>
+    <item id="95fa7b6cfe" nextId="32c25c74cd">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/oneBadHarvest/knowAsk</text>
+    </item>
+    <item id="32c25c74cd" nextId="a84e9bb25e">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/oneBadHarvest/faceChallenges</text>
+    </item>
+    <item id="a84e9bb25e" nextId="0997ce689c">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/oneBadHarvest/learnMistakes</text>
+    </item>
+    <item id="0997ce689c" nextId="5a0387f02e">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/oneBadHarvest/trainConstantly</text>
+    </item>
+    <item id="5a0387f02e" nextId="142af8881b">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/oneBadHarvest/myAdvice</text>
+    </item>
+    <item id="142af8881b" nextId="2691a3425f">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/oneBadHarvest/earlyTraining</text>
+    </item>
+    <item id="2691a3425f" nextId="cbbbaedf04">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/oneBadHarvest/approachEverything</text>
+    </item>
+    <item id="cbbbaedf04">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/oneBadHarvest/betterLife</text>
+      <next>
+        <option id="666c74ff79">
+          <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/oneBadHarvest/myBest</text>
+          <actions>
+            <startConversationById uniqueId="0bc5b0ce93"/>
+          </actions>
+        </option>
+        <option id="67627fa393">
+          <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/oneBadHarvest/writeDown</text>
+          <actions>
+            <startConversationById uniqueId="0bc5b0ce93"/>
+          </actions>
+        </option>
+      </next>
+    </item>
+  </textFlow>
+</conversation>

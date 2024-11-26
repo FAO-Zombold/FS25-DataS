@@ -1,0 +1,50 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>DAVID_ADVICE</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <retriggerTypeDelayIngameDays type="DAVID_ADVICE" minDays="1"/>
+  </prerequisites>
+  <textFlow startId="f631756dd9">
+    <item id="f631756dd9" nextId="695f3428ec">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/goForRentals/sensitiveTopic</text>
+      <actions>
+        <resetNumTriggeredByType type="DAVID_ADVICE"/>
+      </actions>
+    </item>
+    <item id="695f3428ec" nextId="742309762b">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/goForRentals/itIsOkay</text>
+    </item>
+    <item id="742309762b" nextId="5990dd2a11">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/goForRentals/reallyReallyOkay</text>
+    </item>
+    <item id="5990dd2a11" nextId="48d97dee9c">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/goForRentals/bragging</text>
+    </item>
+    <item id="48d97dee9c" nextId="8de18265e7">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/goForRentals/someDo</text>
+    </item>
+    <item id="8de18265e7" nextId="d005116993">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/goForRentals/costEfficient</text>
+    </item>
+    <item id="d005116993" nextId="0789e30322">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/goForRentals/especiallyWhenStarting</text>
+    </item>
+    <item id="0789e30322" nextId="619d28e00b">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/goForRentals/dependingOnWhat</text>
+    </item>
+    <item id="619d28e00b" nextId="ebac071b29">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/goForRentals/contracts</text>
+    </item>
+    <item id="ebac071b29" nextId="f191bc9462">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/goForRentals/rentAHarvester</text>
+    </item>
+    <item id="f191bc9462">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/goForRentals/costEffiecient</text>
+      <actions>
+        <startConversationById uniqueId="bdd07bda2c"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

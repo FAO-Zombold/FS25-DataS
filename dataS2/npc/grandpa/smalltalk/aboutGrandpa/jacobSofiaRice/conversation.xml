@@ -1,0 +1,116 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>SMALLTALK_ABOUT_YOU</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="3eeb12827c">
+    <item id="3eeb12827c" nextId="8effdb3929">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/jacobSofiaRice/rememberJacob</text>
+    </item>
+    <item id="8effdb3929" nextId="13956c37a6">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/jacobSofiaRice/riceFarming</text>
+    </item>
+    <item id="13956c37a6">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/jacobSofiaRice/theirRanch</text>
+      <next>
+        <option id="f22ebbe8eb" nextId="86777201c7">
+          <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/jacobSofiaRice/asiaTrip</text>
+        </option>
+        <option id="e32b506e14" nextId="1c9483b399">
+          <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/jacobSofiaRice/whyRice</text>
+        </option>
+      </next>
+    </item>
+    <item id="86777201c7" nextId="922a812ccb">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/jacobSofiaRice/littleGetaway</text>
+    </item>
+    <item id="922a812ccb" nextId="1c9483b399">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/jacobSofiaRice/tiedSpot</text>
+    </item>
+    <item id="1c9483b399" nextId="3a6b96b83b">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/jacobSofiaRice/curiousFarmers</text>
+    </item>
+    <item id="3a6b96b83b" nextId="cb0e12111f">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/jacobSofiaRice/crazyUncle</text>
+    </item>
+    <item id="cb0e12111f" nextId="f0e5f38ae9">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/jacobSofiaRice/gotInspired</text>
+    </item>
+    <item id="f0e5f38ae9" nextId="3f75aec23a">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/jacobSofiaRice/findFarms</text>
+    </item>
+    <item id="3f75aec23a">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/jacobSofiaRice/plantingRice</text>
+      <next>
+        <option id="f0c33fbe3a" nextId="53d973455a">
+          <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/jacobSofiaRice/wayAhead</text>
+        </option>
+        <option id="60b1e73228" nextId="889ce94f74">
+          <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/jacobSofiaRice/notMine</text>
+        </option>
+        <option id="aebc3e6dc4" nextId="8ffc36eba3">
+          <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/jacobSofiaRice/noKnowledge</text>
+        </option>
+      </next>
+    </item>
+    <item id="53d973455a" nextId="55e11cb594">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/jacobSofiaRice/look</text>
+    </item>
+    <item id="55e11cb594" nextId="99fea77035">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/jacobSofiaRice/differentProduction</text>
+    </item>
+    <item id="99fea77035" nextId="0a57031462">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/jacobSofiaRice/sawChallenge</text>
+    </item>
+    <item id="0a57031462" nextId="167975bc3a">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/jacobSofiaRice/enjoyRice</text>
+    </item>
+    <item id="167975bc3a" nextId="37fcb7b4e5">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/jacobSofiaRice/extendBusiness</text>
+    </item>
+    <item id="37fcb7b4e5" nextId="ef93e90bb7">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/jacobSofiaRice/firstHarvest</text>
+    </item>
+    <item id="ef93e90bb7" nextId="513df38927">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/jacobSofiaRice/poorCooks</text>
+    </item>
+    <item id="513df38927">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/jacobSofiaRice/likeRice</text>
+      <next>
+        <option id="f06e3abaf8" nextId="f988d84b7e">
+          <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/jacobSofiaRice/chickenRice</text>
+        </option>
+        <option id="23a06a1523" nextId="f988d84b7e">
+          <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/jacobSofiaRice/eggFriedRice</text>
+        </option>
+        <option id="62a307f19d" nextId="f988d84b7e">
+          <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/jacobSofiaRice/veggieRice</text>
+        </option>
+        <option id="ed40888922" nextId="f988d84b7e">
+          <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/jacobSofiaRice/spices</text>
+        </option>
+        <option id="d4cdc5eefb" nextId="f988d84b7e">
+          <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/jacobSofiaRice/notCare</text>
+        </option>
+      </next>
+    </item>
+    <item id="f988d84b7e" nextId="979fe300e1">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/jacobSofiaRice/noBadTaste</text>
+    </item>
+    <item id="979fe300e1" nextId="27e82c9747">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/jacobSofiaRice/tryThings</text>
+    </item>
+    <item id="27e82c9747">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/jacobSofiaRice/cropEngineer</text>
+      <actions>
+        <startConversationById uniqueId="0bc5b0ce93"/>
+      </actions>
+    </item>
+    <item id="889ce94f74" nextId="55e11cb594">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/jacobSofiaRice/thatsFine</text>
+    </item>
+    <item id="8ffc36eba3" nextId="55e11cb594">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/jacobSofiaRice/askLater</text>
+    </item>
+  </textFlow>
+</conversation>

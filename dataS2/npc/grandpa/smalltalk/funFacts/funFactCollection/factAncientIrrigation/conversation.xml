@@ -1,0 +1,32 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>SMALLTALK_FUNFACTS</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <numTriggered max="1"/>
+  </prerequisites>
+  <textFlow startId="122a531545">
+    <item id="122a531545" nextId="b38da59aa1">
+      <text>$dataS2/npc/grandpa/smalltalk/funFacts/funFactCollection/factAncientIrrigation/earlyFarmers</text>
+    </item>
+    <item id="b38da59aa1" nextId="5ea3558317">
+      <text>$dataS2/npc/grandpa/smalltalk/funFacts/funFactCollection/factAncientIrrigation/irrigation</text>
+    </item>
+    <item id="5ea3558317" nextId="2f914a8c68">
+      <text>$dataS2/npc/grandpa/smalltalk/funFacts/funFactCollection/factAncientIrrigation/ancientCivilizations</text>
+    </item>
+    <item id="2f914a8c68" nextId="b9663ee228">
+      <text>$dataS2/npc/grandpa/smalltalk/funFacts/funFactCollection/factAncientIrrigation/kindsOfIrrigation</text>
+    </item>
+    <item id="b9663ee228" nextId="c05967f86f">
+      <text>$dataS2/npc/grandpa/smalltalk/funFacts/funFactCollection/factAncientIrrigation/someReading</text>
+    </item>
+    <item id="c05967f86f">
+      <text>$dataS2/npc/grandpa/smalltalk/funFacts/funFactCollection/factAncientIrrigation/selfEducation</text>
+      <actions>
+        <startConversationById uniqueId="0bc5b0ce93"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

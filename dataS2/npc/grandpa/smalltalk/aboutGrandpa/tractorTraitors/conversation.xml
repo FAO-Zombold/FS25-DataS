@@ -1,0 +1,97 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>SMALLTALK_ABOUT_YOU</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="46b2b13227">
+    <item id="46b2b13227" nextId="822b4921f7">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/tractorTraitors/advancingModernMachines</text>
+    </item>
+    <item id="822b4921f7">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/tractorTraitors/maturedEquipment</text>
+      <next>
+        <option id="be058253cc" nextId="c7601465a8">
+          <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/tractorTraitors/farmingTech</text>
+        </option>
+        <option id="f03c04474d" nextId="e33f3f93ae">
+          <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/tractorTraitors/quiteOverwhelming</text>
+        </option>
+        <option id="82f5464eb1" nextId="33e71c841c">
+          <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/tractorTraitors/notSure</text>
+        </option>
+        <option id="cabc387910" nextId="6fcdbe7f2c">
+          <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/tractorTraitors/replaceAll</text>
+        </option>
+        <option id="031aac5c40" nextId="efe6d20120">
+          <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/tractorTraitors/neverThought</text>
+        </option>
+      </next>
+    </item>
+    <item id="c7601465a8" nextId="2fc6c47f76">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/tractorTraitors/reallyIs</text>
+    </item>
+    <item id="2fc6c47f76" nextId="9078abf9e8">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/tractorTraitors/modernization</text>
+    </item>
+    <item id="9078abf9e8" nextId="63c6313096">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/tractorTraitors/amusingAnecdote</text>
+    </item>
+    <item id="63c6313096" nextId="b467dcd3a3">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/tractorTraitors/horses</text>
+    </item>
+    <item id="b467dcd3a3" nextId="35cf8001db">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/tractorTraitors/horseSelling</text>
+    </item>
+    <item id="35cf8001db" nextId="b683e7d4c7">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/tractorTraitors/retiredHorses</text>
+    </item>
+    <item id="b683e7d4c7" nextId="4e4d7abc0c">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/tractorTraitors/calledNeighbors</text>
+    </item>
+    <item id="4e4d7abc0c" nextId="7550af5644">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/tractorTraitors/traitors</text>
+    </item>
+    <item id="7550af5644" nextId="ce0f1b1618">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/tractorTraitors/wildTheories</text>
+    </item>
+    <item id="ce0f1b1618" nextId="d27e7865ad">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/tractorTraitors/farmerSmart</text>
+    </item>
+    <item id="d27e7865ad" nextId="9bea4e5090">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/tractorTraitors/hardTime</text>
+    </item>
+    <item id="9bea4e5090" nextId="2f4aff1bbf">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/tractorTraitors/qicklyCrumbled</text>
+    </item>
+    <item id="2f4aff1bbf" nextId="90b8322dcc">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/tractorTraitors/smartGreatPops</text>
+    </item>
+    <item id="90b8322dcc" nextId="aecd42ae61">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/tractorTraitors/smartAdapt</text>
+    </item>
+    <item id="aecd42ae61" nextId="6aa6f63cc5">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/tractorTraitors/thinkDifference</text>
+    </item>
+    <item id="6aa6f63cc5" nextId="3a8f43b77a">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/tractorTraitors/goodDecisions</text>
+    </item>
+    <item id="3a8f43b77a">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/tractorTraitors/nowGo</text>
+      <actions>
+        <startConversationById uniqueId="0bc5b0ce93"/>
+      </actions>
+    </item>
+    <item id="e33f3f93ae" nextId="2fc6c47f76">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/tractorTraitors/notBad</text>
+    </item>
+    <item id="33e71c841c" nextId="2fc6c47f76">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/tractorTraitors/depending</text>
+    </item>
+    <item id="6fcdbe7f2c" nextId="2fc6c47f76">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/tractorTraitors/hundredYearsAgo</text>
+    </item>
+    <item id="efe6d20120" nextId="2fc6c47f76">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/tractorTraitors/noWorry</text>
+    </item>
+  </textFlow>
+</conversation>

@@ -1,0 +1,14 @@
+<conversation>
+  <class>NPCConversationGuidedTour</class>
+  <type>GUIDED_TOUR</type>
+  <isActive>true</isActive>
+  <probability>1</probability>
+  <prerequisites>
+    <manuallyTriggered/>
+  </prerequisites>
+  <textFlow startId="e28f2dd780">
+    <item id="e28f2dd780">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/trailer/waitUntilCombineGrainTankIsEmpty/waitForFull</text>
+    </item>
+  </textFlow>
+</conversation>

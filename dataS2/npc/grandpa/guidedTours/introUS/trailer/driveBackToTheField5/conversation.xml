@@ -1,0 +1,14 @@
+<conversation>
+  <class>NPCConversationGuidedTour</class>
+  <type>GUIDED_TOUR</type>
+  <isActive>true</isActive>
+  <probability>1</probability>
+  <prerequisites>
+    <manuallyTriggered/>
+  </prerequisites>
+  <textFlow startId="812142d7ff">
+    <item id="812142d7ff">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/trailer/driveBackToTheField5/comeBack</text>
+    </item>
+  </textFlow>
+</conversation>

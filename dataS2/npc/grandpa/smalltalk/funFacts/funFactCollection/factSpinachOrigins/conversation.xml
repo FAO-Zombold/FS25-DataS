@@ -1,0 +1,26 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>SMALLTALK_FUNFACTS</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <numTriggered max="1"/>
+  </prerequisites>
+  <textFlow startId="531eae2c93">
+    <item id="531eae2c93" nextId="fb3141a057">
+      <text>$dataS2/npc/grandpa/smalltalk/funFacts/funFactCollection/factSpinachOrigins/spinachFact</text>
+    </item>
+    <item id="fb3141a057" nextId="70cfcdd85d">
+      <text>$dataS2/npc/grandpa/smalltalk/funFacts/funFactCollection/factSpinachOrigins/originPersia</text>
+    </item>
+    <item id="70cfcdd85d" nextId="8fbf93da11">
+      <text>$dataS2/npc/grandpa/smalltalk/funFacts/funFactCollection/factSpinachOrigins/wayToEurope</text>
+    </item>
+    <item id="8fbf93da11">
+      <text>$dataS2/npc/grandpa/smalltalk/funFacts/funFactCollection/factSpinachOrigins/westernCountries</text>
+      <actions>
+        <startConversationById uniqueId="0bc5b0ce93"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

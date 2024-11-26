@@ -1,0 +1,40 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="877ec8bd0d">
+    <item id="877ec8bd0d" isActive="false">
+      <text>$dataS2/npc/helper/help/helpCrops/sugarcane/overviewSugarcane/intro</text>
+      <next>
+        <option id="8429312c67">
+          <text>$dataS2/npc/helper/help/helpCrops/sugarcane/overviewSugarcane/whatSpecial</text>
+          <actions>
+            <startConversationById uniqueId="91b3b8eae4"/>
+          </actions>
+        </option>
+        <option id="a6b524c311">
+          <text>$dataS2/npc/helper/help/helpCrops/sugarcane/overviewSugarcane/whatEquipment</text>
+          <actions>
+            <startConversationById uniqueId="5958fa2119"/>
+          </actions>
+        </option>
+        <option id="81a256778e">
+          <text>$dataS2/npc/helper/help/helpCrops/sugarcane/overviewSugarcane/stepByStep</text>
+          <actions>
+            <startConversationById uniqueId="331d3b2d31"/>
+          </actions>
+        </option>
+        <option id="e02aede3f5">
+          <text>$dataS2/npc/helper/help/helpCrops/sugarcane/overviewSugarcane/backButton</text>
+          <actions>
+            <startConversationById uniqueId="b7b177b9c9"/>
+          </actions>
+        </option>
+        <option id="87de2b0fa1">
+          <text>$dataS2/npc/helper/help/helpCrops/sugarcane/overviewSugarcane/exitButton</text>
+        </option>
+      </next>
+    </item>
+  </textFlow>
+</conversation>

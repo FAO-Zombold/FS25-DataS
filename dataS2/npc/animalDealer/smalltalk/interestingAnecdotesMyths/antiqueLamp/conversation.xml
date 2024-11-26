@@ -1,0 +1,79 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>KATIE_ANECDOTES</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="db801eb849">
+    <item id="db801eb849" nextId="87201187be">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/antiqueLamp/heirloomLamp</text>
+    </item>
+    <item id="87201187be" nextId="373f082895">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/antiqueLamp/interestingStory</text>
+    </item>
+    <item id="373f082895">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/antiqueLamp/loosingAMagicLamp</text>
+      <next>
+        <option id="2c8b9cbe69" nextId="794568a698">
+          <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/antiqueLamp/optionA</text>
+        </option>
+        <option id="71566a2a9c" nextId="761a26f9e4">
+          <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/antiqueLamp/optionB</text>
+        </option>
+      </next>
+    </item>
+    <item id="794568a698" nextId="761a26f9e4">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/antiqueLamp/whereIsYour</text>
+    </item>
+    <item id="761a26f9e4" nextId="dc244c78ea">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/antiqueLamp/repellingMosquitos</text>
+    </item>
+    <item id="dc244c78ea" nextId="92a85fed26">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/antiqueLamp/prettyNice</text>
+    </item>
+    <item id="92a85fed26" nextId="829a38112e">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/antiqueLamp/backToTheStory</text>
+    </item>
+    <item id="829a38112e" nextId="ad611458a8">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/antiqueLamp/goldenApplePie</text>
+    </item>
+    <item id="ad611458a8" nextId="52a4bfd034">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/antiqueLamp/grampsFellInLove</text>
+    </item>
+    <item id="52a4bfd034" nextId="abb04334fb">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/antiqueLamp/scandalousEngagement</text>
+    </item>
+    <item id="abb04334fb" nextId="8a93c01f62">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/antiqueLamp/NoLampForGamps</text>
+    </item>
+    <item id="8a93c01f62" nextId="c921d259f5">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/antiqueLamp/buriedTheLamp</text>
+    </item>
+    <item id="c921d259f5" nextId="c73300fad3">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/antiqueLamp/GrandmaWasGreat</text>
+    </item>
+    <item id="c73300fad3" nextId="0c57103ae2">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/antiqueLamp/lateRealization</text>
+    </item>
+    <item id="0c57103ae2" nextId="ffa3d86367">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/antiqueLamp/forgotWhere</text>
+    </item>
+    <item id="ffa3d86367" nextId="75825a8fe6">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/antiqueLamp/pettinessAndApplePie</text>
+    </item>
+    <item id="75825a8fe6" nextId="32c56ae7e8">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/antiqueLamp/moralOfTheStory</text>
+    </item>
+    <item id="32c56ae7e8" nextId="1975b5d2f1">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/antiqueLamp/singleBurnerStudentLamp</text>
+    </item>
+    <item id="1975b5d2f1" nextId="9590182f36">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/antiqueLamp/enoughHistory</text>
+    </item>
+    <item id="9590182f36">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/antiqueLamp/seeYou</text>
+      <actions>
+        <startConversationById uniqueId="bb0236da62"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

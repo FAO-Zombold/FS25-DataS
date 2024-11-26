@@ -1,0 +1,47 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>DAVID_ADVICE</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <retriggerTypeDelayIngameDays type="DAVID_ADVICE" minDays="1"/>
+  </prerequisites>
+  <textFlow startId="eb933eaa97">
+    <item id="eb933eaa97" nextId="3ba43770fa">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/usedMachines/secretNoSecret</text>
+    </item>
+    <item id="3ba43770fa" nextId="41905776f2">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/usedMachines/dealership</text>
+    </item>
+    <item id="41905776f2" nextId="6244b13a48">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/usedMachines/brandNewAndShiny</text>
+    </item>
+    <item id="6244b13a48" nextId="ed5512806c">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/usedMachines/doesItHaveToBe</text>
+    </item>
+    <item id="ed5512806c" nextId="84fc939ddb">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/usedMachines/salesSituation</text>
+    </item>
+    <item id="84fc939ddb" nextId="f5379974a6">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/usedMachines/awesomeDeals</text>
+    </item>
+    <item id="f5379974a6" nextId="df72f0f101">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/usedMachines/professionalFarmer</text>
+    </item>
+    <item id="df72f0f101" nextId="b267ad76f2">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/usedMachines/goodDeal</text>
+    </item>
+    <item id="b267ad76f2" nextId="8926cbd256">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/usedMachines/currentItems</text>
+    </item>
+    <item id="8926cbd256" nextId="e3281bac15">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/usedMachines/goodDeals</text>
+    </item>
+    <item id="e3281bac15">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/usedMachines/checkItOut</text>
+      <actions>
+        <startConversationById uniqueId="bdd07bda2c"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

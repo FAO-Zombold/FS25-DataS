@@ -1,0 +1,19 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>MISSION_INTRO</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <missionAvailable>
+      <type name="destructibleRockMission"/>
+    </missionAvailable>
+  </prerequisites>
+  <textFlow startId="91e2bc66d6">
+    <item id="91e2bc66d6">
+      <text>$dataS2/npc/forester/conversations/missions/missionRockRemoval/introRockRemoval01/intro01</text>
+      <actions>
+        <startConversationById uniqueId="1aff4f4dd4"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

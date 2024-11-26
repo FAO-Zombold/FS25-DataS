@@ -1,0 +1,64 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>SMALLTALK_ABOUT_YOU</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <seasonPeriod min="EARLY_AUTUMN" max="MID_AUTUMN"/>
+  </prerequisites>
+  <textFlow startId="2dbd8e3997">
+    <item id="2dbd8e3997" nextId="c6f9b45a00">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/fallOnTheFarm/firstLeaves</text>
+    </item>
+    <item id="c6f9b45a00" nextId="e299193a1b">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/fallOnTheFarm/farmFall</text>
+    </item>
+    <item id="e299193a1b" nextId="42a9ddb4f8">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/fallOnTheFarm/specialPlace</text>
+    </item>
+    <item id="42a9ddb4f8" nextId="7ec9bd2766">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/fallOnTheFarm/grandFinale</text>
+    </item>
+    <item id="7ec9bd2766">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/fallOnTheFarm/seeWhy</text>
+      <next>
+        <option id="c994f0450f" nextId="7b22fe3548">
+          <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/fallOnTheFarm/dramaticTrees</text>
+        </option>
+        <option id="9c3ed3d350" nextId="74bfbf13cc">
+          <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/fallOnTheFarm/finalSeason</text>
+        </option>
+      </next>
+    </item>
+    <item id="7b22fe3548" nextId="e7868a1b92">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/fallOnTheFarm/neverHeard</text>
+    </item>
+    <item id="e7868a1b92" nextId="bd5d914a14">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/fallOnTheFarm/showFall</text>
+    </item>
+    <item id="bd5d914a14" nextId="031e405e2f">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/fallOnTheFarm/morningsAfternoons</text>
+    </item>
+    <item id="031e405e2f" nextId="33bf1325f8">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/fallOnTheFarm/cozyPatchwork</text>
+    </item>
+    <item id="33bf1325f8" nextId="47ca297f68">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/fallOnTheFarm/notIgnore</text>
+    </item>
+    <item id="47ca297f68" nextId="59c54848bd">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/fallOnTheFarm/fallBeauty</text>
+    </item>
+    <item id="59c54848bd" nextId="7830ccfdc0">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/fallOnTheFarm/harvestTime</text>
+    </item>
+    <item id="7830ccfdc0">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/fallOnTheFarm/goOn</text>
+      <actions>
+        <startConversationById uniqueId="0bc5b0ce93"/>
+      </actions>
+    </item>
+    <item id="74bfbf13cc" nextId="e7868a1b92">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/fallOnTheFarm/quiteWinter</text>
+    </item>
+  </textFlow>
+</conversation>

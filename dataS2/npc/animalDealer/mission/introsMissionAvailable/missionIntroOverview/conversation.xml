@@ -1,0 +1,167 @@
+<conversation>
+  <class>NPCConversationGuidedTour</class>
+  <type>MISSION</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="a6645b491c">
+    <item id="a6645b491c" isActive="false">
+      <text>$dataS2/npc/animalDealer/mission/introsMissionAvailable/missionIntroOverview/thanksAnyHelp</text>
+      <next>
+        <option id="3db29d82ac">
+          <text>$dataS2/npc/animalDealer/mission/introsMissionAvailable/missionIntroOverview/optionMowing</text>
+          <actions>
+            <startConversationFromList>
+              <conversation uniqueId="cd22e8e889"/>
+              <conversation uniqueId="e7c2ed1ceb"/>
+              <conversation uniqueId="8eee5a9ff9"/>
+              <conversation uniqueId="3dfd7fbb20"/>
+            </startConversationFromList>
+          </actions>
+          <inputs>
+            <selectedMission type="mowMission"/>
+          </inputs>
+          <prerequisites>
+            <missionAvailable type="mowMission"/>
+          </prerequisites>
+        </option>
+        <option id="6bf576a07f">
+          <text>$dataS2/npc/animalDealer/mission/introsMissionAvailable/missionIntroOverview/optionTedding</text>
+          <actions>
+            <startConversationFromList>
+              <conversation uniqueId="46efc8a0d4"/>
+              <conversation uniqueId="5ef11bb3f0"/>
+              <conversation uniqueId="5824262b09"/>
+            </startConversationFromList>
+          </actions>
+          <inputs>
+            <selectedMission type="tedderMission"/>
+          </inputs>
+          <prerequisites>
+            <missionAvailable type="tedderMission"/>
+          </prerequisites>
+        </option>
+        <option id="63a42aa6b4" isActive="false">
+          <text>$dataS2/npc/animalDealer/mission/introsMissionAvailable/missionIntroOverview/optionWindrowing</text>
+          <actions>
+            <startConversationFromList>
+              <conversation uniqueId="bcca9cd592"/>
+              <conversation uniqueId="9b99a1cb9e"/>
+              <conversation uniqueId="0f6d6b643e"/>
+            </startConversationFromList>
+          </actions>
+          <inputs>
+            <selectedMission type=""/>
+          </inputs>
+          <prerequisites>
+            <missionAvailable type=""/>
+          </prerequisites>
+        </option>
+        <option id="146bcacdc9">
+          <text>$dataS2/npc/animalDealer/mission/introsMissionAvailable/missionIntroOverview/optionBalingRound</text>
+          <actions>
+            <startConversationFromList>
+              <conversation uniqueId="16f4f64d4f"/>
+              <conversation uniqueId="67d15114d4"/>
+              <conversation uniqueId="0868c2ca1e"/>
+            </startConversationFromList>
+          </actions>
+          <inputs>
+            <selectedMission type="baleMission"/>
+          </inputs>
+          <prerequisites>
+            <missionAvailable type="baleMission" variant="ROUNDBALER"/>
+          </prerequisites>
+        </option>
+        <option id="b068d51e21">
+          <text>$dataS2/npc/animalDealer/mission/introsMissionAvailable/missionIntroOverview/optionBalingSquare</text>
+          <actions>
+            <startConversationFromList>
+              <conversation uniqueId="b9deddbdde"/>
+              <conversation uniqueId="0dee7622ce"/>
+              <conversation uniqueId="97e7d95357"/>
+            </startConversationFromList>
+          </actions>
+          <inputs>
+            <selectedMission type="baleMission"/>
+          </inputs>
+          <prerequisites>
+            <missionAvailable type="baleMission" variant="SQUAREBALER"/>
+          </prerequisites>
+        </option>
+        <option id="fd1787ab60">
+          <text>$dataS2/npc/animalDealer/mission/introsMissionAvailable/missionIntroOverview/optionBaleWrappingRound</text>
+          <actions>
+            <startConversationFromList>
+              <conversation uniqueId="ca146af3f2"/>
+              <conversation uniqueId="e41f677ba5"/>
+              <conversation uniqueId="447e6ddc01"/>
+            </startConversationFromList>
+          </actions>
+          <inputs>
+            <selectedMission type="baleWrapMission"/>
+          </inputs>
+          <prerequisites>
+            <missionAvailable type="baleWrapMission" variant="ROUNDBALER"/>
+          </prerequisites>
+        </option>
+        <option id="212cf262aa">
+          <text>$dataS2/npc/animalDealer/mission/introsMissionAvailable/missionIntroOverview/optionBaleWrappingSquare</text>
+          <actions>
+            <startConversationFromList>
+              <conversation uniqueId="ec9ce1a9d2"/>
+              <conversation uniqueId="3e03b05db5"/>
+              <conversation uniqueId="673c69d655"/>
+            </startConversationFromList>
+          </actions>
+          <inputs>
+            <selectedMission type="baleWrapMission"/>
+          </inputs>
+          <prerequisites>
+            <missionAvailable type="baleWrapMission" variant="SQUAREBALER"/>
+          </prerequisites>
+        </option>
+        <option id="599279d07b" isActive="false">
+          <text>$dataS2/npc/animalDealer/mission/introsMissionAvailable/missionIntroOverview/optionBaling</text>
+          <actions>
+            <startConversationFromList>
+              <conversation uniqueId="9bf760984c"/>
+              <conversation uniqueId="bc6bb748da"/>
+              <conversation uniqueId="61ded2b831"/>
+            </startConversationFromList>
+          </actions>
+          <inputs>
+            <selectedMission type="baleMission"/>
+          </inputs>
+          <prerequisites>
+            <missionAvailable type="baleMission"/>
+          </prerequisites>
+        </option>
+        <option id="91af812c40" isActive="false">
+          <text>$dataS2/npc/animalDealer/mission/introsMissionAvailable/missionIntroOverview/optionTransportingbales</text>
+          <actions>
+            <startConversationFromList>
+              <conversation uniqueId="e01153a1ba"/>
+              <conversation uniqueId="b81ef45436"/>
+              <conversation uniqueId="1ed2c3090b"/>
+            </startConversationFromList>
+          </actions>
+          <inputs>
+            <selectedMission type=""/>
+          </inputs>
+          <prerequisites>
+            <missionAvailable type=""/>
+          </prerequisites>
+        </option>
+        <option id="c1ec470c38">
+          <text>$dataS2/npc/animalDealer/mission/introsMissionAvailable/missionIntroOverview/optionBack</text>
+          <actions>
+            <startConversationById uniqueId="bb0236da62"/>
+          </actions>
+        </option>
+        <option id="46e6ff5af2">
+          <text>$dataS2/npc/animalDealer/mission/introsMissionAvailable/missionIntroOverview/optionExit</text>
+        </option>
+      </next>
+    </item>
+  </textFlow>
+</conversation>

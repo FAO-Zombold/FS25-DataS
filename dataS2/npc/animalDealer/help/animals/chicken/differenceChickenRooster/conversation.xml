@@ -1,0 +1,17 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="07c98c91cd">
+    <item id="07c98c91cd" nextId="9919c345f8">
+      <text>$dataS2/npc/animalDealer/help/animals/chicken/differenceChickenRooster/usuallyYouNeed</text>
+    </item>
+    <item id="9919c345f8">
+      <text>$dataS2/npc/animalDealer/help/animals/chicken/differenceChickenRooster/skillsHaveLimits</text>
+      <actions>
+        <startConversationById uniqueId="ccb08919e9"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

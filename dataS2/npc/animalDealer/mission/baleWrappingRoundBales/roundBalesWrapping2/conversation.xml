@@ -1,0 +1,19 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>MISSION_SELECT</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <missionAvailable>
+      <type name="baleWrapMission" variant="ROUNDBALER"/>
+    </missionAvailable>
+  </prerequisites>
+  <textFlow startId="cda53ac1fd">
+    <item id="cda53ac1fd">
+      <text>$dataS2/npc/animalDealer/mission/baleWrappingRoundBales/roundBalesWrapping2/wrapSomeRoundBales</text>
+      <actions>
+        <startConversationById uniqueId="37ee6ccc79"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

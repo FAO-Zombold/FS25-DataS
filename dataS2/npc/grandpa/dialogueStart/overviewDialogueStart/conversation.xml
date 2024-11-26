@@ -1,0 +1,46 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>DEFAULT</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="492dca5b6b">
+    <item id="492dca5b6b" isActive="false">
+      <text>$dataS2/npc/grandpa/dialogueStart/overviewDialogueStart/whatsUp</text>
+      <next>
+        <option id="375a9fa09e">
+          <text>$dataS2/npc/grandpa/dialogueStart/overviewDialogueStart/optionMissions</text>
+          <actions>
+            <startConversationFromList>
+              <conversation uniqueId="4c97634dfe"/>
+              <conversation uniqueId="b584ad70f0"/>
+              <conversation uniqueId="2cef908886"/>
+              <conversation uniqueId="0eaac21f1d"/>
+              <conversation uniqueId="24fbc16fc8"/>
+              <failConversation uniqueId="8bf1703061"/>
+              <failConversation uniqueId="e7838dd43b"/>
+              <failConversation uniqueId="6183bdf4c5"/>
+            </startConversationFromList>
+          </actions>
+          <prerequisites>
+            <missionPermission/>
+          </prerequisites>
+        </option>
+        <option id="6c7044e5e3">
+          <text>$dataS2/npc/grandpa/dialogueStart/overviewDialogueStart/optionHelp</text>
+          <actions>
+            <startConversationById uniqueId="0eb8244863"/>
+          </actions>
+        </option>
+        <option id="885db61ed5">
+          <text>$dataS2/npc/grandpa/dialogueStart/overviewDialogueStart/optionSmalltalk</text>
+          <actions>
+            <startConversationById uniqueId="14df9c02fe"/>
+          </actions>
+        </option>
+        <option id="72094d50a8">
+          <text>$dataS2/npc/grandpa/dialogueStart/overviewDialogueStart/optionExit</text>
+        </option>
+      </next>
+    </item>
+  </textFlow>
+</conversation>

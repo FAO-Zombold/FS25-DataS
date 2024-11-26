@@ -1,0 +1,98 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>SMALLTALK_PROJECTS</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="78669918f7">
+    <item id="78669918f7">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenTie/deniedPatent</text>
+      <next>
+        <option id="25f46d1dd4" nextId="97e226a788">
+          <text>$dataS2/npc/forester/conversations/projects/projectWoodenTie/disappointed</text>
+        </option>
+        <option id="4dc16cafa8" nextId="97e226a788">
+          <text>$dataS2/npc/forester/conversations/projects/projectWoodenTie/whyReject</text>
+        </option>
+      </next>
+    </item>
+    <item id="97e226a788" nextId="c799015c5e">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenTie/tooElaborate</text>
+    </item>
+    <item id="c799015c5e" nextId="6dd25ae49b">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenTie/registerWoodwork</text>
+    </item>
+    <item id="6dd25ae49b" nextId="d20717e330">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenTie/woodenTie</text>
+    </item>
+    <item id="d20717e330" nextId="8f2f0017e4">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenTie/specialTechnique</text>
+    </item>
+    <item id="8f2f0017e4" nextId="7a1e85c9cc">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenTie/oneUse</text>
+    </item>
+    <item id="7a1e85c9cc" nextId="ded2f51e24">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenTie/increasesSales</text>
+    </item>
+    <item id="ded2f51e24" nextId="378aa501f8">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenTie/repurchase</text>
+    </item>
+    <item id="378aa501f8" nextId="ed942579c0">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenTie/uniqueTie</text>
+    </item>
+    <item id="ed942579c0" nextId="c15e68f654">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenTie/leaveDeposit</text>
+    </item>
+    <item id="c15e68f654">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenTie/comeBack</text>
+      <next>
+        <option id="3e3daf823a" nextId="42f45a3ab2">
+          <text>$dataS2/npc/forester/conversations/projects/projectWoodenTie/impractical</text>
+        </option>
+        <option id="6b13105c07" nextId="7de91ead57">
+          <text>$dataS2/npc/forester/conversations/projects/projectWoodenTie/geniusIdea</text>
+        </option>
+      </next>
+    </item>
+    <item id="42f45a3ab2" nextId="5e85f62c41">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenTie/firstFree</text>
+    </item>
+    <item id="5e85f62c41" nextId="a729bbb2e7">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenTie/singleMen</text>
+    </item>
+    <item id="a729bbb2e7" nextId="c2c9fbac0e">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenTie/laughingstock</text>
+    </item>
+    <item id="c2c9fbac0e" nextId="9e8f4c77d1">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenTie/excellentTaste</text>
+    </item>
+    <item id="9e8f4c77d1">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenTie/useAsFirewood</text>
+      <next>
+        <option id="44f4f8f73d" nextId="0255d6eb68">
+          <text>$dataS2/npc/forester/conversations/projects/projectWoodenTie/gotMe</text>
+        </option>
+        <option id="9453308618" nextId="03f0e625a1">
+          <text>$dataS2/npc/forester/conversations/projects/projectWoodenTie/notTarget</text>
+        </option>
+      </next>
+    </item>
+    <item id="0255d6eb68" nextId="f7071b4cb4">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenTie/waitingList</text>
+    </item>
+    <item id="f7071b4cb4" nextId="90fb9ec886">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenTie/mystery</text>
+    </item>
+    <item id="90fb9ec886">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenTie/doWork</text>
+      <actions>
+        <startConversationById uniqueId="8b24b3ebc0"/>
+      </actions>
+    </item>
+    <item id="03f0e625a1" nextId="f7071b4cb4">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenTie/yourLoss</text>
+    </item>
+    <item id="7de91ead57" nextId="5e85f62c41">
+      <text>$dataS2/npc/forester/conversations/projects/projectWoodenTie/gibberish</text>
+    </item>
+  </textFlow>
+</conversation>

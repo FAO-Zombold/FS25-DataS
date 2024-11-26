@@ -1,0 +1,85 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>SMALLTALK_ABOUT_YOU</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="5f181bbdf8">
+    <item id="5f181bbdf8" nextId="d7eaf5cc43">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/passionForFarming/gabAbout</text>
+    </item>
+    <item id="d7eaf5cc43" nextId="4137d3f318">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/passionForFarming/meanFarming</text>
+    </item>
+    <item id="4137d3f318">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/passionForFarming/whyFarming</text>
+      <next>
+        <option id="93f718919d" nextId="812857728d">
+          <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/passionForFarming/aboutFamily</text>
+        </option>
+        <option id="b5560e502f" nextId="6ebc49bd18">
+          <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/passionForFarming/withPurpose</text>
+        </option>
+        <option id="2c7cb23b91" nextId="9e945c4e9e">
+          <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/passionForFarming/awesomeMachines</text>
+        </option>
+        <option id="4203f62652" nextId="19120cea01">
+          <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/passionForFarming/feelsRight</text>
+        </option>
+      </next>
+    </item>
+    <item id="812857728d" nextId="5c21df5a46">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/passionForFarming/makeProud</text>
+    </item>
+    <item id="5c21df5a46" nextId="d99a278641">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/passionForFarming/becomeAnything</text>
+    </item>
+    <item id="d99a278641" nextId="9be511027f">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/passionForFarming/notPossible</text>
+    </item>
+    <item id="9be511027f" nextId="d9fecf8cdf">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/passionForFarming/generationBefore</text>
+    </item>
+    <item id="d9fecf8cdf" nextId="5074453978">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/passionForFarming/takeAccount</text>
+    </item>
+    <item id="5074453978" nextId="9eb61d8e99">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/passionForFarming/responsibility</text>
+    </item>
+    <item id="9eb61d8e99" nextId="3a80ac89d1">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/passionForFarming/valuableKnowledge</text>
+    </item>
+    <item id="3a80ac89d1" nextId="490854ad0b">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/passionForFarming/noDiscard</text>
+    </item>
+    <item id="490854ad0b" nextId="52731730f3">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/passionForFarming/premiseRaised</text>
+    </item>
+    <item id="52731730f3" nextId="e65ef8c4ca">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/passionForFarming/noQuestions</text>
+    </item>
+    <item id="e65ef8c4ca" nextId="8262c2b553">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/passionForFarming/becauseTradition</text>
+    </item>
+    <item id="8262c2b553" nextId="462aee21ee">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/passionForFarming/nurturePassion</text>
+    </item>
+    <item id="462aee21ee" nextId="7080c54682">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/passionForFarming/youHave</text>
+    </item>
+    <item id="7080c54682">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/passionForFarming/arePassionate</text>
+      <actions>
+        <startConversationById uniqueId="0bc5b0ce93"/>
+      </actions>
+    </item>
+    <item id="6ebc49bd18" nextId="5c21df5a46">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/passionForFarming/goodPurpose</text>
+    </item>
+    <item id="9e945c4e9e" nextId="5c21df5a46">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/passionForFarming/nothingBeats</text>
+    </item>
+    <item id="19120cea01" nextId="5c21df5a46">
+      <text>$dataS2/npc/grandpa/smalltalk/aboutGrandpa/passionForFarming/isRight</text>
+    </item>
+  </textFlow>
+</conversation>

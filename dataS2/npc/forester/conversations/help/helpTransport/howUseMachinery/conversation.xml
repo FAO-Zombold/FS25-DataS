@@ -1,0 +1,35 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="306e2d3b5a">
+    <item id="306e2d3b5a" nextId="69ee1ba19b">
+      <text>$dataS2/npc/forester/conversations/help/helpTransport/howUseMachinery/useLogLoader</text>
+    </item>
+    <item id="69ee1ba19b" nextId="1bfb95b2f7">
+      <text>$dataS2/npc/forester/conversations/help/helpTransport/howUseMachinery/cuttingLength</text>
+    </item>
+    <item id="1bfb95b2f7" nextId="4d9505474f">
+      <text>$dataS2/npc/forester/conversations/help/helpTransport/howUseMachinery/longerBetter</text>
+    </item>
+    <item id="4d9505474f" nextId="9a46e75cac">
+      <text>$dataS2/npc/forester/conversations/help/helpTransport/howUseMachinery/attention</text>
+    </item>
+    <item id="9a46e75cac" nextId="ce4d6aeee1">
+      <text>$dataS2/npc/forester/conversations/help/helpTransport/howUseMachinery/excavator</text>
+    </item>
+    <item id="ce4d6aeee1" nextId="1f47a2db35">
+      <text>$dataS2/npc/forester/conversations/help/helpTransport/howUseMachinery/prepareForContainer</text>
+    </item>
+    <item id="1f47a2db35" nextId="6cbea5827f">
+      <text>$dataS2/npc/forester/conversations/help/helpTransport/howUseMachinery/wheelLoader</text>
+    </item>
+    <item id="6cbea5827f">
+      <text>$dataS2/npc/forester/conversations/help/helpTransport/howUseMachinery/likePallet</text>
+      <actions>
+        <startConversationById uniqueId="bb45534978"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

@@ -1,0 +1,40 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>MISSION</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="9613995fbc">
+    <item id="9613995fbc" nextId="b24a452a65">
+      <text>$dataS2/npc/grandpa/missions/field/plowing/plowingEquipment/machineChoice</text>
+    </item>
+    <item id="b24a452a65">
+      <text>$dataS2/npc/grandpa/missions/field/plowing/plowingEquipment/so</text>
+      <next>
+        <option id="311540ae69">
+          <text>$dataS2/npc/grandpa/missions/field/plowing/plowingEquipment/ownMachine</text>
+          <actions>
+            <startSelectedMission/>
+          </actions>
+        </option>
+        <option id="02f4738207">
+          <text>$dataS2/npc/grandpa/missions/field/plowing/plowingEquipment/borrowMachine</text>
+          <actions>
+            <startSelectedMission/>
+          </actions>
+          <inputs>
+            <leaseVehicles value="true"/>
+          </inputs>
+        </option>
+        <option id="c3e2e75810" nextId="77b2378d47">
+          <text>$dataS2/npc/grandpa/missions/field/plowing/plowingEquipment/whatMachine</text>
+        </option>
+        <option id="6e139a374b">
+          <text>$dataS2/npc/grandpa/missions/field/plowing/plowingEquipment/changedMind</text>
+        </option>
+      </next>
+    </item>
+    <item id="77b2378d47" nextId="b24a452a65">
+      <text>$dataS2/npc/grandpa/missions/field/plowing/plowingEquipment/infoMachine</text>
+    </item>
+  </textFlow>
+</conversation>

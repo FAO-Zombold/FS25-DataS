@@ -1,0 +1,17 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="4f1aa196eb">
+    <item id="4f1aa196eb" nextId="1edab20dba">
+      <text>$dataS2/npc/forester/conversations/help/helpTreeMarking/whyMarkTrees/waypoints</text>
+    </item>
+    <item id="1edab20dba">
+      <text>$dataS2/npc/forester/conversations/help/helpTreeMarking/whyMarkTrees/keepTrack</text>
+      <actions>
+        <startConversationById uniqueId="4cc57890ef"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

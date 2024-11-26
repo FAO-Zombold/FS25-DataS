@@ -1,0 +1,20 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="3c6503d4d8">
+    <item id="3c6503d4d8" nextId="999eb3fc7b">
+      <text>$dataS2/npc/animalDealer/help/animals/cows/howDoIFeedCows/youCanFeed</text>
+    </item>
+    <item id="999eb3fc7b" nextId="4f6c1efb25">
+      <text>$dataS2/npc/animalDealer/help/animals/cows/howDoIFeedCows/bestResults</text>
+    </item>
+    <item id="4f6c1efb25">
+      <text>$dataS2/npc/animalDealer/help/animals/cows/howDoIFeedCows/reliesOnMilk</text>
+      <actions>
+        <startConversationById uniqueId="dfaead6155"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

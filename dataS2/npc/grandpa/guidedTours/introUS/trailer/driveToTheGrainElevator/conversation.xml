@@ -1,0 +1,29 @@
+<conversation>
+  <class>NPCConversationGuidedTour</class>
+  <type>GUIDED_TOUR</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <manuallyTriggered/>
+  </prerequisites>
+  <textFlow startId="a615b62e77">
+    <item id="a615b62e77" nextId="3885b6d32e">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/trailer/driveToTheGrainElevator/wellDone</text>
+    </item>
+    <item id="3885b6d32e" nextId="29a3756b86">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/trailer/driveToTheGrainElevator/storeOrSell</text>
+    </item>
+    <item id="29a3756b86" nextId="177e6317ac">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/trailer/driveToTheGrainElevator/thisLoad</text>
+    </item>
+    <item id="177e6317ac" nextId="8b86d03336">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/trailer/driveToTheGrainElevator/waiting</text>
+    </item>
+    <item id="8b86d03336" nextId="4f3bf41b9d">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/trailer/driveToTheGrainElevator/driveUnloadingStation</text>
+    </item>
+    <item id="4f3bf41b9d">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/trailer/driveToTheGrainElevator/elevator</text>
+    </item>
+  </textFlow>
+</conversation>

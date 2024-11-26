@@ -1,0 +1,26 @@
+<conversation>
+  <class>NPCConversationGuidedTour</class>
+  <type>GUIDED_TOUR</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <manuallyTriggered/>
+  </prerequisites>
+  <textFlow startId="352938fc8d">
+    <item id="352938fc8d" nextId="dc070aaa8a">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/trailer/unloadTheTrailer/elevator</text>
+    </item>
+    <item id="dc070aaa8a" nextId="7f315eabc2">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/trailer/unloadTheTrailer/prices</text>
+    </item>
+    <item id="7f315eabc2" nextId="e4447403f3">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/trailer/unloadTheTrailer/sellGoods</text>
+    </item>
+    <item id="e4447403f3" nextId="b4d631f0ea">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/trailer/unloadTheTrailer/letsGetToIt</text>
+    </item>
+    <item id="b4d631f0ea">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/trailer/unloadTheTrailer/driveOver</text>
+    </item>
+  </textFlow>
+</conversation>

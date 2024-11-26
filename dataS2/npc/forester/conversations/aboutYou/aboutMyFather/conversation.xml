@@ -1,0 +1,93 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>SMALLTALK_ABOUT_YOU</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="6662138f58">
+    <item id="6662138f58" nextId="ebf857da64">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutMyFather/jokesterDad</text>
+    </item>
+    <item id="ebf857da64" nextId="56c8086bfc">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutMyFather/craftAJoke</text>
+    </item>
+    <item id="56c8086bfc">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutMyFather/confrontsWithWordplay</text>
+      <next>
+        <option id="4679c212a1" nextId="1084ad336a">
+          <text>$dataS2/npc/forester/conversations/aboutYou/aboutMyFather/tellMore</text>
+        </option>
+        <option id="45ee0b9f85" nextId="1084ad336a">
+          <text>$dataS2/npc/forester/conversations/aboutYou/aboutMyFather/amIRight</text>
+        </option>
+        <option id="e1d5ee9ee0" nextId="45a6141815">
+          <text>$dataS2/npc/forester/conversations/aboutYou/aboutMyFather/likePuns</text>
+        </option>
+      </next>
+    </item>
+    <item id="1084ad336a" nextId="a67633ad24">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutMyFather/wouldRename</text>
+    </item>
+    <item id="a67633ad24" nextId="c18024a758">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutMyFather/metInNorway</text>
+    </item>
+    <item id="c18024a758" nextId="4f601846ad">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutMyFather/startedWorking</text>
+    </item>
+    <item id="4f601846ad" nextId="4ef9031db8">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutMyFather/notReturn</text>
+    </item>
+    <item id="4ef9031db8" nextId="eceb7c2a97">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutMyFather/decidedToStay</text>
+    </item>
+    <item id="eceb7c2a97" nextId="b1277da5b8">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutMyFather/opendedOwnCarpentry</text>
+    </item>
+    <item id="b1277da5b8" nextId="b02335a061">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutMyFather/moreLikeMom</text>
+    </item>
+    <item id="b02335a061" nextId="a8e2af290a">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutMyFather/seriouslyWhileWorking</text>
+    </item>
+    <item id="a8e2af290a" nextId="1624c39e8f">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutMyFather/intoWoodworking</text>
+    </item>
+    <item id="1624c39e8f" nextId="eab0e18928">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutMyFather/didOwnThing</text>
+    </item>
+    <item id="eab0e18928" nextId="ac4b0f3a2f">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutMyFather/sameBadTaste</text>
+    </item>
+    <item id="ac4b0f3a2f" nextId="a86fe5e2dc">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutMyFather/tellsPeople</text>
+    </item>
+    <item id="a86fe5e2dc" nextId="7e74b638ab">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutMyFather/impressiveProjects</text>
+    </item>
+    <item id="7e74b638ab">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutMyFather/elaborateAnotherTime</text>
+      <next>
+        <option id="fd9cf05f9b" nextId="86d4c66663">
+          <text>$dataS2/npc/forester/conversations/aboutYou/aboutMyFather/interestingThanks</text>
+        </option>
+        <option id="e647c3e28c" nextId="9e9471ffaa">
+          <text>$dataS2/npc/forester/conversations/aboutYou/aboutMyFather/likeJokes</text>
+        </option>
+      </next>
+    </item>
+    <item id="86d4c66663">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutMyFather/goodDay</text>
+      <actions>
+        <startConversationById uniqueId="8b24b3ebc0"/>
+      </actions>
+    </item>
+    <item id="9e9471ffaa">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutMyFather/youDoYou</text>
+      <actions>
+        <startConversationById uniqueId="8b24b3ebc0"/>
+      </actions>
+    </item>
+    <item id="45a6141815" nextId="1084ad336a">
+      <text>$dataS2/npc/forester/conversations/aboutYou/aboutMyFather/great</text>
+    </item>
+  </textFlow>
+</conversation>

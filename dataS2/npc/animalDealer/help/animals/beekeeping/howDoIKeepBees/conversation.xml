@@ -1,0 +1,23 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <manuallyTriggered/>
+  </prerequisites>
+  <textFlow startId="0421464483">
+    <item id="0421464483" nextId="e3775869f9">
+      <text>$dataS2/npc/animalDealer/help/animals/beekeeping/howDoIKeepBees/beesdifferent</text>
+    </item>
+    <item id="e3775869f9" nextId="6c83e5a5b4">
+      <text>$dataS2/npc/animalDealer/help/animals/beekeeping/howDoIKeepBees/ifYouAreAStickler</text>
+    </item>
+    <item id="6c83e5a5b4">
+      <text>$dataS2/npc/animalDealer/help/animals/beekeeping/howDoIKeepBees/placeTheHives</text>
+      <actions>
+        <startConversationById uniqueId="cf2f5b928a"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

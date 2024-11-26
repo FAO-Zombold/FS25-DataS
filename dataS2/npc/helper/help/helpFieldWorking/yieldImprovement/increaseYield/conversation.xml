@@ -1,0 +1,41 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="7bffd7941c">
+    <item id="7bffd7941c" nextId="6b166ed290">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/yieldImprovement/increaseYield/optimize</text>
+    </item>
+    <item id="6b166ed290" nextId="d4949cefaa">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/yieldImprovement/increaseYield/maximizeProfits</text>
+    </item>
+    <item id="d4949cefaa" nextId="81c4179502">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/yieldImprovement/increaseYield/severalWays</text>
+    </item>
+    <item id="81c4179502" nextId="7d470e56ac">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/yieldImprovement/increaseYield/plow</text>
+    </item>
+    <item id="7d470e56ac" nextId="398dbdcb66">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/yieldImprovement/increaseYield/improvesYield</text>
+    </item>
+    <item id="398dbdcb66" nextId="ab205fe794">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/yieldImprovement/increaseYield/otherFactors</text>
+    </item>
+    <item id="ab205fe794" nextId="b7126938cb">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/yieldImprovement/increaseYield/notEveryCrop</text>
+    </item>
+    <item id="b7126938cb" nextId="1b83474a4c">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/yieldImprovement/increaseYield/discuss</text>
+    </item>
+    <item id="1b83474a4c" nextId="6934158265">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/yieldImprovement/increaseYield/improve</text>
+    </item>
+    <item id="6934158265">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/yieldImprovement/increaseYield/canSkip</text>
+      <actions>
+        <startConversationById uniqueId="0c49b93be8"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

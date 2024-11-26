@@ -1,0 +1,29 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="9f0259cb57">
+    <item id="9f0259cb57" nextId="2e5b5a82d2">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/plowingCultivating/howWhenPlow/plowAfter</text>
+    </item>
+    <item id="2e5b5a82d2" nextId="fafe13ee51">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/plowingCultivating/howWhenPlow/everyHarvest</text>
+    </item>
+    <item id="fafe13ee51" nextId="5549e2b972">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/plowingCultivating/howWhenPlow/fasterOption</text>
+    </item>
+    <item id="5549e2b972" nextId="adebef9165">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/plowingCultivating/howWhenPlow/easyUse</text>
+    </item>
+    <item id="adebef9165" nextId="07fcd2f70e">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/plowingCultivating/howWhenPlow/feature</text>
+    </item>
+    <item id="07fcd2f70e">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/plowingCultivating/howWhenPlow/thatAll</text>
+      <actions>
+        <startConversationById uniqueId="f5fa69a7dc"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

@@ -1,0 +1,26 @@
+<conversation>
+  <class>NPCConversationGuidedTour</class>
+  <type>GUIDED_TOUR</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <manuallyTriggered/>
+  </prerequisites>
+  <textFlow startId="a9a561e62d">
+    <item id="a9a561e62d" nextId="c3f3859f04">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/combine/unfoldThePipe/niceOne</text>
+    </item>
+    <item id="c3f3859f04" nextId="7ea8654c92">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/combine/unfoldThePipe/blood</text>
+    </item>
+    <item id="7ea8654c92" nextId="219aae23ec">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/combine/unfoldThePipe/capacity</text>
+    </item>
+    <item id="219aae23ec" nextId="7249d4a318">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/combine/unfoldThePipe/unload</text>
+    </item>
+    <item id="7249d4a318">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/combine/unfoldThePipe/unfoldPipe</text>
+    </item>
+  </textFlow>
+</conversation>

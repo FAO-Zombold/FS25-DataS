@@ -1,0 +1,19 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>MISSION_INTRO</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <missionAvailable>
+      <type name="treeTransportMission"/>
+    </missionAvailable>
+  </prerequisites>
+  <textFlow startId="591cca8b8d">
+    <item id="591cca8b8d">
+      <text>$dataS2/npc/forester/conversations/missions/missionTreeTransport/introTreeTransport02/intro02</text>
+      <actions>
+        <startConversationById uniqueId="4029cdeb10"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

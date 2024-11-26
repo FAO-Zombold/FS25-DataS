@@ -1,0 +1,32 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="b51704ebc6">
+    <item id="b51704ebc6" nextId="09f7ffc251">
+      <text>$dataS2/npc/helper/help/helpCrops/spinach/whatNeed/tractor</text>
+    </item>
+    <item id="09f7ffc251" nextId="e6a0f39455">
+      <text>$dataS2/npc/helper/help/helpCrops/spinach/whatNeed/cultivator</text>
+    </item>
+    <item id="e6a0f39455" nextId="6caec9ef02">
+      <text>$dataS2/npc/helper/help/helpCrops/spinach/whatNeed/fertilizer</text>
+    </item>
+    <item id="6caec9ef02" nextId="0de9f1ec97">
+      <text>$dataS2/npc/helper/help/helpCrops/spinach/whatNeed/soilRoller</text>
+    </item>
+    <item id="0de9f1ec97" nextId="f03c12ae23">
+      <text>$dataS2/npc/helper/help/helpCrops/spinach/whatNeed/weeder</text>
+    </item>
+    <item id="f03c12ae23" nextId="49f95ebcb7">
+      <text>$dataS2/npc/helper/help/helpCrops/spinach/whatNeed/harvester</text>
+    </item>
+    <item id="49f95ebcb7">
+      <text>$dataS2/npc/helper/help/helpCrops/spinach/whatNeed/transport</text>
+      <actions>
+        <startConversationById uniqueId="974196d53e"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

@@ -1,0 +1,35 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="8c2d5c535d">
+    <item id="8c2d5c535d" nextId="44da3e1a4a">
+      <text>$dataS2/npc/forester/conversations/help/helpWoodChips/whatEquipment/twoOptions</text>
+    </item>
+    <item id="44da3e1a4a" nextId="c9958e833e">
+      <text>$dataS2/npc/forester/conversations/help/helpWoodChips/whatEquipment/cheaper</text>
+    </item>
+    <item id="c9958e833e" nextId="93e6b35b8a">
+      <text>$dataS2/npc/forester/conversations/help/helpWoodChips/whatEquipment/sufficient</text>
+    </item>
+    <item id="93e6b35b8a" nextId="92871452da">
+      <text>$dataS2/npc/forester/conversations/help/helpWoodChips/whatEquipment/vehicle</text>
+    </item>
+    <item id="92871452da" nextId="85ae39feb6">
+      <text>$dataS2/npc/forester/conversations/help/helpWoodChips/whatEquipment/forestryOperation</text>
+    </item>
+    <item id="85ae39feb6" nextId="37a1a998ce">
+      <text>$dataS2/npc/forester/conversations/help/helpWoodChips/whatEquipment/largeTrees</text>
+    </item>
+    <item id="37a1a998ce" nextId="23dfa5c1eb">
+      <text>$dataS2/npc/forester/conversations/help/helpWoodChips/whatEquipment/transport</text>
+    </item>
+    <item id="23dfa5c1eb">
+      <text>$dataS2/npc/forester/conversations/help/helpWoodChips/whatEquipment/trailer</text>
+      <actions>
+        <startConversationById uniqueId="3de844dcad"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

@@ -1,0 +1,17 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="0c50bf9568">
+    <item id="0c50bf9568" nextId="da3baef3f2">
+      <text>$dataS2/npc/forester/conversations/help/helpCutTrees/treeStumps/forestryMulcher</text>
+    </item>
+    <item id="da3baef3f2">
+      <text>$dataS2/npc/forester/conversations/help/helpCutTrees/treeStumps/easy</text>
+      <actions>
+        <startConversationById uniqueId="f19e72ea07"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

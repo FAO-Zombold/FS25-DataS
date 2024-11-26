@@ -1,0 +1,35 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>DAVID_ADVICE</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <retriggerTypeDelayIngameDays type="DAVID_ADVICE" minDays="1"/>
+  </prerequisites>
+  <textFlow startId="d8b724f63a">
+    <item id="d8b724f63a" nextId="3094521c2a">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/mulching/deserveALaugh</text>
+    </item>
+    <item id="3094521c2a" nextId="f36e937811">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/mulching/beforeFarming</text>
+    </item>
+    <item id="f36e937811" nextId="d8f4702082">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/mulching/thenILearned</text>
+    </item>
+    <item id="d8f4702082" nextId="22ff4a31e3">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/mulching/attachAMulcher</text>
+    </item>
+    <item id="22ff4a31e3" nextId="59e6646f48">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/mulching/someFarming</text>
+    </item>
+    <item id="59e6646f48" nextId="70e10f47c3">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/mulching/improveYield</text>
+    </item>
+    <item id="70e10f47c3">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAdvice/mulching/mulchingBuddy</text>
+      <actions>
+        <startConversationById uniqueId="bdd07bda2c"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

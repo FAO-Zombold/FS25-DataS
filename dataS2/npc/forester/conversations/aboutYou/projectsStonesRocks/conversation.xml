@@ -1,0 +1,102 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>SMALLTALK_ABOUT_YOU</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="6562ef7712">
+    <item id="6562ef7712" nextId="ee92418905">
+      <text>$dataS2/npc/forester/conversations/aboutYou/projectsStonesRocks/emotionsAreBoiling</text>
+    </item>
+    <item id="ee92418905">
+      <text>$dataS2/npc/forester/conversations/aboutYou/projectsStonesRocks/controlBody</text>
+      <next>
+        <option id="5339192113" nextId="28802cddb9">
+          <text>$dataS2/npc/forester/conversations/aboutYou/projectsStonesRocks/angry</text>
+        </option>
+        <option id="69f9dbaf5d" nextId="428914d01b">
+          <text>$dataS2/npc/forester/conversations/aboutYou/projectsStonesRocks/talkToDavid</text>
+        </option>
+      </next>
+    </item>
+    <item id="28802cddb9" nextId="523d9a5f59">
+      <text>$dataS2/npc/forester/conversations/aboutYou/projectsStonesRocks/expressIt</text>
+    </item>
+    <item id="523d9a5f59" nextId="ec6ea8f56c">
+      <text>$dataS2/npc/forester/conversations/aboutYou/projectsStonesRocks/manyRocks</text>
+    </item>
+    <item id="ec6ea8f56c" nextId="079788a886">
+      <text>$dataS2/npc/forester/conversations/aboutYou/projectsStonesRocks/drummingMachines</text>
+    </item>
+    <item id="079788a886" nextId="2642c2fdb9">
+      <text>$dataS2/npc/forester/conversations/aboutYou/projectsStonesRocks/dislikeForStones</text>
+    </item>
+    <item id="2642c2fdb9" nextId="b09fdc759f">
+      <text>$dataS2/npc/forester/conversations/aboutYou/projectsStonesRocks/distressingStones</text>
+    </item>
+    <item id="b09fdc759f" nextId="7aaaea95df">
+      <text>$dataS2/npc/forester/conversations/aboutYou/projectsStonesRocks/moduleFellVictim</text>
+    </item>
+    <item id="7aaaea95df" nextId="ef93729bb7">
+      <text>$dataS2/npc/forester/conversations/aboutYou/projectsStonesRocks/differentSolution</text>
+    </item>
+    <item id="ef93729bb7" nextId="e06e04ba08">
+      <text>$dataS2/npc/forester/conversations/aboutYou/projectsStonesRocks/soilRoller</text>
+    </item>
+    <item id="e06e04ba08" nextId="6d15b90ba9">
+      <text>$dataS2/npc/forester/conversations/aboutYou/projectsStonesRocks/damageMachines</text>
+    </item>
+    <item id="6d15b90ba9" nextId="7414eb48b6">
+      <text>$dataS2/npc/forester/conversations/aboutYou/projectsStonesRocks/wasteOfEnergy</text>
+    </item>
+    <item id="7414eb48b6" nextId="96fd323147">
+      <text>$dataS2/npc/forester/conversations/aboutYou/projectsStonesRocks/largeRocks</text>
+    </item>
+    <item id="96fd323147">
+      <text>$dataS2/npc/forester/conversations/aboutYou/projectsStonesRocks/bloodPressure</text>
+      <next>
+        <option id="66962af7f8" nextId="af24f2a74e">
+          <text>$dataS2/npc/forester/conversations/aboutYou/projectsStonesRocks/overTheTop</text>
+        </option>
+        <option id="dfde1a9a8e" nextId="3e67cbd98a">
+          <text>$dataS2/npc/forester/conversations/aboutYou/projectsStonesRocks/speakingUp</text>
+        </option>
+      </next>
+    </item>
+    <item id="af24f2a74e" nextId="00622504fd">
+      <text>$dataS2/npc/forester/conversations/aboutYou/projectsStonesRocks/excuseME</text>
+    </item>
+    <item id="00622504fd" nextId="341f8d58a1">
+      <text>$dataS2/npc/forester/conversations/aboutYou/projectsStonesRocks/helpMe</text>
+    </item>
+    <item id="341f8d58a1" nextId="1ede9b5d63">
+      <text>$dataS2/npc/forester/conversations/aboutYou/projectsStonesRocks/requirements</text>
+    </item>
+    <item id="1ede9b5d63" nextId="35a5816bb2">
+      <text>$dataS2/npc/forester/conversations/aboutYou/projectsStonesRocks/machinesDoRest</text>
+    </item>
+    <item id="35a5816bb2" nextId="475c9f0e50">
+      <text>$dataS2/npc/forester/conversations/aboutYou/projectsStonesRocks/sharingEmotions</text>
+    </item>
+    <item id="475c9f0e50" nextId="aad6d0c0d1">
+      <text>$dataS2/npc/forester/conversations/aboutYou/projectsStonesRocks/acceptableLevel</text>
+    </item>
+    <item id="aad6d0c0d1" nextId="16a9f4cf5e">
+      <text>$dataS2/npc/forester/conversations/aboutYou/projectsStonesRocks/emotionalOutburst</text>
+    </item>
+    <item id="16a9f4cf5e" nextId="2d15527e9c">
+      <text>$dataS2/npc/forester/conversations/aboutYou/projectsStonesRocks/angerToRocks</text>
+    </item>
+    <item id="2d15527e9c">
+      <text>$dataS2/npc/forester/conversations/aboutYou/projectsStonesRocks/betterLeave</text>
+      <actions>
+        <startConversationById uniqueId="8b24b3ebc0"/>
+      </actions>
+    </item>
+    <item id="3e67cbd98a" nextId="00622504fd">
+      <text>$dataS2/npc/forester/conversations/aboutYou/projectsStonesRocks/understandMe</text>
+    </item>
+    <item id="428914d01b" nextId="523d9a5f59">
+      <text>$dataS2/npc/forester/conversations/aboutYou/projectsStonesRocks/commonNemesis</text>
+    </item>
+  </textFlow>
+</conversation>

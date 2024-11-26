@@ -1,0 +1,274 @@
+<npc>
+  <class>NPC</class>
+  <title>Walter</title>
+  <imageFilename>$dataS2/npc/grandpa/grandpa.png</imageFilename>
+  <filename>$dataS/character/npc/npcBase.i3d</filename>
+  <sounds>
+    <voice linkNode="audioNode" innerRadius="0.2" outerRadius="10.0" supportsReverb="false">
+      <volume indoor="2.5" outdoor="2.5"/>
+      <pitch indoor="0.97" outdoor="0.97"/>
+      <lowpassGain indoor="0.7" outdoor="0.7"/>
+    </voice>
+    <phone supportsReverb="false">
+      <volume indoor="2.0" outdoor="2.0"/>
+      <pitch indoor="1.00" outdoor="1.00"/>
+      <lowpassGain indoor="0.8" outdoor="0.8"/>
+      <lowpassCutoffFrequency indoor="2000" outdoor="2000.0"/>
+      <lowpassResonance indoor="1.0" outdoor="1.0"/>
+    </phone>
+  </sounds>
+  <playerStyle filename="dataS/character/playerM/playerM.xml">
+    <face color="1" name="headNPCQG01"/>
+    <onepiece color="1" name="bodyNPCQG01"/>
+  </playerStyle>
+  <interactionTrigger node="triggerNode"/>
+  <conversations>
+    <conversation uniqueId="a374514294">$dataS2/npc/grandpa/conditionalDialogue/ingameTime1Month/conversation.xml</conversation>
+    <conversation uniqueId="668d04b3ad">$dataS2/npc/grandpa/conditionalDialogue/ingameTime1Year/conversation.xml</conversation>
+    <conversation uniqueId="d2bf4306a7">$dataS2/npc/grandpa/conditionalDialogue/oneMillionInTheBank/conversation.xml</conversation>
+    <conversation uniqueId="8c5cc83a22">$dataS2/npc/grandpa/conditionalDialogue/ownedFields10/conversation.xml</conversation>
+    <conversation uniqueId="7546d2471c">$dataS2/npc/grandpa/conditionalDialogue/ownedFields3/conversation.xml</conversation>
+    <conversation uniqueId="d69948d807">$dataS2/npc/grandpa/conditionalDialogue/ownedFieldsAll/conversation.xml</conversation>
+    <conversation uniqueId="66409efb3f">$dataS2/npc/grandpa/dialogueStart/callMeCucumber/conversation.xml</conversation>
+    <conversation uniqueId="6ac40cfb03">$dataS2/npc/grandpa/dialogueStart/goodWord/conversation.xml</conversation>
+    <conversation uniqueId="54d7a45a34">$dataS2/npc/grandpa/dialogueStart/heyThere/conversation.xml</conversation>
+    <conversation uniqueId="950c95ca0a">$dataS2/npc/grandpa/dialogueStart/howsItGoing/conversation.xml</conversation>
+    <conversation uniqueId="9f911ab854">$dataS2/npc/grandpa/dialogueStart/niceToSeeYou/conversation.xml</conversation>
+    <conversation uniqueId="0bc5b0ce93">$dataS2/npc/grandpa/dialogueStart/overviewDialogueStart/conversation.xml</conversation>
+    <conversation uniqueId="55ed571b91">$dataS2/npc/grandpa/dialogueStart/wellHelloThere/conversation.xml</conversation>
+    <conversation uniqueId="1902e5d57c">$dataS2/npc/grandpa/dialogueStart/wellMet/conversation.xml</conversation>
+    <conversation uniqueId="2b7a16ed2c">$dataS2/npc/grandpa/dialogueStart/whatsUp/conversation.xml</conversation>
+    <conversation uniqueId="a3acae0451">$dataS2/npc/grandpa/guidedTours/introUS/combine/detachTheHeader/conversation.xml</conversation>
+    <conversation uniqueId="ee49a52982">$dataS2/npc/grandpa/guidedTours/introUS/combine/driveToTheField3/conversation.xml</conversation>
+    <conversation uniqueId="a2fee5f9c5">$dataS2/npc/grandpa/guidedTours/introUS/combine/driveToTheField4/conversation.xml</conversation>
+    <conversation uniqueId="400cd362aa">$dataS2/npc/grandpa/guidedTours/introUS/combine/harvestTheField/conversation.xml</conversation>
+    <conversation uniqueId="61648f1ce4">$dataS2/npc/grandpa/guidedTours/introUS/combine/switchToTractor/conversation.xml</conversation>
+    <conversation uniqueId="12a8ed9700">$dataS2/npc/grandpa/guidedTours/introUS/combine/turnOnTheCombine/conversation.xml</conversation>
+    <conversation uniqueId="3b6d64084a">$dataS2/npc/grandpa/guidedTours/introUS/combine/unfoldThePipe/conversation.xml</conversation>
+    <conversation uniqueId="b8a3e93377">$dataS2/npc/grandpa/guidedTours/introUS/cultivator/cultivateField/conversation.xml</conversation>
+    <conversation uniqueId="a2be5dfe22">$dataS2/npc/grandpa/guidedTours/introUS/cultivator/detachCultivator/conversation.xml</conversation>
+    <conversation uniqueId="3ccbdf7e21">$dataS2/npc/grandpa/guidedTours/introUS/cultivator/driveBackToFarm/conversation.xml</conversation>
+    <conversation uniqueId="02016e38f2">$dataS2/npc/grandpa/guidedTours/introUS/cultivator/driveToField1/conversation.xml</conversation>
+    <conversation uniqueId="f0667a3f6f">$dataS2/npc/grandpa/guidedTours/introUS/cultivator/goToTractor/conversation.xml</conversation>
+    <conversation uniqueId="6d31a03bdf">$dataS2/npc/grandpa/guidedTours/introUS/finished/conversation.xml</conversation>
+    <conversation uniqueId="0e96326bed">$dataS2/npc/grandpa/guidedTours/introUS/intro/conversation.xml</conversation>
+    <conversation uniqueId="ee6358f86e">$dataS2/npc/grandpa/guidedTours/introUS/introductionAlreadyProfessional/conversation.xml</conversation>
+    <conversation uniqueId="ec6a7fe4b9">$dataS2/npc/grandpa/guidedTours/introUS/seeder/attachTheSeeder/conversation.xml</conversation>
+    <conversation uniqueId="a77523e5e5">$dataS2/npc/grandpa/guidedTours/introUS/seeder/chooseCanolaAsSeedType/conversation.xml</conversation>
+    <conversation uniqueId="5d4e51b40b">$dataS2/npc/grandpa/guidedTours/introUS/seeder/driveToField2/conversation.xml</conversation>
+    <conversation uniqueId="e83b7ce3ce">$dataS2/npc/grandpa/guidedTours/introUS/seeder/driveToTheMarker/conversation.xml</conversation>
+    <conversation uniqueId="5498f071b0">$dataS2/npc/grandpa/guidedTours/introUS/seeder/hireAHelper/conversation.xml</conversation>
+    <conversation uniqueId="638bf1e952">$dataS2/npc/grandpa/guidedTours/introUS/seeder/refillSeeder/conversation.xml</conversation>
+    <conversation uniqueId="5a7ecc69f7">$dataS2/npc/grandpa/guidedTours/introUS/seeder/switchToCombine/conversation.xml</conversation>
+    <conversation uniqueId="eaaae37508">$dataS2/npc/grandpa/guidedTours/introUS/trailer/backToFarm/conversation.xml</conversation>
+    <conversation uniqueId="20f651c4f9">$dataS2/npc/grandpa/guidedTours/introUS/trailer/driveBackToTheField5/conversation.xml</conversation>
+    <conversation uniqueId="b6d798f6c3">$dataS2/npc/grandpa/guidedTours/introUS/trailer/driveBelowThePipe/conversation.xml</conversation>
+    <conversation uniqueId="48c21956a9">$dataS2/npc/grandpa/guidedTours/introUS/trailer/driveToTheGrainElevator/conversation.xml</conversation>
+    <conversation uniqueId="ace08f500a">$dataS2/npc/grandpa/guidedTours/introUS/trailer/unloadTheTrailer/conversation.xml</conversation>
+    <conversation uniqueId="60749b4ed0">$dataS2/npc/grandpa/guidedTours/introUS/trailer/waitUntilCombineGrainTankIsEmpty/conversation.xml</conversation>
+    <conversation uniqueId="5b513c4a53">$dataS2/npc/grandpa/help/agriculture/agricultureHelp/conversation.xml</conversation>
+    <conversation uniqueId="943dfa6ad3">$dataS2/npc/grandpa/help/animalHusbandry/animalHusbandry/conversation.xml</conversation>
+    <conversation uniqueId="dbf194db50">$dataS2/npc/grandpa/help/forestry/forestry/conversation.xml</conversation>
+    <conversation uniqueId="0eb8244863">$dataS2/npc/grandpa/help/helpIntros/whoCanHelp/conversation.xml</conversation>
+    <conversation uniqueId="e1aad838ec">$dataS2/npc/grandpa/missions/field/cultivating/cultivating1/conversation.xml</conversation>
+    <conversation uniqueId="35b1611c84">$dataS2/npc/grandpa/missions/field/cultivating/cultivating2/conversation.xml</conversation>
+    <conversation uniqueId="fa60821db4">$dataS2/npc/grandpa/missions/field/cultivating/cultivating3/conversation.xml</conversation>
+    <conversation uniqueId="52e0f9642c">$dataS2/npc/grandpa/missions/field/cultivating/cultivatingEquipment/conversation.xml</conversation>
+    <conversation uniqueId="2a8204b9d6">$dataS2/npc/grandpa/missions/field/fertilizing/fertilizing1/conversation.xml</conversation>
+    <conversation uniqueId="d2ce45ff17">$dataS2/npc/grandpa/missions/field/fertilizing/fertilizing2/conversation.xml</conversation>
+    <conversation uniqueId="1a1f472367">$dataS2/npc/grandpa/missions/field/fertilizing/fertilizing3/conversation.xml</conversation>
+    <conversation uniqueId="c76e573987">$dataS2/npc/grandpa/missions/field/fertilizing/fertilizingEquipment/conversation.xml</conversation>
+    <conversation uniqueId="537bc834ab">$dataS2/npc/grandpa/missions/field/harvesting/beetroot/harvestingBeetroot1/conversation.xml</conversation>
+    <conversation uniqueId="135903b05e">$dataS2/npc/grandpa/missions/field/harvesting/beetroot/harvestingBeetroot2/conversation.xml</conversation>
+    <conversation uniqueId="ddc73ef92c">$dataS2/npc/grandpa/missions/field/harvesting/beetroot/harvestingBeetroot3/conversation.xml</conversation>
+    <conversation uniqueId="fbb5f607bd">$dataS2/npc/grandpa/missions/field/harvesting/beetroot/harvestingBeetrootEquipment/conversation.xml</conversation>
+    <conversation uniqueId="4eefd37874">$dataS2/npc/grandpa/missions/field/harvesting/carrots/harvestingCarrots1/conversation.xml</conversation>
+    <conversation uniqueId="e4ff4914f6">$dataS2/npc/grandpa/missions/field/harvesting/carrots/harvestingCarrots2/conversation.xml</conversation>
+    <conversation uniqueId="55b4fbb879">$dataS2/npc/grandpa/missions/field/harvesting/carrots/harvestingCarrots3/conversation.xml</conversation>
+    <conversation uniqueId="3ecb9e5b49">$dataS2/npc/grandpa/missions/field/harvesting/carrots/harvestingCarrotsEquipment/conversation.xml</conversation>
+    <conversation uniqueId="4c464de9be">$dataS2/npc/grandpa/missions/field/harvesting/corn/harvestingCorn1/conversation.xml</conversation>
+    <conversation uniqueId="9b7b5d2a1e">$dataS2/npc/grandpa/missions/field/harvesting/corn/harvestingCorn2/conversation.xml</conversation>
+    <conversation uniqueId="1f8b4ee8c8">$dataS2/npc/grandpa/missions/field/harvesting/corn/harvestingCorn3/conversation.xml</conversation>
+    <conversation uniqueId="6c2a8fed33">$dataS2/npc/grandpa/missions/field/harvesting/corn/harvestingCornEquipment/conversation.xml</conversation>
+    <conversation uniqueId="6456c1436b">$dataS2/npc/grandpa/missions/field/harvesting/grains/harvestingGrains1/conversation.xml</conversation>
+    <conversation uniqueId="6bf2f5dbcc">$dataS2/npc/grandpa/missions/field/harvesting/grains/harvestingGrains2/conversation.xml</conversation>
+    <conversation uniqueId="7504986167">$dataS2/npc/grandpa/missions/field/harvesting/grains/harvestingGrains3/conversation.xml</conversation>
+    <conversation uniqueId="7ef6d691ea">$dataS2/npc/grandpa/missions/field/harvesting/grains/harvestingGrainsEquipment/conversation.xml</conversation>
+    <conversation uniqueId="29edc0f432">$dataS2/npc/grandpa/missions/field/harvesting/harvestingEquipment/conversation.xml</conversation>
+    <conversation uniqueId="afdf859714">$dataS2/npc/grandpa/missions/field/harvesting/parsnips/harvestingParsnips1/conversation.xml</conversation>
+    <conversation uniqueId="6b705a97ed">$dataS2/npc/grandpa/missions/field/harvesting/parsnips/harvestingParsnips2/conversation.xml</conversation>
+    <conversation uniqueId="712b7a3b16">$dataS2/npc/grandpa/missions/field/harvesting/parsnips/harvestingParsnips3/conversation.xml</conversation>
+    <conversation uniqueId="af4522afbe">$dataS2/npc/grandpa/missions/field/harvesting/parsnips/harvestingParsnipsEquipment/conversation.xml</conversation>
+    <conversation uniqueId="f1daa8d64f">$dataS2/npc/grandpa/missions/field/harvesting/potatoes/harvestingPotatoes1/conversation.xml</conversation>
+    <conversation uniqueId="9438c8eeca">$dataS2/npc/grandpa/missions/field/harvesting/potatoes/harvestingPotatoes2/conversation.xml</conversation>
+    <conversation uniqueId="019e13dbf8">$dataS2/npc/grandpa/missions/field/harvesting/potatoes/harvestingPotatoes3/conversation.xml</conversation>
+    <conversation uniqueId="b6a793ec55">$dataS2/npc/grandpa/missions/field/harvesting/potatoes/harvestingPotatoesEquipment/conversation.xml</conversation>
+    <conversation uniqueId="ea670a4359">$dataS2/npc/grandpa/missions/field/harvesting/sugarBeet/harvestingSugarBeet1/conversation.xml</conversation>
+    <conversation uniqueId="945955249b">$dataS2/npc/grandpa/missions/field/harvesting/sugarBeet/harvestingSugarBeet2/conversation.xml</conversation>
+    <conversation uniqueId="ecdfc42c2b">$dataS2/npc/grandpa/missions/field/harvesting/sugarBeet/harvestingSugarBeet3/conversation.xml</conversation>
+    <conversation uniqueId="fe6a023489">$dataS2/npc/grandpa/missions/field/harvesting/sugarBeet/harvestingSugarBeetEquipment/conversation.xml</conversation>
+    <conversation uniqueId="d11e80713c">$dataS2/npc/grandpa/missions/field/harvesting/sugarcane/harvestingSugarcane1/conversation.xml</conversation>
+    <conversation uniqueId="d12125135f">$dataS2/npc/grandpa/missions/field/harvesting/sugarcane/harvestingSugarcane2/conversation.xml</conversation>
+    <conversation uniqueId="046ed640d1">$dataS2/npc/grandpa/missions/field/harvesting/sugarcane/harvestingSugarcane3/conversation.xml</conversation>
+    <conversation uniqueId="2c1b7673ee">$dataS2/npc/grandpa/missions/field/harvesting/sugarcane/harvestingSugarcaneEquipment/conversation.xml</conversation>
+    <conversation uniqueId="188212d7ef">$dataS2/npc/grandpa/missions/field/harvesting/sunflowers/harvestingSunflowers1/conversation.xml</conversation>
+    <conversation uniqueId="99bbce5817">$dataS2/npc/grandpa/missions/field/harvesting/sunflowers/harvestingSunflowers2/conversation.xml</conversation>
+    <conversation uniqueId="dc6035244c">$dataS2/npc/grandpa/missions/field/harvesting/sunflowers/harvestingSunflowers3/conversation.xml</conversation>
+    <conversation uniqueId="07894c919d">$dataS2/npc/grandpa/missions/field/harvesting/sunflowers/harvestingSunflowersEquipment/conversation.xml</conversation>
+    <conversation uniqueId="d81a15e57c">$dataS2/npc/grandpa/missions/field/herbicide/useHerbicide1/conversation.xml</conversation>
+    <conversation uniqueId="d1aad8803e">$dataS2/npc/grandpa/missions/field/herbicide/useHerbicide2/conversation.xml</conversation>
+    <conversation uniqueId="b5d24938e8">$dataS2/npc/grandpa/missions/field/herbicide/useHerbicide3/conversation.xml</conversation>
+    <conversation uniqueId="2cb29105f0">$dataS2/npc/grandpa/missions/field/herbicide/useHerbicideEquipment/conversation.xml</conversation>
+    <conversation uniqueId="c4e69b3b59">$dataS2/npc/grandpa/missions/field/hoe/hoing1/conversation.xml</conversation>
+    <conversation uniqueId="8d4219c0ef">$dataS2/npc/grandpa/missions/field/hoe/hoing2/conversation.xml</conversation>
+    <conversation uniqueId="fe579c6851">$dataS2/npc/grandpa/missions/field/hoe/hoing3/conversation.xml</conversation>
+    <conversation uniqueId="8cd42bc0c4">$dataS2/npc/grandpa/missions/field/hoe/hoingEquipment/conversation.xml</conversation>
+    <conversation uniqueId="d06ccb3649">$dataS2/npc/grandpa/missions/field/plowing/plowing1/conversation.xml</conversation>
+    <conversation uniqueId="9b0adbee5d">$dataS2/npc/grandpa/missions/field/plowing/plowing2/conversation.xml</conversation>
+    <conversation uniqueId="b4623da9f9">$dataS2/npc/grandpa/missions/field/plowing/plowing3/conversation.xml</conversation>
+    <conversation uniqueId="2e13b3e547">$dataS2/npc/grandpa/missions/field/plowing/plowingEquipment/conversation.xml</conversation>
+    <conversation uniqueId="4502fb86fc">$dataS2/npc/grandpa/missions/field/sowingAndPlanting/beetroot/sowingBeetroot1/conversation.xml</conversation>
+    <conversation uniqueId="5713d2b92c">$dataS2/npc/grandpa/missions/field/sowingAndPlanting/beetroot/sowingBeetroot2/conversation.xml</conversation>
+    <conversation uniqueId="3e0bb9237a">$dataS2/npc/grandpa/missions/field/sowingAndPlanting/beetroot/sowingBeetroot3/conversation.xml</conversation>
+    <conversation uniqueId="c519ce85f9">$dataS2/npc/grandpa/missions/field/sowingAndPlanting/beetroot/sowingBeetrootEquipment/conversation.xml</conversation>
+    <conversation uniqueId="fe2ccb6560">$dataS2/npc/grandpa/missions/field/sowingAndPlanting/carrots/sowingCarrots1/conversation.xml</conversation>
+    <conversation uniqueId="3bc3ecd629">$dataS2/npc/grandpa/missions/field/sowingAndPlanting/carrots/sowingCarrots2/conversation.xml</conversation>
+    <conversation uniqueId="adb9924751">$dataS2/npc/grandpa/missions/field/sowingAndPlanting/carrots/sowingCarrots3/conversation.xml</conversation>
+    <conversation uniqueId="a06a81a8dc">$dataS2/npc/grandpa/missions/field/sowingAndPlanting/carrots/sowingCarrotsEquipment/conversation.xml</conversation>
+    <conversation uniqueId="acaf2e0aa4">$dataS2/npc/grandpa/missions/field/sowingAndPlanting/corn/sowingCorn1/conversation.xml</conversation>
+    <conversation uniqueId="8039937114">$dataS2/npc/grandpa/missions/field/sowingAndPlanting/corn/sowingCorn2/conversation.xml</conversation>
+    <conversation uniqueId="7d0cd6eb1a">$dataS2/npc/grandpa/missions/field/sowingAndPlanting/corn/sowingCorn3/conversation.xml</conversation>
+    <conversation uniqueId="1118eb8d63">$dataS2/npc/grandpa/missions/field/sowingAndPlanting/corn/sowingCornEquipment/conversation.xml</conversation>
+    <conversation uniqueId="d2bf0e1d7e">$dataS2/npc/grandpa/missions/field/sowingAndPlanting/cotton/sowingCotton1/conversation.xml</conversation>
+    <conversation uniqueId="a971ab1350">$dataS2/npc/grandpa/missions/field/sowingAndPlanting/cotton/sowingCotton2/conversation.xml</conversation>
+    <conversation uniqueId="930cbcb811">$dataS2/npc/grandpa/missions/field/sowingAndPlanting/cotton/sowingCotton3/conversation.xml</conversation>
+    <conversation uniqueId="cc1651a4f2">$dataS2/npc/grandpa/missions/field/sowingAndPlanting/cotton/sowingCottonEquipment/conversation.xml</conversation>
+    <conversation uniqueId="025f2e7fd1">$dataS2/npc/grandpa/missions/field/sowingAndPlanting/grain/sowingGrains1/conversation.xml</conversation>
+    <conversation uniqueId="9c1a0b70e9">$dataS2/npc/grandpa/missions/field/sowingAndPlanting/grain/sowingGrains2/conversation.xml</conversation>
+    <conversation uniqueId="4b0d8f5163">$dataS2/npc/grandpa/missions/field/sowingAndPlanting/grain/sowingGrains3/conversation.xml</conversation>
+    <conversation uniqueId="eaa8bda723">$dataS2/npc/grandpa/missions/field/sowingAndPlanting/grain/sowingGrainsEquipment/conversation.xml</conversation>
+    <conversation uniqueId="36e5365bf7">$dataS2/npc/grandpa/missions/field/sowingAndPlanting/greenBeans/sowingGreenBeans1/conversation.xml</conversation>
+    <conversation uniqueId="32b9c8070c">$dataS2/npc/grandpa/missions/field/sowingAndPlanting/greenBeans/sowingGreenBeans2/conversation.xml</conversation>
+    <conversation uniqueId="3ff1ba2cb3">$dataS2/npc/grandpa/missions/field/sowingAndPlanting/greenBeans/sowingGreenBeans3/conversation.xml</conversation>
+    <conversation uniqueId="dc2dee8a86">$dataS2/npc/grandpa/missions/field/sowingAndPlanting/greenBeans/sowingGreenBeansEquipment/conversation.xml</conversation>
+    <conversation uniqueId="712406acd4">$dataS2/npc/grandpa/missions/field/sowingAndPlanting/parsnips/sowingParsnips1/conversation.xml</conversation>
+    <conversation uniqueId="8162ad3fe5">$dataS2/npc/grandpa/missions/field/sowingAndPlanting/parsnips/sowingParsnips2/conversation.xml</conversation>
+    <conversation uniqueId="c3ea5e5a03">$dataS2/npc/grandpa/missions/field/sowingAndPlanting/parsnips/sowingParsnips3/conversation.xml</conversation>
+    <conversation uniqueId="979a77c448">$dataS2/npc/grandpa/missions/field/sowingAndPlanting/parsnips/sowingParsnipsEquipment/conversation.xml</conversation>
+    <conversation uniqueId="940e0a0205">$dataS2/npc/grandpa/missions/field/sowingAndPlanting/peas/sowingPeas1/conversation.xml</conversation>
+    <conversation uniqueId="373d072cc5">$dataS2/npc/grandpa/missions/field/sowingAndPlanting/peas/sowingPeas2/conversation.xml</conversation>
+    <conversation uniqueId="898f4d93a8">$dataS2/npc/grandpa/missions/field/sowingAndPlanting/peas/sowingPeas3/conversation.xml</conversation>
+    <conversation uniqueId="6509bad80e">$dataS2/npc/grandpa/missions/field/sowingAndPlanting/peas/sowingPeasEquipment/conversation.xml</conversation>
+    <conversation uniqueId="3df3d28701">$dataS2/npc/grandpa/missions/field/sowingAndPlanting/poplar/sowingPoplar1/conversation.xml</conversation>
+    <conversation uniqueId="72fc0d11ab">$dataS2/npc/grandpa/missions/field/sowingAndPlanting/poplar/sowingPoplar2/conversation.xml</conversation>
+    <conversation uniqueId="f8d25c2be1">$dataS2/npc/grandpa/missions/field/sowingAndPlanting/poplar/sowingPoplar3/conversation.xml</conversation>
+    <conversation uniqueId="697b37ea0b">$dataS2/npc/grandpa/missions/field/sowingAndPlanting/poplar/sowingPoplarEquipment/conversation.xml</conversation>
+    <conversation uniqueId="0ff0d83ced">$dataS2/npc/grandpa/missions/field/sowingAndPlanting/potatoes/sowingPotatoes1/conversation.xml</conversation>
+    <conversation uniqueId="15aed5f87e">$dataS2/npc/grandpa/missions/field/sowingAndPlanting/potatoes/sowingPotatoes2/conversation.xml</conversation>
+    <conversation uniqueId="2fa75e2ca6">$dataS2/npc/grandpa/missions/field/sowingAndPlanting/potatoes/sowingPotatoes3/conversation.xml</conversation>
+    <conversation uniqueId="7e9b0ec804">$dataS2/npc/grandpa/missions/field/sowingAndPlanting/potatoes/sowingPotatoesEquipment/conversation.xml</conversation>
+    <conversation uniqueId="18a57b3ff3">$dataS2/npc/grandpa/missions/field/sowingAndPlanting/rice/sowingRice1/conversation.xml</conversation>
+    <conversation uniqueId="fe4dd8bd03">$dataS2/npc/grandpa/missions/field/sowingAndPlanting/rice/sowingRice2/conversation.xml</conversation>
+    <conversation uniqueId="6db24a6e4f">$dataS2/npc/grandpa/missions/field/sowingAndPlanting/rice/sowingRice3/conversation.xml</conversation>
+    <conversation uniqueId="c6e58dcccc">$dataS2/npc/grandpa/missions/field/sowingAndPlanting/rice/sowingRiceEquipment/conversation.xml</conversation>
+    <conversation uniqueId="18ed62f2e1">$dataS2/npc/grandpa/missions/field/sowingAndPlanting/spinach/sowingSpinach1/conversation.xml</conversation>
+    <conversation uniqueId="aaf205d0ad">$dataS2/npc/grandpa/missions/field/sowingAndPlanting/spinach/sowingSpinach2/conversation.xml</conversation>
+    <conversation uniqueId="8050e84074">$dataS2/npc/grandpa/missions/field/sowingAndPlanting/spinach/sowingSpinach3/conversation.xml</conversation>
+    <conversation uniqueId="9a5be6cf75">$dataS2/npc/grandpa/missions/field/sowingAndPlanting/spinach/sowingSpinachEquipment/conversation.xml</conversation>
+    <conversation uniqueId="4e3918c392">$dataS2/npc/grandpa/missions/field/sowingAndPlanting/sugarcane/sowingSugarcane1/conversation.xml</conversation>
+    <conversation uniqueId="511d9e8df2">$dataS2/npc/grandpa/missions/field/sowingAndPlanting/sugarcane/sowingSugarcane2/conversation.xml</conversation>
+    <conversation uniqueId="01d41b765b">$dataS2/npc/grandpa/missions/field/sowingAndPlanting/sugarcane/sowingSugarcane3/conversation.xml</conversation>
+    <conversation uniqueId="01994a2fb9">$dataS2/npc/grandpa/missions/field/sowingAndPlanting/sugarcane/sowingSugarcaneEquipment/conversation.xml</conversation>
+    <conversation uniqueId="744fc66b53">$dataS2/npc/grandpa/missions/field/sowingAndPlanting/sunflower/sowingSunflowers1/conversation.xml</conversation>
+    <conversation uniqueId="ace2bd06c5">$dataS2/npc/grandpa/missions/field/sowingAndPlanting/sunflower/sowingSunflowers2/conversation.xml</conversation>
+    <conversation uniqueId="20333f6fda">$dataS2/npc/grandpa/missions/field/sowingAndPlanting/sunflower/sowingSunflowers3/conversation.xml</conversation>
+    <conversation uniqueId="2e8b2b4aca">$dataS2/npc/grandpa/missions/field/sowingAndPlanting/sunflower/sowingSunflowersEquipment/conversation.xml</conversation>
+    <conversation uniqueId="d9f9eabf3f">$dataS2/npc/grandpa/missions/field/stonePicking/stonePicking1/conversation.xml</conversation>
+    <conversation uniqueId="44e0d186b0">$dataS2/npc/grandpa/missions/field/stonePicking/stonePicking2/conversation.xml</conversation>
+    <conversation uniqueId="aa9245a5b3">$dataS2/npc/grandpa/missions/field/stonePicking/stonePicking3/conversation.xml</conversation>
+    <conversation uniqueId="a845d2adb0">$dataS2/npc/grandpa/missions/field/stonePicking/stonePickingEquipment/conversation.xml</conversation>
+    <conversation uniqueId="14258546bc">$dataS2/npc/grandpa/missions/field/weeding/weeding1/conversation.xml</conversation>
+    <conversation uniqueId="b8f7ad81b1">$dataS2/npc/grandpa/missions/field/weeding/weeding2/conversation.xml</conversation>
+    <conversation uniqueId="5258da6f42">$dataS2/npc/grandpa/missions/field/weeding/weeding3/conversation.xml</conversation>
+    <conversation uniqueId="a078247dc7">$dataS2/npc/grandpa/missions/field/weeding/weedingEquipment/conversation.xml</conversation>
+    <conversation uniqueId="4c97634dfe">$dataS2/npc/grandpa/missions/missionIntros/missionIntro/conversation.xml</conversation>
+    <conversation uniqueId="b584ad70f0">$dataS2/npc/grandpa/missions/missionIntros/missionIntro2/conversation.xml</conversation>
+    <conversation uniqueId="2cef908886">$dataS2/npc/grandpa/missions/missionIntros/missionIntro3/conversation.xml</conversation>
+    <conversation uniqueId="0eaac21f1d">$dataS2/npc/grandpa/missions/missionIntros/missionIntro4/conversation.xml</conversation>
+    <conversation uniqueId="24fbc16fc8">$dataS2/npc/grandpa/missions/missionIntros/missionIntro5/conversation.xml</conversation>
+    <conversation uniqueId="df1796eea2">$dataS2/npc/grandpa/missions/missionIntros/overviewMissionSelect/conversation.xml</conversation>
+    <conversation uniqueId="8bf1703061">$dataS2/npc/grandpa/missions/noMissions/notNow/conversation.xml</conversation>
+    <conversation uniqueId="e7838dd43b">$dataS2/npc/grandpa/missions/noMissions/nothingToDo/conversation.xml</conversation>
+    <conversation uniqueId="6183bdf4c5">$dataS2/npc/grandpa/missions/noMissions/oldButNotLazy/conversation.xml</conversation>
+    <conversation uniqueId="662ecfccfd">$dataS2/npc/grandpa/smalltalk/aboutGrandpa/aboutGrandma/metGrandmaPart1/conversation.xml</conversation>
+    <conversation uniqueId="42c74f06f6">$dataS2/npc/grandpa/smalltalk/aboutGrandpa/aboutGrandma/metGrandmaPart2/conversation.xml</conversation>
+    <conversation uniqueId="123f11ccda">$dataS2/npc/grandpa/smalltalk/aboutGrandpa/aboutGrandma/metGrandmaPart3/conversation.xml</conversation>
+    <conversation uniqueId="e384220053">$dataS2/npc/grandpa/smalltalk/aboutGrandpa/aboutGrandma/metGrandmaPart4/conversation.xml</conversation>
+    <conversation uniqueId="be0e10577e">$dataS2/npc/grandpa/smalltalk/aboutGrandpa/aboutGrandma/metGrandmaPart5/conversation.xml</conversation>
+    <conversation uniqueId="58c158d180">$dataS2/npc/grandpa/smalltalk/aboutGrandpa/fallOnTheFarm/conversation.xml</conversation>
+    <conversation uniqueId="6027083080">$dataS2/npc/grandpa/smalltalk/aboutGrandpa/grandpaFamily/familyHistory/conversation.xml</conversation>
+    <conversation uniqueId="af1751c8d7">$dataS2/npc/grandpa/smalltalk/aboutGrandpa/grandpaFamily/yourFather/conversation.xml</conversation>
+    <conversation uniqueId="21425cecb2">$dataS2/npc/grandpa/smalltalk/aboutGrandpa/greatUncleIdea/conversation.xml</conversation>
+    <conversation uniqueId="a7504b16ca">$dataS2/npc/grandpa/smalltalk/aboutGrandpa/jacobSofiaRice/conversation.xml</conversation>
+    <conversation uniqueId="d7c52dc2f8">$dataS2/npc/grandpa/smalltalk/aboutGrandpa/newHobbies/conversation.xml</conversation>
+    <conversation uniqueId="52b3a94b8b">$dataS2/npc/grandpa/smalltalk/aboutGrandpa/passionForFarming/conversation.xml</conversation>
+    <conversation uniqueId="6ee6364e0d">$dataS2/npc/grandpa/smalltalk/aboutGrandpa/springOnTheFarm/conversation.xml</conversation>
+    <conversation uniqueId="a1e607a924">$dataS2/npc/grandpa/smalltalk/aboutGrandpa/summerOnTheFarm/conversation.xml</conversation>
+    <conversation uniqueId="c801b7ac46">$dataS2/npc/grandpa/smalltalk/aboutGrandpa/tractorTraitors/conversation.xml</conversation>
+    <conversation uniqueId="e6ab806ee6">$dataS2/npc/grandpa/smalltalk/aboutGrandpa/winterOnTheFarm/conversation.xml</conversation>
+    <conversation uniqueId="5ad313c7ff">$dataS2/npc/grandpa/smalltalk/aboutGrandpa/youngTimer/conversation.xml</conversation>
+    <conversation uniqueId="c4b63ef305">$dataS2/npc/grandpa/smalltalk/enoughSmalltalk/continueAnotherDay/conversation.xml</conversation>
+    <conversation uniqueId="4d3f5f136a">$dataS2/npc/grandpa/smalltalk/enoughSmalltalk/dryMouth/conversation.xml</conversation>
+    <conversation uniqueId="cb1f562495">$dataS2/npc/grandpa/smalltalk/enoughSmalltalk/rainCheck/conversation.xml</conversation>
+    <conversation uniqueId="57d0fb580c">$dataS2/npc/grandpa/smalltalk/enoughSmalltalk/stillTalk/conversation.xml</conversation>
+    <conversation uniqueId="806bd167e8">$dataS2/npc/grandpa/smalltalk/enoughSmalltalk/wantMore/conversation.xml</conversation>
+    <conversation uniqueId="00d78901a6">$dataS2/npc/grandpa/smalltalk/farmersWisdoms/fallWisdom/stormWinds/conversation.xml</conversation>
+    <conversation uniqueId="dd21fe26b8">$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/everySeed/conversation.xml</conversation>
+    <conversation uniqueId="7543c35356">$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/farmersGreatestAsset/conversation.xml</conversation>
+    <conversation uniqueId="d94d81d9f8">$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/farmersSteps/conversation.xml</conversation>
+    <conversation uniqueId="37ba336589">$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/naturesWisdom/conversation.xml</conversation>
+    <conversation uniqueId="2d62459cb8">$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/oneBadHarvest/conversation.xml</conversation>
+    <conversation uniqueId="4e7d5e3ce0">$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/plowingPartner/conversation.xml</conversation>
+    <conversation uniqueId="f05bbdfa2d">$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/thrivingFarms/conversation.xml</conversation>
+    <conversation uniqueId="a69f15c2c9">$dataS2/npc/grandpa/smalltalk/farmersWisdoms/summerWisdoms/sunshineSaying/conversation.xml</conversation>
+    <conversation uniqueId="a5a6e55e21">$dataS2/npc/grandpa/smalltalk/farmersWisdoms/winterWisdoms/thickIce/conversation.xml</conversation>
+    <conversation uniqueId="187041ee38">$dataS2/npc/grandpa/smalltalk/farmersWisdoms/winterWisdoms/winterInheritance/conversation.xml</conversation>
+    <conversation uniqueId="bce3791fb2">$dataS2/npc/grandpa/smalltalk/farmersWisdoms/wisdomIntros/wisdomIntro1/conversation.xml</conversation>
+    <conversation uniqueId="574dbf7f0d">$dataS2/npc/grandpa/smalltalk/farmersWisdoms/wisdomIntros/wisdomIntro2/conversation.xml</conversation>
+    <conversation uniqueId="b5e1820c87">$dataS2/npc/grandpa/smalltalk/farmersWisdoms/wisdomIntros/wisdomIntro3/conversation.xml</conversation>
+    <conversation uniqueId="9241374029">$dataS2/npc/grandpa/smalltalk/farmersWisdoms/wisdomIntros/wisdomIntro4/conversation.xml</conversation>
+    <conversation uniqueId="4e5ead0729">$dataS2/npc/grandpa/smalltalk/farmersWisdoms/wisdomIntros/wisdomIntro5/conversation.xml</conversation>
+    <conversation uniqueId="2ce0195f73">$dataS2/npc/grandpa/smalltalk/farmersWisdoms/wisdomIntros/wisdomIntro6/conversation.xml</conversation>
+    <conversation uniqueId="7c9fbce203">$dataS2/npc/grandpa/smalltalk/funFacts/funFactCollection/factAncientCropRotation/conversation.xml</conversation>
+    <conversation uniqueId="9ef6620bc6">$dataS2/npc/grandpa/smalltalk/funFacts/funFactCollection/factAncientIrrigation/conversation.xml</conversation>
+    <conversation uniqueId="08b9140efe">$dataS2/npc/grandpa/smalltalk/funFacts/funFactCollection/factBeansBeansBeans/conversation.xml</conversation>
+    <conversation uniqueId="4dfe85c4c0">$dataS2/npc/grandpa/smalltalk/funFacts/funFactCollection/factCowFriends/conversation.xml</conversation>
+    <conversation uniqueId="1e20632578">$dataS2/npc/grandpa/smalltalk/funFacts/funFactCollection/factEdiblePlants/conversation.xml</conversation>
+    <conversation uniqueId="ff53fb03a5">$dataS2/npc/grandpa/smalltalk/funFacts/funFactCollection/factEpicHoney/conversation.xml</conversation>
+    <conversation uniqueId="619f601443">$dataS2/npc/grandpa/smalltalk/funFacts/funFactCollection/factFloralMimicry/conversation.xml</conversation>
+    <conversation uniqueId="d63190d8c9">$dataS2/npc/grandpa/smalltalk/funFacts/funFactCollection/factGoatEyes/conversation.xml</conversation>
+    <conversation uniqueId="6b4287edc0">$dataS2/npc/grandpa/smalltalk/funFacts/funFactCollection/factGreenRevolution/conversation.xml</conversation>
+    <conversation uniqueId="6d6f25f8ee">$dataS2/npc/grandpa/smalltalk/funFacts/funFactCollection/factHeliotropism/conversation.xml</conversation>
+    <conversation uniqueId="d0b2ea77b2">$dataS2/npc/grandpa/smalltalk/funFacts/funFactCollection/factNeolithicRevolution/conversation.xml</conversation>
+    <conversation uniqueId="2e3f551249">$dataS2/npc/grandpa/smalltalk/funFacts/funFactCollection/factPlasticCorn/conversation.xml</conversation>
+    <conversation uniqueId="a73b8b7984">$dataS2/npc/grandpa/smalltalk/funFacts/funFactCollection/factPollinationByBat/conversation.xml</conversation>
+    <conversation uniqueId="bc348f4dc3">$dataS2/npc/grandpa/smalltalk/funFacts/funFactCollection/factSpinachOrigins/conversation.xml</conversation>
+    <conversation uniqueId="722a498f17">$dataS2/npc/grandpa/smalltalk/funFacts/funFactCollection/factWindySpeeds/conversation.xml</conversation>
+    <conversation uniqueId="7c4e0c4009">$dataS2/npc/grandpa/smalltalk/funFacts/funFactIntroRepeat/didIAlreadyTell/conversation.xml</conversation>
+    <conversation uniqueId="8164fa4c90">$dataS2/npc/grandpa/smalltalk/funFacts/funFactIntros/didYouKnow/conversation.xml</conversation>
+    <conversation uniqueId="8f9ed9fc26">$dataS2/npc/grandpa/smalltalk/funFacts/funFactIntros/didYouKnowVariation1/conversation.xml</conversation>
+    <conversation uniqueId="be32f54356">$dataS2/npc/grandpa/smalltalk/funFacts/funFactIntros/didYouKnowVariation2/conversation.xml</conversation>
+    <conversation uniqueId="12be4210c0">$dataS2/npc/grandpa/smalltalk/smallTalkOptions/aboutYouIntros/aboutYouIntro1/conversation.xml</conversation>
+    <conversation uniqueId="99b12c2c23">$dataS2/npc/grandpa/smalltalk/smallTalkOptions/aboutYouIntros/aboutYouIntro2/conversation.xml</conversation>
+    <conversation uniqueId="b40ba9709e">$dataS2/npc/grandpa/smalltalk/smallTalkOptions/aboutYouIntros/aboutYouIntro3/conversation.xml</conversation>
+    <conversation uniqueId="8ae6884a92">$dataS2/npc/grandpa/smalltalk/smallTalkOptions/aboutYouIntros/aboutYouIntro4/conversation.xml</conversation>
+    <conversation uniqueId="f46b107508">$dataS2/npc/grandpa/smalltalk/smallTalkOptions/aboutYouIntros/aboutYouIntro5/conversation.xml</conversation>
+    <conversation uniqueId="68568d6c33">$dataS2/npc/grandpa/smalltalk/smallTalkOptions/aboutYouIntros/aboutYouIntro6/conversation.xml</conversation>
+    <conversation uniqueId="14df9c02fe">$dataS2/npc/grandpa/smalltalk/smallTalkOptions/smalltalkStart/conversation.xml</conversation>
+    <conversation uniqueId="ce14fc2af3">$dataS2/npc/grandpa/specialConversations/mapSpecific/riverbendCollectibles/conversation.xml</conversation>
+  </conversations>
+  <i3dMappings>
+    <i3dMapping id="audioNode" node="0&gt;0"/>
+    <i3dMapping id="triggerNode" node="0&gt;1"/>
+  </i3dMappings>
+</npc>

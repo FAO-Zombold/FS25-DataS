@@ -1,0 +1,40 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>MISSION</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="a9477f275e">
+    <item id="a9477f275e" nextId="686d39e62c">
+      <text>$dataS2/npc/grandpa/missions/field/sowingAndPlanting/sunflower/sowingSunflowersEquipment/machineChoice</text>
+    </item>
+    <item id="686d39e62c">
+      <text>$dataS2/npc/grandpa/missions/field/sowingAndPlanting/sunflower/sowingSunflowersEquipment/so</text>
+      <next>
+        <option id="f68d27252e">
+          <text>$dataS2/npc/grandpa/missions/field/sowingAndPlanting/sunflower/sowingSunflowersEquipment/ownMachine</text>
+          <actions>
+            <startSelectedMission/>
+          </actions>
+        </option>
+        <option id="d90011c5e2">
+          <text>$dataS2/npc/grandpa/missions/field/sowingAndPlanting/sunflower/sowingSunflowersEquipment/borrowMachine</text>
+          <actions>
+            <startSelectedMission/>
+          </actions>
+          <inputs>
+            <leaseVehicles value="true"/>
+          </inputs>
+        </option>
+        <option id="cbf975ee4a" nextId="4c85387094">
+          <text>$dataS2/npc/grandpa/missions/field/sowingAndPlanting/sunflower/sowingSunflowersEquipment/whatMachine</text>
+        </option>
+        <option id="cc3085e904">
+          <text>$dataS2/npc/grandpa/missions/field/sowingAndPlanting/sunflower/sowingSunflowersEquipment/changedMind</text>
+        </option>
+      </next>
+    </item>
+    <item id="4c85387094" nextId="686d39e62c">
+      <text>$dataS2/npc/grandpa/missions/field/sowingAndPlanting/sunflower/sowingSunflowersEquipment/infoMachine</text>
+    </item>
+  </textFlow>
+</conversation>

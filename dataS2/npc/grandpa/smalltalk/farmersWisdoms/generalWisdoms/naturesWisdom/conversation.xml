@@ -1,0 +1,55 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>SMALLTALK_WISDOM</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <numTriggered max="1"/>
+  </prerequisites>
+  <textFlow startId="5bed036af6">
+    <item id="5bed036af6" nextId="16f2f0cd5b">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/naturesWisdom/farmersTeacher</text>
+    </item>
+    <item id="16f2f0cd5b">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/naturesWisdom/couldNot</text>
+      <next>
+        <option id="673474bbd6" nextId="d05eb93b2c">
+          <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/naturesWisdom/agreed</text>
+        </option>
+        <option id="dcf4582275" nextId="d05eb93b2c">
+          <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/naturesWisdom/teachMyself</text>
+        </option>
+        <option id="55aea87dcc" nextId="d05eb93b2c">
+          <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/naturesWisdom/doesTeach</text>
+        </option>
+      </next>
+    </item>
+    <item id="d05eb93b2c" nextId="9c75515ab2">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/naturesWisdom/importantThings</text>
+    </item>
+    <item id="9c75515ab2" nextId="deab4180b0">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/naturesWisdom/observe</text>
+    </item>
+    <item id="deab4180b0" nextId="f8f4d4a047">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/naturesWisdom/noLearn</text>
+    </item>
+    <item id="f8f4d4a047" nextId="c4e9833179">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/naturesWisdom/exampleWeather</text>
+    </item>
+    <item id="c4e9833179" nextId="af9d3d4db1">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/naturesWisdom/growingBehaviour</text>
+    </item>
+    <item id="af9d3d4db1" nextId="c803ef738f">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/naturesWisdom/affectHarvest</text>
+    </item>
+    <item id="c803ef738f" nextId="2308bbb51c">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/naturesWisdom/observeEverything</text>
+    </item>
+    <item id="2308bbb51c">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/generalWisdoms/naturesWisdom/worksPeople</text>
+      <actions>
+        <startConversationById uniqueId="0bc5b0ce93"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

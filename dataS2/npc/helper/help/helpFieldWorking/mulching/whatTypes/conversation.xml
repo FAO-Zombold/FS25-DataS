@@ -1,0 +1,38 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="dbdb4630a8">
+    <item id="dbdb4630a8" nextId="9aa283d14d">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/mulching/whatTypes/threeTypes</text>
+    </item>
+    <item id="9aa283d14d" nextId="f5b6f010f4">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/mulching/whatTypes/stubble</text>
+    </item>
+    <item id="f5b6f010f4" nextId="eab26a35f4">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/mulching/whatTypes/leaves</text>
+    </item>
+    <item id="eab26a35f4" nextId="884366dec5">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/mulching/whatTypes/afterHarvesting</text>
+    </item>
+    <item id="884366dec5" nextId="c4244ca00c">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/mulching/whatTypes/growing</text>
+    </item>
+    <item id="c4244ca00c" nextId="e9fe23b1f8">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/mulching/whatTypes/cutBack</text>
+    </item>
+    <item id="e9fe23b1f8" nextId="02dd0fb2e4">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/mulching/whatTypes/forestryMulcher</text>
+    </item>
+    <item id="02dd0fb2e4" nextId="c5caa386db">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/mulching/whatTypes/askNoah</text>
+    </item>
+    <item id="c5caa386db">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/mulching/whatTypes/notBusy</text>
+      <actions>
+        <startConversationById uniqueId="9cd825d576"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

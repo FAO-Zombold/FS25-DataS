@@ -1,0 +1,88 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>KATIE_ANECDOTES</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="730b682671">
+    <item id="730b682671">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/luckyBlackCats/luckyBlackCats</text>
+      <next>
+        <option id="4655a735b2" nextId="6aade098bb">
+          <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/luckyBlackCats/optionA</text>
+        </option>
+        <option id="ef494f2c20" nextId="59dada7c10">
+          <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/luckyBlackCats/optionB</text>
+        </option>
+        <option id="721ce32b5a" nextId="0b041839b9">
+          <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/luckyBlackCats/optionC</text>
+        </option>
+      </next>
+    </item>
+    <item id="6aade098bb" nextId="0b041839b9">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/luckyBlackCats/blackCatsveryLucky</text>
+    </item>
+    <item id="0b041839b9" nextId="a1416b1e9f">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/luckyBlackCats/mythAboutCats</text>
+    </item>
+    <item id="a1416b1e9f" nextId="3c8ce66ba5">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/luckyBlackCats/blessedBarnCat</text>
+    </item>
+    <item id="3c8ce66ba5" nextId="5a64678f1c">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/luckyBlackCats/whenWeWereChildren</text>
+    </item>
+    <item id="5a64678f1c" nextId="eb02ea5123">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/luckyBlackCats/friendliestCat</text>
+    </item>
+    <item id="eb02ea5123" nextId="392beea90c">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/luckyBlackCats/SummerOrchard</text>
+    </item>
+    <item id="392beea90c" nextId="d593d0fef7">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/luckyBlackCats/peanutRunningaround</text>
+    </item>
+    <item id="d593d0fef7" nextId="f7609acd8b">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/luckyBlackCats/fathersupersitious</text>
+    </item>
+    <item id="f7609acd8b" nextId="d020b5982d">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/luckyBlackCats/lowAndBehold</text>
+    </item>
+    <item id="d020b5982d" nextId="e0c576cde8">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/luckyBlackCats/peanutsForesight</text>
+    </item>
+    <item id="e0c576cde8" nextId="97b084487b">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/luckyBlackCats/suckledOnFeet</text>
+    </item>
+    <item id="97b084487b" nextId="d243ba2adb">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/luckyBlackCats/catsDoThatSometimes</text>
+    </item>
+    <item id="d243ba2adb" nextId="28a13b3cc8">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/luckyBlackCats/madeThePodium</text>
+    </item>
+    <item id="28a13b3cc8" nextId="35850e63a7">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/luckyBlackCats/neverAgain</text>
+    </item>
+    <item id="35850e63a7" nextId="81d12cfcc5">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/luckyBlackCats/jumpingOnBales</text>
+    </item>
+    <item id="81d12cfcc5" nextId="768a563e8a">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/luckyBlackCats/peanutWasLoudlyMeowing</text>
+    </item>
+    <item id="768a563e8a" nextId="c32c8d6962">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/luckyBlackCats/momGaveAnEarful</text>
+    </item>
+    <item id="c32c8d6962" nextId="b7250b5d4a">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/luckyBlackCats/missCats</text>
+    </item>
+    <item id="b7250b5d4a" nextId="3229587c4d">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/luckyBlackCats/catDimension</text>
+    </item>
+    <item id="3229587c4d">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/luckyBlackCats/storyForAnotherTime</text>
+      <actions>
+        <startConversationById uniqueId="bb0236da62"/>
+      </actions>
+    </item>
+    <item id="59dada7c10" nextId="0b041839b9">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/luckyBlackCats/someoneShould</text>
+    </item>
+  </textFlow>
+</conversation>

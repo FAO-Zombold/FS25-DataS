@@ -1,0 +1,94 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>DEFAULT</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="6fe0528225">
+    <item id="6fe0528225" isActive="false">
+      <text>$dataS2/npc/farmer/dialogueStart/dialogueStartOverview/cameToChat</text>
+      <next>
+        <option id="b6ada4e991" isActive="false">
+          <text>$dataS2/npc/farmer/dialogueStart/dialogueStartOverview/optionMission</text>
+          <actions>
+            <startConversationFromList>
+              <conversation uniqueId="c0a26fcabf"/>
+              <conversation uniqueId="58d3edbf51"/>
+              <conversation uniqueId="5f875b4f14"/>
+              <conversation uniqueId="a3bf74a1af"/>
+              <failConversation uniqueId="c72909ada5"/>
+              <failConversation uniqueId="8ffa7232a2"/>
+              <failConversation uniqueId="dc15e07349"/>
+            </startConversationFromList>
+          </actions>
+          <prerequisites>
+            <missionPermission/>
+          </prerequisites>
+        </option>
+        <option id="3f5fb57914">
+          <text>$dataS2/npc/farmer/dialogueStart/dialogueStartOverview/optionAdvice</text>
+          <actions>
+            <startConversationFromList>
+              <conversation uniqueId="f71a10f8d1"/>
+              <conversation uniqueId="161908c3ee"/>
+              <conversation uniqueId="26af0bbe76"/>
+              <conversation uniqueId="7397f64ca4"/>
+              <conversation uniqueId="706b15ad4a"/>
+              <conversation uniqueId="813e4e1692"/>
+              <conversation uniqueId="0e74368d8a"/>
+              <conversation uniqueId="b803bcd05f"/>
+              <conversation uniqueId="55d4da82c2"/>
+              <conversation uniqueId="2281159cae"/>
+              <failConversation uniqueId="18aa76b0b0"/>
+              <failConversation uniqueId="82186afd11"/>
+              <failConversation uniqueId="3120942e0e"/>
+              <failConversation uniqueId="5a4d7b76ab"/>
+            </startConversationFromList>
+          </actions>
+        </option>
+        <option id="76bdbdf3c1">
+          <text>$dataS2/npc/farmer/dialogueStart/dialogueStartOverview/optionSmalltalkYou</text>
+          <actions>
+            <startConversationFromList>
+              <conversation uniqueId="d95c585171"/>
+              <conversation uniqueId="42a96e6abf"/>
+              <conversation uniqueId="6b6006c6a8"/>
+              <conversation uniqueId="d77021131d"/>
+              <conversation uniqueId="8cad0aea29"/>
+              <conversation uniqueId="3dd5da6a54"/>
+              <conversation uniqueId="b1e72c3551"/>
+              <conversation uniqueId="bdf76f8265"/>
+              <conversation uniqueId="b6722d6816"/>
+              <failConversation uniqueId="18aa76b0b0"/>
+              <failConversation uniqueId="82186afd11"/>
+              <failConversation uniqueId="3120942e0e"/>
+              <failConversation uniqueId="5a4d7b76ab"/>
+            </startConversationFromList>
+          </actions>
+        </option>
+        <option id="925514fa35">
+          <text>$dataS2/npc/farmer/dialogueStart/dialogueStartOverview/optionSmalltalkAnecdotes</text>
+          <actions>
+            <startConversationFromList>
+              <conversation uniqueId="02efe951fb"/>
+              <conversation uniqueId="f0800f1ade"/>
+              <conversation uniqueId="4e324412fc"/>
+              <conversation uniqueId="ea171de5d3"/>
+              <conversation uniqueId="7bd2e5dfb4"/>
+              <conversation uniqueId="e14b5f6668"/>
+              <conversation uniqueId="fcd9c8be5c"/>
+              <conversation uniqueId="ebb9f751cb"/>
+              <conversation uniqueId="a45d1a8f6d"/>
+              <failConversation uniqueId="18aa76b0b0"/>
+              <failConversation uniqueId="82186afd11"/>
+              <failConversation uniqueId="3120942e0e"/>
+              <failConversation uniqueId="5a4d7b76ab"/>
+            </startConversationFromList>
+          </actions>
+        </option>
+        <option id="327e296c10">
+          <text>$dataS2/npc/farmer/dialogueStart/dialogueStartOverview/exitButton</text>
+        </option>
+      </next>
+    </item>
+  </textFlow>
+</conversation>

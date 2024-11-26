@@ -1,0 +1,68 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>INTRO</type>
+  <probability>5</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <numTriggered max="1"/>
+    <map mapId="mapUS"/>
+  </prerequisites>
+  <textFlow startId="2c6f0dbe90">
+    <item id="2c6f0dbe90" nextId="942cf628d5">
+      <text>$dataS2/npc/grandpa/specialConversations/mapSpecific/riverbendCollectibles/collectibles</text>
+    </item>
+    <item id="942cf628d5" nextId="636d42cff2">
+      <text>$dataS2/npc/grandpa/specialConversations/mapSpecific/riverbendCollectibles/fallApart</text>
+    </item>
+    <item id="636d42cff2">
+      <text>$dataS2/npc/grandpa/specialConversations/mapSpecific/riverbendCollectibles/townsHistory</text>
+      <next>
+        <option id="2e62a2c0d0" nextId="8f1840cd6f">
+          <text>$dataS2/npc/grandpa/specialConversations/mapSpecific/riverbendCollectibles/optionA</text>
+        </option>
+        <option id="d4eb3d625e" nextId="6b33dcf6d0">
+          <text>$dataS2/npc/grandpa/specialConversations/mapSpecific/riverbendCollectibles/optionB</text>
+        </option>
+      </next>
+    </item>
+    <item id="8f1840cd6f" nextId="d1f8cda0ef">
+      <text>$dataS2/npc/grandpa/specialConversations/mapSpecific/riverbendCollectibles/attemptsToSave</text>
+    </item>
+    <item id="d1f8cda0ef" nextId="b7caf62a10">
+      <text>$dataS2/npc/grandpa/specialConversations/mapSpecific/riverbendCollectibles/bedAndBreakfast</text>
+    </item>
+    <item id="b7caf62a10" nextId="d5f2868e3b">
+      <text>$dataS2/npc/grandpa/specialConversations/mapSpecific/riverbendCollectibles/spookyExperience</text>
+    </item>
+    <item id="d5f2868e3b" nextId="5af0ad8f62">
+      <text>$dataS2/npc/grandpa/specialConversations/mapSpecific/riverbendCollectibles/abandonedIdea</text>
+    </item>
+    <item id="5af0ad8f62" nextId="adacb18fc1">
+      <text>$dataS2/npc/grandpa/specialConversations/mapSpecific/riverbendCollectibles/youCanHelp</text>
+    </item>
+    <item id="adacb18fc1" nextId="409d861702">
+      <text>$dataS2/npc/grandpa/specialConversations/mapSpecific/riverbendCollectibles/deliverRecources</text>
+    </item>
+    <item id="409d861702" nextId="25ea63d2e5">
+      <text>$dataS2/npc/grandpa/specialConversations/mapSpecific/riverbendCollectibles/lyingAroundTown</text>
+    </item>
+    <item id="25ea63d2e5" nextId="64865f7616">
+      <text>$dataS2/npc/grandpa/specialConversations/mapSpecific/riverbendCollectibles/troublemakers</text>
+    </item>
+    <item id="64865f7616" nextId="f6b5850ed4">
+      <text>$dataS2/npc/grandpa/specialConversations/mapSpecific/riverbendCollectibles/grainElevatorMuseum</text>
+    </item>
+    <item id="f6b5850ed4" nextId="d6c6a45f9a">
+      <text>$dataS2/npc/grandpa/specialConversations/mapSpecific/riverbendCollectibles/oldSteamEngine</text>
+    </item>
+    <item id="d6c6a45f9a">
+      <text>$dataS2/npc/grandpa/specialConversations/mapSpecific/riverbendCollectibles/stellarUndertaking</text>
+      <actions>
+        <startConversationById uniqueId="0bc5b0ce93"/>
+      </actions>
+    </item>
+    <item id="6b33dcf6d0" nextId="8f1840cd6f">
+      <text>$dataS2/npc/grandpa/specialConversations/mapSpecific/riverbendCollectibles/actuallyYes</text>
+    </item>
+  </textFlow>
+</conversation>

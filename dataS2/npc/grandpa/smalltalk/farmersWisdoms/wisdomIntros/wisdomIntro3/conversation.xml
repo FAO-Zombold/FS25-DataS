@@ -1,0 +1,18 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>SMALLTALK_WISDOM_INTRO</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <conversationAvailableByType type="SMALLTALK_WISDOM"/>
+    <retriggerTypeDelayIngameDays type="SMALLTALK_WISDOM_INTRO" minDays="1"/>
+  </prerequisites>
+  <textFlow startId="9b21e1826f">
+    <item id="9b21e1826f">
+      <text>$dataS2/npc/grandpa/smalltalk/farmersWisdoms/wisdomIntros/wisdomIntro3/smartThoughts</text>
+      <actions>
+        <startConversationByType type="SMALLTALK_WISDOM"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

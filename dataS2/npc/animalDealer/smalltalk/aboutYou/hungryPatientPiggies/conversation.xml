@@ -1,0 +1,105 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>KATIE_YOU</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="9548099434">
+    <item id="9548099434">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/hungryPatientPiggies/chineseZodiac</text>
+      <next>
+        <option id="d485584274" nextId="b40c4de0cf">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/hungryPatientPiggies/chineseZodiacOptionA</text>
+        </option>
+        <option id="5b7a57c4f1" nextId="e04216b86f">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/hungryPatientPiggies/chineseZodiacOptionB</text>
+        </option>
+        <option id="0ff4121a7f" nextId="946626d808">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/hungryPatientPiggies/chineseZodiacOptionC</text>
+        </option>
+        <option id="3f855605c3" nextId="a06e71d51f">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/hungryPatientPiggies/optionD</text>
+        </option>
+        <option id="fa68c82271" nextId="1e534bcd33">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/hungryPatientPiggies/optionE</text>
+        </option>
+        <option id="b289003c91" nextId="b255216ccb">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/hungryPatientPiggies/optionF</text>
+        </option>
+      </next>
+    </item>
+    <item id="b40c4de0cf" nextId="f639c253d4">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/hungryPatientPiggies/didYouJust</text>
+    </item>
+    <item id="f639c253d4" nextId="8a1ec66a37">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/hungryPatientPiggies/doNotBelieveInZodiac</text>
+    </item>
+    <item id="8a1ec66a37">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/hungryPatientPiggies/speakingOfPigs</text>
+      <next>
+        <option id="df1e62a8f1" nextId="308cb0d68a">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/hungryPatientPiggies/optionA</text>
+        </option>
+        <option id="a3a83caf02" nextId="8ad81826a8">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/hungryPatientPiggies/optionB</text>
+        </option>
+        <option id="e7f5e2d4dc" nextId="452b133f4b">
+          <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/hungryPatientPiggies/optionC</text>
+        </option>
+      </next>
+    </item>
+    <item id="308cb0d68a" nextId="1d58e25a95">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/hungryPatientPiggies/didNotNotice</text>
+    </item>
+    <item id="1d58e25a95" nextId="15f17873d3">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/hungryPatientPiggies/pigsAreUnderestimated</text>
+    </item>
+    <item id="15f17873d3" nextId="b8fc0be4f6">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/hungryPatientPiggies/smartPiglet</text>
+    </item>
+    <item id="b8fc0be4f6" nextId="27d0f647a6">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/hungryPatientPiggies/pigsAsLivestock</text>
+    </item>
+    <item id="27d0f647a6" nextId="a6c6bfa112">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/hungryPatientPiggies/pigsAreWork</text>
+    </item>
+    <item id="a6c6bfa112" nextId="fa527a3486">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/hungryPatientPiggies/tellYouMoreSometime</text>
+    </item>
+    <item id="fa527a3486" nextId="8c7c9d32fc">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/hungryPatientPiggies/circleBack</text>
+    </item>
+    <item id="8c7c9d32fc" nextId="e378ff2bb3">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/hungryPatientPiggies/positiveCharacteristics</text>
+    </item>
+    <item id="e378ff2bb3" nextId="446cb6c907">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/hungryPatientPiggies/letOthersDecide</text>
+    </item>
+    <item id="446cb6c907">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/hungryPatientPiggies/waitingForNext</text>
+      <actions>
+        <startConversationById uniqueId="bb0236da62"/>
+      </actions>
+    </item>
+    <item id="8ad81826a8" nextId="1d58e25a95">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/hungryPatientPiggies/thinkAboutIt</text>
+    </item>
+    <item id="452b133f4b" nextId="1d58e25a95">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/hungryPatientPiggies/possiblePigsty</text>
+    </item>
+    <item id="e04216b86f" nextId="f639c253d4">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/hungryPatientPiggies/majestic</text>
+    </item>
+    <item id="946626d808" nextId="f639c253d4">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/hungryPatientPiggies/nope</text>
+    </item>
+    <item id="a06e71d51f" nextId="f639c253d4">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/hungryPatientPiggies/sssperpent</text>
+    </item>
+    <item id="1e534bcd33" nextId="f639c253d4">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/hungryPatientPiggies/loveHorses</text>
+    </item>
+    <item id="b255216ccb" nextId="f639c253d4">
+      <text>$dataS2/npc/animalDealer/smalltalk/aboutYou/hungryPatientPiggies/wellThankYou</text>
+    </item>
+  </textFlow>
+</conversation>

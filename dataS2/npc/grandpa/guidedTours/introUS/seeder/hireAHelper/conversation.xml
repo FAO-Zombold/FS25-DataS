@@ -1,0 +1,29 @@
+<conversation>
+  <class>NPCConversationGuidedTour</class>
+  <type>GUIDED_TOUR</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <manuallyTriggered/>
+  </prerequisites>
+  <textFlow startId="a5679a486f">
+    <item id="a5679a486f" nextId="0c130c7a64">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/seeder/hireAHelper/done</text>
+    </item>
+    <item id="0c130c7a64" nextId="8bb508f0fa">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/seeder/hireAHelper/weather</text>
+    </item>
+    <item id="8bb508f0fa" nextId="5c159fd6b4">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/seeder/hireAHelper/forecast</text>
+    </item>
+    <item id="5c159fd6b4" nextId="27be2a6624">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/seeder/hireAHelper/goodCanola</text>
+    </item>
+    <item id="27be2a6624" nextId="09f34f19b7">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/seeder/hireAHelper/helpingHand</text>
+    </item>
+    <item id="09f34f19b7">
+      <text>$dataS2/npc/grandpa/guidedTours/introUS/seeder/hireAHelper/helperDoesRest</text>
+    </item>
+  </textFlow>
+</conversation>

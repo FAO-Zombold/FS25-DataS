@@ -1,0 +1,38 @@
+<conversation>
+  <class>NPCConversationGuidedTour</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="108f4ec732">
+    <item id="108f4ec732" nextId="7546b27393">
+      <text>$dataS2/npc/animalDealer/help/animals/silageAndTMR/whatIsSilage/valuableFeed</text>
+    </item>
+    <item id="7546b27393" nextId="32b17bd1c5">
+      <text>$dataS2/npc/animalDealer/help/animals/silageAndTMR/whatIsSilage/whatIsChaff</text>
+    </item>
+    <item id="32b17bd1c5" nextId="42a16f20bc">
+      <text>$dataS2/npc/animalDealer/help/animals/silageAndTMR/whatIsSilage/produceSilage</text>
+    </item>
+    <item id="42a16f20bc" nextId="62ed077649">
+      <text>$dataS2/npc/animalDealer/help/animals/silageAndTMR/whatIsSilage/whenUsingGrass</text>
+    </item>
+    <item id="62ed077649" nextId="037579dd48">
+      <text>$dataS2/npc/animalDealer/help/animals/silageAndTMR/whatIsSilage/whenUsingChaff</text>
+    </item>
+    <item id="037579dd48" nextId="5a93084e7f">
+      <text>$dataS2/npc/animalDealer/help/animals/silageAndTMR/whatIsSilage/optionLeveler</text>
+    </item>
+    <item id="5a93084e7f" nextId="343eca1b86">
+      <text>$dataS2/npc/animalDealer/help/animals/silageAndTMR/whatIsSilage/harvestCrops</text>
+    </item>
+    <item id="343eca1b86" nextId="f1f9ae74b6">
+      <text>$dataS2/npc/animalDealer/help/animals/silageAndTMR/whatIsSilage/unloadPlants</text>
+    </item>
+    <item id="f1f9ae74b6">
+      <text>$dataS2/npc/animalDealer/help/animals/silageAndTMR/whatIsSilage/voilaSauerkraut</text>
+      <actions>
+        <startConversationById uniqueId="67571deb6c"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

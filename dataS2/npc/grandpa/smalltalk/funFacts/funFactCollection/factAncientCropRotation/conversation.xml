@@ -1,0 +1,23 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>SMALLTALK_FUNFACTS</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <numTriggered max="1"/>
+  </prerequisites>
+  <textFlow startId="c2ded0a4f5">
+    <item id="c2ded0a4f5" nextId="e1286e7a54">
+      <text>$dataS2/npc/grandpa/smalltalk/funFacts/funFactCollection/factAncientCropRotation/cropRotation</text>
+    </item>
+    <item id="e1286e7a54" nextId="305ec290dd">
+      <text>$dataS2/npc/grandpa/smalltalk/funFacts/funFactCollection/factAncientCropRotation/oldTechnique</text>
+    </item>
+    <item id="305ec290dd">
+      <text>$dataS2/npc/grandpa/smalltalk/funFacts/funFactCollection/factAncientCropRotation/recognizedTechnique</text>
+      <actions>
+        <startConversationById uniqueId="0bc5b0ce93"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

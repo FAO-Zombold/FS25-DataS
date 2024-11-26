@@ -1,0 +1,26 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>SMALLTALK_FUNFACTS</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <numTriggered max="1"/>
+  </prerequisites>
+  <textFlow startId="3b447edf7c">
+    <item id="3b447edf7c" nextId="6d9888b20c">
+      <text>$dataS2/npc/grandpa/smalltalk/funFacts/funFactCollection/factNeolithicRevolution/everHeard</text>
+    </item>
+    <item id="6d9888b20c" nextId="77bd090389">
+      <text>$dataS2/npc/grandpa/smalltalk/funFacts/funFactCollection/factNeolithicRevolution/agriculturalRevolution</text>
+    </item>
+    <item id="77bd090389" nextId="053e59a7b6">
+      <text>$dataS2/npc/grandpa/smalltalk/funFacts/funFactCollection/factNeolithicRevolution/lifestyleChange</text>
+    </item>
+    <item id="053e59a7b6">
+      <text>$dataS2/npc/grandpa/smalltalk/funFacts/funFactCollection/factNeolithicRevolution/revolution</text>
+      <actions>
+        <startConversationById uniqueId="0bc5b0ce93"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

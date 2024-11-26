@@ -1,0 +1,41 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="e406022fb2">
+    <item id="e406022fb2" nextId="aef486a049">
+      <text>$dataS2/npc/helper/help/helpCrops/grains/whatEquipment/listOfMachines</text>
+    </item>
+    <item id="aef486a049" nextId="6902d5db34">
+      <text>$dataS2/npc/helper/help/helpCrops/grains/whatEquipment/cultivator</text>
+    </item>
+    <item id="6902d5db34" nextId="e4cc546a2e">
+      <text>$dataS2/npc/helper/help/helpCrops/grains/whatEquipment/plow</text>
+    </item>
+    <item id="e4cc546a2e" nextId="ef7b5e099d">
+      <text>$dataS2/npc/helper/help/helpCrops/grains/whatEquipment/seeder</text>
+    </item>
+    <item id="ef7b5e099d" nextId="90078eb8ab">
+      <text>$dataS2/npc/helper/help/helpCrops/grains/whatEquipment/fertilizer</text>
+    </item>
+    <item id="90078eb8ab" nextId="de1071044f">
+      <text>$dataS2/npc/helper/help/helpCrops/grains/whatEquipment/weeds</text>
+    </item>
+    <item id="de1071044f" nextId="e9d41bfeb4">
+      <text>$dataS2/npc/helper/help/helpCrops/grains/whatEquipment/combineHarvester</text>
+    </item>
+    <item id="e9d41bfeb4" nextId="1050416ada">
+      <text>$dataS2/npc/helper/help/helpCrops/grains/whatEquipment/emptyTrailer</text>
+    </item>
+    <item id="1050416ada" nextId="e32fac20b2">
+      <text>$dataS2/npc/helper/help/helpCrops/grains/whatEquipment/toEmpty</text>
+    </item>
+    <item id="e32fac20b2">
+      <text>$dataS2/npc/helper/help/helpCrops/grains/whatEquipment/goPlay</text>
+      <actions>
+        <startConversationById uniqueId="a015a9600e"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

@@ -1,0 +1,41 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="9eac53d358">
+    <item id="9eac53d358" nextId="ab931062d0">
+      <text>$dataS2/npc/helper/help/helpCrops/greenBeans/whatNeed/tractor</text>
+    </item>
+    <item id="ab931062d0" nextId="989aa5922c">
+      <text>$dataS2/npc/helper/help/helpCrops/greenBeans/whatNeed/cultivator</text>
+    </item>
+    <item id="989aa5922c" nextId="d52ba19f33">
+      <text>$dataS2/npc/helper/help/helpCrops/greenBeans/whatNeed/planterSeeds</text>
+    </item>
+    <item id="d52ba19f33" nextId="a369f4b538">
+      <text>$dataS2/npc/helper/help/helpCrops/greenBeans/whatNeed/fertilizer</text>
+    </item>
+    <item id="a369f4b538" nextId="182c10aa09">
+      <text>$dataS2/npc/helper/help/helpCrops/greenBeans/whatNeed/soilRoller</text>
+    </item>
+    <item id="182c10aa09" nextId="5c49886e8a">
+      <text>$dataS2/npc/helper/help/helpCrops/greenBeans/whatNeed/weeder</text>
+    </item>
+    <item id="5c49886e8a" nextId="2434d1da45">
+      <text>$dataS2/npc/helper/help/helpCrops/greenBeans/whatNeed/harvester</text>
+    </item>
+    <item id="2434d1da45" nextId="062f114190">
+      <text>$dataS2/npc/helper/help/helpCrops/greenBeans/whatNeed/combine</text>
+    </item>
+    <item id="062f114190" nextId="b5eebea74b">
+      <text>$dataS2/npc/helper/help/helpCrops/greenBeans/whatNeed/emptyTrailer</text>
+    </item>
+    <item id="b5eebea74b">
+      <text>$dataS2/npc/helper/help/helpCrops/greenBeans/whatNeed/notMuch</text>
+      <actions>
+        <startConversationById uniqueId="7098198290"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

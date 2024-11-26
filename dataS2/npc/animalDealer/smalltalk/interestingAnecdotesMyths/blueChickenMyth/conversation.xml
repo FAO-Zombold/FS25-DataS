@@ -1,0 +1,101 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>KATIE_ANECDOTES</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="98e705e0c2">
+    <item id="98e705e0c2" nextId="c81c91dd2c">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/blueChickenMyth/chickensEscapedAlt2</text>
+    </item>
+    <item id="c81c91dd2c">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/blueChickenMyth/howIsYourFarm</text>
+      <next>
+        <option id="01978b4139" nextId="a9dc07032d">
+          <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/blueChickenMyth/howIsYourFarmOptionA</text>
+        </option>
+        <option id="673d3d50c8" nextId="7693bb8c49">
+          <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/blueChickenMyth/howIsYourFarmOptionB</text>
+        </option>
+      </next>
+    </item>
+    <item id="a9dc07032d" nextId="7693bb8c49">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/blueChickenMyth/chasingChickens</text>
+    </item>
+    <item id="7693bb8c49" nextId="1e652342a8">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/blueChickenMyth/gotThemAll</text>
+    </item>
+    <item id="1e652342a8">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/blueChickenMyth/rogueChicken</text>
+      <next>
+        <option id="f450e6123b" nextId="32a7b923e9">
+          <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/blueChickenMyth/rogueChickenOptionA</text>
+        </option>
+        <option id="c8dc4e2f0f" nextId="32a7b923e9">
+          <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/blueChickenMyth/rogueChickenOptionB</text>
+        </option>
+      </next>
+    </item>
+    <item id="32a7b923e9" nextId="b3a0677689">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/blueChickenMyth/itIsALocalMyth</text>
+    </item>
+    <item id="b3a0677689" nextId="1a390aeef6">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/blueChickenMyth/untilTheStormHit</text>
+    </item>
+    <item id="1a390aeef6" nextId="9d2fece110">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/blueChickenMyth/gustsOfWind</text>
+    </item>
+    <item id="9d2fece110" nextId="6c1e850015">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/blueChickenMyth/bringingToSafety</text>
+    </item>
+    <item id="6c1e850015" nextId="25a763e6d1">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/blueChickenMyth/rescueFromRooster</text>
+    </item>
+    <item id="25a763e6d1" nextId="ce2e2bc53e">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/blueChickenMyth/standingOnTheFence</text>
+    </item>
+    <item id="ce2e2bc53e" nextId="4f355e60f5">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/blueChickenMyth/powerfulCrow</text>
+    </item>
+    <item id="4f355e60f5" nextId="c09040e591">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/blueChickenMyth/everyAnimalSafe</text>
+    </item>
+    <item id="c09040e591" nextId="b86c62673c">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/blueChickenMyth/damageWasNotTooBig</text>
+    </item>
+    <item id="b86c62673c" nextId="bebb0d4660">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/blueChickenMyth/hailedRooster</text>
+    </item>
+    <item id="bebb0d4660" nextId="adc5090f77">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/blueChickenMyth/leaveSomeFeedOutside</text>
+    </item>
+    <item id="adc5090f77">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/blueChickenMyth/roosterBlesses</text>
+      <next>
+        <option id="d24f512046" nextId="169d51c2b9">
+          <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/blueChickenMyth/optionA</text>
+        </option>
+        <option id="f4b7d8615a" nextId="5c42045499">
+          <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/blueChickenMyth/optionB</text>
+        </option>
+      </next>
+    </item>
+    <item id="169d51c2b9" nextId="620f6a584c">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/blueChickenMyth/sureWas</text>
+    </item>
+    <item id="620f6a584c" nextId="0c20d32e5a">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/blueChickenMyth/itIsANiceStory</text>
+    </item>
+    <item id="0c20d32e5a" nextId="f51cca3f97">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/blueChickenMyth/appoitmenWithTheVet</text>
+    </item>
+    <item id="f51cca3f97">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/blueChickenMyth/seeYouAround</text>
+      <actions>
+        <startConversationById uniqueId="bb0236da62"/>
+      </actions>
+    </item>
+    <item id="5c42045499" nextId="620f6a584c">
+      <text>$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/blueChickenMyth/toldYou</text>
+    </item>
+  </textFlow>
+</conversation>

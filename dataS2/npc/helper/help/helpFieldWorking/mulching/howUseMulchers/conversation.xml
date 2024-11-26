@@ -1,0 +1,29 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="04d07b3ab4">
+    <item id="04d07b3ab4" nextId="1f29d7c650">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/mulching/howUseMulchers/usage</text>
+    </item>
+    <item id="1f29d7c650" nextId="70d089fe02">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/mulching/howUseMulchers/attach</text>
+    </item>
+    <item id="70d089fe02" nextId="a333efa7d5">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/mulching/howUseMulchers/driveOver</text>
+    </item>
+    <item id="a333efa7d5" nextId="835283f213">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/mulching/howUseMulchers/getCut</text>
+    </item>
+    <item id="835283f213" nextId="822d1b05cc">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/mulching/howUseMulchers/mulchedStubble</text>
+    </item>
+    <item id="822d1b05cc">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/mulching/howUseMulchers/thatAll</text>
+      <actions>
+        <startConversationById uniqueId="9cd825d576"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

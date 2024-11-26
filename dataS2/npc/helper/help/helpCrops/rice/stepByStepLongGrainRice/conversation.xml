@@ -1,0 +1,56 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="f6f40bf00a">
+    <item id="f6f40bf00a" nextId="aaa107bf2f">
+      <text>$dataS2/npc/helper/help/helpCrops/rice/stepByStepLongGrainRice/cheeckCalendar</text>
+    </item>
+    <item id="aaa107bf2f" nextId="75c1351f3a">
+      <text>$dataS2/npc/helper/help/helpCrops/rice/stepByStepLongGrainRice/stepOne</text>
+    </item>
+    <item id="75c1351f3a" nextId="59629d57a7">
+      <text>$dataS2/npc/helper/help/helpCrops/rice/stepByStepLongGrainRice/newPaddy</text>
+    </item>
+    <item id="59629d57a7" nextId="a893c3354e">
+      <text>$dataS2/npc/helper/help/helpCrops/rice/stepByStepLongGrainRice/stepTwo</text>
+    </item>
+    <item id="a893c3354e" nextId="ae2c9b4853">
+      <text>$dataS2/npc/helper/help/helpCrops/rice/stepByStepLongGrainRice/seeder</text>
+    </item>
+    <item id="ae2c9b4853" nextId="08a1445014">
+      <text>$dataS2/npc/helper/help/helpCrops/rice/stepByStepLongGrainRice/fertilizing</text>
+    </item>
+    <item id="08a1445014" nextId="cfe6750868">
+      <text>$dataS2/npc/helper/help/helpCrops/rice/stepByStepLongGrainRice/unlike</text>
+    </item>
+    <item id="cfe6750868" nextId="0f2a70d3b5">
+      <text>$dataS2/npc/helper/help/helpCrops/rice/stepByStepLongGrainRice/stepFour</text>
+    </item>
+    <item id="0f2a70d3b5" nextId="7565684791">
+      <text>$dataS2/npc/helper/help/helpCrops/rice/stepByStepLongGrainRice/waterPump</text>
+    </item>
+    <item id="7565684791" nextId="c62345bbed">
+      <text>$dataS2/npc/helper/help/helpCrops/rice/stepByStepLongGrainRice/water</text>
+    </item>
+    <item id="c62345bbed" nextId="25ed084ab1">
+      <text>$dataS2/npc/helper/help/helpCrops/rice/stepByStepLongGrainRice/stepFive</text>
+    </item>
+    <item id="25ed084ab1" nextId="7b2efd7680">
+      <text>$dataS2/npc/helper/help/helpCrops/rice/stepByStepLongGrainRice/unload</text>
+    </item>
+    <item id="7b2efd7680" nextId="bc983909bd">
+      <text>$dataS2/npc/helper/help/helpCrops/rice/stepByStepLongGrainRice/stepSix</text>
+    </item>
+    <item id="bc983909bd" nextId="b9cc4807d3">
+      <text>$dataS2/npc/helper/help/helpCrops/rice/stepByStepLongGrainRice/lime</text>
+    </item>
+    <item id="b9cc4807d3">
+      <text>$dataS2/npc/helper/help/helpCrops/rice/stepByStepLongGrainRice/ready</text>
+      <actions>
+        <startConversationById uniqueId="a230916ebf"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

@@ -1,0 +1,40 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="28a4a5362c">
+    <item id="28a4a5362c" isActive="false">
+      <text>$dataS2/npc/helper/help/helpFieldWorking/fieldStones/overviewFieldStones/intro</text>
+      <next>
+        <option id="9e5f806ebb">
+          <text>$dataS2/npc/helper/help/helpFieldWorking/fieldStones/overviewFieldStones/whatAre</text>
+          <actions>
+            <startConversationById uniqueId="4005b77d8e"/>
+          </actions>
+        </option>
+        <option id="95f0cc04ff">
+          <text>$dataS2/npc/helper/help/helpFieldWorking/fieldStones/overviewFieldStones/whenEmerge</text>
+          <actions>
+            <startConversationById uniqueId="1c4845a88a"/>
+          </actions>
+        </option>
+        <option id="2d8e88b93a">
+          <text>$dataS2/npc/helper/help/helpFieldWorking/fieldStones/overviewFieldStones/howRemove</text>
+          <actions>
+            <startConversationById uniqueId="b8a2275e9d"/>
+          </actions>
+        </option>
+        <option id="b5b44576f1">
+          <text>$dataS2/npc/helper/help/helpFieldWorking/fieldStones/overviewFieldStones/backButton</text>
+          <actions>
+            <startConversationById uniqueId="0c49b93be8"/>
+          </actions>
+        </option>
+        <option id="ae30581976">
+          <text>$dataS2/npc/helper/help/helpFieldWorking/fieldStones/overviewFieldStones/exitButton</text>
+        </option>
+      </next>
+    </item>
+  </textFlow>
+</conversation>

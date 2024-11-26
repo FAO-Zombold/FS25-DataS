@@ -1,0 +1,17 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>DAVID_ANECDOTES_INTRO</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <retriggerTypeDelayIngameDays type="DAVID_ANECDOTES_INTRO" minDays="1"/>
+  </prerequisites>
+  <textFlow startId="521472150a">
+    <item id="521472150a">
+      <text>$dataS2/npc/farmer/smalltalk/smalltalkAnecdotes/smalltalkAnecdotesIntro/letMeEntertainYou/letMeEntertainYou</text>
+      <actions>
+        <startConversationByType type="DAVID_ANECDOTES"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

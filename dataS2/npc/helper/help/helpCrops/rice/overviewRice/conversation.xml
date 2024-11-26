@@ -1,0 +1,52 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="17f42965fc">
+    <item id="17f42965fc" isActive="false">
+      <text>$dataS2/npc/helper/help/helpCrops/rice/overviewRice/intro</text>
+      <next>
+        <option id="92ad97a784">
+          <text>$dataS2/npc/helper/help/helpCrops/rice/overviewRice/difference</text>
+          <actions>
+            <startConversationById uniqueId="16f8a7bcff"/>
+          </actions>
+        </option>
+        <option id="edb5652f6e">
+          <text>$dataS2/npc/helper/help/helpCrops/rice/overviewRice/needRice</text>
+          <actions>
+            <startConversationById uniqueId="712f2c838c"/>
+          </actions>
+        </option>
+        <option id="07da5270e6">
+          <text>$dataS2/npc/helper/help/helpCrops/rice/overviewRice/needLongGrainRice</text>
+          <actions>
+            <startConversationById uniqueId="6fa435bf50"/>
+          </actions>
+        </option>
+        <option id="aaaff42b8d">
+          <text>$dataS2/npc/helper/help/helpCrops/rice/overviewRice/stepByStepRice</text>
+          <actions>
+            <startConversationById uniqueId="176362e128"/>
+          </actions>
+        </option>
+        <option id="8e7fed594c">
+          <text>$dataS2/npc/helper/help/helpCrops/rice/overviewRice/stepByStepLongGrainRice</text>
+          <actions>
+            <startConversationById uniqueId="70ffda7d91"/>
+          </actions>
+        </option>
+        <option id="ca5859b6e0">
+          <text>$dataS2/npc/helper/help/helpCrops/rice/overviewRice/backButton</text>
+          <actions>
+            <startConversationById uniqueId="b7b177b9c9"/>
+          </actions>
+        </option>
+        <option id="444ee42c2c">
+          <text>$dataS2/npc/helper/help/helpCrops/rice/overviewRice/exitButton</text>
+        </option>
+      </next>
+    </item>
+  </textFlow>
+</conversation>

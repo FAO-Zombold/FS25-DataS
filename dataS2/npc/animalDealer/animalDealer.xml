@@ -1,0 +1,192 @@
+<npc>
+  <class>NPC</class>
+  <title>Katie</title>
+  <imageFilename>$dataS2/npc/animalDealer/animalDealer.png</imageFilename>
+  <filename>$dataS/character/npc/npcBase.i3d</filename>
+  <sounds>
+    <voice linkNode="audioNode" innerRadius="0.2" outerRadius="10.0" supportsReverb="false">
+      <volume indoor="3.4" outdoor="3.4"/>
+      <pitch indoor="1.00" outdoor="1.0"/>
+      <lowpassGain indoor="0.9" outdoor="0.9"/>
+    </voice>
+    <phone supportsReverb="false">
+      <volume indoor="0.9" outdoor="1.0"/>
+      <pitch indoor="1.00" outdoor="1.00"/>
+      <lowpassGain indoor="1.00" outdoor="1.00"/>
+      <lowpassCutoffFrequency indoor="2000" outdoor="2000.0"/>
+      <lowpassResonance indoor="1.0" outdoor="1.0"/>
+    </phone>
+  </sounds>
+  <playerStyle filename="dataS/character/playerF/playerF.xml">
+    <onepiece color="2" name="synthetic"/>
+    <face color="1" name="head01"/>
+    <footwear color="1" name="galoshes"/>
+    <hairStyle color="13" name="hair12"/>
+  </playerStyle>
+  <interactionTrigger node="triggerNode"/>
+  <conversations>
+    <conversation uniqueId="cfda7e4459">$dataS2/npc/animalDealer/dialogueStart/chattyToday/conversation.xml</conversation>
+    <conversation uniqueId="bb0236da62">$dataS2/npc/animalDealer/dialogueStart/dialogueStartOverview/conversation.xml</conversation>
+    <conversation uniqueId="fef82873f7">$dataS2/npc/animalDealer/dialogueStart/helloHello/conversation.xml</conversation>
+    <conversation uniqueId="b6356d2402">$dataS2/npc/animalDealer/dialogueStart/heyBuddy/conversation.xml</conversation>
+    <conversation uniqueId="65a2bc676d">$dataS2/npc/animalDealer/dialogueStart/heyThere/conversation.xml</conversation>
+    <conversation uniqueId="1ad0aa0a44">$dataS2/npc/animalDealer/dialogueStart/lookWhoThere/conversation.xml</conversation>
+    <conversation uniqueId="d6eedf8c62">$dataS2/npc/animalDealer/dialogueStart/supFriend/conversation.xml</conversation>
+    <conversation uniqueId="775dd98dca">$dataS2/npc/animalDealer/dialogueStart/whatsUp/conversation.xml</conversation>
+    <conversation uniqueId="a9a2b40470">$dataS2/npc/animalDealer/enoughSmallTalk/animailsWaiting/conversation.xml</conversation>
+    <conversation uniqueId="c051d2eec9">$dataS2/npc/animalDealer/enoughSmallTalk/anotherTime/conversation.xml</conversation>
+    <conversation uniqueId="7999b364d5">$dataS2/npc/animalDealer/enoughSmallTalk/comeBack/conversation.xml</conversation>
+    <conversation uniqueId="5d2d8f7617">$dataS2/npc/animalDealer/enoughSmallTalk/gottaTend/conversation.xml</conversation>
+    <conversation uniqueId="67ae9e9e26">$dataS2/npc/animalDealer/enoughSmallTalk/raincheck/conversation.xml</conversation>
+    <conversation uniqueId="fb0bc20fe3">$dataS2/npc/animalDealer/enoughSmallTalk/sorryToDissapoint/conversation.xml</conversation>
+    <conversation uniqueId="d7fd87a0fd">$dataS2/npc/animalDealer/firstTimeIntro/helloNiceToMeetYou/conversation.xml</conversation>
+    <conversation uniqueId="fdd2fcb3bf">$dataS2/npc/animalDealer/help/animals/ahelpIntros/askAway/conversation.xml</conversation>
+    <conversation uniqueId="1634f655c1">$dataS2/npc/animalDealer/help/animals/ahelpIntros/askingAboutAnimals/conversation.xml</conversation>
+    <conversation uniqueId="345249355c">$dataS2/npc/animalDealer/help/animals/ahelpIntros/helpIntrosOverview/conversation.xml</conversation>
+    <conversation uniqueId="f5c0f12c5a">$dataS2/npc/animalDealer/help/animals/ahelpIntros/okWhereIssues/conversation.xml</conversation>
+    <conversation uniqueId="2778e901a6">$dataS2/npc/animalDealer/help/animals/ahelpIntros/sureWhatCanI/conversation.xml</conversation>
+    <conversation uniqueId="cf2f5b928a">$dataS2/npc/animalDealer/help/animals/beekeeping/beesOverview/conversation.xml</conversation>
+    <conversation uniqueId="4ae619de6d">$dataS2/npc/animalDealer/help/animals/beekeeping/feedBees/conversation.xml</conversation>
+    <conversation uniqueId="a0102e5254">$dataS2/npc/animalDealer/help/animals/beekeeping/howDoIKeepBees/conversation.xml</conversation>
+    <conversation uniqueId="00ae2550c8">$dataS2/npc/animalDealer/help/animals/beekeeping/whatEquipmentBees/conversation.xml</conversation>
+    <conversation uniqueId="043b2d52d4">$dataS2/npc/animalDealer/help/animals/beekeeping/whereDoI/conversation.xml</conversation>
+    <conversation uniqueId="ccb08919e9">$dataS2/npc/animalDealer/help/animals/chicken/chickenOverview/conversation.xml</conversation>
+    <conversation uniqueId="2d92c90fe3">$dataS2/npc/animalDealer/help/animals/chicken/differenceChickenRooster/conversation.xml</conversation>
+    <conversation uniqueId="3af24170d0">$dataS2/npc/animalDealer/help/animals/chicken/howDoIFeed/conversation.xml</conversation>
+    <conversation uniqueId="20fa8bb4ff">$dataS2/npc/animalDealer/help/animals/chicken/howDoIKeep/conversation.xml</conversation>
+    <conversation uniqueId="3afea67a5f">$dataS2/npc/animalDealer/help/animals/chicken/whatEquipmentDoINeed/conversation.xml</conversation>
+    <conversation uniqueId="dfaead6155">$dataS2/npc/animalDealer/help/animals/cows/cowsOverview/conversation.xml</conversation>
+    <conversation uniqueId="1d245e80f4">$dataS2/npc/animalDealer/help/animals/cows/differentBreeds/conversation.xml</conversation>
+    <conversation uniqueId="011f066db1">$dataS2/npc/animalDealer/help/animals/cows/howDoIFeedCows/conversation.xml</conversation>
+    <conversation uniqueId="14c7041038">$dataS2/npc/animalDealer/help/animals/cows/howDoIKeepCows/conversation.xml</conversation>
+    <conversation uniqueId="e447e72870">$dataS2/npc/animalDealer/help/animals/cows/whatEquipmentDoINeedCows/conversation.xml</conversation>
+    <conversation uniqueId="41dea2465a">$dataS2/npc/animalDealer/help/animals/goats/goatsOverview/conversation.xml</conversation>
+    <conversation uniqueId="66abe819a7">$dataS2/npc/animalDealer/help/animals/goats/howDoIFeedGoats/conversation.xml</conversation>
+    <conversation uniqueId="fc8dea48d7">$dataS2/npc/animalDealer/help/animals/goats/howDoIKeepGoats/conversation.xml</conversation>
+    <conversation uniqueId="4042e69fb2">$dataS2/npc/animalDealer/help/animals/goats/whatDoINeedGoats/conversation.xml</conversation>
+    <conversation uniqueId="85f2319db6">$dataS2/npc/animalDealer/help/animals/horses/horsesOverview/conversation.xml</conversation>
+    <conversation uniqueId="9982e5bfcc">$dataS2/npc/animalDealer/help/animals/horses/howDoIFeedHorses/conversation.xml</conversation>
+    <conversation uniqueId="5c70fa640d">$dataS2/npc/animalDealer/help/animals/horses/howDoIKeepHorses/conversation.xml</conversation>
+    <conversation uniqueId="4188677654">$dataS2/npc/animalDealer/help/animals/horses/howDoISell/conversation.xml</conversation>
+    <conversation uniqueId="e477692d7e">$dataS2/npc/animalDealer/help/animals/horses/whatDifferentBreeds/conversation.xml</conversation>
+    <conversation uniqueId="791c90fb72">$dataS2/npc/animalDealer/help/animals/horses/whatEquipmentDoINeed/conversation.xml</conversation>
+    <conversation uniqueId="497dee894b">$dataS2/npc/animalDealer/help/animals/pigs/howDoIFeedPigs/conversation.xml</conversation>
+    <conversation uniqueId="3aa5eab000">$dataS2/npc/animalDealer/help/animals/pigs/howDoIKeepPigs/conversation.xml</conversation>
+    <conversation uniqueId="07ab71a10f">$dataS2/npc/animalDealer/help/animals/pigs/pigsOverview/conversation.xml</conversation>
+    <conversation uniqueId="a16325c824">$dataS2/npc/animalDealer/help/animals/pigs/whatBreedsPigs/conversation.xml</conversation>
+    <conversation uniqueId="de95e1f457">$dataS2/npc/animalDealer/help/animals/pigs/whatEquipmentDoINeed/conversation.xml</conversation>
+    <conversation uniqueId="c496c75404">$dataS2/npc/animalDealer/help/animals/sheep/howDoIFeedSheep/conversation.xml</conversation>
+    <conversation uniqueId="fec8bae283">$dataS2/npc/animalDealer/help/animals/sheep/howIDoIKeepSheep/conversation.xml</conversation>
+    <conversation uniqueId="ea51a7982b">$dataS2/npc/animalDealer/help/animals/sheep/sheepOverview/conversation.xml</conversation>
+    <conversation uniqueId="e263c92902">$dataS2/npc/animalDealer/help/animals/sheep/whatBreedsSheep/conversation.xml</conversation>
+    <conversation uniqueId="b21d876075">$dataS2/npc/animalDealer/help/animals/sheep/whatEquipmentDoINeed/conversation.xml</conversation>
+    <conversation uniqueId="67571deb6c">$dataS2/npc/animalDealer/help/animals/silageAndTMR/silageAndTMROverview/conversation.xml</conversation>
+    <conversation uniqueId="db99a262bd">$dataS2/npc/animalDealer/help/animals/silageAndTMR/whatIsSilage/conversation.xml</conversation>
+    <conversation uniqueId="9d235b1b48">$dataS2/npc/animalDealer/help/animals/silageAndTMR/whatisTMR/conversation.xml</conversation>
+    <conversation uniqueId="8598b931de">$dataS2/npc/animalDealer/help/animals/waterbuffaloes/howDoIFeedWaterbuffaloes/conversation.xml</conversation>
+    <conversation uniqueId="85fe5be8d9">$dataS2/npc/animalDealer/help/animals/waterbuffaloes/howDoIKeepWaterbuffaloes/conversation.xml</conversation>
+    <conversation uniqueId="73d06a2363">$dataS2/npc/animalDealer/help/animals/waterbuffaloes/waterbuffaloOverview/conversation.xml</conversation>
+    <conversation uniqueId="176b718ed5">$dataS2/npc/animalDealer/help/animals/waterbuffaloes/whatAreBuffaloesFor/conversation.xml</conversation>
+    <conversation uniqueId="0c34a15aea">$dataS2/npc/animalDealer/help/animals/waterbuffaloes/whatEquipmentWaterbuffaloes/conversation.xml</conversation>
+    <conversation uniqueId="ca146af3f2">$dataS2/npc/animalDealer/mission/baleWrappingRoundBales/roundBalesWrapping1/conversation.xml</conversation>
+    <conversation uniqueId="e41f677ba5">$dataS2/npc/animalDealer/mission/baleWrappingRoundBales/roundBalesWrapping2/conversation.xml</conversation>
+    <conversation uniqueId="447e6ddc01">$dataS2/npc/animalDealer/mission/baleWrappingRoundBales/roundBalesWrapping3/conversation.xml</conversation>
+    <conversation uniqueId="37ee6ccc79">$dataS2/npc/animalDealer/mission/baleWrappingRoundBales/roundBalesWrappingEquipment/conversation.xml</conversation>
+    <conversation uniqueId="ec9ce1a9d2">$dataS2/npc/animalDealer/mission/baleWrappingSquareBales/squareBalesWrapping1/conversation.xml</conversation>
+    <conversation uniqueId="3e03b05db5">$dataS2/npc/animalDealer/mission/baleWrappingSquareBales/squareBalesWrapping2/conversation.xml</conversation>
+    <conversation uniqueId="673c69d655">$dataS2/npc/animalDealer/mission/baleWrappingSquareBales/squareBalesWrapping3/conversation.xml</conversation>
+    <conversation uniqueId="3793b3c6d5">$dataS2/npc/animalDealer/mission/baleWrappingSquareBales/squareBalesWrappingEquipment/conversation.xml</conversation>
+    <conversation uniqueId="61ded2b831">$dataS2/npc/animalDealer/mission/baling/baling1/conversation.xml</conversation>
+    <conversation uniqueId="9bf760984c">$dataS2/npc/animalDealer/mission/baling/baling2/conversation.xml</conversation>
+    <conversation uniqueId="bc6bb748da">$dataS2/npc/animalDealer/mission/baling/baling3/conversation.xml</conversation>
+    <conversation uniqueId="3775c8b158">$dataS2/npc/animalDealer/mission/baling/balingEquipment/conversation.xml</conversation>
+    <conversation uniqueId="16f4f64d4f">$dataS2/npc/animalDealer/mission/balingRoundBales/roundBales1/conversation.xml</conversation>
+    <conversation uniqueId="67d15114d4">$dataS2/npc/animalDealer/mission/balingRoundBales/roundBales2/conversation.xml</conversation>
+    <conversation uniqueId="0868c2ca1e">$dataS2/npc/animalDealer/mission/balingRoundBales/roundBales3/conversation.xml</conversation>
+    <conversation uniqueId="e73fe0e586">$dataS2/npc/animalDealer/mission/balingRoundBales/roundBalesEquipment/conversation.xml</conversation>
+    <conversation uniqueId="b9deddbdde">$dataS2/npc/animalDealer/mission/balingSquareBales/squareBales1/conversation.xml</conversation>
+    <conversation uniqueId="0dee7622ce">$dataS2/npc/animalDealer/mission/balingSquareBales/squareBales2/conversation.xml</conversation>
+    <conversation uniqueId="97e7d95357">$dataS2/npc/animalDealer/mission/balingSquareBales/squareBales3/conversation.xml</conversation>
+    <conversation uniqueId="b1f9759e8f">$dataS2/npc/animalDealer/mission/balingSquareBales/squareBalesEquipment/conversation.xml</conversation>
+    <conversation uniqueId="6384232d61">$dataS2/npc/animalDealer/mission/introsMissionAvailable/missionIntro1/conversation.xml</conversation>
+    <conversation uniqueId="9eb6b91901">$dataS2/npc/animalDealer/mission/introsMissionAvailable/missionIntro2/conversation.xml</conversation>
+    <conversation uniqueId="d03d95522e">$dataS2/npc/animalDealer/mission/introsMissionAvailable/missionIntro3/conversation.xml</conversation>
+    <conversation uniqueId="01edbc2fea">$dataS2/npc/animalDealer/mission/introsMissionAvailable/missionIntro4/conversation.xml</conversation>
+    <conversation uniqueId="e582cbc9c5">$dataS2/npc/animalDealer/mission/introsMissionAvailable/missionIntro5/conversation.xml</conversation>
+    <conversation uniqueId="2f29d2e84f">$dataS2/npc/animalDealer/mission/introsMissionAvailable/missionIntroOverview/conversation.xml</conversation>
+    <conversation uniqueId="e16a4f8b3e">$dataS2/npc/animalDealer/mission/introsMissionUnavailable/noMissionIntro1/conversation.xml</conversation>
+    <conversation uniqueId="b99759c82f">$dataS2/npc/animalDealer/mission/introsMissionUnavailable/noMissionIntro2/conversation.xml</conversation>
+    <conversation uniqueId="5cefe996b0">$dataS2/npc/animalDealer/mission/introsMissionUnavailable/noMissionIntro3/conversation.xml</conversation>
+    <conversation uniqueId="a64f513f5c">$dataS2/npc/animalDealer/mission/introsMissionUnavailable/noMissionIntro4/conversation.xml</conversation>
+    <conversation uniqueId="3094dca47a">$dataS2/npc/animalDealer/mission/introsMissionUnavailable/noMissionIntro5/conversation.xml</conversation>
+    <conversation uniqueId="5ef174bcce">$dataS2/npc/animalDealer/mission/introsMissionUnavailable/noMissionIntro6/conversation.xml</conversation>
+    <conversation uniqueId="cd22e8e889">$dataS2/npc/animalDealer/mission/mowing/mowing1/conversation.xml</conversation>
+    <conversation uniqueId="e7c2ed1ceb">$dataS2/npc/animalDealer/mission/mowing/mowing2/conversation.xml</conversation>
+    <conversation uniqueId="8eee5a9ff9">$dataS2/npc/animalDealer/mission/mowing/mowing3/conversation.xml</conversation>
+    <conversation uniqueId="3dfd7fbb20">$dataS2/npc/animalDealer/mission/mowing/mowing4/conversation.xml</conversation>
+    <conversation uniqueId="e1d6a991f5">$dataS2/npc/animalDealer/mission/mowing/mowingEquipment/conversation.xml</conversation>
+    <conversation uniqueId="46efc8a0d4">$dataS2/npc/animalDealer/mission/tedding/tedding1/conversation.xml</conversation>
+    <conversation uniqueId="5ef11bb3f0">$dataS2/npc/animalDealer/mission/tedding/tedding2/conversation.xml</conversation>
+    <conversation uniqueId="5824262b09">$dataS2/npc/animalDealer/mission/tedding/tedding3/conversation.xml</conversation>
+    <conversation uniqueId="bf7b2e1ffb">$dataS2/npc/animalDealer/mission/tedding/teddingEquipment/conversation.xml</conversation>
+    <conversation uniqueId="e01153a1ba">$dataS2/npc/animalDealer/mission/transportingBales/transportingBales1/conversation.xml</conversation>
+    <conversation uniqueId="b81ef45436">$dataS2/npc/animalDealer/mission/transportingBales/transportingBales2/conversation.xml</conversation>
+    <conversation uniqueId="1ed2c3090b">$dataS2/npc/animalDealer/mission/transportingBales/transportingBales3/conversation.xml</conversation>
+    <conversation uniqueId="a783c61e70">$dataS2/npc/animalDealer/mission/transportingBales/transportingBalesEquipment/conversation.xml</conversation>
+    <conversation uniqueId="bcca9cd592">$dataS2/npc/animalDealer/mission/windrowing/windrowing1/conversation.xml</conversation>
+    <conversation uniqueId="9b99a1cb9e">$dataS2/npc/animalDealer/mission/windrowing/windrowing2/conversation.xml</conversation>
+    <conversation uniqueId="0f6d6b643e">$dataS2/npc/animalDealer/mission/windrowing/windrowing3/conversation.xml</conversation>
+    <conversation uniqueId="be6288fc1b">$dataS2/npc/animalDealer/mission/windrowing/windrowingEquipment/conversation.xml</conversation>
+    <conversation uniqueId="5dc99f56f8">$dataS2/npc/animalDealer/smalltalk/aboutYou/aboutNoahTheLumberjack/conversation.xml</conversation>
+    <conversation uniqueId="8b2af0956f">$dataS2/npc/animalDealer/smalltalk/aboutYou/animalWorkshopIdea/conversation.xml</conversation>
+    <conversation uniqueId="483e8d7a9e">$dataS2/npc/animalDealer/smalltalk/aboutYou/awesomeChickens/conversation.xml</conversation>
+    <conversation uniqueId="c50a2f0eaf">$dataS2/npc/animalDealer/smalltalk/aboutYou/bottleFeedingALamb/conversation.xml</conversation>
+    <conversation uniqueId="6855df3458">$dataS2/npc/animalDealer/smalltalk/aboutYou/cowMower/conversation.xml</conversation>
+    <conversation uniqueId="94aedefbcb">$dataS2/npc/animalDealer/smalltalk/aboutYou/crayFishMemory/conversation.xml</conversation>
+    <conversation uniqueId="6e8eb3bb62">$dataS2/npc/animalDealer/smalltalk/aboutYou/davidHaybalingAttempt/conversation.xml</conversation>
+    <conversation uniqueId="85b712cac2">$dataS2/npc/animalDealer/smalltalk/aboutYou/dinosaurSanctuary/conversation.xml</conversation>
+    <conversation uniqueId="adbdf7ef74">$dataS2/npc/animalDealer/smalltalk/aboutYou/gettingGoats/conversation.xml</conversation>
+    <conversation uniqueId="e09ae2f86f">$dataS2/npc/animalDealer/smalltalk/aboutYou/horsiesMayBe/conversation.xml</conversation>
+    <conversation uniqueId="d4c47e6166">$dataS2/npc/animalDealer/smalltalk/aboutYou/howBecomeFarmer/conversation.xml</conversation>
+    <conversation uniqueId="73e92e0692">$dataS2/npc/animalDealer/smalltalk/aboutYou/howMumDadMet/conversation.xml</conversation>
+    <conversation uniqueId="5e49ce4195">$dataS2/npc/animalDealer/smalltalk/aboutYou/hungryPatientPiggies/conversation.xml</conversation>
+    <conversation uniqueId="8bfdfdd9a8">$dataS2/npc/animalDealer/smalltalk/aboutYou/introsAboutYou/intro10SomethingFascinating5/conversation.xml</conversation>
+    <conversation uniqueId="03d9c19b50">$dataS2/npc/animalDealer/smalltalk/aboutYou/introsAboutYou/intro11Sure6/conversation.xml</conversation>
+    <conversation uniqueId="d25601622b">$dataS2/npc/animalDealer/smalltalk/aboutYou/introsAboutYou/intro12rightOn7/conversation.xml</conversation>
+    <conversation uniqueId="8b759f61de">$dataS2/npc/animalDealer/smalltalk/aboutYou/introsAboutYou/intro13TalkingAboutMe8/conversation.xml</conversation>
+    <conversation uniqueId="c30f498e5b">$dataS2/npc/animalDealer/smalltalk/aboutYou/introsAboutYou/intro14whatIAmUpTo9/conversation.xml</conversation>
+    <conversation uniqueId="7706731e9b">$dataS2/npc/animalDealer/smalltalk/aboutYou/introsAboutYou/intro1AboutMyself/conversation.xml</conversation>
+    <conversation uniqueId="5fb0f42cb9">$dataS2/npc/animalDealer/smalltalk/aboutYou/introsAboutYou/intro2BunchOfThings/conversation.xml</conversation>
+    <conversation uniqueId="8143310770">$dataS2/npc/animalDealer/smalltalk/aboutYou/introsAboutYou/intro3SomethingElse/conversation.xml</conversation>
+    <conversation uniqueId="bc0d864bd5">$dataS2/npc/animalDealer/smalltalk/aboutYou/introsAboutYou/intro4Charmer/conversation.xml</conversation>
+    <conversation uniqueId="329d00a3a1">$dataS2/npc/animalDealer/smalltalk/aboutYou/introsAboutYou/intro5Second/conversation.xml</conversation>
+    <conversation uniqueId="60b1abe07a">$dataS2/npc/animalDealer/smalltalk/aboutYou/introsAboutYou/intro6OkayLetsSee1/conversation.xml</conversation>
+    <conversation uniqueId="c7c9bd393a">$dataS2/npc/animalDealer/smalltalk/aboutYou/introsAboutYou/intro7InterestingStuffMe2/conversation.xml</conversation>
+    <conversation uniqueId="08976ff79a">$dataS2/npc/animalDealer/smalltalk/aboutYou/introsAboutYou/intro8LoveTalking3/conversation.xml</conversation>
+    <conversation uniqueId="11f3927f8c">$dataS2/npc/animalDealer/smalltalk/aboutYou/introsAboutYou/intro9NotSure4/conversation.xml</conversation>
+    <conversation uniqueId="0e40d4b722">$dataS2/npc/animalDealer/smalltalk/aboutYou/rosyTheCow/conversation.xml</conversation>
+    <conversation uniqueId="5ae45782a0">$dataS2/npc/animalDealer/smalltalk/aboutYou/sheepAndPillows/conversation.xml</conversation>
+    <conversation uniqueId="c7d8a5a59b">$dataS2/npc/animalDealer/smalltalk/aboutYou/unclePaulBuyingChickens/conversation.xml</conversation>
+    <conversation uniqueId="cd4d6b1053">$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/antiqueLamp/conversation.xml</conversation>
+    <conversation uniqueId="f714b65c2e">$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/blueChickenMyth/conversation.xml</conversation>
+    <conversation uniqueId="e0c4921ebd">$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/catIsland/conversation.xml</conversation>
+    <conversation uniqueId="40067176b6">$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/cheekyBlackbird/conversation.xml</conversation>
+    <conversation uniqueId="f3876622c6">$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/dahu/conversation.xml</conversation>
+    <conversation uniqueId="49855b75d8">$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/introsInterestingAnecdotes/intro1WellOfStories/conversation.xml</conversation>
+    <conversation uniqueId="300b8900f6">$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/introsInterestingAnecdotes/intro2RightOn/conversation.xml</conversation>
+    <conversation uniqueId="6c8d409bd5">$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/introsInterestingAnecdotes/intro3SomethingInteresting/conversation.xml</conversation>
+    <conversation uniqueId="b2824faf52">$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/introsInterestingAnecdotes/intro4InterestingStuff/conversation.xml</conversation>
+    <conversation uniqueId="c30c8dc4bd">$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/introsInterestingAnecdotes/intro5SureInteresting/conversation.xml</conversation>
+    <conversation uniqueId="12c715b57f">$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/introsInterestingAnecdotes/intro6LetUsSee1/conversation.xml</conversation>
+    <conversation uniqueId="51044e7c93">$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/introsInterestingAnecdotes/intro7Sure2/conversation.xml</conversation>
+    <conversation uniqueId="de0078aab0">$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/luckyBlackCats/conversation.xml</conversation>
+    <conversation uniqueId="afbb6412c0">$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/missingGoats/conversation.xml</conversation>
+    <conversation uniqueId="369313eba1">$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/timeTravelingOwl/conversation.xml</conversation>
+    <conversation uniqueId="371350a867">$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/waterbuffaloBill/conversation.xml</conversation>
+    <conversation uniqueId="d6f90ed483">$dataS2/npc/animalDealer/smalltalk/interestingAnecdotesMyths/whisperingCrows/conversation.xml</conversation>
+  </conversations>
+  <i3dMappings>
+    <i3dMapping id="audioNode" node="0&gt;0"/>
+    <i3dMapping id="triggerNode" node="0&gt;1"/>
+  </i3dMappings>
+</npc>

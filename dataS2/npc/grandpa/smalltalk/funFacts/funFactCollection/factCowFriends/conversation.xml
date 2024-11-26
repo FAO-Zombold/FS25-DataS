@@ -1,0 +1,23 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>SMALLTALK_FUNFACTS</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <prerequisites>
+    <numTriggered max="1"/>
+  </prerequisites>
+  <textFlow startId="e0136bd0d7">
+    <item id="e0136bd0d7" nextId="4a661e5eac">
+      <text>$dataS2/npc/grandpa/smalltalk/funFacts/funFactCollection/factCowFriends/cowsBefriend</text>
+    </item>
+    <item id="4a661e5eac" nextId="daa6f1abef">
+      <text>$dataS2/npc/grandpa/smalltalk/funFacts/funFactCollection/factCowFriends/beingTogether</text>
+    </item>
+    <item id="daa6f1abef">
+      <text>$dataS2/npc/grandpa/smalltalk/funFacts/funFactCollection/factCowFriends/observeYourself</text>
+      <actions>
+        <startConversationById uniqueId="0bc5b0ce93"/>
+      </actions>
+    </item>
+  </textFlow>
+</conversation>

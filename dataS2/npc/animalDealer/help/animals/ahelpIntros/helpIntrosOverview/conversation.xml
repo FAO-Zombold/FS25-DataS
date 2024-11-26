@@ -1,0 +1,76 @@
+<conversation>
+  <class>NPCConversation</class>
+  <type>HELP</type>
+  <probability>1</probability>
+  <isActive>true</isActive>
+  <textFlow startId="cf3dec708c">
+    <item id="cf3dec708c" isActive="false">
+      <text>$dataS2/npc/animalDealer/help/animals/ahelpIntros/helpIntrosOverview/askAway</text>
+      <next>
+        <option id="c36f5179b3">
+          <text>$dataS2/npc/animalDealer/help/animals/ahelpIntros/helpIntrosOverview/optionBeekeeping</text>
+          <actions>
+            <startConversationById uniqueId="cf2f5b928a"/>
+          </actions>
+        </option>
+        <option id="9fc2c2ebbb">
+          <text>$dataS2/npc/animalDealer/help/animals/ahelpIntros/helpIntrosOverview/optionChickens</text>
+          <actions>
+            <startConversationById uniqueId="ccb08919e9"/>
+          </actions>
+        </option>
+        <option id="16e312859b">
+          <text>$dataS2/npc/animalDealer/help/animals/ahelpIntros/helpIntrosOverview/optionCows</text>
+          <actions>
+            <startConversationById uniqueId="dfaead6155"/>
+          </actions>
+        </option>
+        <option id="1816817f24">
+          <text>$dataS2/npc/animalDealer/help/animals/ahelpIntros/helpIntrosOverview/optionGoats</text>
+          <actions>
+            <startConversationById uniqueId="41dea2465a"/>
+          </actions>
+        </option>
+        <option id="aba1ce3c4e">
+          <text>$dataS2/npc/animalDealer/help/animals/ahelpIntros/helpIntrosOverview/optionHorses</text>
+          <actions>
+            <startConversationById uniqueId="85f2319db6"/>
+          </actions>
+        </option>
+        <option id="63fc4cbfe9">
+          <text>$dataS2/npc/animalDealer/help/animals/ahelpIntros/helpIntrosOverview/optionPigs</text>
+          <actions>
+            <startConversationById uniqueId="07ab71a10f"/>
+          </actions>
+        </option>
+        <option id="8e31f38914">
+          <text>$dataS2/npc/animalDealer/help/animals/ahelpIntros/helpIntrosOverview/optionSheep</text>
+          <actions>
+            <startConversationById uniqueId="ea51a7982b"/>
+          </actions>
+        </option>
+        <option id="7e695646b3">
+          <text>$dataS2/npc/animalDealer/help/animals/ahelpIntros/helpIntrosOverview/optionWaterbuffaloes</text>
+          <actions>
+            <startConversationById uniqueId="73d06a2363"/>
+          </actions>
+        </option>
+        <option id="a6fd6e1d4d">
+          <text>$dataS2/npc/animalDealer/help/animals/ahelpIntros/helpIntrosOverview/optionSilageTMR</text>
+          <actions>
+            <startConversationById uniqueId="67571deb6c"/>
+          </actions>
+        </option>
+        <option id="4021bc2a37">
+          <text>$dataS2/npc/animalDealer/help/animals/ahelpIntros/helpIntrosOverview/optionBack</text>
+          <actions>
+            <startConversationById uniqueId="bb0236da62"/>
+          </actions>
+        </option>
+        <option id="b30e3483ac">
+          <text>$dataS2/npc/animalDealer/help/animals/ahelpIntros/helpIntrosOverview/optionExit</text>
+        </option>
+      </next>
+    </item>
+  </textFlow>
+</conversation>
